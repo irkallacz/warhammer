@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Wardancer</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Cesta větrné koruny</name>
+    <points>20</points>
+    <desc>Tato škola bojového umění lesních elfů se soustředí na efektivní útok a agresivní taktiku vedení boje.</desc>
+  </path>  
+
+  <path>
+    <name>Cesta lesní mýtiny</name>
+    <points>20</points>
+    <desc>Lesní elfové, kteří vytvořili tuto školu bojového umění, se zabývali především obranými technikami a schopnostech úniku.</desc>
+  </path>  
+
+  <path>
+    <name>Cesta hlubokého hvozdu</name>
+    <points>20</points>
+    <desc>Jedna z nejstarších škol bojového umění, kde se lesní elfové již po staletí učí, jak posílit svoje tělo až za hranice fyzických možností.</desc>
+  </path>  
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Kožená zbroj</name>
+    <points>30</points>
+    <desc>Tato zbroj je speciálně udělána tak, aby Wardancerovi nevadila při jeho akrobatických kreacích. Přidá <b>1 život</b> nositeli teto zbroje.</desc>
+    <lives>1</lives>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+   <name>Amulet Hvozdu</name>
+   <points>30</points>
+   <desc>Tento amulet v sobě obsahuje hojivou sílu Hvozdu a dokáže vrátit duši do těla rychleji. Pokud ho dotyčná postava vlastní, má <b>zkrácenou 
+     reinkarnaci o 2 minuty</b>.</desc>
+   <reinkarnace>-2</reinkarnace>
+  </vybava> 
+
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Kopí</name>
+    <points>50</points>
+    <desc>Někteří Wardanceři se naučili používat tuto nestandardní zbraň. Délka 190-210 cm.</desc>
+  </zbran>                    
+  
+  <zbran>
+    <name>Kopí Soumraku</name>
+    <points>70</points>
+    <desc>Toto kopí je podle pověstí schopno přetavit nenávist a zuřivost jeho nositele do ničivé síly jeho úderu. Herní parametry jako běžné kopí.</desc>
+  </zbran> 
+  
+  <zbran>
+    <name>Obouruční meč</name>
+    <points>25</points>
+    <desc>V souboji je délka ostří často rozhodující, proto 140 cm dlouhý meč, může znamenat rozdíl mezi životem a smrtí.</desc>
+  </zbran>                    
+
+  <zbran>
+    <name>Loecovo ostří</name>
+    <points>90</points>
+    <desc>Tato zbraň se používá výlučně u Wardancerů. Tento 140 cm dlouhý obouruční meč je prý nadán vlastním životem a vůlí. Jestliže Wardancer 
+      použije schopnost, která přidá jeho dalšímu úderu nějaký bonus a nezasáhne protivníka, díky magii tohoto meče má ještě jednu šanci.</desc>
+  </zbran> 
+
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Zabijácká rána</name><attr>1x za Souboj</attr>
+    <points>0</points><cond>Kopí Soumraku</cond>
+    <desc>Síla <b>Kopí soumraku</b> může být usměrněna do nepřítelova štítu a i sebelepší ocel nemůže takovému úderu odolat. Pokud jeho nositel pozvedne 
+      kopí a zakřičí <cite>"Zhyň cizáku"</cite> má jeho další úder efekt <i>průraz</i>.</desc>
+  </skill>
+    
+  <skill>
+    <name>Sokolí spár</name><attr>2x za Souboj</attr>
+    <points>0</points><cond>Cesta větrné koruny</cond>
+    <desc>Útočná technika, kdy je úder veden z výšky. Pokud Wardancer zvedne zbraň nad hlavu a vyskočí na jedné noze, má po dopadu na další úder 
+    efekt <i>průraz</i>.</desc>
+  </skill> 
+
+  <skill>
+    <name>Hadí uštknutí</name><attr>1x za Souboj</attr>
+    <points>15</points><cond>Cesta větrné koruny</cond>
+    <desc>Zákeřný úder, který umožňuje vyřadit nepřítelovu končetinu. Před útokem je nutno zvolat <cite>"Paralýza"</cite>
+    a pokud se útočník dalším úderem trefí nepřítelovu končetinu, je tato končetina paralyzována na 10 vteřin.</desc>
+  </skill> 
+
+  <skill>
+    <name>Vlčí ohon</name><attr>2x za Souboj</attr>
+    <points>20</points><cond>Hadí uštknutí</cond>
+    <desc>Tato technika zvyšuje útočnou sílu útočníka. Pokud Wardancer provede otočku, má na další úder bonus <b>+1 damage</b>.</desc>
+  </skill> 
+
+  <skill>
+    <name>Jelení skok</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Vlčí ohon</cond>
+    <desc>Tento útoční manévr je velmi náročný ale po jeho zvládnutí bývá smrtící a je možné zasáhnout nepřítele nebývalou silou. 
+      Poté co Wardancer v Souboji provede kotoul, má na další (okamžitý) úder bonus <b>+2 damage</b>. </desc>
+  </skill> 
+
+  <skill>
+    <name>Divoká řeka</name><attr>3x za Souboj</attr>
+    <points>0</points><cond>Cesta lesní mýtiny</cond>
+    <desc>Tento únik se klasicky používá pro vyhnutí se útoku, který by měl nepříjemné následky. Ve hře stačí po útoku říci <cite>"Ignorace"</cite> 
+      a provést otočku s krokem vzad. Poté se zranění, který by útok způsobil může ignorovat.</desc>
+  </skill> 
+
+  <skill>
+    <name>Padající list</name><attr>2x za Souboj</attr>
+    <points>10</points><cond>Cesta lesní mýtiny</cond>
+    <desc>Technika, které se používá v boji proti střelným zbraním. S trochou cviku je Wardancer schopen odrazit šíp nebo jiný projektil, který proti němu byl 
+      vystřelen. Pokud po při nebo po zásahu projektilem Wardancer máchne svoji zbraní a zvolá <cite>"Odražení"</cite>, může tento útok ignorovat.</desc>
+  </skill> 
+
+  <skill>
+    <name>Máchnutí perutěmi</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Padající list</cond>
+    <desc>Únik, který bývá vyučován jako obrana proti silným útokům a energickým nárazům, které mají za úkol srazit nebo odhodit protivníka. Pokud je ve 
+      hře na Wardancera s touto schopností seslán efekt způsobující <i>odhození</i> nebo <i>sražení</i> stačí chytit zbraň oběma rukama, zvednou ji nad hlavu, 
+      ve výskoku skrčit kolena a se slovy <cite>"výskok"</cite> může tento efekt ignorovat.</desc>
+  </skill> 
+
+  <skill>
+    <name>Let havrana</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Máchnutí perutěmi</cond>
+    <desc>Tato obraná technika se používá pro vyhýbání úderům. Pokud Wardancer v Souboji se začne pohybovat během a během toho se bude otáčet okolo 
+      své osy, je během tohoto manévru <b>nezranitelný</b>, avšak nesmí útočit. Jakmile se přestane otáčet nebo běžet, efekt pomine. Maximálně jsou povoleny 3 otáčky.</desc>
+  </skill> 
+
+  <skill>
+    <name>Stojící strom</name><attr>3x za Fázi</attr>
+    <points>0</points><cond>Cesta hlubokého hvozdu</cond>
+    <desc>Cvičenému bojovníkovi stačí i několik minut, aby se vzpamatoval z velmi vážných zranění. Díky této schopnosti mu po Souboji stačí 1 minuta 
+      meditace, aby se mu vyléčily až 2 životy.</desc>
+  </skill> 
+
+  <skill>
+    <name>Okraj propasti</name><attr>2x za Fázi</attr>
+    <points>15</points><cond>Cesta hlubokého hvozdu</cond>
+    <desc>Pokud Wardancerovi je způsobeno tak velké zraněné, že ho to posune na okraj smrti, může to v něm díky výcviku, 
+      vyvolat silnou fyzickou reakci. Pokud Wardancerovi s touto schopností ztratí život a zbívá mu pouze poslední, získá na zbytek Souboje bonus <b>+1 damage</b>, nemůže ovšem používat jiné schopnosti.</desc>
+  </skill> 
+
+  <skill>
+    <name>Zimní spánek</name><attr>3x za Fázi</attr>
+    <points>20</points><cond>Okraj propasti</cond>
+    <desc>Hlubokou meditací se může tělo Wardancera dostat do stavu, kdy necítí žádnou bolest 
+      a vydrží mnohem více zranění, než by bylo normálně možné. Tuto schopnost je třeba aktivovat ještě před soubojem meditací. 
+      Poté má Wardancer do dalšího Souboje <b>+2 stínové životy</b>, ale jeho reinkarnace je prodloužena o <b>2 minuty</b>.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Letní bouře</name><attr>1x za Fázi</attr>
+    <points>40</points><cond>Zimní spánek</cond>
+    <desc>Tato meditační technika je učena pouze pro mistry Cesty hlubokého hvozdu. Wardancer se rozhodne vědomě posílit svoje schopnosti až za hranici, 
+      které jeho tělo nemůže vydržet. Tato schopnost musí být aktivována ještě před Soubojem, nějakým rituálem a to buď ve Vesnici nebo na jiném 
+      Rituálním místě. Do dalšího Souboje získá <b>+3 stínové životy</b>, <b>+1 damage</b> a imunitu na <i>Odhození</i>. 
+      Ovšem po Souboji duševní vypětí Wardancera zabije i kdyby Souboj přežil.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Duše lesa</name><attr>trvalé</attr>
+    <points>80</points>
+    <desc>Válečníci z Athel Loren jsou často v bitvě doprovázeny dušemi lesa, které je posilují a zacelují jejich zranění <b>(+1 život)</b></desc>
+    <lives>1</lives>
+  </skill> 
+
+  <skill>
+    <name>Nehořlavá květina</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Cesta větrné koruny</cond>
+    <desc>Oheň byl odvěkým nepřítelem Lesa ale někteří elfové se ho naučili potlačovat!. Jednou za Souboj může elf ignorovat efekt <i>zapálení</i>.</desc>
+  </skill>
+
+<skill>
+    <name>Stabilní mysl</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Cesta hlubokého hvozdu</cond>
+    <desc>Díky rokům meditace je elf schopen odrazit jakékoliv psychycké útoky. Jednou za Souboj může elf ignorovat efekt <i>šílenství</i>.</desc>
+  </skill>
+
+<skill>
+    <name>Tělo lesa</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Cesta lesní mýtiny</cond>
+    <desc>Elfové jsou natolik tělem spojení s přírodou že některé jedy naprosto ignorují. Jednou za Souboj může elf ignorovat efekt <i>paralýza</i>.</desc>
+  </skill>
+  
+  </schopnosti>
+
+
+</wargear>

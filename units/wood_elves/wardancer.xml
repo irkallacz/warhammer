@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Wardancer</jmeno>
+
+<hiearchie>rare</hiearchie>       
+
+<legenda>„Stát! Co se to támhle hýblo??? To nic kapitáne, asi veverka. Jen aby chlapi, prej se to tady
+hemží elfama. To je blbost kapitáne, elfa nikdo neviděl ani nepamatuju. SVIFT! SVIFT! Co to
+bylo????? Kapitánee Walfofd a Urgin jsou mrtvý!!!! Pro Sigmara, co se to děje??? SVIFT! SVIFT!
+SVIFT! Pomooooooooooooooc!!! Jsou všudeeeeeee! Co to pro Sigmara je?? Nikde nic nevidím!!!!
+SVIFT! SVIFT! SVIFT!............</legenda>                    
+
+<popis>Nejlepší z šermířů lesních elfů, národa chránícího své lesy a různá prastará bohatství
+v něm před vetřelci. Jejich umění s mečem se skládá z vynikajícího šermu a prvků
+akrobacie. Nejčastěji používají obouruční meče nebo dva jednoruční. Jako tanečníci se
+proplétají mezi řadami nepřátel a za nimi zůstávají jen mrtví a umírající.</popis>                 
+
+<pravidla>
+  <lives label="životů">2</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">10</reinkarnace>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Nutností jsou jednoduché střihy kalhot nebo bojová suknice, jednoduchá vesta,
+hazuka či horní polovinu těla holá. Vše v barvách lesa, zelené a hnědé a dostatečně volné,
+aby se v tom dalo bodře hýbat. Povinné je tetování s motivem listů , elfích run nebo jiných elfích ornamentů na
+rukou a na horní polovině těla a obličeji. A samozřejmě jako u všech elfů špičaté uši.</povinne>     
+
+<extra>Pro dobrý efekt můžete použít hodně kůže a přírodních látek, vyhrát si tetováním a malůvkami na těla.</extra>               
+
+</kostym>   
+
+<zbrane>
+  <zbran><name>Meč bastard</name><desc>Délka 90 až 120 cm.</desc></zbran>
+  
+  <zbran><name>Kombinace mečů</name><desc>Celkový součet do 150 cm, žádný nesmí být delší než 90 cm.</desc></zbran> 
+</zbrane>                                   
+
+<roleplay> 
+Wardancer jsou hlavně obíhači. V řadové bitvě jsou často na křídlech a snaží se
+dostat do týla nepřítele. Nejčastěji se drží mimo celou řady i boj a přijdou až v průběhu,
+aby přispěli k vítěství Lesa. Ve velení podléhají Noblovi, který je něco jako jejich
+styčný důstojník. Bez
+váhání poslouchají rozkazy a udělají cokoliv, aby je vyplnili. Co se týče spojenců, jsou
+typičtí lesní elfové: pokud možno neutrální, do boje se nezapojují, ale když jsou napadeni,
+nebo pokud někdo překročí hranice lesa, bojují neuvěřitelně tvrdě a nelítostně.
+</roleplay>                 
+
+<obrazky>
+<img src="wood_elves/wardancer_1.jpg"/>
+<img src="wood_elves/wardancer_2.jpg"/>
+<img src="wood_elves/wardancer_3.jpg"/>
+<img src="wood_elves/wardancer_4.jpg"/>
+<img src="wood_elves/wardancer_5.jpg"/>
+</obrazky>
+
+</jednotka>

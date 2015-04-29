@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Sigmar priest</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Sigmarův válečník</name>
+    <points>80</points>
+    <desc>Sigmarův válečník šíří víru pomocí svého kladiva, které zasvětil Sigmarovi,
+    společně se svým životem. Je to bojovník tělem i duší a z boje nikdy neutíká. </desc>
+  </path>  
+
+  <path>
+    <name>Sigmarův kazatel</name>
+    <points>80</points>
+    <desc>Sigmarův kazatel šíří víru pomocí slova a oddané modlitby. Umí bojovat, 
+    ale radši se zaměří na povzbuzování vojska. </desc>
+  </path>
+  
+  <path>
+    <name>Sigmarův léčitel</name>
+    <points>70</points>
+    <desc>Sigmarův léčitel se zaměřil na pomoc zraněným, či mrtvým, 
+    protože bez vojska není vítězství.</desc>
+  </path>
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Železná zbroj</name>
+    <points>20</points>
+    <cond>Sigmarův válečník</cond>
+    <desc>Zbroj, materiálem vyjadřující neochvějnou a skutečně železnou víru v Sigmara
+    a jeho ochranou ruku, dlící nad hammer-headem. <b>(+2 životy)</b></desc>
+    <lives>2</lives>  
+  </zbroj> 
+
+ <zbroj>
+    <name>Zbroj s rytinou</name>
+    <points>30</points>
+    <cond>Sigmarův kazatel</cond>
+    <desc>Zbroj, požehnaná samotným Sigmarem. Na jejím zářivém povrchu jsou vyryta svatá slova, která propůjčují
+    zbroji nadpřirozenou moc, která pohltí první zásah. <b>(Ignorace prvního zásah)</b> </desc>
+  </zbroj>
+
+ <zbroj>
+    <name>Zbroj s obvazem</name>
+    <points>80</points>
+    <cond>Sigmarův léčitel</cond>
+    <desc>Člověk může zapomenout nebo ztratit lékárničku, ale když má obvazy pořádně omotané kolem sebe, tak je prostě
+    neztratí. Stačí, aby měl Sigmar´s healer kolem hrudního plátu omotané maximálně tři obvazy, může uprostřed boje
+      vyléčit spolubojovníkovi jeden život, i kdyby byl na pokraji smrti. Stačí když vedle něj poklekne a zvolá <cite>Vulneribus tuis sanabo</cite>
+      poté má bojovník <b>+1 stínový život</b> i když již ležel na zemi mrtev. Po smrti spolubojovníka si Kněz může vzít obvaz zpět.</desc>
+   </zbroj>
+         
+</zbroje>            
+
+<vybaveni>
+     
+ <vybava>
+    <name>Sigmarova kniha</name>
+    <points>10</points>
+    <cond>Sigmarův kazatel</cond>
+    <desc>Kniha, jejíž modlitba dodá víru, sílu i odvahu, modlitby ukonejší každý smutek a dodají novou chuť do boje.</desc>    
+  </vybava> 
+
+  <vybava>
+    <name>Sigmarova lékárnička</name>
+    <points>50</points>
+    <cond>Sigmarův léčitel</cond>
+    <desc>Víra umí léčit, ale někdy je zapotřebí světských prostředků pro zahojení ran. 2x za Souboj může ovázat ránu a vyléčit tím 1 život.</desc>   
+  </vybava> 
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Sigmarovo kladivo</name>
+    <points>35</points>
+    <desc>Obouruční kladivo zasvěcené Sigmarovi je jednou z nejmocnější zbraní, jakou lze získat. Ale není jen zbraní,
+    je přítelem, který slouží Sigmar priestovy k tvrdému šíření víry. Nejdelší naměřená délka 110 - 150cm.
+     </desc>      
+  </zbran>   
+
+  <zbran>
+    <name>Kombinace zbraní</name>
+    <points>100</points>
+    <desc>Kombinace meče a kladiva může být někdy nebezpečnější než obouruční zbraň. Tedy když s tím umíte...
+     Součet délek musí být do 150 cm. </desc> 
+  </zbran>     
+  
+</zbrane>   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Sigmarova pěst</name>
+    <points>20</points>
+    <cond>Sigmarův válečník</cond><attr>1x za Souboj</attr>
+    <desc>Válečné šílenství, adrenalin a pěst. Většinou tedy stačí málo, Sigmarita zahodí svou zbraň a na místě nepřítele zničí
+    svou mocnou pěstí (do zásahové plochy) a výkřikem: <i>"Chcípni, nevěřící pse!"</i> způsobí    
+    <b>odhození o 3 metry</b>. </desc>
+  </skill>
+
+  <skill>
+    <name>Bojový křik</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Sigmarův válečník</cond>
+    <desc>Sigmarita, který neumí projevit bojové nadšení je mrtvý Sigmarita. Rozběhnout se proti nepřátelům
+    a u toho aspoň pět vteřin křičet "Sigmar!", dá hráči na první úder bonus <b>+1 damage</b>.</desc>
+  </skill> 
+
+  <skill>
+    <name>Hostie</name><attr>5x za Fázi</attr>
+    <points>40</points><cond>Sigmarův léčitel</cond>
+    <desc>Každá postava se potřebuje před útokem duchovní útěchu. Kněz před bojem podá hostii svým následovníkům (maximálně pěti) a přidá jim tak
+      <b>+1 stínový život</b>. </desc>
+  </skill> 
+  
+  <skill>
+    <name>Sigmarova víra</name><attr>trvalé</attr> 
+    <points>20</points><cond>Sigmarův válečník</cond>
+  <desc>Víra v Sigmara je nekonečná a Sigmar za ní odmění. Pokud se životy Sigmar Priesta dostanou na nulu, může ještě
+ chvíli bojovat, dokud nezraní ještě jednoho nepřítele nebo do konce Souboje, pak ale umírá. Ve stavu dočasného života musí ale za každou cenu bojovat.</desc>
+  </skill>  
+  
+  </schopnosti>                                                   
+
+<kouzla> 
+   <spell>
+    <name>Modlitba</name><attr>3x za Fázi</attr><cost>2+X klečících</cost>    
+    <points>50</points><cond>Sigmarova kniha</cond>
+    <form>Bella gerunt alii, tu felix Austria nube</form>
+    <desc>Nic nepovzbudí vojsko tolik, jako modlitba a vědomí, že velký Sigmar je na jejich
+    straně. Proto kazatel neváhá uprostřed bitevní vřavy rozevřít knihu a začít hlásat
+    slovo Sigmarovo. <b>(+1 damage na první úder pro X následovníků)</b>.</desc> 
+  </spell>
+
+  <spell>
+    <name>Sebeobětování</name><attr>1x za Fázi</attr><cost>X klečících</cost>    
+    <points>20</points><cond>Sigmarův léčitel</cond>
+    <form>Scientia ultima stat pretio ultime</form>
+    <desc>Sebeobětování je pro Sigmara nejceněnější čin, kterého se může člověk dopustit. 
+    Proto léčitel může odejmout své životy a rozdělit je svým následovníkům.
+    Léčiteli musí aspoň jeden život zbýt, protože sebevražda ještě ničemu dobrému nepomohla. 
+    <b>(-X životů healer, +X stínových životů následovníci)</b> </desc> 
+  </spell>
+  
+  <spell>                                                                    
+  <name>Sigmarova zbraň</name><cost>5 klečících</cost><attr>1x za Fázi</attr>
+  <form>Ense petit placidam sub libertate quietem</form>
+  <points>60</points><cond>Sigmarův válečník</cond>
+  <desc>Při provedení rituálu nad svou zbraní, za pomoci několika dalších stoupenců víry, 
+kteří bezmezně věří a klečí kolem svého vůdce, obětuje Sigmar část ze své božské síly
+a vloží ji do zbraně svého věrného. Klečící opakují po Sigmar Priestovi a při úspěšném dokončení
+dává Sigmaritova zbraň v každém Souobji při prvním zásahu průraz a další dva útoky dávají za +1 damage. Toho trvá až do konce Fáze.</desc>
+  </spell>
+  
+  <spell>                                                                      
+  <name>Dotek Sigmara</name><cost>1 zraněný, 2 klečící</cost><attr>3x za Fázi</attr>
+  <form>Dies stultis quoque mederi solet</form>
+  <points>10</points><cond>Sigmarův léčitel</cond>
+  <desc>Sigmar je velký. To ví každé malé dítě, ale jeho velikost spočívá v umění léčení,
+  nikoliv v umění zabíjet. Při opravdu vroucí modlitbě vstoupí Sigmar do svého věrného
+  a skrz jeho ruce dokáže vyléčit téměř všechna zranění. Zraněný leží, klečící a Sigmarita utvoří kolem ležícího trojúhelník.
+  Sigmarita položí ruce na zraněné místo, odříká modlitbu a zraněnému jsou vyléčeny všechny životy. </desc>
+  </spell>
+
+  <spell>                                                                      
+  <name>Sigmarův bojovník</name><cost>1 mrtvý</cost><attr>1x za Fázi</attr>
+  <points>40</points><cond>Sigmarův kazatel</cond>
+  <form>Deo volente, nobis viventibus</form>
+  <desc>Sigmarův Priest nemůže nikdy zůstat v poli sám. Jeho Bůh je přeci natolik silný a víra v něj
+  tak neochvějná, že se vždy najdou další následovníci. Což znamená, že za pomocí formule je schopen 
+  jednoho ze svých následovníků navrátit ze Sigmarovy říše, kde po své smrti dlel s jedním životem.</desc>
+  </spell>
+
+
+</kouzla> 
+
+</wargear>

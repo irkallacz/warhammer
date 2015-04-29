@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Corsair</jmeno>
+
+<hiearchie>core</hiearchie>       
+
+<legenda>Další mrtvola na stožáru. Již devátá za tento týden. Čím blíže jsem zpět z loupeživé výpravy tím se to zhoršuje. Korzáři prostě snižují
+počet lidí, mezi které se peníze za náklad rozdělí. Nic neobvyklého.</legenda>                    
+
+
+<popis>Námořníci temných elfů jsou proslulí svojí krutostí po celém moři. Pravidelně podnikají výpravy po moři a zajímají otroky z celého
+pobřeží. Oděni do charakteristických plášťů z kůže mořských draků, který ochrání před chladem větru i mořskou tříští.</popis>                 
+
+
+<pravidla>
+  
+   
+   
+<lives label="životů">1</lives><damage label="damage">1</damage><reinkarnace label="min. reinkarnace">6</reinkarnace></pravidla>                  
+
+<kostym>
+
+<povinne>Plášť, zbroj, elfí uši, barvy moře (zelená, modrá, černá), světlá pokožka, oblečení z kůže</povinne>     
+
+<extra>Tmavé vlasy, znaky moře(kraken mořští démoni,..), části kožené zbroje </extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Kheitan</name><desc>Kroužková košile</desc>
+  </zbroj>    
+
+</zbroje>   
+
+       
+
+<zbrane>
+  <zbran><name>Jednoruční meč</name><desc>60-90cm</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+  
+<skill><name>Vrozená nenávist</name><attr>trvalé</attr>         
+  <desc>Pokud korzáři zahlédnou vysoké elfy s pokřikem <cite>"Špinaví bratranci!"</cite> se na ně musí rozeběhnout a na další zásah mají +1dmg</desc>
+  </skill>  
+</schopnosti>
+
+
+<roleplay> 
+Korzáři jsou poslušná posádka Mastera, ale také krvelační válečníci se zálibou v bolesti a mučení nepřátel. Cítí se povýšení nad ostatní rasy,
+zejména lidi. Nejsou příliš komunikativní, ale zato výborně disciplinovaní bojovníci.  
+</roleplay>                 
+
+
+<obrazky>
+<img src="dark_elves/corsairs_1.jpg"/>
+<img src="dark_elves/corsairs_2.jpg"/>
+<img src="dark_elves/corsairs_3.jpg"/>
+<img src="dark_elves/corsairs_4.jpg"/>
+<img src="dark_elves/corsairs_5.jpg"/>
+<img src="dark_elves/corsairs_6.jpg"/>
+</obrazky>
+
+</jednotka>

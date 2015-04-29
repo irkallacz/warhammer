@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>State troop</jmeno>
+
+<hiearchie>core</hiearchie>       
+
+<legenda>Vojáci! Držte řadu a nikoho nešetřete, protože ty prohnilé zrůdy vás taky šetřit nebudou! Jste vojáci Říše,
+jste zodpovědní za životy lidí, kteří v ní žijí, jste poslední hradbou odporu! Co na tom, že jich je víc, co na tom,
+že většina z vás nemá v ruce zbraň! Důležité je, že ty zbraně vězí v těch mrtvolách za námi! Prošli jste tolika bitvami
+a v téhle byste měli chcípnout? Ani hovno! A kdyby přeci, byli jste celý život věrni Sigmarovi, a ten vás rád přijme 
+ve svém království! Za Říšííí!!! </legenda>                    
+
+
+<popis>Je málo natolik disciplinovaných vojáků, jako jsou State Troopři. Vedeni Sigmar Priestem bojují za Sigmara,
+za svou neutuchající víru a nebojí se položit život, jen aby zastavili hordy chaosu valící se na říši, která je jejich
+domovem, matkou, kolébkou i hrobem.</popis>                 
+
+
+<pravidla>
+  <lives label="životů">1</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">5 min.</reinkarnace>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Tabard, nebo jiné odlišení - sjednocení, zbroj, přilba nebo klobouk.</povinne>     
+
+<extra>Čím víc nabíraných rukávů a nohavic, popřípadě podkolenek, tím líp. Pera na klobouku nebo přilbě.</extra>               
+
+</kostym>   
+
+<zbrane>
+  <zbran><name>Jednoruční meč</name><desc>60 - 90 cm</desc></zbran>                                        
+  <zbran><name>Štít</name><desc>55 - 60 cm průměr</desc></zbran>       
+</zbrane> 
+
+<kouzla>
+<desc>Nejsou to kouzla v pravém slova smyslu, i když...   Pokud vojáci silně věří, 
+dokáže jejich víra i hory přenášet. Jejich kouzla tedy vychází z disciplíny, společné síly a víry. 
+U každého kouzla je uveden jaký je minimální počet State troopů, kteří se musí kouzlení účastnit.  
+</desc>
+
+</kouzla>
+
+<roleplay>Řadový voják, který ale pevně věří, jde příkladem, z boje neutíká, pokud je
+ještě šance na vítězství. Jeho oddanost Říši a Sigmarovi je nekonečná, disciplinovanost
+nadprůměrná.
+</roleplay>                 
+
+
+<obrazky>
+<img src="empire/state_troops_1.jpg"/>
+<img src="empire/state_troops_2.jpg"/>
+<img src="empire/state_troops_3.jpg"/>
+<img src="empire/state_troops_4.jpg"/>
+<img src="empire/state_troops_5.jpg"/>
+<img src="empire/state_troop3.jpg"/>
+</obrazky>
+
+</jednotka>

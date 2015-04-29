@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Glejdy</title>
+  <style type="text/css" media="screen,print" n:syntax="off">
+  .unit {border-style: dashed; border-color: black; border-width: 0px 1px 0px 0px; width: 227px; height: 655px; 
+  overflow: hidden; display: inline-block; font-family: Arial; padding: 15px 10px 0px 10px; position: relative;}
+  .row {page-break-after: always; clear: both; border-left: black dashed 1px;}
+  h2 {font-family: serif; margin-bottom: 3px; text-transform: capitalize;}
+  h3 {font-family: Arial; margin-bottom: 5px; font-size: 14px; margin-right: 20px;}
+  h2,h3 {margin-top: 0px;}
+  
+  #pravidla {margin-top: 0px; margin-bottom: 1ex; list-style-type: none; padding-left: 10px; font-size: 22px; 
+  font-family: Calibri !important;}
+  .unit img {position: absolute; z-index: -1; right: 10px; bottom: 10px;} 
+  
+  .out h3:before {margin-right: 5px;}
+  .zbrane h3:before {content: '⚔';}
+  .zbroje h3:before {content: '◍'; }
+  .vybaveni h3:before {content: '☘';}
+  .povolani h3:before {content: '⍉';}    
+  .kouzla h3:before {content: '☀'; }
+  .schopnosti h3:before {content: '☆';}
+  </style>
+  </head>
+  <body>
+  <div class="row">
+  {var $i = 0}
+  {foreach $presenter->getService('model')->getUnits()->order('number') as $postava}
+    {foreach $postava->related('users')->where('users_role_id > ?',0) as $u}
+     
+    {var $i = $i + 1}  
+    {var $sets = array_values($u->related('wargear')->fetchPairs('name','name'))}
+    {var $unit = $presenter->getService('rulesModel')->getXMLRules($postava->id,$postava->warband_id,$sets)}
+
+    {var $xsl = new DOMDocument}
+    {? $xsl->load(WWW_DIR.'/units/glejdy_print.xsl')}
+    {var $proc = new XSLTProcessor}
+    {? $proc->importStyleSheet($xsl)}
+
+    {? $proc->setParameter('', 'nick', $u->nick)} 
+    <div class="unit">
+    <img src="{$basePath}/img/units/{$postava->id|webalize}.png">
+    {!$proc->transformToXML($unit)}
+    </div>
+    
+    {if !($i % 4)}</div><div class="row">{var $i = 0}{/if}
+    {/foreach}
+  {/foreach}
+</div>
+</body>
+</html>

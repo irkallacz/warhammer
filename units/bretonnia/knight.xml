@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Knight</jmeno>
+
+<hiearchie>hero</hiearchie>       
+
+<legenda>Když slunce začalo zapadat, rytíři zastavili 
+pronásledování a jeli zpět ke svatému jezeru. Zde se znovu shromáždili a
+ odpočívali, zatímco havrani a krkavci hodovali na orčích mrtvolách. 
+Všichni vévodové a rytíři se shromáždili kolem Gillesa a společně 
+přísahali sloužit a ctít Paní z jezera. Také přísahali zůstat společně v
+ armádě a osvobodit Bretonnii od orků a ostatních nepřátel. Gilles byl 
+prohlášen Válečným vůdcem s pravomocí vést armádu a kontrolovat veškeré 
+prostředky všech vévodství, dokud nebude Bretonnia osvobozena. Tato 
+chvíle označuje původ rytířů Grálu a také království Bretonnia.</legenda>                    
+
+<popis>Bretonský rytíř, který se vydal na výpravu za nějakým důležitým úkolem a vzdal se veškerého 
+svého světského majetku kromě zbraní a věrného oře. Tito rytíři žijí skromným životem plným odříkání 
+a jsou vedeni vizemi o Paní jezera a Grálu. Jen málo z nich se dožije úspěšného konce své cesty, 
+neboť mnozí zemřou v boji s mocnými nepřáteli a hodně z nich prožije své životy aniž by kdy 
+spatřili svůj vysněný cíl.</popis>                 
+
+<pravidla>
+  
+   
+   
+<lives label="životů">4</lives>
+<damage label="damage">1</damage>
+<reinkarnace label="min. reinkarnace">10</reinkarnace>
+  <duse label="duše, které dokáže udržet">3</duse>
+</pravidla>                  
+
+
+<kostym>
+<povinne>Zbroj, prošívanice, varkoč, vše spíše gotického střihu a zevření.</povinne>     
+<extra>Amulety, helmice, relikvie, glejty</extra>               
+</kostym>   
+
+
+<zbroje>
+  <zbroj>
+    <name>Rytířská zbroj</name><desc>kroužková košile, železné nátepníky, nákrčník a ramena</desc>
+  </zbroj>    
+</zbroje>   
+
+<zbrane>      
+  <zbran><name>Jednoruční meč</name><desc>Maximální délka 90 cm</desc></zbran>       
+</zbrane>                                   
+
+  <schopnosti>    
+  
+  <skill>
+       <name>Nechť je ti země lehká</name><attr>trvale</attr>
+    <desc>Když rytíř najde na bojisti mrtvého spolubojovníkova, může uctít duši pomocí krátké modlitby. 
+      Poté po zvolání <cite>Nechť je ti země lehká!</cite> získá jednu Duši.</desc>
+  </skill> 
+    
+  </schopnosti>    
+  
+<kouzla>
+
+  <desc>Rytíři můžou díky své moci uctít tělo zemřelého a získat tak esenci a sílu, která pramenila z oddanosti zemřelého. Této energii se 
+    říká Duše. Rytíř vždy začíná hru bez Duší a po smrti všechny Duše ztrácí.</desc>
+  
+</kouzla>
+
+<roleplay>Rytíři Brenonie jsou symbolem cti a vznešenosti. Mají pevný morální kodex a složili přísahy, 
+které svazují celý jejich život jako řetězy. Nemají jiný smysl života než svoji výpravu, avšak ne vždy vlastně vědí, co hledají. 
+Rytíř musí být vůdcem své družiny a to takovým vůdcem, kterého ostatní budou následovat. Stačí klopýtnutí a jeden ústupek z morálních 
+výšin a jeho družina muže říci, že již ho nemusí následovat.  
+</roleplay>                 
+
+
+<obrazky>
+<img src="bretonnia/knight_1.jpg"/>
+<img src="bretonnia/knight_2.jpg"/>
+<img src="bretonnia/knight_3.jpg"/>
+<img src="bretonnia/knight_4.jpg"/>
+<img src="bretonnia/knight_5.jpg"/>
+<img src="bretonnia/knight_6.jpg"/>
+<img src="bretonnia/knight_7.jpg"/>
+</obrazky>
+
+</jednotka>

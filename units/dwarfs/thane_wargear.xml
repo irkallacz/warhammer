@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Thane</jmeno>
+
+
+  <povolani>
+
+  <path>
+    <name>Válečník</name>
+    <points>90</points>
+    <desc>Vůdce trpaslíků zocelený mnoha bitvami, ve kterých stál vždy v čele a jeho zbraň rozsévala smrt a zkázu.</desc>
+    <runy>-3</runy>
+    </path>  
+  
+  <path>
+    <name>Stratég</name>
+    <points>80</points>
+    <desc>Nikdy se do boje nevrhá bez dobře promyšleného plánu zohledňujícího terén i podmínky.
+Na trpasličí poměry lehce zdrženlivý, ale všichni vědí proč.
+Rozkazy k boji vydá po zhodnocení ztrát, i kdyby tvořily 100%. </desc>
+  <runy>-2</runy>
+    </path>  
+  
+  <path>
+    <name>Runový adept</name>
+    <points>100</points>
+    <desc>Kovář který dokáže pomocí runové magie pomáhat svým spolubojovníkům nebo ubližovat nepřátelům. </desc>
+  
+    </path>  
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Plátová zbroj</name>
+    <points>30</points>
+    <cond>Válečník</cond>
+    <lives>1</lives>
+    <desc>Plná plátová zbroj dodává svému nositeli +1život a imunitu na první ránu v Souboji.</desc>
+  </zbroj> 
+  
+  <zbroj>
+    <name>Kroužková zbroj</name>
+    <points>20</points>
+    <desc>Kroužková košile s dlouhým rukávem zesilující pláty. Díky této zbroji mají rytíři větší odolnost za ztráty lehkosti. 
+      Nositel této zbroje má o 1 život více.</desc>
+    <lives>1</lives>
+  </zbroj> 
+         
+  <zbroj>
+    <name>Runová zbroj</name>
+    <points>20</points>
+    <cond>Runový adept</cond>
+    <desc>Prastará zbroj. Díky energii v ní uložené má runový adept imunitu na první kouzlo v Souboji.</desc>
+  </zbroj> 
+  
+
+  
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Grimoár run</name>
+    <points>15</points>
+   <runa>1</runa>
+  <cond>Runový adept</cond>
+    <desc>Svazek pojednávající o síle prastarých run dovoluje Runovému adeptovi kouzlit lehčeji (+1 Mistrovská runa)</desc>
+  </vybava> 
+  
+ <vybava>
+    <name>Helma Předků</name>
+    <points>18</points>
+  <cond>Válečník</cond>
+    <desc>Helma kterou nosili všichni předci Thana a proto sebou nese velkou moc. Thane má zkrácenou reinkarnaci o 2 minuty.</desc>
+  </vybava> 
+
+ <vybava>
+    <name>Nátepníky Odolnosti</name>
+    <points>30</points>
+  <cond>Válečník</cond>
+    <desc>Tyto nátepníky svou posázeny runami a proto svému nositeli přidávají +1 život.</desc>
+   <lives>1</lives>
+  </vybava> 
+
+  
+   <vybava>
+    <name>Historie tažení Předků</name>
+    <points>8</points>
+  <cond>Stratég</cond>
+    <desc>Tyto strategické poznámky a plány dávají možnost předvídat nepřítelův další krok. Díky tomu může 
+      Thane využít pro svůj prospěch v boji</desc>
+  </vybava> 
+  
+
+  
+</vybaveni>
+
+<zbrane>
+
+ <zbran>
+    <name>Kopí</name>
+    <points>80</points>
+    <desc>Délka 190-210 cm</desc>
+  </zbran>  
+  
+  
+  <zbran>
+    <name>Štít</name>
+    <points>25</points>
+    <desc>Maximální rozměr 60 x 50 cm nebo 55 cm v průměru</desc>
+  </zbran> 
+
+  <zbran>
+    <name>Drtivá</name>
+    <points>12</points>
+    <desc>Většina trpaslíků v ruce dřímá staré dobré jednoruční kladivo. 60-90 cm</desc>
+  </zbran>                    
+  
+  <zbran>
+    <name>Kombinace</name>
+    <points>80</points>
+    <desc>Kombinace jednoručních zbraní do maximálního součtu 150 cm. Žádná nesmí přesáhnout 110 cm.</desc>
+  </zbran>                    
+  
+   <zbran>
+    <name>Sekera</name>
+    <points>15</points>
+    <desc>Občas se najde trpaslík, který použije radši starou dobrou sekeru. 60-90 cm</desc>
+  </zbran>                    
+  
+   <zbran>
+    <name>Obouruční sekera či palcát</name>
+    <points>35</points>
+    <desc> Délka 110 - 150 cm.</desc>
+  </zbran>  
+                  
+  <zbran>
+    <name>Kladivo Zášti</name>
+    <points>40</points><cond>Válečník</cond>
+    <desc>Kladivo které je speciálně vyrobeno pro lámání zbrojí,štítů a kostí nepřátel.
+      Tímto kladivem dává Thane prvním úderem v Souboji efekt průraz. Délka 110 - 150 cm.</desc>
+  </zbran>  
+  
+   <zbran>
+    <name>Sekera Myslitele</name>
+    <points>35</points><cond>Stratég</cond>
+    <desc>Jednoruční krátká sekerka ukovaná přímo do rukou Stratéga díky ní má Stratég 
+      nezranitelnost na ruku ve který jí drží.60-90 cm</desc>
+  </zbran>  
+  
+    <zbran>
+    <name>Hůl Předků</name>
+    <points>35</points><cond>Runový adept</cond>
+    <desc>Hůl kterou nelze utočit držena v jedné ruce. Díky této holi Je Adept lepší ve kouzlení (+1 Mistrovská runa)</desc>
+  </zbran>  
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  
+    <skill>
+    <name>Nikdy neustoupím</name><attr>Trvalé</attr>
+    <points>20</points><cond>Válečník</cond>
+    <desc>Pokud je Thane proti nepřátelům sám (žádný trpaslík v dohledu) muže zahlásit <cite>"Za moje Předky bude se bít sám až do konce!"</cite> a zůstat stát na místě jeho útok se sníží na 1dmg,
+      nemůže používat schopnosti ani kouzla kromě pasivních ale dokud se nezmění místo na kterém stojí (nepohne se, není odhozen) tak je 
+      nesmrtelný. Platí po dobu 30 vteřin.</desc>
+  </skill> 
+  
+   <skill>
+    <name>Další zářez</name><attr>3x za Souboj</attr>
+    <points>8</points><cond>Válečník</cond>
+     <desc>Pokaždé když Thane někoho zabije může zvolat<cite>Další zářez</cite> a přidá si 1 stínový život.</desc>
+  </skill> 
+  
+    <skill>
+    <name>Pocit sílu Zášti</name><attr>1 za Souboj</attr>
+    <points>15</points><cond>Válečník</cond>
+    <desc>Thane zvedne svojí zbran nad halvu a zakřičí <cite>"Pocit bolest hnido!!"</cite> a udeří nepřítele tento úder má navíc efekt průraz.</desc>
+  </skill> 
+  
+    <skill>
+    <name>Na zdravý</name><attr>3 za Fázi</attr>
+    <points>20</points><cond>Válečník</cond>
+    <desc>Thane vytáhne svůj korbel s pivem a řekne<cite>"Na Zdravý"</cite> a doplní si počet životů rovný počtu trpaslíků děleno 3. Tuto schopnost jde použít
+           jenom mimo souboj. </desc>
+  </skill>
+ 
+  
+   <skill>
+    <name>Plán boje</name><attr>2x za Fázi</attr>
+    <points>30</points><cond>Historie tažení Předků</cond>
+    <desc>Stratég si ve Vesnici promyslí strategii a potom určí všem trpaslíkům na jakou stranu nepřítelova těla budou útočit(levá nebo pravá). 
+      Toto pravidlo musí trpaslíci v následujícím Souboji dodržovat. V následujícím Souboji mají všichni trpaslíci imunitu na jednu zvolenou(pravá/levá) ruku.</desc>
+  </skill>
+  
+     <skill>
+    <name>Plán obrany</name><attr>2x za Fázi</attr>
+    <points>30</points><cond>Historie tažení Předků</cond>
+    <desc>Pokud Trpaslíci braní vesnici tak muže Stratég zařvat <cite>"Nás nikdy nedostanete"</cite> A všichni trpaslíci mají + 1 stínový život
+           na tento Souboj</desc> 
+           
+  </skill>
+  
+      <skill>
+    <name>Poslední Držitel Zášti</name><attr>2x za Fázi</attr>
+    <points>25</points><cond>Stratég</cond>
+    <desc>Stratég při obraně vesnice zakřičí <cite>"Moje Zášť je silnější než vaše rány"</cite> od této chvíle až dokonce tohoto Souboje dostává +1 stínový život
+      za každého padlého Trpaslíka co uvidí zemřít. (Maximálně může dostat +3 stínové životy za Souboj)
+         </desc>
+  </skill>
+  
+       <skill>
+    <name>Plán výpadu</name><attr>1x za Fázi</attr>
+    <points>50</points><cond>Historie tažení Předků</cond>
+    <desc>Stratég dobře naplánuje strategie útoku to znamená (zaútočíme v klínu, Zaútočíme víc na pravý křídlo , necháme
+           si zálohy a potom je vyšleme jako obíhače),  dohodne formaci ve které se budou trpaslíci držet a všichni kdo se tohoto útoku potom zúčastní dostávají + 1 stínový život.</desc>
+  </skill>
+  
+        <skill>
+    <name>Tady velím já</name><attr>2x za Fázi</attr>
+    <points>50</points><cond>Runový adept</cond>
+    <desc>Když je na Runový adept sesláno kouzlo dokáže ho nejen ignorovat ale po zařvání slov <cite>"Tady velím Já!!!"</cite> obrátí efekt kouzla
+             na jeho sesílatele.</desc>
+  </skill>
+  
+
+</schopnosti>
+
+<kouzla>                                                      
+
+   <spell>
+    <name>Runový třesk</name><cost>4 runy</cost><attr>1x za souboj</attr>
+    <points>20</points><cond>Runový adept</cond>
+    <form>Ugrony dekrat Kotrel</form>
+    <desc>Thane vezme své kladivo poté zakreslí runy a udeří kladivem o zem. Všichni do 2 metrů kolem něho jsou Odhození o 2 metry.</desc> 
+  </spell>
+
+     <spell>
+    <name>Runový Znak Pomsty</name><cost>8 runy</cost><attr>3x za fázi</attr>
+    <points>100</points><cond>Runový adept</cond>
+    <desc>Thane začne dupat a kreslit runy ve chvíli kdy dokreslí dostávají všichni živý ironebreakři +1 stínový život.</desc> 
+  </spell>
+
+
+  <spell>
+    <name>Runa Ochrany: Oheň</name><cost>7 runy</cost><attr>3x za fázi</attr>
+    <points>25</points><cond>Runový adept</cond><form>Herka Berde</form>
+    <desc>Thane začne kreslit runy a opakovat formuli poté bouchne zbraní o zem a celá warbanda má na příští souboj imunitu na Zapálení.</desc> 
+  </spell>
+
+ <spell>
+    <name>Runa Ochrany: Stabilní duše</name><cost>7 runy</cost><attr>3x za fázi</attr>
+    <points>20</points><cond>Runový adept</cond><form>Urgody Mekrak</form>
+    <desc>Thane začne kreslit runy a opakovat formuli poté bouchne zbraní o zem a celá warbanda má na příští souboj imunitu na Šílenství.</desc> 
+  </spell>
+  
+  
+ <spell>
+    <name>Runa Ochrany: Ocele</name><cost>10 runy</cost><attr>3x za fázi</attr>
+    <points>45</points><cond>Runový adept</cond><form>Epire Ruthor</form>
+    <desc>Thane začne kreslit runy a opakovat formuli poté bouchne zbraní o zem a celá warbanda má na příští souboj imunitu na Průraz a Odhození.</desc> 
+  </spell>
+  
+  
+ <spell>
+    <name>Runa Průrazu</name><cost>5 runy</cost><attr>3x za fázi</attr>
+    <points>50</points><cond>Runový adept</cond><form>Omdipus Hrogar</form>
+    <desc>Thane začne kreslit runy a opakovat formuli poté bouchne zbraní o zem a celá warbanda má na příští souboj na první úder Průraz.</desc> 
+  </spell>
+  
+  <spell>
+    <name>Runa Těžké paže</name><cost>10 runy</cost><attr>2x za fázi</attr>
+    <points>40</points><cond>Runový adept</cond><form>Merdiktus Kermok</form>
+    <desc>Thane začne kreslit runy a opakovat formuli poté bouchne zbraní o zem a tři vybraní ironebreakři mají na následující souboj nezranitelnost na pravou ruku.</desc> 
+  </spell>
+  
+</kouzla> 
+
+</wargear>

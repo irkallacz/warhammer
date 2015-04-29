@@ -1,0 +1,42 @@
+#wargear ul {list-style-type: none;}
+#wargear h2 {margin-bottom: 0px;}
+#wargear h2 span, #wargear h3 span {margin-left: 1em; padding: 1px 7px; font-size: 10px; 
+border: 1px solid black;  vertical-align: middle;}
+
+#wargear h3 {margin: 1em 0px 0px 0px;}
+#wargear .control .ano {color: green;}
+#wargear .control .ne {color: rgb(208,0,96);}
+#wargear .control a {font-weight: bold; text-decoration: none;}
+#wargear .control a:hover {text-decoration: underline;}
+#wargear .buy .control strong {color: rgb(118,92,76);}
+#wargear ul .not, #wargear ul .not h3 {color: rgb(82,71,64)}
+#wargear .ulrik {font-weight: bold; margin-left: 1em;}
+#wargear a:hover.ulrik {text-decoration: none;}
+#up {float: right; font-size: 21px; font-family: sans-serif; font-weight: bold;}
+
+#up a {color: rgb(118,92,76); font-weight: bold;}
+#up .ulrik {font-size: 16px; font-weight: normal;}    
+
+#vizual a, #vizual a:hover {color: black; text-decoration: none;}
+#vizual .elem {border-radius: 15px; border: 1px black solid; padding: 3px 10px;}
+
+#vizual li {line-height: 25px; margin: 0px; padding: 0px 12px; border-left: 1px solid gray;
+background-repeat: no-repeat; background-position: -1px 0px; list-style-type: none;
+background-image: url('data:image/gif;base64,R0lGODlhCAAKAIABAIiIiP///yH5BAEKAAEALAAAAAAIAAoAAAIPRI5hecueIJKNVUsV2BwUADs=');}
+#vizual li:last-child {border-left: none; background-position: 0px 0px;} 
+#vizual ul {margin: 0px; margin-left: 20px; padding: 0px;} 
+
+#vizual {float: right; clear: both; font-family: Arial, sans-sefif; font-size: 11px; 
+background-color: silver; border: 1px solid gray; border-radius: 10px;}
+
+.spinner {background-image: url('../img/spinner.gif'); background-position: center; height: 50px; width: 50px;
+background-repeat: no-repeat;}
+
+#text {width: 850px;}
+
+.path {background-color: rgb(255,224,16);}
+.zbroj {background-color: rgb(204,153,51);}
+.zbran {background-color: rgb(161,161,161);}
+.skill {background-color: rgb(127,176,16);}
+.spell {background-color: rgb(32,96,255);}
+.vybava {background-color: rgb(240,255,160);}

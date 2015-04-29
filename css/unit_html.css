@@ -1,0 +1,41 @@
+body {text-align: center; background-color: rgb(80,80,80);}
+
+#page {background-image: url('../img/unit_pozadi.jpg'); background-repeat: repeat-y; width: 610px;
+padding: 25px 55px 25px 55px; font-family: Garamond, 'Times New Roman', serif; font-size: 17px; color: rgb(80,80,80); 
+margin: auto; text-align: left; border: 1px solid black; background-color: rgb(146,146,146); 
+position: relative;}
+
+.heading {position: absolute; padding: 0px 3px; color: rgb(112,112,112);}
+.heading#left {left: 0px; top: 0px;}
+.heading#right {bottom: 0px; right: 0px; height: 100%;}
+.heading#bottom {bottom: 0px; right: 0px; width: 100%; text-align: center;}
+ 
+#page h1 {font-family: 'UnifrakturMaguntia', Lincoln, sans-serif; font-size: 36px; color: white; text-align: center; margin: 0px; 
+font-weight: normal; text-shadow: 0px 0px 5px black;}
+#page h2 {font-family: Arial, serif; font-size: 18px; color: white; margin-top: 1em; margin-bottom: 0px; 
+text-shadow: 0px 0px 5px black;}
+#page h3 {font-family: Arial, serif; font-size: 17px; color: white; margin-top: 1em; margin-bottom: 0px; 
+text-shadow: 0px 0px 5px black;} 
+
+p {margin: 0px 0px 1em 40px; text-indent: 40px;}
+#page ul {margin-top: 0px; padding: 0px; margin-left: 40px; list-style-type: none;}
+
+#head {text-align: center; margin: 0px; text-indent: 0px; padding: 0px;}
+#pravidla {font-weight: bold;}
+#legenda {font-family: 'Monotype Corsiva', 'Times New Roman', serif; font-style: italic;}
+#hiearchie {text-transform: capitalize;}
+
+#kostym p {text-indent: 0px;}
+
+#obrazky p {text-align: center; margin: 1em 0px 1em 0px; text-indent: 0px;}
+#obrazky img {border: 3px solid black}
+.out {margin-left: 40px;}
+.out p {margin-left: 0px;}
+.attr {color: rgb(80,80,80); font-family:  Garamond, 'Times New Roman', serif; text-shadow: none;}
+.kouzla p {margin-bottom: 0px;}
+.formule {font-family: 'Monotype Corsiva', Garamond, 'Times New Roman', serif; text-align: center; font-style: italic; font-weight: bold; 
+font-size: 22px; margin: 5px 30px 1em 0px;}
+.seznam li {margin-bottom: 1ex;}
+
+.plus {font-family: Arial, sans-serif; font-weight: bold; color: white; margin-left: 5px; vertical-align: top; 
+line-height: 17px; font-size: 20px;}

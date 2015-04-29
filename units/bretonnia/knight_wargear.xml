@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Knight</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Řád Jezerní Paní</name>
+    <points>100</points>
+    <desc>Tyto rytíře jsou oddaní plněním úkolů pro Jezerní paní a její službu. Jsou spíše lehko oděný, ale jejich kněžské a morální 
+      podpory armády jsou pověstné ...</desc>
+  </path>  
+
+    <path>
+    <name>Řád Grálu</name>
+    <points>80</points>
+    <desc>Honosní rytíři kteří se ženou jen za cílem nalézt Grál. Tyto rytíři jsou těžko oděná elita.</desc>
+  </path>  
+
+   <path>
+    <name>Řád Boje</name>
+    <points>90</points>
+    <desc>Fanatičtí rytíři jenž pro něž je představa slávy jediné co mají. Celý svůj život věnovali cvičení boje a jeho technik.</desc>
+  </path>  
+  
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Plátová zbroj</name>
+    <points>50</points>
+    <cond>Řád Grálu</cond><lives>1</lives>
+    <desc>Díky této zbroji jsou rytíři imunní na první ránu v boji a trvale <b>+1 život</b>.</desc>
+  </zbroj> 
+  
+  <zbroj>
+    <name>Kroužková zbroj</name>
+    <points>10</points>
+    <desc>Kroužková košile s dlouhým rukávem, jakkoliv zesílená pláty. Díky této zbroji mají rytíři větší odolnost za ztráty lehkosti. Nositel této zbroje má o 1 život více.</desc>
+    <lives>1</lives>
+  </zbroj> 
+ 
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Helma očisty</name>
+    <points>20</points><cond>Řád Grálu</cond>
+   <desc>Nositel této helmy má na sobě auru, která ho ochrání před prvním kouzlem, které je na něj během Souboje sesláno. Po zvolání 
+     <cite>Čistý a vznešený!</cite> může toto kouzlo ignorovat. Lze použit jen jednou za Souboj.</desc>
+  </vybava> 
+
+  <vybava>
+    <name>Korunka</name>
+    <points>15</points><cond>Řád Grálu</cond>
+    <desc>Nositel této korunky dostává imunitu na první ránu v boji.</desc>
+  </vybava> 
+  
+  <vybava>
+    <name>Talisman víry</name>
+    <points>12</points><cond>Vstaň a bojuj</cond>
+    <desc>Díky talismanu stojí provedení kouzla <i>Vstaň a bojuj</i> pouze 1 duši.</desc>
+  </vybava> 
+  
+  
+    <vybava>
+    <name>Svěcená voda</name>
+    <points>30</points><cond>Řád Jezerní Paní</cond>
+    <desc>Na posvěcení zbraně se vždy hodí. Jednou za Fázi může být touto vodou polita mrtvola spolubojovníka z Bretonie a na 30 vteřin se vrací do Souboje
+      s plným počtem životů. Po uplynutí doby nebo po ztrátě životů normálně umírá.</desc>
+  </vybava> 
+  
+ 
+    <vybava>
+    <name>Insignie Války</name>
+    <points>15</points><cond>Řád Boje</cond>
+      <desc>Znaky Grálu a Jezerní paní. Díky tomu má rytíř na první úder v souboji <b>+1 dmg</b> při zvolání <cite>Pro boj jsem byl 
+        zrozen!</cite>.</desc>
+  </vybava> 
+  
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Kopí</name>
+    <points>80</points>
+    <desc>Každý rytíř potřebuje svůj dřevec. Kopí se mu aspoň podobá. Délka 190-210 cm</desc>
+  </zbran>  
+  
+  
+  <zbran>
+    <name>Štít</name>
+    <points>25</points>
+    <desc>Maximální rozměr 60 x 50 cm nebo 55 cm v průměru.</desc>
+  </zbran> 
+
+  <zbran>
+    <name>Drtivá</name>
+    <points>12</points><cond>Řád Grálu</cond>
+    <desc>Někteří rytíři dávají přednost palcátu před mečem. (60-90 cm)</desc>
+  </zbran>                    
+  
+  <zbran>
+    <name>Kombinace</name>
+    <points>80</points>
+    <cond>Řád Boje</cond>
+    <desc>Rytíři z řadu boje věří že víra je jejich štít proto dávají přednost dvěma zbraním. Kombinace jednoručních zbraní do maximálního součtu 150 cm. 
+      Žádná nesmí přesáhnout 110 cm.</desc>
+  </zbran>                    
+  
+   <zbran>
+    <name>Čepele Boje</name>
+    <points>70</points>
+     <cond>Řád Boje</cond>
+     <desc>Čepele boje jsou dvojce mečů, speciálně upravené a díky kterým  může rytíř jednou za souboj zahlásit na úder efekt <i>Průraz</i>. 
+       Jedná se o kombinace jednoručních zbraní do maximálního součtu 150 cm. Žádná nesmí přesáhnout 110 cm.</desc>
+  </zbran>     
+  
+   <zbran>
+    <name>Sekera</name>
+    <points>15</points>
+    <desc>Občas se najde rytíř který použije radši starou dobrou sekeru. (60-90 cm)</desc>
+  </zbran>                    
+  
+  <zbran>
+    <name>Pavéza</name>
+    <points>80</points>
+    <cond>Řád Grálu</cond>
+    <desc>Lepší velký než malý štít. (60 x 100cm)</desc>
+  </zbran>      
+  
+   <zbran>
+    <name>Obouruční meč</name>
+    <points>35</points>
+    <desc>Když jednoruční meč nestačí a nepřátel je mnoho, nepomůže nic lépe, než pořádně
+    dlouhý a ostrý meč. Délka 110 - 150 cm.</desc>
+  </zbran>  
+  
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Za Grál</name><attr>1x za Souboj</attr>
+    <points>18</points><cond>Řád Grálu</cond>
+    <desc>Jednou za souboj muže Rytíř zařvat <cite>Za Grál!</cite> A další úder za <b>+1dmg</b>.</desc>
+  </skill> 
+    
+   <skill>
+    <name>Bojový oheň</name><attr>1x za Souboj</attr>
+    <points>22</points><cond>Řád Boje</cond>
+     <desc>Jednou za souboj muže Rytíř po zvolání <cite>Zhoř!</cite> dá další úder efekt <i>Zapálení</i>.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Ve jménu Jezerní Paní</name><attr>1x za Souboj</attr>
+    <points>25</points><cond>Řád Jezerní Paní</cond>
+    <desc>Jednou za souboj může Rytíř zařvat <cite>Ve jménu Jezerní Paní!</cite> a další úder dává navíc efekt <i>Průraz</i>.</desc>
+  </skill> 
+  
+   <skill>
+    <name>Bojová agonie</name><attr>trvalé</attr>
+    <points>30</points><cond>Řád Boje</cond>
+    <desc>Pokud se rytíř dostane na 0 životů může začít ve smrtelné agonii křičet a dokud křičí tak žije a muže
+      bojovat. Pokud křičet přestane, umírá. Po tuto dobu dává vždy za <b>1dmg</b> a nemůže používat žádné schopnosti ani kouzla.</desc>
+  </skill> 
+  
+   <skill>
+    <name>Bojová zlost</name><attr>2x za Souboj</attr>
+    <points>13</points><cond>Řád Boje</cond>
+    <desc>Pokud rytíř zabije nepřítele (dá poslední ránu) může zvolat <cite>Zhyň ve jménu Bretonie</cite> 
+      a dostává do tohoto Souboje <b>+1 stínový život</b>.</desc>
+  </skill> 
+ 
+   <skill>
+    <name>Bojový duch</name><attr>1x za Fázi</attr>
+    <points>15</points><cond>Řád Boje</cond>
+    <desc>Rytíř je naučen tajným technikám úskoků a krytů a proto ignoruje jeden zásah v Souboji který by
+      ho mohl zabít. Lze použít jen jednou za Fázi.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Nikdo neprojde</name><attr>3x za Fázi</attr>
+    <points>20</points><cond>Pavéza</cond>
+    <desc>Rytíř svým mohutným hlasem zvolá <cite>Nikdo neprojde!</cite> a zapře se pavézou a je na 30 vteřin
+      nezranitelný přední stranou těla ale během tohoto času nesmí utočit či dělat něco jiného než stát.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Zlomení končetiny</name><attr>1x za Souboj</attr>
+    <points>18</points><cond>Řád Grálu</cond>
+    <desc>Rytíř svým mohutným hlasem zvolá <cite>Mrzák z tebe bude!!!</cite> a na další úder má efekt <i>paralýzy</i> na 3 vteřiny do zasažené končetiny.
+      Pokud se trefí do jinam než do končetiny, nic se nestane.</desc>
+  </skill> 
+ 
+  <skill>
+    <name>Modlitba</name><attr>trvalé</attr>
+    <points>10</points><cond>Řád Jezerní Paní</cond>
+    <desc>Za každých 5 minut modlení dostává rytíř jednu Duši.</desc>
+  </skill> 
+  
+</schopnosti>
+
+  <kouzla>                                                      
+
+   <spell>
+     <name>Proslov</name><cost>1 Duše</cost><attr>3x za Fázi</attr>
+     <points>30</points><cond>Řád Jezerní Paní</cond>
+     <form>Ti kdož hrdě kkáčí setou víry a odhodlání bude na tom to světě dopřáno!</form>
+     <desc>Rytíř muže ve vesnici pronést 1 minutový proslov čím všem, 
+      kdo se zde oživují, <b>sníží o 1 minutu reinkarnaci</b>. Lze použít na jednu vesnici za Fázi jen jednou.</desc> 
+  </spell>
+
+     
+  <spell>
+    <name>Vstaň a bojuj</name><cost>2 Duše</cost><attr>2x za Fázi</attr>
+    <points>40</points><cond>Řád Jezerní Paní</cond>
+    <form>Tvá cesta ještě není u koncce a tvoje duše ještě nesmí spočinout, proto vztaň a znovu bojuj!</form>
+    <desc>Rytíř dokáže vzkřísit mrtvého Peasanta tím, že se po Souboji na jeho tělo skloní a pronese krátkou 
+      1 minutovou modlitbu peasant vstane s 1 životem.</desc> 
+  </spell>
+
+  <spell>
+    <name>Posvěcení Ohně</name><cost>1 Duše</cost><attr>3x za Fázi</attr>
+    <points>22</points><cond>Řád Jezerní Paní</cond>
+    <form>Bojuj vší svoji silou za Grál a za Jezerní paní a tvé víra bude ohněm!!</form>
+      <desc>Rytíř musí dát ruku na ramenu vojákovy vyřknout zaklínadlo a voják dává na další úder efekt <i>zapálení</i>.</desc> 
+  </spell>
+    
+  <spell>
+    <name>Posvěcení Boje</name><cost>1 Duše</cost><attr>3x za Fázi</attr>
+    <points>40</points><cond>Řád Grálu</cond>
+    <form>Ať nepřátele tvoji bez rozdílu padnou pod tvojí mocnou zbraní!</form>
+    <desc>Rytíř musí dát ruku na ramenu vojákovy, vyřknout zaklínadlo, a voják dává další ránou v Souboji efekt <i>průraz</i>.</desc> 
+  </spell>
+    
+  <spell>
+    <name>Posvěcení Grálu</name><cost>1 Duše</cost><attr>3x za Fázi</attr>
+    <points>80</points><cond>Řád Boje</cond>
+    <form>Nepřátelé tvoji budou utíkat před tvým stínem, bojíce se světla tvého odhodlání!</form>
+    <desc>Rytíř musí dát ruku na ramenu vojákovy vyřknout zaklínadlo a voják dává další úder v Souboji <b>+1 dmg</b>.</desc> 
+  </spell>
+    
+  <spell>
+    <name>Nikdy to nevzdáme</name><cost>2 Duše</cost><attr>1x za Fázi</attr>
+    <points>35</points><cond>Řád Grálu</cond>
+    <form>Nikdy to nevzdáme a bojovat budeme až do konce našich časů!</form>
+    <desc>Rytíř pronese formuli a 2 spolubojovníci dostávají <b>+1 stínový život</b>.</desc> 
+  </spell>
+    
+</kouzla> 
+
+</wargear>

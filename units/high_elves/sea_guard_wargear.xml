@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Sea guard</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Veterán moře</name>
+    <points>20</points>
+    <desc>Veteráni už zažili roky válek a námořních bitev, houpající paluby a potoky krve, které se přelili přes jejich hlavy,  
+    svištění mečů a cesty na konec světa a zpátky.</desc>
+  </path>  
+
+  <path>
+    <name>Stínový válečník</name>
+    <points>20</points>
+    <img src="high_elves/elf_12.jpg" />
+    <desc>Po Malekithově zradě přísahala malá skupina, která byla stále věrná Fénickému králi, krvavou pomstu těm, kdo zradili. I po staletích má tato 
+    kasta stále silnou pozici a to především v provincii Nagarythe. Stínový válečníci používají brutální taktiku přepadů a guerilových válek v boji 
+    proti svým temným bratrancům. Jejich oblíbenou zbraní je luk a i mezi ostatním Vznešeným lidem, jsou považováni za temné a nebezpečné.</desc>
+  </path>  
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Zesílená zbroj</name><desc>Elfové jsou jedni z nejlepších zbrojířů světa a tak není problém najít mnoho zbrojířů jenž jsou schopni vylepšit 
+    klasickou ocel o trochu té magie, která dodá zbroji vyšší odolnost.
+    <b>(+1 život)</b>.</desc>
+    <cond>Veterán moře</cond>
+    <points>50</points>
+    <lives>1</lives>
+  </zbroj>    
+
+  <zbroj>
+    <name>Kožená zbroj</name><desc>Ne pro vždy je ocelová zbroj tím nejlepším řešením dané situace. Zvlášť, když je potřeba se se k někomu potají 
+    připlížit a nezpůsobit přitom ani nejmenší zvuk. Na druhou stranu ani sebelepší umění elfích zbrojířů nedokáže udělat kůži tak pevnou jako ocel.   
+    <b>(-1 život, -3 minuty reinkarnace)</b>.</desc>
+    <cond>Stínový válečník</cond>
+    <points>10</points>
+    <lives>-1</lives>
+    <reinkarnace>-3</reinkarnace>
+  </zbroj>    
+         
+</zbroje>            
+
+<vybaveni>
+
+  <vybava>
+    <name>Štít</name>
+    <points>15</points>
+    <cond>Veterán moře</cond>
+    <desc>Běžný elfí štít jaký můžete najít ve zbrojnici každého elfího rodu svoji precizností předčí i mistrová díla platnéřů Říše. 
+    Maximální rozměry 60 x 50 cm nebo průměr 55 cm.</desc>
+  </vybava> 
+
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Luk</name>
+    <points>0</points>
+    <cond>Stínový válečník</cond>
+    <desc>Jen ručně vyrobený nebo historický, ne sportovní. Je nutný malý nátah, maximálně do 15 kg a celkově musí luk vypadat stylově. 
+      Šípy musí mít střed "hrotu" zhotovený z víčka z PET lahve nebo něco podobného průměru (ne korkový špunt od vína!). Okolo středu musí být 
+      potom dostatečná vrstva karimatky nebo molitanu. Bambule musí mít alespoň 5 cm v průměru a přední část hrotu musí být dostatečně vyměkčen 
+      (1-2cm). Šíp nesmí mít nikde nic ostrého nebo špičatého a celá bambule musí být patřičně měkká. Bambule musí na šípu držet jako přibitá a musí 
+      vydržet i drsné zacházení. Jak šípy,tak i samotný luk bude podroben VELMI PŘÍSNÉ kontrole a testování, nevyhovující budeme zabavovat a podezřelé 
+      šípy máme právo rozkuchat na pozorování. Každý lučišník sebou musí mít min. 10 šípů, které projdou registrací, jinak nebude vpuštěn do hry. Takže
+      si jich raději udělejte víc ... :).</desc>
+  </zbran>  
+
+  <zbran>
+    <name>Jednoruční meč</name>
+    <points>10</points>
+    <cond>Veterán moře</cond>
+    <desc>Ač je jejich hlavní zbraň kopí, veteráni vědí, že je lepší občas sáhnout po meči. Maximální délka 90 cm.</desc>
+  </zbran>  
+
+  <zbran>
+    <name>Obouruční meč</name>
+    <points>20</points>
+    <cond>Veterán moře</cond>
+    <desc>Když je nepřítel mnoho je lepší mít mezi nimi delší vzdálenost a oboustrannou čepel. Maximální délka 120 cm.</desc>
+  </zbran>  
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Do boje!</name><attr>trvalé</attr>
+    <points>15</points>
+    <desc>Sea guardi jsou často schopni a nuceni přejít z úplné nečinnosti přímo do středu bitevní vřavy. Postavy s touto schopností 
+      získají po každé reinkarnaci na příští souboj <b>+1 stínový život</b>.</desc>
+  </skill> 
+
+  <skill>
+    <name>Žár bitvy</name><attr>trvalé</attr>
+    <points>15</points>
+    <desc>Vznešení elfové mají boj hluboko v jejich rodové paměti a čím déle bojují, tím více se na boj soustředí a upnou na něj všechny své síly. 
+    Tam kde jiné národy jsou již unaveni, oni se teprve rozehřívají. S touto schopností se reinkarnace dané postavy posouvá o 1 minut za každých 
+      započatých 20 minut Fáze. Takže ve čtvrt má reinkarnaci zkrácenou o 1 minutu, ve tři čtvrtě o 3 atd...</desc>
+  </skill> 
+  
+  <skill>
+    <name>Síla domova</name><attr>trvalé</attr>
+    <points>20</points>
+    <desc>Pokud se tato postava reinkarnuje v základním táboře, má reinkarnaci zkrácenou o 5 minut.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Bojové zkušenosti</name><attr>trvalé</attr>
+    <points>15</points><cond>Veterán moře</cond>
+    <desc>Každého, kdo již prošel tolika bitvami jako Veteráni, povzbuzující proslov od svého velitele nejen nabudí, ale dodá i odvahu a díky letům 
+      zkušeností není odvaha zkalena lehkovážností. Pokud ve hře je na postavu s touto schopností použije hrdina svoji schopnost <i>Proslov</i>, získá 
+      tato postava <b>+2 stínové životy místo +1</b>.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Dědictví útlaku</name><attr>trvalé</attr>
+    <points>20</points><cond>Stínový válečník</cond>
+    <desc>Některé rány nezhojí ani čas a nenávist způsobená zradou a ztrátou cti není tak lehké utišit. Pokud Vznešený elf s touto schopností uvidí 
+      Temného elfa, musí na něj ihned s rozběhem zaútočit, i kdyby to mělo znamenat jeho vlastní smrt. Nenávist mu ale dodává sílu, takže pokud 
+      bojuje s Temným elfem, má bonus <b>+1 na damage</b>.</desc>
+  </skill> 
+
+  <skill>
+    <name>Průrazná střela</name><attr>2x za Souboj</attr>
+    <points>20</points><cond>Luk</cond> 
+    <desc>Luk dá občas napnout více než je obvyklé a střela má potom větší sílu. 
+      Pokud střelec zvolá <cite>Maximální nátah!</cite>, má další šíp, co vypustí <i>průraz</i>.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Přesné míření</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Luk</cond> 
+    <desc>Pokud se majitel zbraně naučí využívat všech jejích vlastností, může touto zbraní trefit hodně citlivé místo 
+      svého nepřítele. Pokud zakřičí <cite>Mířím!</cite> má na další výstřel bonus <b>+1 damage</b>.</desc>
+  </skill> 
+  
+</schopnosti>
+
+</wargear>

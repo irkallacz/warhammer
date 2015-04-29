@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Glade guard</jmeno>
+
+<hiearchie>core</hiearchie>       
+
+<legenda>Nikdo si přesně neví, proč se ti elfí parchanti objevili v lesích u vesnice Steinemauer. Jisté je,
+že kdo od té doby vlezl do toho zatracenýho lesa, už se nevrátil. A bylo jedno jestli to byly naši
+chlapy, pošahaní Chaosáci, nebo ti blbci orkové. Nakonec se několika mým chlapům přece jen
+povedlo objevit jeden z táborů jejich zavšivenejch elfích hlídek. V podstatě díra v křoví, žádné
+ohniště, žádné přístřešky nic. Fakt by mě zajímalo, jak tady mohli tak dlouho vydržet. No a teď se
+tady schovám a čekám, až se nějaký špičatý ucho se svejma kamarádíčkama vrátí.. Tentokrát to
+budou jejich střeva, co budou viste z větví. Ale dávaj si na čas. To by mě zajímalo, kdy už se...
+Proud myšlenek mi přetrhlo ostří dýky, co mi podřízlo krk. A podle několika osamělých výkřiků v
+tom nebyl sám. Kde se tady parchanti vzali? Jak o nás věděli? A jak se dostali za nás?</legenda>                    
+
+
+<popis>Glade guardi sice nejsou nejlepší bojovníci ve známém světě, ale to bohatě
+vynahrazují dokonalou znalostí lesního prostředí, taktiky malých jednotek a přepadů ze
+zálohy. Jsou jádrem armády lesních elfů a ač nejsou příliš silně obrněni, jejich meče a luky
+chrání hranice Athel Loreli již po staletí a jejich bojové zkušenostní stojí by jim mohl
+závidět kdejaký voják Říše.</popis>                 
+
+<pravidla>
+  <lives label="životů">1</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">5</reinkarnace>
+</pravidla>                  
+
+<kostym>
+<povinne>Kostým v zelených a hnědých barvách, kůže nebo kožešina, špičaté uši.</povinne>     
+<extra>Válečné tetování s motivem listů a elfích run, kožené chrániče, Zbroj.</extra>               
+</kostym>   
+
+<vybava>
+<name>Štít</name>
+<desc>Maximální rozměr 50x60 cm nebo 55 cm u kruhového štítu, řádně obalené hrany</desc>
+</vybava> 
+
+<zbrane>
+  <zbran><name>Jednoruční meč</name><desc>Maximální délka 90 cm</desc></zbran>       
+</zbrane>                                   
+
+<roleplay> 
+Glade guards nejsou normální řadoví vojáci. Oni jsou do bitvy protože věří, že je to
+tak správné. Bez váhání poslouchají rozkazy a udělají cokoliv, aby je vyplnili. Co se týče spojenců, jsou typičtí lesní elfové:
+Trpaslíky nemají příliš v lásce. Příliš nevěří žádným spojencům, ale chápu, že je nutné zastavit stoupence Destrukce. 
+Jediné co je zajímá je válka a to aby se mohli dostat konečně domů.</roleplay>                 
+
+
+<obrazky>
+<img src="wood_elves/glade_guard_1.jpg"/>
+<img src="wood_elves/glade_guard_2.jpg"/>
+<img src="wood_elves/glade_guard_3.jpg"/>
+</obrazky>
+
+</jednotka>

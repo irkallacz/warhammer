@@ -1,0 +1,12 @@
+{block head}
+{if isset($css)}<link href="{$basePath}/css/warbandy.css" rel="stylesheet" type="text/css">{/if}
+{/block}
+{block content}
+<h1>Warbandy</h1>
+<ul id="warband">
+{foreach $warbandy as $wb}
+<li><a class="figure" href="{link $target $wb->id}" title="{$wb->id}" id="{$wb->id|webalize}"><span>{$wb->id}</span></a></li>
+{/foreach}
+</ul>
+
+{/block}

@@ -1,0 +1,25 @@
+{block head}
+<style type="text/css">
+<!--
+  h2 { margin-bottom: 0px; }
+  #text a:hover h2 { color: rgb(255,136,146); }
+  ul.users { margin-top: 0px; }    
+  .pdf { background-image: url('{$baseUri}/img/ico_pdf.gif'); background-repeat: no-repeat; background-position: left center;
+  padding-left: 17px; margin-left: 1ex; }
+//-->
+</style>
+{/block}
+
+{block content}
+<h1>Pravidla</h1>
+
+{foreach $units as $unit}
+<h2>{$unit->id}</h2>
+<ul class="users" n:inner-foreach="$unit->related('users') as $u">
+  <li><a class="user" n:href="view, $u->id" target="_blank" title="Zobrazit pravidla">{$u->nick}</a>
+  <a class="pdf" n:href="pdf, $u->id" title="Stáhnout pravidla"></a>
+  </li>
+</ul>
+{/foreach}
+
+{/block}

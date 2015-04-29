@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Chieftain</jmeno>
+
+<hiearchie>hero</hiearchie>       
+
+<legenda>Chvíli trvalo, než jsme se  ve tmě zorientovali. Kanalizace páchla a bylo v ní neuvěřitelné vlhko.
+Rozsvěcet lampy bylo příliš riskantní, tak jsme nechali oči, aby přivykly. Něco se mihlo kolem nás...
+a znovu... a znovu... Byly jich stovky.  Holé ocasy nesli vysoko zdvižené, korálková očka jim zářila.
+Ale pořád to byly jen krysy a my věděli, že bychom je porazili! Dokud se neobjevil on. Velké žluté tesáky,
+krvežíznivé oči, kusy hadrů a kusy zrezivělé zbroje. Vše co lidé vyhodili jako nepotřebné, on dokázal maximálně využít.
+Kolem něj se šířila aura strachu, která sjednocovala krysy, ale nás děsila k smrti. Poslední myšlenka, 
+která se vynořila ze ztemnělých hlubin mé mysli nesla jen jedno poselství: Pane Bože, ochraňuj nás...</legenda>                    
+
+
+<popis>Dokáže-li někdo sjednotit a vést skaveny, pak právě Chieftain. Neoplývá příliš velkou morálkou,
+za to vyniká ve všech špatnostech a nechutnostech, přes to je naprosto oddaný Rohaté Kryse. Dokáže se skvěle plížit,
+je nejzákeřnější ze všech skavenů, a i když to jsou jeho pokrevní bratři, nemá nejmenší problém obětovat jedince
+pro dobro většiny.</popis>                 
+
+
+<pravidla>
+  <lives label="životů">4</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">10</reinkarnace>
+  <AKCH label="aktivovaných kusů chaotitu (max)">5</AKCH>
+  <BE label="bodů energie (max)">0</BE>
+  </pravidla>                  
+
+<kostym>
+
+<povinne>Rozervaný plášť a oděv, ČUMÁK A OCAS, zbroj</povinne>     
+
+<extra>nějaké staré opasky a skavení runy, zádový praporec, krysí kamarád</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Kožená</name><desc>Tvrzená zbroj z kůže pro rychlý pohyb</desc>
+  </zbroj>    
+
+</zbroje>   
+
+<zbrane>
+  <zbran><name>Tesák</name><desc>max 60 cm</desc></zbran>       
+</zbrane>                                   
+
+
+<kouzla>
+
+  <desc>Skaveni pochází z podzemí a kanalizace. Jejich magie tedy musí zákonitě vycházet ze stejného místa. Je odporná, 
+stejně jako věci, které jsou potřeba pro její uskutečnění. Silou jejich magie jsou Aktivované Kusy Chaotitu(AKCH). Díky, kterým může provádět
+  svá odporná kouzla. Každé Kouzlo je jinak náročné a vyžaduje jiný počet AKCH, které se při použití vybijí.</desc>
+  
+  
+  <spell>                                                                      
+  <name>Zamoření</name><attr>V každé Vesnici jen 1x za Fázi</attr>
+  <form>Saya akan mengutuk tempat ini</form>
+  <desc>Jedná se o Rituál, který lze seslat jen ve Vesnici. Chieftan může pronášet formuli(3x) a ostatní skaveni kolem něj běhaní dokola a rozsévají
+    hnilobu a zkázu. Chieftan získá počet AKCH rovný počtu okolních skavenů děleno 3.</desc>
+  </spell>
+
+</kouzla>
+
+<roleplay>
+  Skavení podzemní svět je místo, kde se vyznají jen oni a platí tam jejich zákony. Celkově se ale chovají velice plaše a s ostatními rasami
+  příliš nekomunikují spíše se snaží dostat do většího hejna a v tomto útvaru se pohybují dokud nenarazí na boj. Jejich útoky jsou prováděny 
+  se strategií a precizností. Chieftan jako vůdce organizuje celé hejno a jasné dává všem příkazy. Všichni jsou většinou tiší dokud nedojde 
+  na boj, v něm si chieftan vybere největšího nepřítele a „hrdinsky“ ho bodne do zad.
+</roleplay>                 
+
+
+<obrazky>
+  <img src="skaven/chieftain_1.jpg"/>
+  <img src="skaven/chieftain_2.jpg"/>
+  <img src="skaven/chieftain_3.jpg"/>
+</obrazky>
+
+</jednotka>

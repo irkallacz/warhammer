@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Battle pilgrim</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Nosič štítu</name>
+    <points>20</points>
+    <desc>Nositelé štítu nastavují vlastní tělo k ochraně rytíře na jeho cestě a jsou ochotní obětovat 
+      svůj život, aby zabránili jeho zranění.</desc>
+  </path>  
+  
+ <path>
+    <name>Kněz</name>
+    <points>20</points>
+    <desc>Poutníkem se člověk nestane bez neochvějné víry a mnoho z poutníků pochází z řad knězů 
+      a ve své nové roli dodávají ostatním duchovní podporu.</desc>
+  </path>  
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Kroužková zbroj</name>
+    <points>50</points>
+    <desc>Ač to není tak obvyklé, i poutníci nosí kroužkové košile. Většinou se sice jedná o staré a 
+      zrezivělé kusy, co obvykle rytíř vyhodil, ale i tak poskytuje nějakou ochranu (<b>+1 život</b>).
+    </desc>
+    <lives>1</lives>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Roucho víry</name>
+    <points>30</points>
+   <cond>Modlení</cond>
+    <desc>Toto roucho je vyšito posvátnými symboly a ačkoliv má evidentně svoje nejlepší léta za sebou 
+      stále z něj je cítit síla víry. Ve hře je schopnost <i>Modlení</i> zkrácena z 5 minut na <b>3 minuty</b>.
+   </desc>
+  </vybava> 
+
+  
+ <vybava>
+    <name>Amulet Naděje</name>
+    <points>30</points>
+   <desc>Symbol víry, který poutníka provází na jeho cestě. Zkracuje reinkarnaci o <b>2 minuty</b>.</desc>
+    <reinkarnace>-2</reinkarnace>
+  </vybava> 
+
+   <vybava>
+    <name>Svěcená voda</name>
+    <points>10</points>
+    <cond>Kněz</cond>
+     <desc>Každý kněz má někde u sebe lahvičku nebo měch se svěcenou vodou. Tato voda může být použita k různým obřadním 
+     rituálům.</desc>   
+  </vybava> 
+
+  <vybava>
+    <name>Kropenka</name>
+    <points>30</points>
+    <cond>Požehnání</cond>
+    <desc>Díky kropence se na každé požehnání spotřebuje méně svěcené vody, takže je možno požehnání opakovat u více lidí. Schopnost 
+      <i>požehnání</i> je díky tomu možno použít až 6x za Fázi.</desc>   
+  </vybava> 
+
+  <vybava>
+    <name>Brousek</name>
+    <points>20</points>
+    <cond>Nosič štítu</cond>
+    <desc>Jen správně nabroušený meč je dobrý meč a u zrezivělých a prastarých zbraní jaké obvykle 
+      Poutníci využívají to platí dvojnásob. Pokud si Poutník před Soubojem bude alespoň 
+      1 minutu tímto brouskem brousit svoji zbraň má na první ránu v Souboji bonus <b>+1 damage</b>.</desc>   
+  </vybava> 
+  
+  <vybava>
+    <name>Pavéza</name>
+    <points>40</points>
+    <cond>Nosič štítu</cond>
+    <desc>Velký štít, který lépe ochrání před většinou ran. Maximální rozměry 60 x 100 cm.</desc>
+  </vybava>                    
+
+</vybaveni>
+
+<zbrane>
+  
+  <zbran>
+    <name>Jednoruční meč</name>
+    <points>12</points>
+    <desc>Očas dojde k tomu, že i chudý poutník vlastní meč. Maximální délka do 90 cm.</desc>
+  </zbran>        
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Modlení</name><attr>trvalé</attr>
+    <points>10</points><cond>Kněz</cond>
+    <desc>Intenzivním modlením může kněz dodávat sílu svému rytíři. Za každých <b>5 minut modlení</b> předá kněz rytíři <b>1 Duši</b>.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Odpuštění</name><attr>5x za Fázi</attr>
+    <points>0</points><cond>Svěcená voda</cond>
+    <desc>Pokud Kněz pokropí nějaké tělo a pronese přitom modlitbu, ve které mu odpustí všechny jeho hříchy, takovéto tělo se musí okamžitě vydat 
+      na hřbitov a nemůže být již znovu oživeno žádnou schopností, kouzlem ani nesmí být použit pro žádnou magickou operaci.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Hoř</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Svěcená voda</cond>
+    <desc>Pokud se knězi podaří pokropit nepřítele svěcenou vodou, stačí poté už jen zařvat <cite>"Vzplaň ty zrůdo"</cite> nepřítel obdrží 
+      efekt <i>zapálení</i>.</desc>
+  </skill> 
+   
+   <skill>
+    <name>Tvrdá rána</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Nosič štítu</cond>
+     <desc>Nosič Štítu muže jednou za souboj zařvat <cite>"Zemři ty potvoro"</cite> a na další úder má efekt <i>průraz</i>.</desc>
+  </skill> 
+    
+   <skill>
+    <name>Krvavá rána</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Nosič štítu</cond>
+     <desc>Nosič dokáže jednou za souboj vykřiknout <cite>"Zabiju tě pro mého rytíře"</cite> a na další úder má bonus <b>+1 damage</b>. </desc>
+  </skill> 
+  
+  <skill>
+    <name>Požehnání</name><attr>4x za Fázi</attr>
+    <points>10</points><cond>Svěcená voda</cond>
+    <desc>Kněz muže někomu požehnat, pokropit to trochou svěcené vody a zvýšit mu tak morálku a chuť bojovat. 
+      Do dalšího Souboje mu dá <b>+1 stínový život</b>. Bonusy od jednotlivých <i>požehnání</i> se mohou sčítat. Požehnání se považuje za Rituál 
+      a musí se provést ve Vesnici nebo na jiném Rituálním místě.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Vysvěcení</name><attr>1x za Fázi</attr>
+    <points>30</points><cond>Svěcená voda</cond>
+    <desc>Kněz může pomocí modlitby a svěcené vody vysvětit nějaké místo a změnit ho tak na Rituální místo. Tohoto obřadu se musí se svými modlitbami a 
+    a tancem připojit i další dva Battle pilgrimové. Navíc je nutno dané místo nějak upravit, vytvořit modlu, oltář nebo něco podobného. Na 
+    závěr je nutno místo pokropit svěcenou vodu. Takového místo vydrží přesně do konce Fáze.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Duchovní zbroj</name><attr>3x za Fázi</attr>
+    <points>10</points><cond>Nosič štítu</cond>
+    <desc>Pokud se poutník před Soubojem bude minimálně minutu věnovat modlitbám a vyvolat u sebe do příštího Souboje náboženské šílenství.  
+      V Souboji potom muže na první zásah odpovědět slovy <cite>"Má víra mě ochrání"</cite> a ignorovat tak toto zranění.</desc>
+  </skill> 
+    
+  <skill>
+    <name>Smrt rytíře</name><attr>trvalé</attr>
+    <points>30</points>
+    <desc>Pokud poutník uvidí v Souboji padnout svého Rytíře, vyvolá to u poutníka náboženské šílenství a do konce Souboje získá 
+      <b>+2 stínové životy</b> a <b>+1 damage</b>.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Štít víry</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Kněz</cond>
+    <desc>Síla víry může být tak velká, že ohne samu realitu a odrazí nepřátelskou magii. Pokud je na někoho jiného sesláno nějaký efekt 
+      (zapálení, odhození, kořeny atd...), Kněz naznačí, že se snaží dostat mezi něj a kouzlícího, pozvedne svůj štít a vykřikne 
+      <cite>"Víra je víc než magie" </cite>, efekt je možno ignorovat.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Sakrální oběť</name><attr>1x za Fázi</attr>
+    <points>30</points><cond>Nosič štítu</cond>
+    <desc>Tato schopnost symbolizuje konečné odevzdání Poutníků jejich Rytíři. Pokud se rozhodnou, mohou po v Souboji, kde jejich rytíř padne, 
+      obětovat svůj život a vzkřísit tak svého velitele. Všichni tři musí vykřiknout <cite>"Můj život za našeho Pána"</cite> a poté se nabodnout 
+      na svoji zbraň. Rytíř může povstat s plným počtem svých životů.</desc>
+  </skill> 
+
+  <skill>
+    <name>Vigilie</name><attr>1x za Fázi</attr>
+    <points>35</points><cond>Kněz</cond>
+    <desc>Toto schopnost si musí zakoupit všichni tři Poutníci, pokud ji chtěli používat. Vigilie je obřad, kterého se musí zúčastnit i Rytíř a Peasanti.
+    Je to obdoba chrámového obřadu, kdy Kněží pronášení modlitby a jejich věrní jí po nich opakují. Kromě Knězů všichni musí klečet a modlit se.
+    Tento obřad je Rituál a musí se pořádat ve Vesnici nebo jiném Rituálním místě. Vigilie musí trvat minimálně 5 minut. Po jejím ukončení mají všichni
+      účastníci na další Souboj bonus <b>+1 damage</b> a <b>+3 stínové životy</b>. Vigile ruší jiné posilující schopnosti a kouzla a nesmí se s nimi 
+      kombinovat. </desc>
+  </skill> 
+
+  
+</schopnosti>
+
+</wargear>

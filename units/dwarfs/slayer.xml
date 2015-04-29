@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Slayer</jmeno>
+
+<hiearchie>rare</hiearchie>       
+
+<legenda>S mohutným řevem se trpasličí armáda vyvalila z bran své pevnosti. Řady mohutných
+válečníků se zachmuřenými tvářemi se sunuly vpřed, jako stěna ze smrtonosné oceli lesknoucí se ve
+svitu měsíce, proti povykující hordě zelenokožců chrlící vybízející urážky a sprostá gesta jejich
+směrem. Jen jeden trpaslík nedržel řadu, ba dokonce běžel rychleji jako by se nemohl dočkat
+nadcházejícího boje. Byl do půl těla nahý a nad hlavou mu ku nebi trčel obrovské oranžové číro.
+Když byl tři metry od nyní už pozorných orků, všechny svaly na jeho těle se napjali a on skočil do
+předních pozic. Ještě ve vzduchu mohutným sekem oddělil dvěma orkům hlavy od jejich špinavých
+krků. Po dopadu na zem začal jeho sekera opisovat velké půlkruhy, usekávat končetiny poltit lebky
+a drtit hrudníky. Všude stříkala černá krev, avšak občas i rudá samotného trolobijce. Ten však
+svých zranění nevnímal a kosil řady po tuctech dál. Ale bylo však znát, že zpomaluje. Toho si
+všimli orci a vrhli se na něj s nově nabytou odvahou. Trolobijce zařval "Grungni přijmi mou duši do
+svých síní!", posledním sekem zabil posledního nepřátele a následně zemřel .</legenda>                    
+
+
+<popis>Jsou drsní, jsou hrubí a co hlavně jsou šílení! Skoro každý ve Starém světě zná kult zabijáků, kteří hledají
+hrdinskou smrt v bitvě a při pátrání po ní vezmou sebou co nejvíce svých nepřátel. Jako
+důkaz svého odhodlání si barví vlasy a vousy na oranžovou. V boji se nejlépe ohánějí
+sekerou, která vždy dychtí po nové krvi nepřátel.</popis>                 
+
+<pravidla>
+  <lives label="životů">2</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">8</reinkarnace>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Oblečení pouze do půl těla, volné kalhoty. Hodně dlouhé vousy, číro (účes nošený vyznavači
+punku :))</povinne>     
+
+<extra>Dobře vypadající vlasy, piercing, řetízky z ucha do nosů</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Plátěné kalhoty</name>
+    <desc>Slayer se nikdy necítí nepohodlně a čím víc je počasí nepříjemné, tím je mu lépe.
+    Lehké plátěné kalhoty nemá jako ochranu před ničím, pouze aby nepůsobil trpaslíkům další hanbu.</desc>
+  </zbroj>    
+</zbroje>            
+
+<zbrane>
+  <zbran>
+    <name>Obouruční sekera</name>
+    <desc>Velká těžká metla nepřátel s maximální naměřitelnou délkou 130cm.</desc>
+  </zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill>
+    <name>Vlk samotář</name><attr>Trvale</attr>         
+  <desc>Slayer jde s armádou jen proto, že je u ní jistota hrdinské smrti, kterou by opravdu mohl zažehnat svoji hanbu.
+    Neposlouchá kromě Runového Lorda a Thana nikoho a i vůči těm má vždy nevrlé odpovědi. Je <b>Nezastavitelný</b>, 
+    tedy nikdy neuteče z bitvy, pokud mu to ovšem jeden z výše zmíněných nerozkáže.
+    </desc>
+  </skill>
+  
+</schopnosti>
+
+
+<roleplay> 
+</roleplay>                 
+
+
+<obrazky>
+  <img src="dwarfs/slayer_7.jpg"/>
+  <img src="dwarfs/slayer_8.jpg"/>
+  <img src="dwarfs/slayer_6.jpg"/>
+  <img src="dwarfs/slayer_1.jpg"/>
+  <img src="dwarfs/slayer_2.jpg"/>
+  <img src="dwarfs/slayer_3.jpg"/>
+  <img src="dwarfs/slayer_4.jpg"/>
+  <img src="dwarfs/slayer_5.jpg"/>
+</obrazky>
+
+</jednotka>

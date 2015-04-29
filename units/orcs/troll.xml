@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Troll</jmeno>
+
+<hiearchie>rare</hiearchie>       
+
+<legenda>V jednom místě najednou začnou orci klást menší odpor, jejich řady z nějakého důvodu nejsou doplněny
+dalšími šílenými válečníky. Srdce lidí začíná naplňovat odhodlání k vítězství. Avšak jak rychle
+přišlo, stejně rychle se dostavilo i ledové zamrazení. Prořídlými řadami si klestí cestu několik
+Trollů, během chvíle jsou vpředu a zelená opět zatlačuje lidskou armádu zpět.</legenda>                    
+
+
+<popis>Trollové jsou velká a podivná stvoření ozbrojená nejčastěji pouze jednoduchými
+zbraněmi z klacků a kamenů. Jejich nejzajímavější a nejznámější vlastností je, že jejich
+maso je schopno dorůstat takřka okamžitě potom co je poškozeno. Trollové se často
+připojí k orkům a goblinům, a následují je do boje. Není však jisté, zda vůbec chápou co
+se vlastně děje.</popis>                 
+
+
+<pravidla>
+  
+   
+   
+<lives label="životů">3</lives><damage label="damage">1</damage><reinkarnace label="min. reinkarnace">8</reinkarnace></pravidla>                  
+
+<kostym>
+
+<povinne>Uši a nos, bederní rouška. Základem pro kostým je modře nabarvená kůže, která může být navíc pokryta
+kresbou rohovatějící kůže. V případě, že jste spíše teplomilnější a myslíte si, že by vám
+byla zima, můžete si zkusit spíchnout nějaké přiléhavé modré oblečení, na které nakreslíte
+texturu.</povinne>     
+
+<extra>Trofeje z pobitých nepřátel, kosti, celo-hlavová maska s velkým nosem a ušima. </extra>               
+
+</kostym>             
+
+<zbrane>
+  <zbran><name>Kyj/sekeromlat</name><desc>Nejdelší naměřitelná délka 130cm</desc></zbran>       
+
+</zbrane>                                   
+
+<schopnosti>    
+   
+<skill><name>Regenerace</name><attr>Trvalé</attr>         
+  <desc>Trolové jsou známí svoje neuvěřitelnou obnovou tkání a jdou těžce zabít. Proto si troll po každém Souboji, který přežije vyléčí jeden 
+život.</desc>
+  </skill>
+
+  <skill><name>Masivní tělo</name><attr>Trvale</attr>         
+  <desc>Tělo Stone Trolla je tělem stromu a i jeho velikost může nahánět nepřátelům strach.
+Ale o co je pevnější, o to pomaleji se pohybuje ale <b>neplatí</b> na Schopnosti a kouzla založená na fyzické síle (<b>Odhození</b>) ale také <b>nesmí běhat</b>.</desc>
+  </skill>
+
+  
+</schopnosti>
+
+<roleplay> 
+Trollové jsou opravdu jen hromada divného masa s mozečkem velikosti vlašského
+ořechu, kde je pouze slovo RUBAT a pochopení směru. Sami nic nezvládnou, pouze s
+„kvalifikovaným“ vedením od někoho ze „zelené“. Rozkazy chápou dost stroze, omezují
+se pouze na detaily, proto je například složité (ale jde to) provádět s jejich pomocí
+Šamanovy rituály.
+</roleplay>                 
+
+
+<obrazky>
+<img src="orks/troll_2.jpg"/>
+<img src="orks/troll_3.jpg"/>
+<img src="orks/troll_1.jpg"/>
+</obrazky>
+
+</jednotka>

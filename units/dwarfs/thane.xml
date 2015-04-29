@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Thane</jmeno>
+
+<hiearchie>hero</hiearchie>       
+
+<legenda>...Cink...cink...cink.... Promiňte že obtěžuji Mistře, ale před Khazar Hinem se bojuje.
+Potřebujeme Vaši pomoc.... Moji pomoc??? Dobrá, vezmi tamhleta brnění a sekery a dones je do
+kasáren. Rozdej pouze nejzkušenějším bojovníkům. Nepřítel pozná sílu pradávných Run.
+Cink...cink...cink ...</legenda>                    
+
+<popis>Thane je nižší vůdce trpasličí armády. Vždy bojuje v čele útoku a jeho válečné umění je znásobeno dlouhými roky jeho života a boji, 
+které za svůj život vedl. Jsou to právě Lordové a Thanové se svými precizně vyrobenými zbraněmi a zbroji pokrytými runami, kteří v boji 
+vyhledávají nelepší místo kde udeřit. Nečistou magii nepřítel vyrovnávají svoji odvahou, ctí a prvotřídní ocelí.</popis>                 
+
+<pravidla>
+  <lives label="životů">4</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">10</reinkarnace>
+  <runy label="Mistrovské runy">4</runy>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Ozdobné runové brnění (stačí jekorové) k němu je povinná přilba a dlouhé
+vousy, aby se dali zastrčit minimálně za opasek. Pod brnění vyšívané roucho.</povinne>     
+
+<extra>Postava je z vyšší trpasličí vrstvy, podle toho musí také vypadat různé ozdoby a celkový vzhled.</extra>               
+
+</kostym>   
+
+<zbroje>
+  <name>Plátová zbroj</name><desc>Kyrys, nárameníky, helma. Standardní výbava do bitvy trpaslíka z vyšší třídy.</desc>   
+</zbroje>          
+
+<zbrane>
+  <zbran>
+        <name>Obouruční kladivo</name><desc><b>150 cm</b> (nejdelší naměřitelná délka, dobře měkčená ale ne zase úplně měkká. 
+    Obalené musí býti toporo aspoň 40cm od čepele)</desc>
+        </zbran>  
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill>
+  <name>Těžká váha</name><attr>trvalé</attr>         
+    <desc>I když menší jak lidé, stále by váha ukázala "Kůň". Thane je pod trvalým efektem <i>těžká váha</i>.</desc>
+  </skill>
+  
+</schopnosti>
+  
+  <kouzla>
+
+  <desc>Trpaslíci již pradávna využívají pro spoutání magie runy. Do run dokáží mocní kováři uzamknout sílu lidem mnohdy nepochopitelnou.
+    Každé kouzlo vyžaduje provedení několika run. Na každé kouzlo nesmí být žádná runa použita jen jednou. Runa se použije nakreslením tvaru 
+    do vzduchu před sebe a vyřknutím jména runy. Jakmile je nakreslen dostatečný počet run, vyřkne trpaslík jméno Kouzla a jeho účinek. Mezi 
+    trpaslíky jsou navíc známé mistrovské runy. Počet mistrovských run určuje o kolik run méně musí kovář na kouzlo použít, minimálně ale 
+    vždy 1 runu.</desc>
+  </kouzla>
+
+<roleplay>Trpaslík snídajíc Arogantin ke svému pivu. Je zkušený válečník a trpaslíci za každé jeho slovo život položí.
+</roleplay>                 
+
+
+<obrazky>
+  <img src="dwarfs/thane_5.jpg"/>
+  <img src="dwarfs/thane_6.jpg"/>
+  <img src="dwarfs/thane_7.jpg"/>
+  <img src="dwarfs/thane_1.jpg"/>
+  <img src="dwarfs/thane_2.jpg"/>
+  <img src="dwarfs/thane_3.jpg"/>
+  <img src="dwarfs/thane_4.jpg"/>
+</obrazky>
+
+</jednotka>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Vampire</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Vznešený</name>
+    <points>100</points>
+    <desc>Upíři jsou bytosti žijící ve vlastní komunitě, žijící podle standardů, které si samy stanoví. Ovšem někteří si svoji nadřazenost
+dokazují více než ostatní, stávají se vznešenějšími, honosněji oblečenými... Zkrátka šlechtou, která se dívá na všechny svrchu, i kdyby 
+šlo o jejich vlastního sourozence či potomka.</desc>
+  </path>  
+
+<path>
+    <name>Zvířecí</name>
+    <points>100</points>
+    <desc>Propojení se zvířaty se u některých upírů vytvořilo více než u ostatních. Takový upír je nejen více zuřivý a krvelačný ovšem v jistých 
+ohledech se i zvířatům připodobňuje. Dá průchod svým pudům, na rozdíl od Vznešených se ničeho neštítí. Krev elfa, trpaslíka nebo goblina? To je jedno,
+hlavně aby to byla krev!</desc>
+  </path> 
+
+<path>
+    <name>Starobylý</name>
+    <points>100</points>
+    <desc>Nesmrtelnost je vlastnost upírů, na kterou si již zvykli. Ovšem jak dlouho tu vlastně jsou? Nikdo neví. Ale starobylá učení nekromantů 
+žije díky nim dále. A nejen to! Rozvíjí se, dosahuje nových rozměrů. Díky strachu všech ras, kterým proudí krev v žilách, a díky tradicím,
+se upíři stávají součástí historie. Starobylou, ale ne zastaralou a zaprášenou.</desc>
+  </path> 
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Zbroj zatracení</name>
+    <points>30</points><cond>Starobylý</cond>
+    <desc>Zbroj nasycená strachem všech upírových obětí tvoří kolem upíra skoro hmatatelnou aurou nesmrtelnosti. Pokud nepřítel zasadí Upírovy
+smrtelnou poslední ránu, upír může spálit jeden BK a toto zranění ignorovat. To lze použít pouze jednou za Fázi.</desc>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+   <name>Rubínový přívěšek</name>
+   <points>30</points>
+   <desc>Tento kámen vypadá jako velká zkamenělá kapka krve, ale když se ho dotknete, cítíte jak pulzuje podobně jako srdce živého tvora. 
+     Magie v něm obsažená umožňuje upírovi nasát do sebe více životní energie než je běžně možné (<b>+1 do maxima BK</b>).</desc>
+   <BK>1</BK>
+  </vybava> 
+
+ <vybava>
+    <name>Koruna přízraků</name>
+    <points>30</points>
+    <desc>Koruna, na jejíž výrobě se podíleli samotní přízraci pod dohledem starých upírů, dokáže udržet sílu upíra i při jeho dlouhém spánku. 
+Upír má po reinkarnaci automaticky + 1 BK.</desc>
+  </vybava> 
+
+  <vybava>
+    <name>Netopýří plášť</name>
+    <points>30</points><cond>Zvířecí</cond>
+    <desc>Plášť, který se kdykoliv může proměnit v mrak netopýrů a ochromit nepřítele. Dvakrát za fázi může Upír zvolat <cite>Én mestere 
+denevérek</cite> a jedna postava dostává <i>paralýzu</i> na obě ruce po dobu 15 vteřin. (Jednotka je napadena hejnem a ohání se rukama, 
+proto nemůže bojovat)</desc>
+  </vybava> 
+
+<vybava>
+    <name>Černá kniha</name>
+    <points>100</points><cond>Život?</cond>
+    <desc>Pradávná kniha ,s údaji pradávných nekromantů, obsahuje tajemství, která nikdy neměla být uveřejněna. Kouzlo <i>Život?</i> zreinkarnuje
+členy warbandy s plným počtem životů. </desc>
+  </vybava> 
+
+<vybava>
+    <name>Amulet bílého zubu</name>
+    <points>30</points><cond>Starobylý</cond>
+<desc>Amulet vzniklý za neznámých okolností dokáže zesilovat nekromanská kouzla. Kouzlo <i>Povstaň</i> může oživit více jednotek najednou. 
+Za každou další postavu ovšem musí Upír zaplatit 3 BK a jeden vlastní život. Maximální počet oživených najednou je 3.</desc>
+  </vybava> 
+
+<vybava>
+    <name>Ruka krále Nerthesiada</name>
+    <points>40</points><cond>Starobylý</cond>
+<desc>Pradávný artefakt dovoluje Upírovi používat nekromancii častěji. Kouzlo <i>Povstaň</i> může být použito 3x za Fázi.</desc>
+  </vybava> 
+
+</vybaveni>
+
+<zbrane>
+
+
+<zbran>
+    <name>Jedenapůlruční meč</name>
+    <points>30</points>
+    <desc>110 -140 cm</desc>
+  </zbran>     
+
+  <zbran>
+    <name>Obouruční meč</name>
+    <points>30</points>
+    <desc>110 -140 cm</desc>
+  </zbran>                    
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+<skill>
+    <name>Do dna</name><attr>2x za Fázi</attr>
+    <points>20</points>
+    <desc>Upír si může vysávání krve přímo užívat a používání schopnosti <i>Vysátí</i> si může přičíst jeden BK navíc. Sát musí ovšem aspoň 20
+vteřin,.</desc>
+  </skill> 
+
+  <skill>
+    <name>Drásání</name><attr>trvalé</attr>
+    <points>30</points><cond>Zvířecí</cond>
+    <desc>Upír je při sání krve téměř v animálním amoku a svoji oběť přitom div neroztrhá jako hadrovou loutku. Při schopnosti <i>Vysátí</i>
+si upír může přičíst o jedna BK více.</desc>
+  </skill> 
+
+  <skill>
+    <name>Hyena</name><attr>2x za Fázi</attr>
+    <points>20</points><cond>Zvířecí</cond>
+    <desc>Krví mrtvého tvora upíři obyčejně pohrdají, ovšem v některých případech není jiná možnost, proto může upír čas od času použít
+schopnost <i>Vysátí</i> i na mrtvolu. Z mrtvoly lze vysát vždy jen jeden BK.</desc>
+  </skill> 
+
+  <skill>
+    <name>Maso Varghulfa</name><attr>3x za Fázi</attr>
+    <points>40</points><cond>Zvířecí</cond>
+    <desc>Upír žil již se svými nemrtvými zvířaty příliš dlouho a některé schopnosti od nich dokonce převzal. Pro může Upír po ukončeném Souboji
+mocně zavít jako vlk, spálit 2 BK a vyléčit si tím všechny životy.</desc>
+  </skill>
+
+ <skill>
+    <name>Zuřivost</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Zvířecí</cond>
+    <desc>Upír v bojovém amoku je několikrát silnější než běžný smrtelník. Jednou za Souboj může Upír zvolat <cite>Zhyň smrtelníku!</cite>,
+ spálí jeden BK a na další zásah má +1dmg.</desc>
+  </skill>
+
+<skill>
+    <name>Vlčí útok</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Zvířecí</cond>
+    <desc>Upír, který se rozhodne trhat nepřátele je téměř k nezastavení, proto pokud se na nepřítele rozeběhne (minimálně 10 m) s pokřikem 
+<cite>Ön csak húst</cite> je nezranitelný po celou dobu běhu a imunní na všechna kouzla.</desc>
+  </skill>
+
+<skill>
+    <name>Ikona</name><attr>trvalé</attr>
+    <points>30</points><cond>Vznešený</cond>
+    <desc>Pouhá přítomnost upíra je pro jeho mrtvé služebníky inspirující. Pokud se upír nachází ve Vesnici/Táboře všem nemrtvým co se zde 
+reinkarnují se zkracuje reinkarnace o jednu minutu.</desc>
+  </skill>
+
+<skill>
+    <name>Transfer energie</name><attr>3x za Fázi</attr>
+    <points>30</points><cond>Vznešený</cond>
+    <desc>Síla držící nemrtvé na tomto světě je lehce zmanipulovatelná. Pokud upír protká svůj meč nemrtvým sluhou s pokřikem 
+<cite>Az erődet az enyém lesz</cite>, sluhu tím zabije a sám si přičte 2 BK.</desc>
+  </skill>
+
+<skill>
+    <name>Síla Draka</name><attr>trvalé</attr>
+    <points>30</points><cond>Zvířecí</cond>
+    <desc>Upír je mohutné postavy díky neustálým bojům. Jeho tuhé svalstvo a bojové zkušenosti mu dovolí přežít většinu střetů.
+      Upír má <b>+1 život</b>.</desc>
+<lives>1</lives>    
+</skill>
+    
+</schopnosti>
+
+<kouzla>   
+
+  <spell>                                                                      
+  <name>Krvavý polibek</name><cost>2 BK</cost><attr>1x za Fázi</attr>
+ <points>30</points><cond>Starobylý</cond>
+  <form>Én vagyok a mester, és akkor engem szolgálsz</form>
+  <desc>Vampire si sežene na bojišti během Souboje oběť - mrtvolu. 
+  Vykřikne formuli a vtiskne oběti(i nepříteli) krvavý polibek. Oběť se nejde reinkarnovat, ale se 2 životy
+  stane po Vampírově boku, jako jeho sluha. Dokud není zabit nebo neskončí Souboj je z něj nemrtvý sluha takže neoplývá rychlostí ani
+inteligencí, podobně jako zombie. Nemá žádné schopnosti ani kouzla, vždy dává 1 dmg a dokáže plnit jen VELMI primitivní příkazy.</desc>
+  </spell>                                           
+
+   <spell>
+    <name>Prach</name><cost>1 BK</cost><attr>2x za Fázi.</attr>
+    <points>20</points><cond>Vznešený</cond>
+    <form>Por van és a por akkor</form>
+    <desc>Upírova přítomnost na tomto světě je spjata s magií a nemrtvý se jí mohl naučit ohýbat a používat. Proto kdykoliv může přijít k
+nějakému členu své Warbandy, chytit ho za ramena, pronést formuli a poté upír i vybraná postava zemře. Upír se ovšem po 30 vteřinách opět
+zreinkarnuje na místě kde zemřel s polovičním počtem životů.</desc> 
+  </spell>
+
+<spell>
+    <name>Návrat</name><cost>2 BK</cost><attr>1x za Fázi.</attr>
+    <points>20</points><cond>Vznešený</cond>
+    <form>Eljövök vissza bolond</form>
+    <desc>Pokud Upír zemře v Souboji a má dostatek BK, může před smrtelným spadnutím zvolat formuli a jeho reinkarnace se zkrátí o 3 minuty.
+</desc> 
+  </spell>
+
+<spell>
+    <name>Život?</name><cost>5 BK</cost><attr>1x za Fázi.</attr>
+    <points>60</points><cond>Starobylý</cond>
+    <form>Majd meglátjuk egymást ismét</form>
+    <desc>Upír může proměnit svoji životní energii ve prospěch svých služebníků. Pokud má upír dostatečný počet BK, zařve formuli, sám si
+rozerve krk (zemře) a všichni členové jeho Warbandy se oživí na místě kde leží s polovičním počtem životů</desc> 
+  </spell>
+
+<spell>
+    <name>Chladný hněv</name><cost>2 BK, mrtvola nepřítele</cost><attr>1x za Fázi.</attr>
+    <points>20</points><cond>Vznešený</cond>
+    <form>Menj, és öld meg őket</form>
+    <desc>Jedná se o Rituál. Upír pronese formuli nad mrtvolou nepřítele a jeho warbanda ji po něm zopakuje. Poté mrtvole vyjme srdce a dá z něj
+nemrtvým napít. Všichni kdo se napijí mají na příští Souboj +1 dmg na první zásah. Nelze kombinovat s jiným efektem, kouzlem ani Schopností.
+</desc> 
+</spell>
+
+
+<spell>
+    <name>Drtivost Stáří</name><cost>1 BK</cost><attr>2x za Fázi.</attr>
+    <points>10</points><cond>Vznešený</cond>
+    <form>Összetörni pajzsuk</form>
+    <desc>Upír pronese formuli a poté očaruje jednoho člena své warbandy, který před ním musí klečet. Očarovaná postava může v příštím Souboji 
+2 x použít <i>průraz</i>. Nelze kombinovat s jiným efektem, kouzlem ani Schopností.
+</desc> 
+</spell>
+
+<spell>
+    <name>Odolné kosti</name><cost>3 BK</cost><attr>1x za Fázi.</attr>
+    <points>30</points><cond>Vznešený</cond>
+    <form>Akkor hosszabb ideig élnek szolgája</form>
+    <desc>Upír, spřízněný se svými poddanými, dokáže částečně ovládat kouzla, kterými jsou drženy na tomto světě. 
+Jedná se o Rituál. Upír pronese formuli v kruhu z jeho stoupenců, kteří ji zopakují a poté mají +1 stínový život na příští Souboj.
+</desc> 
+</spell>
+
+</kouzla> 
+
+</wargear>

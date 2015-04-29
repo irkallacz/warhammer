@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Chaos champion</jmeno>
+
+<hiearchie>hero</hiearchie>       
+
+<legenda>... Křik ... Kouř ... Město je v plamenech, celé shořelo. Jen několik lidí se stihlo zachránit. 
+Nikdo neví co se děje. Žádná armáda nepřišla. Je slyšet několik lidí jak stále křičí. Křik utichá ... ozývá 
+se něco jiného ... smích ... strašlivý  smích ... Z plamenů vychází obrovská postava. Trup široký jako sud,
+paže široké jako stehna běžných mužů.  Je velmi špinavá. Je to zřejmě od kouře a sazí... blíž je ale vidět,
+že je to od něčeho jiného ... obrovské množství spečené krve ... a u pasu se něco houpe ... lidské hlavy 
+... nové trofeje ... </legenda>                    
+
+
+<popis>Vyvolený bojovník Chaosu, je vůdce celé smečky bojovníků.
+ Jeho síla a odolnost převyšuje všechny ostatní. Svalstvo prosycené magií Chaosu a ruce silné jako kmeny stromů.
+  Zbroj se honosí nádhernou rytinou pokrytou temnými runami a helma s temným hledím, z kterého se vyluzují zvuky
+   jaké lidské hrdlo nemůže vydat. Zbraně si vyvolený volí podle svého a rozhodně není nevšední, že u sebe nosí 
+   artefakty staré několik desetiletí neuvěřitelné síly. Jako vůdce armády Chaosu je schopen nejlépe ovládat síly 
+   surové magie z větrů Chaosu. </popis>                 
+
+
+<pravidla>
+<lives label="životů">4</lives>
+<damage label="damage">1</damage>
+<reinkarnace label="min. reinkarnace">10</reinkarnace>
+<TH label="Tokenů Hniloby(max)">0</TH>
+<Soul label="Duší(max)">0</Soul>
+
+</pravidla>                  
+
+<kostym>
+
+<povinne>Zbroj, kožešiny, runy chaosu, barvy kostýmu dle boha, kterému se klaní</povinne>     
+
+<extra>Runové znaky na pokožce, lebky, trofeje</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Plátová zbroj</name><desc>kyrys, nátepníky, nákrčník, ramena</desc>
+  </zbroj>    
+
+</zbroje>            
+
+
+<zbrane>
+  <zbran><name>Jednoruční zbraň</name><desc>meč/ sekera/ kladivo(60-90 cm)</desc></zbran>
+    
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill><name>Síla rituálu</name><attr>trvalé</attr>         
+  <desc>Pokud se Champion nachází na Rituálním místě (nikoli ve Vesnici), může seslat každé Kouzlo jednou za Fázi bez započtení do počtu seslání.</desc>
+  </skill>
+  
+</schopnosti>
+
+<kouzla>
+
+  <desc>Magie šampionů Chaosu čerpá sílu z uctívačů, posluhovačů, a stoupenců. Tuto sílu
+  potřebuje Chosen na zachycení dostatečného množství Magie ze surových Větrů Chaosu. Tato síla
+  je vyjádřena množstvím stoupenců, kteří klečí ("klečící") kolem Championa během kouzlení a pronášejí formule.
+  Druhá složka Magie chaosu je síla zrozená z bolesti a utrpení obětovaných duší. Tato síla je vypuštěna
+  pokud Champion zabije živou postavu při rituálu. Množství síly je vyjádřeno jako "oběti".</desc>
+  
+  
+  <spell>                                                                      
+  <name>Dar Bohů</name><cost>3 klečící, 1 oběť</cost><attr>1x za Fázi</attr>
+  <form>Gi meg styrke guder!</form>
+  <desc>Jedná se o Rituál. Všichni klečící válečníci získají zuřivost samotných démonů Chaosu a první zásah do končetin v následujícím
+Souboji ignorují.</desc>
+  </spell>
+
+</kouzla>
+
+<roleplay>Vůdce skupiny má určitou zodpovědnost a tou je dovést svoje Bohy k vítězství. 
+Chosen to dokáže za každou cenu. Je to výborný bojovník ale také stratég, ovšem jeho 
+rozvaha a inteligence se po začátku souboje tváří v tvář naprosto vytratí. Jeho oddanost 
+Bohům je obrovská a nedozírná. Jejich slovo pro Championa znamená zákon. Každou 
+vteřinu svého bytí myslí na to, jak by své Bohy potěšil. Často má různá proroctví nebo 
+vize, to se projevuje tak, že začne mluvit cizím, neznámým jazykem a třást s svým celým tělem. Je 
+to rozený vůdce, kterého si Bohové vybrali aby velel, proto dbá na vybavení a stav svých spolubojovníků. 
+</roleplay>                 
+
+
+<obrazky>
+<img src="warriors_of_chaos/champion_of_chaos_1.jpg"/>
+<img src="warriors_of_chaos/champion_of_chaos_2.jpg"/>
+<img src="warriors_of_chaos/champion_of_chaos_3.jpg"/>
+<img src="warriors_of_chaos/champion_of_chaos_4.jpg"/>
+  <img src="warriors_of_chaos/champion_of_chaos_11.jpg"/>
+
+
+</obrazky>
+
+</jednotka>

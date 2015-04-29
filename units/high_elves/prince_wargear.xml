@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Prince</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Rytíř stříbrné helmy</name>
+    <points>80</points>
+    <desc>Rytíři stříbrné helmy jsou elitním oddílem armády Fénického Krále a většina šlechty Vznešených elfů začíná svůj výcvik právě v tomto 
+      oddílu. Mnozí potom zůstanou a stanou se smrtonosnými válečníky a geniálními stratégy.</desc>
+  </path>  
+
+  <path>
+    <name>Učenec Bílé věže</name>
+    <points>80</points>
+    <desc>Elfové jsou rasou velmi svázanou s magií a zejména elfové z provincie Saphery jsou známi pro své mimořádné magické schopnosti, které získali 
+      v proslulých Bílých věžích Hoethu.</desc>
+  </path>  
+
+  <path>
+    <name>Velitel Stínových válečníků</name>
+    <points>80</points>
+    <desc>Po Malekithově zradě přísahala malá skupina, která byla stále věrná Fénickému králi, krvavou pomstu těm, kdo zradili. I po staletích má tato 
+    kasta stále silnou pozici a to i mezi šlechtou provincie Nagarythe. Stínový válečníci používají brutální taktiku přepadů a guerilových válek v boji 
+    proti svým temným bratrancům. I mezi ostatním Vznešeným lidem, jsou považováni za temné a nebezpečné.</desc>
+  </path>  
+
+  </povolani>
+
+<zbroje>
+  
+  <zbroj>
+    <name>Zbroj Caledora</name><desc>Zbroj elfího šlechtice, která byla předávána po generace z otce na syna
+    <b>(+1 život)</b>.</desc>
+    <cond>Rytíř stříbrné helmy</cond>
+    <points>30</points>
+    <lives>1</lives>
+  </zbroj>    
+         
+  <zbroj>
+    <name>Hvězdná zbroj</name><desc>Hvězdná zbroj byla ukováno stejně kouzly jako pomocí kovářského kladiva a je bohatě zdobena rytinami a drahokamy.
+    <b>(+2 životy)</b>.</desc>
+    <cond>Rytíř stříbrné helmy</cond>
+    <points>80</points>
+    <lives>2</lives>
+  </zbroj>             
+  
+  <zbroj>
+    <name>Helma slávy</name><desc>Helma z dávných věků, jenž prý podle pověstí propůjčuje svému nositeli vědomosti předchozích nositelů.
+    <b>(-3 min reinkarnace)</b>.</desc>
+    <cond>Rytíř stříbrné helmy</cond>
+    <points>35</points>
+    <reinkarnace>-3</reinkarnace>
+  </zbroj>             
+
+  <zbroj>
+    <name>Kožená zbroj</name><desc>Ne pro vždy je ocelová zbroj tím nejlepším řešením dané situace. Zvlášť, když je potřeba se se k někomu potají 
+    připlížit a nezpůsobit přitom ani nejmenší zvuk. Na druhou stranu ani sebelepší umění elfích zbrojířů nedokáže udělat kůži tak pevnou jako ocel.   
+    <b>(-1 život, -4 minuty reinkarnace)</b>.</desc>
+    <cond>Velitel Stínových válečníků</cond>
+    <points>10</points>
+    <lives>-1</lives>
+    <reinkarnace>-4</reinkarnace>
+  </zbroj>    
+
+  </zbroje>            
+
+<vybaveni>
+
+  <vybava>
+    <name>Štít z dračích šupin</name>
+    <points>55</points>
+    <cond>Rytíř stříbrné helmy</cond>
+    <desc>Tento precizní štít je vyroben z dračí kůže, než je silnější než nejlepší ocel a přitom neuvěřitelně lehká a poskytuje svému nositeli 
+      mimořádnou ochranu.
+      Maximální rozměry 80 x 60 cm. <b>+1 život</b></desc>
+    <lives>1</lives>
+  </vybava> 
+
+  <vybava>
+    <name>Úlomek Vortexu</name>
+    <points>25</points><cond>Učenec Bílé věže</cond>
+    <desc>Tento artefakt je vyroben ze stejné materie jako strážní kameny na ostrově Uthuanu a obsahuje v sobě stopy mocného Vortexu, 
+      chránícího celý ostrov. Schopnosti Úlomku mohou být vyvolány i v Souboji, avšak v jednom Souboji může být použita pouze jedna 
+      schopnost Úlomku! Umožňuje používat schopnosti <i>Ochrana Vortexu</i> a <i>Stíněné zaklínání</i>.</desc>
+  </vybava> 
+
+  <vybava>
+    <name>Pečeť Asuryana</name>
+    <points>100</points><cond>Učenec Bílé věže</cond>
+    <desc>Tato mocná magická pečeť je vryta přímo do kůže mága za pomoci inkoustu připraveného v posvátných plamenech Asuryana a poskytuje mágovy 
+    <i>odolnost na magii</i>, takže na něj nepůsobí žádná kouzla, kromě jeho vlastních ať chce nebo ne. Jeho kouzla nejsou ovlivněna.</desc>
+  </vybava> 
+
+  <vybava>
+    <name>Amulet plamenů</name>
+    <points>30</points>
+    <desc>Tento amulet je neustále zahalen ohněm, který pochází z posvátného plamene v chrámu Asuryana, ale svého nositele nikdy nespálí a 
+   jeho nositel je imunní proti jakémukoliv ohni.</desc>
+  </vybava> 
+
+  <vybava>
+    <name>Štít</name>
+    <points>15</points>
+    <desc>Běžný elfí štít jaký můžete najít ve zbrojnici každého elfího rodu svoji precizností předčí i mistrová díla platnéřů Říše. 
+    Maximální rozměry 60 x 50 cm nebo průměr 55 cm.</desc>
+  </vybava> 
+
+  
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Kopí</name>
+    <points>40</points>
+    <cond>Rytíř stříbrné helmy</cond>
+    <desc>Kopí je pro Vznešené elfy stejně typické jako luk, takže není s podivem, že většina elfů s ním umí zacházet.</desc>
+  </zbran>                    
+  
+  <zbran>
+    <name>Bílý meč</name>
+    <points>75</points><cond>Rytíř stříbrné helmy</cond>
+    <desc>Toto legendární obouruční ostří bylo vytvořeno jedním z prvních Mistrů meče Hoetu. Je neověřitelně ostré a mnohem lehčí než meč z oceli. 
+      Maximální délka 140 cm. Umožňuje používat schopnost <i>Zabijácký úder</i>.</desc>
+  </zbran>                    
+
+  <zbran>
+    <name>Čepel z mořského zlata</name>
+    <points>50</points><cond>Rytíř stříbrné helmy</cond>
+    <desc>Tento jednoruční meč byl vytvořen ze zlata vytěženého z mořské hlubiny a jeho útok je stejně silný jako úder samotného moře. 
+      Maximální délka 100 cm. Umožňuje používat schopnost <i>Průrazný útok</i>.</desc>
+  </zbran>                    
+
+  <zbran>
+    <name>Stříbrná hůl</name>
+    <points>40</points>
+    <cond>Učenec Bílé věže</cond>
+    <desc>Tato magická hůl je jedním z artefaktů z Bílé věže Hoetu a obsahuje magické pouto na strážní kameny Uthuanu a tudíž umožňuje 
+      jejímu nositeli snadnější přístup k magickým větrům. Ve hře je potom možno nahradit <b>jednu hlásku</b> z ochranné mantry tím, že se 
+      mág bude při zaklínání držet alespoň jednou rukou této hole. Maximální rozměry 150-200 cm, držená ve třetině pouze na obranu.</desc>
+  </zbran>                    
+
+  <zbran>
+    <name>Luk</name>
+    <points>10</points>
+    <cond>Velitel Stínových válečníků</cond>
+    <desc>Jen ručně vyrobený nebo historický, ne sportovní. Je nutný malý nátah, maximálně do 15 kg a celkově musí luk vypadat stylově. 
+      Šípy musí mít střed "hrotu" zhotovený z víčka z PET lahve nebo něco podobného průměru (ne korkový špunt od vína!). Okolo středu musí být 
+      potom dostatečná vrstva karimatky nebo molitanu. Bambule musí mít alespoň 5 cm v průměru a přední část hrotu musí být dostatečně vyměkčen 
+      (1-2cm). Šíp nesmí mít nikde nic ostrého nebo špičatého a celá bambule musí být patřičně měkká. Bambule musí na šípu držet jako přibitá a musí 
+      vydržet i drsné zacházení. Jak šípy,tak i samotný luk bude podroben VELMI PŘÍSNÉ kontrole a testování, nevyhovující budeme zabavovat a podezřelé 
+      šípy máme právo rozkuchat na pozorování. Každý lučišník sebou musí mít min. 10 šípů, které projdou registrací, jinak nebude vpuštěn do hry. Takže
+      si jich raději udělejte víc ... :)</desc>
+  </zbran>
+  
+  <zbran>
+    <name>Stříbrný luk</name>
+    <points>50</points>
+    <cond>Velitel Stínových válečníků</cond>
+    <desc>Tento luk je vytvořený z jednoho kusu vzácného stříbrného dřeva najdou se tací, kteří za jeho tvůrce pokládají samotného Finubara. 
+      Herní parametry jako u normálního luku. Umožňuje používat schopnost <i>Průrazná střela</i> a <i>Přesné míření</i>.</desc>
+  </zbran>
+  
+  <zbran>
+    <name>Dědičný obouruční meč</name>
+    <points>80</points>
+    <desc>V rodinách vznešených elfů se zbraně často předávají z pokolení na pokolení a tato zbraně jsou více magickými artefakty 
+      než obyčejnými zbraněmi. Maximální délka zbraně 140 cm. Umožňuje používat schopnost <i>Bojová zuřivost</i>.</desc>
+  </zbran>                    
+
+  </zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Žár bitvy</name><attr>trvalé</attr>
+    <points>15</points>
+    <desc>Vznešení elfové mají boj hluboko v jejich rodové paměti a čím déle bojují, tím více se na boj soustředí a upnou na něj všechny své síly. 
+    Tam kde jiné národy jsou již unaveni, oni se teprve rozehřívají. S touto schopností se reinkarnace dané postavy posouvá o 1 minut za každých 
+      započatých 20 minut Fáze. Takže ve čtvrt má reinkarnaci zkrácenou o 1 minutu, ve tři čtvrtě o 3 atd...</desc>
+  </skill> 
+  
+  <skill>
+    <name>Síla domova</name><attr>trvalé</attr>
+    <points>20</points>
+    <desc>Pokud se tato postava reinkarnuje v základním Táboře, má reinkarnaci zkrácenou o 5 minut.</desc>
+  </skill> 
+
+  <skill>
+    <name>Smrtící instinkt</name><attr>4x za Fázi</attr>
+    <points>40</points><cond>Rytíř stříbrné helmy</cond>
+    <desc>Rytíři stříbrné helmy bývají zoceleni lety bojů a tak si vypěstovali takřka nadpřirozené reflexy a instinkt. 
+      Díky této schopnosti se Prince dokáže vyhnout ráně která by ho jistě jinak zabila. Ve hře tak může ignorovat zásah, 
+      po kterém by zemřel. Ovšem pozor! V jednom souboji smí takto smrti uniknout pouze jednou!</desc>
+  </skill> 
+
+  <skill>
+    <name>Proslov</name><attr>1x za Fázi</attr>
+    <points>40</points><cond>Rytíř stříbrné helmy</cond>
+    <desc>Jakožto vojenský velitel, i Rytíř stříbrné helmy ví jak ve svých mužích povzbudit sílu ducha a chuť do bitvy správným proslovem. 
+      Pokud jeho muži dostanou před bojem proslov, mají všichni na příští souboj <b>+1 stínový život</b> a získají <b>imunitu</b> 
+      na <b>strach</b>, <b>šílenství</b> a jiná psychcká kouzla.</desc>
+  </skill> 
+
+  <skill>
+    <name>Aura síly</name><attr>trvalé</attr>
+    <points>20</points><cond>Učenec Bílé věže</cond>
+    <desc>Z Mága přímo sálá odhodlání a moc. Tato moc vystupuje z mága a může mít účinek na jeho druhy a posílit jejich sílu. 
+      Pokud je mág s touto schopností přítomen ve Vesnici nebo v Táboře, tak každá postava Vznešených elfů, která se zde reinkarnuje, získá na další Souboj
+      <b>+1 stínový život</b></desc>
+  </skill> 
+
+  <skill>
+    <name>Dědictví útlaku</name><attr>trvalé</attr>
+    <points>20</points><cond>Velitel Stínových válečníků</cond>
+    <desc>Některé rány nezhojí ani čas a nenávist způsobená zradou a ztrátou cti není tak lehké utišit. Pokud Vznešený elf s touto schopností uvidí 
+      Temného elfa, musí na něj ihned s rozběhem zaútočit, i kdyby to mělo znamenat jeho vlastní smrt. Nenávist mu ale dodává sílu, takže pokud 
+      bojuje s Temným elfem, má bonus <b>+1 na damage</b>.</desc>
+  </skill> 
+
+  <skill>
+    <name>Rituální zasvěcení</name><attr>4x za Fázi</attr>
+    <points>20</points><cond>Velitel Stínových válečníků</cond> 
+    <desc>Elfové z provincie Nagarythe byli zvyklí se často přesouvat a stěhovat. Proto si osvojili dovednost přenášet sebou i svoje posvátná místa.
+      Velitel se musí pořezat do ruky, ubrat si <b>1 život</b> a potřít svoji krví místo, které se hodlá posvětit. Potom musí provést zasvěcení podle 
+      svého uvážení, které musí obsahovat gestikulaci a proslov. Toto místo se potom stane <b>Rituálním místem</b> a může se na něm provádět <b>Rituály</b>. 
+      Toto místo poté mohou používat všichni elfové do konce této Fáze.</desc>
+  </skill> 
+
+  <skill>
+    <name>Hledání stop</name><attr>5x za Fázi</attr>
+    <points>25</points><cond>Velitel Stínových válečníků</cond> 
+    <desc>Když se někdo pohybuje ve stínech, ví kam se dívat, kdy že někdo snaží zakrýt stopy a schovat se. Pokud Velitel provede ohledání 
+      nějakého místa, následující minutu vidět postavy co jsou pod vlivem <i>neviditelnosti</i>.</desc>
+  </skill> 
+
+  <skill>
+    <name>Jed</name><attr>2x za Fázi</attr>
+    <points>35</points><cond>Velitel Stínových válečníků</cond> 
+    <desc>Není to zrovna obvyklé ale i mnoho Stínových válečníků používá otrávené zbraně. Velitel může tento jed poskytnout i ostatním svým
+    bojovníkům a potřít jejich zbraně. Jedna dávka jedu vystačí až pro 8 zbraní. Pokud postava s jedem potřenou zbraní zabije nepřítele, 
+      prodlouží se jeho reinkarnace o 5 minut. Jed se po tom, co příslušnou postavu zraní setře a je třeba nové dávky.</desc>
+  </skill> 
+
+  <skill>
+    <name>Průrazný útok</name><attr>2x za Souboj</attr>
+    <points>0</points><cond>Čepel z mořského zlata</cond>
+    <desc>Tento meč dokáže přeseknout i plátovou zbroj, pokud se k tomu jeho majitel odhodlá. Ve hře potom může v Souboji vyvolat 
+      efekt <i>průraz</i>, pokud do tohoto Souboje dorazil s rozběhem.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Zabijácký úder</name><attr>1x za Souboj</attr>
+    <points>0</points><cond>Bílý meč</cond>
+    <desc>Pokud nositel tohoto meče zabije nějakou postavu, tj, svým útokem jí ubere poslední život, získá bonus <b>+1 damage</b> do konce 
+      tohoto Souboje. Tento bonus se dalšímy zabitými nepřáteli nezvyšuje.</desc>
+  </skill>
+
+  <skill>
+    <name>Ochrana Vortexu</name><attr>3x za Fázi</attr>
+    <points>0</points><cond>Úlomek Vortexu</cond> 
+    <desc>Moc uložená do kamene může být vyvolána a použita k negaci jednoho magického útoku, který je veden na jeho vlastníka.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Stíněné zaklínání</name><attr>2x za Fázi</attr>
+    <points>20</points><cond>Úlomek Vortexu</cond> 
+    <desc>Jelikož je úlomek nabyt silou Vortexu, může mágovy dočasně poskytnout ochranu před warpem při pronášení zaklínadla. Ve hře tak při 
+      použití této schopnosti může mág použít jedno kouzlo bez ochranné mantry, stačí když se bude dotýkat Úlomku.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Průrazná střela</name><attr>2x za Souboj</attr>
+    <points>0</points><cond>Stříbrný luk</cond> 
+    <desc>Stříbrné dřevo vydrží více než dřevo obyčejného stromu a tak se luk dá napnout více než je obvyklé a střela má potom velkou sílu. 
+      Pokud jeho majitel zvolá <cite>Maximální nátah!</cite>, má další šíp, co vypustí <i>průraz</i>.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Přesné míření</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Stříbrný luk</cond> 
+    <desc>Pokud se majitel takto skvělé zbraně naučí využívat jejích mimořádných vlastností, může takto precizní zbraní trefit hodně citlivé místo 
+      svého nepřítele. Pokud zakřičí <cite>Mířím!</cite> má na další výstřel bonus <b>+1 damage</b>.</desc>
+  </skill> 
+
+  <skill>
+    <name>Bojová zuřivost</name><attr>1x za Souboj</attr>
+    <points>0</points><cond>Dědičný obouruční meč</cond>
+    <desc>Tato schopnosti musí být aktivována již před Soubojem a to nějakým rituálem. Poté je damage Prince v tomto Souboji snížena na 1, 
+    ale po každém úspěšném zásahu v sérii se zvýší o 1. 
+    Pokud tedy bojuje stále se stejným nepřítelem, jeho první zásah je za 1, druhý za 2 atd...</desc>
+  </skill> 
+       
+</schopnosti>
+
+<kouzla>                                                      
+
+  <spell>
+    <name>Štít Saphery</name><cost>4 x Mo</cost><attr>3x za Fázi</attr>
+    <points>12</points><cond>Učenec Bílé věže</cond>
+    <form>Ninqui carcar yarra isilmë ilcalassë pícalassë!</form>
+    <desc>S pomocí Vysoké magie, může mág okolo sebe a své družiny vytvořit neprostupný štít, který odrazí jakýkoliv útok ať již fyzické, 
+      či magické podstaty. Ovšem náročnost takovéhoto kouzla je obrovská a štít nedokáže pokrýt velký prostor. Mágům doprovod musí po celou dobu 
+      trvání kouzla pronášet slova mantry, aby uchránil mysl mága před zhoubou warpu. Mág ani jeho doprovod nesmí útočit či používat nějakou svoji 
+      speciální schopnost a nikdo z doprovodu se od mága nesmí vzdálit dále než 1 metr. Pokud je jedna z podmínek porušena, štít okamžitě mizí.</desc> 
+   </spell>
+
+   <spell>
+    <name>Vaulovo očištění</name><cost>Mo + Ny</cost><attr>5x za Fázi</attr>
+    <points>12</points><cond>Učenec Bílé věže</cond>
+    <form>Tatalantië mindonnar raumo undumë rúma!</form>
+    <desc>Mág může požít moci Vysoké magie k očištění až tří postav
+(přátelských či nikoliv) od všeho magického vlivu. Pokud byly na danou postavu seslány kouzla a tato kouzla ještě pořád platí, jsou tímto všechna
+zrušena bez výjimky i s jejich efekty. Platí například pro kouzla, která přidávají stínové
+životy, Schopnosti, Předměty atd.. Neplatí pro Schopnosti a efekty působící trvale.</desc> 
+   </spell>
+
+  <spell>
+    <name>Hněv Fénixe</name><cost>La + Mo</cost><attr>3x za Souboj</attr>
+    <points>10</points><cond>Učenec Bílé věže</cond>
+    <form>Enwina ëar lúmë elenillor pella talta-taltala!</form>
+    <desc>Hněv Fénixe je jedno z nejjednodušších kouzel, které se učí v Bílých věžích Hoetu. Jde o mocný proud Vysoké magie, které jako beranidlo 
+      srazí vše, co mu přijde do cesty. Ve hře je možno označit až pět postav, které jsou nejprve <i>odhození</i> o 10 metrů 
+      a následně jsou <i>sraženi</i>.</desc> 
+  </spell>
+
+  <spell>
+    <name>Vysátí magie</name><cost>2x Mo + 2x Tu</cost><attr>1x za Souboj</attr>
+    <points>15</points><cond>Učenec Bílé věže</cond>
+    <form>Amortala undumë hácala enwina lúmë!</form>
+    <desc>Díky letům studií a praxe jsou mágové Vznešených elfů v magii natolik schopní, že mohou jiného mága doslova odstřihnout od magické energie. 
+      Postava jenž je cílem kouzla nesmí až do konce Souboje kouzlit. Kouzla již seslaná nejsou nijak omezena.</desc> 
+  </spell>
+
+  <spell>
+    <name>Ohnivý kruh</name><cost>Mo + De</cost><attr>1x za Souboj</attr>
+    <points>15</points><cond>Učenec Bílé věže</cond>
+    <form>Ahosta menel acúna ruxal' ambonnar!</form>
+    <desc>Toho spíše obrané kouzlo vnese část moci Asuryanových plamenů do našeho světa a mága a jeho doprovod obklopí ohnivý kruh, který spálí každého, 
+      kdo bude dostatečně blízko. Ve hře je možno označit až 6 lidí kteří budou <i>zapáleni</i>, avšak musí to být jen ti, kdo stojí co nejblíže mágovi 
+      a nestojí dále než 2 metry od něj.</desc> 
+  </spell>
+
+  <spell>
+    <name>Prokletí Nagarythe</name><cost>2x Tu + La</cost><attr>2x za Souboj</attr>
+    <points>20</points><cond>Velitel Stínových válečníků</cond>
+    <form>Khain tihta axor ilcalannar métim' auressë!</form>
+    <desc>Tato poněkud temnější kletba způsobí, že postava na kterou je kletba seslána se stane mnohem lépe zranitelnou šípy. Až do konce Souboje
+      si tak tato postava bude počítat každé zranění způsobení střelnou zbraní za dvojnásobek.</desc> 
+  </spell>
+
+  <spell>
+    <name>Krvavé běsnění</name><cost>X x Ni</cost><attr>1x za Fázi</attr>
+    <points>25</points><cond>Velitel Stínových válečníků</cond>
+    <form>Men tiruva rácina cirya ondolissë mornë nu fanyarë rúcina anar púrëa</form>
+    <desc>Toho kouzlo je ve skutečnosti Rituál, jeho použití tak trochu zavání temnou magií a je k němu potřeba jeden nepřátelský zajatec 
+      z rasy Temných elfů. Toho musí během zaklínání zabít a jeho trochu jeho krve potom musí všichni, na nějž má kouzlo působit vypít. Kouzlo 
+      se dá seslat na X jednotek, kdy X je maximálně 6 a musí mezi nimi být mág jenž kouzlo seslal. Každý pod vlivem kouzla dostane na další Souboj 
+      tolik stínových životů, jako měl popravený zajatec před posledním Soubojem.</desc> 
+  </spell>
+
+  </kouzla> 
+
+</wargear>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Swordmaster</jmeno>
+
+<hiearchie>rare</hiearchie>       
+
+<legenda>Boj není tanec. Boj není ani chaotické pobíhání. Boj má v sobě něco z obou. Pro laika se
+může zdát, že v boji rozhoduje především náhoda. Avšak v rukou profesionála je meč nejen zbraň,
+ale především dokonalý nástroj války. Každá hrana meče, každá přezka na brnění, každý
+záhyb na šatech, to vše se v boji počítá. To vše může rozhodnout, zda souboj skončí... Až přežijete
+tolik bitev jako já, poznáte, že v boji není náhoda to, co rozhoduje o vítězství... Tím co rozhoduje,
+jste vy sami. Generál Scarloc, šampion Asrai.</legenda>                    
+
+<popis>Swordmasteři vysokých elfů jsou opravdoví mistři čepele. Jejich umění s mečem z nich dělá doslova šermířské polobohy, 
+avšak kromě toho jsou velmi vzdělaní a sečtělí, umějí také bojovat s čímkoliv, co jim padne do ruky a ovládají i několik technik boje beze zbraně. 
+Avšak jejich nejčastější zbraní je obřadní obouruční meč, který získají po rituálu na přijetí do řad šermířských mistrů vysokých elfů.
+S ním v ruce jsou připraveni porazit jakéhokoliv nepřítele, který bude tak hloupý a zkříží jim cestu.</popis>                 
+
+<pravidla>
+  <lives label="životů">2</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">8</reinkarnace>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Nějaká ne moc výrazná barva oblečení, nejlepší by byla modrá třeba se zlatými nebo
+stříbrnými okraji. Přes ní nějakou jekorovou narážku nebo pravou šupinovou zbroj, může
+být i kus plátové zbroje, ale hlavně musí být zbroj jasně stříbrná. Nejdůležitější je vysoká přilba.</povinne>     
+
+<extra>Šupinová zbroj, runový meč nebo runy na brnění, dále pak plášť ve
+stejných barvách jako oblečení pod zbrojí.</extra>               
+
+</kostym>   
+
+<zbrane>
+  <zbran><name>Obouruční meč</name><desc>Povolená délka zbraně je mezi 110 a 140 cm</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+<skill><name>Vznešenost věků</name><attr>1x za Souboj</attr>         
+  <desc>Pokud bojovník Vznešených elfů bojuje v souboji s Temnými elfy, může ignorovat jeden zásah od nich.</desc>
+</skill>  
+
+</schopnosti>
+
+<kouzla>
+  <desc>Swordmasteři samozřejmě nejsou žádní mágové a nikdy nebyli cvičeni v používání magie. Ale jsou to Vznešení 
+    elfové a tak mají k magii poměrně blízko a není pro ně těžké v sobě magickou energii nashromáždit. Jejich chrámový výcvik 
+    zahrnoval i bojové modlitby a používání jednoduchých rituálů, které by jim mohli být v boji prospěšné. Nedokážou kouzla 
+    sesílat přímo jako mágové, ale díky modlitbám se dokážou uvést do transu a chorály vyvolat potřebný magický účinek, 
+    aniž by museli vědět přesný způsob jak nakládat z magickými proudy. Ve hře potom je potom u každého kouzla uvedeno, kolikrát 
+    musí pronést danou formuli než kouzlo začne účinkovat a jaký je minimální počet Swordmasterů, který je potřeba na vyvolání daného 
+    kouzla. Pokud není uvedeno jinak, tak platí, že jejich kouzla jsou Rituály, to znamená, že smí být vyvolány jen ve Vesnicích, Táborech 
+    nebo předem označených místech. Při kouzlení Swordmasteři musí klečet a věnovat se pouze modlení a zpívat formule kouzla. 
+    Pokud je kouzlení v průběhu přerušeno, kouzlo se nepovedlo a není platné, ale počítá se jako použité.</desc>
+</kouzla>
+
+<roleplay> 
+Mistři meče jsou typičtí zástupci elitních oddílů a těžké pěchoty. Bojují v těsném
+útvaru, mají skvělou disciplínu a organizaci. Oni jsou ti kdo jako poslední stojí na bojišti,
+ni jsou elita. Vždy perfektně vyrovnaní, vždy čelí nepříteli beze strachu a nikdy necouvnou
+ani o krok. Tvoří spíš takovou armádu v armádě a rozkazy přijímají vždy jen z nejvyšších
+míst.
+</roleplay> 
+
+<obrazky>
+<img src="high_elves/swordmaster_04.jpg"/>
+<img src="high_elves/swordmaster_01.jpg"/>
+<img src="high_elves/swordmaster_02.jpg"/>
+<img src="high_elves/swordmaster_03.jpg"/>
+<img src="high_elves/elf_03.jpg"/>
+<img src="high_elves/elf_04.jpg"/>
+</obrazky>
+
+</jednotka>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Slayer</jmeno>
+
+<zbroje>
+
+  <zbroj>
+    <name>Nárameníky</name>
+    <points>12</points><attr>1x za Souboj</attr>
+    <desc>Slayerovi slouží především k nahnání hrůzy a vzbuzení respektu u nepřátel, ale poskytují druhotně i ochranu.
+    Jeden zásah do nich může Slayer ignorovat.</desc>
+  </zbroj> 
+    
+    <zbroj>
+    <name>Nátepníky předků</name>
+    <points>30</points>
+    <desc>Pořádné nátepníky které ochrání Slayera před větší ránou <b>+1 život</b>.</desc>
+      <lives>1</lives>
+  </zbroj> 
+         
+  
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Tetování</name>
+    <points>25</points>
+    <desc>Každý pořádný Slayer musí mít tetování, aby bylo dobře poznat, že se nepřátel nebojí a naopak je vyzývá, ať si bouchnou.
+      Většina z nich ovšem neví, že tetování je zdrojem síly díky které Slayer má imunitu na efekt Odhození.</desc>
+  </vybava> 
+  
+   <vybava>
+    <name>Rychlé boty</name>
+    <points>15</points>
+    <desc>Slayer potřebuje pořádné boty aby se dostal zpátky do boje proto když si Slayer tyto boty obuje má zkrácenou 
+          reinkarnaci o 1 minutu.</desc>
+  </vybava> 
+  
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Dvě sekery/kladiva</name>
+    <points>60</points>
+    <desc>Na kombinace zbraní není nic špatného a pokud to znamená zabít dvakrát tolik nepřátel za stejnou dobu, kdo by po nich nesáhl.
+    Jejich součet nesmí přesáhnout 140cm.</desc>
+  </zbran>                    
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Do posledního dechu</name><attr>1x Souboj</attr> 
+    <points>28</points>
+  <desc>Když už Slayer musí padnout, tak to stojí za to! V momentě svého posledního vydechnutí sebere své zbývající síly,
+    mocně zařve a může rozdat další 1 zásahy za 2 damage, pak umírá</desc>
+  </skill>
+  
+  <skill>
+    <name>Moje vousy!</name><attr>Trvalé</attr> 
+    <points>16</points>
+  <desc>Zapálení a oheň obecně na Slayerovu odhodlanost nemá žádný vliv a nezpůsobuje mu žádná zranění.
+    Pokud je ovšem zapálen, začnou mu hořet vousy a ty si musí alespoň 10s hasit, jinak by přišel
+    o poslední zbytky hrdosti. Jak známo trpaslíci jsou na vousy hákliví a po zvolání <cite>Moje vousy</cite> přidá Slayerovi
+    na další úder <b>Průraz</b></desc>
+  </skill>
+  
+  <skill>
+    <name>Všem na očích</name><attr>1x Souboj</attr> 
+    <points>34</points>
+  <desc>Aby všichni trpaslíci viděli, jak lituje své hanby, běží Slayer proti nepřátelům jako první.
+    Bojový rauš způsobí, že <b>ignoruje první zásah</b>.</desc>
+  </skill>
+    
+    <skill>
+    <name>Berserk</name><attr>1x Souboj</attr> 
+    <points>18</points>
+      <desc>V bojové vřavě Slayer se začne točit do kola zvolat <cite>Kolo smrti</cite> a pokud se točí tak je na 5vteřin  <b>Nezranitelný</b></desc>
+  </skill>
+    
+   <skill>
+    <name>Co to na mně zkoušíš?</name><attr>1x Souboj</attr> 
+    <points>32</points>
+  <desc>Pokud je na Slayera sesláno kouzlo muže ho ignorovat toto kouzlo pokud se mu vysměje do tváře. Pokud toto splní tak ignoruje kouzlo a k tomu si 
+         přidá +1 stínový život.</desc>
+  </skill>
+  
+    <skill>
+    <name>Kamenná kůže</name><attr>trvalé</attr> 
+    <points>60</points>
+  <desc>Slayerova kůže je tak tvrdá že se o ni lámou všechny šipky a šípy. Imunita na šípy a šipky.</desc>
+  </skill>
+  
+    <skill>
+    <name>Pořádná rána</name><attr>1 za souboj</attr> 
+    <points>27</points>
+  <desc>Slayer naběhne na nepřítele nejméně z 5 metrů při tomto běhu řve a úder který zasadí jako první má efekt Průraz. </desc>
+  </skill>
+  
+</schopnosti>
+
+
+</wargear>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Big boss</jmeno>
+
+<hiearchie>Hero</hiearchie>       
+
+<legenda>Všichni orci vypadají, že se co nejdříve poperou ve vlastních řadách. Opile do sebe strkají a handrkují se.
+Žádný z nich však v opilosti a rozmrzelosti nemůže překonat jejich kápa Big Bosse. Jeho slova před bitvou
+"Jestli elfák neutéct my vyhrát" povzbudila zejména gobliny, kteří s neskrývanou šíleností milují koně. Kousek po kousku.</legenda>                    
+
+
+<popis>Těžko by se dal hledat v řadách zelené větší bijec, než je Big Boss.
+Všichni ho poslouchají na slovo, nebo na sekyru, oboje jsou dost pádné argumenty.
+Ale jen málokdy se dá poznat, zda-li někdo neuposlechl, protože jediný pořádný rozkaz je Na ně!
+Jako správný šéf jde ve všem příkladem, všude je první a jde mu jen o pobití největšího počtu nepřátel.</popis>                 
+
+
+<pravidla>
+  
+   
+   
+<lives label="životů">5</lives><damage label="damage">1</damage><reinkarnace label="min. reinkarnace">8</reinkarnace></pravidla>                  
+
+<kostym>
+
+<povinne>Zbroj, rohatá helmy s před-čelistním chráničem,
+kly, hodně doplňků (kůže, kroužky, lebky, hnáty...),
+co možná nejvíc neupravený vzhled, vše laděné k zelené a černé barvě,
+všechny nezakryté části těla nabarvené,</povinne>     
+
+<extra>Velitelské znaky (velitelské runy na brnění a štítu, malá standarta na zádech), válečné malování</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Plátová zbroj</name><desc>Kyrys, nárameníky, helma s rohy, vše co nejvíc černé</desc>
+  </zbroj>    
+
+</zbroje>   
+      
+
+<zbrane>
+  
+  <zbran>
+    <name>Sekera</name>
+    <desc>80-100cm</desc>
+  </zbran> 
+ 
+  <zbran>
+    <name>Nůž na maso</name>
+    <desc>Každý správný ork má svůj vlastní kudlu. 30cm dlouhá zbraň.</desc>
+  </zbran> 
+  
+  
+
+     
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill>
+  <name>Tvrdý pancíř</name><attr>trvalé</attr>         
+  <desc>Big Boss má na sobě tolik železa, že mu obvyklé útoky
+  vedené do zad nepůsobí nějaké podstatné zranění.
+    <b>Všechny útoky na záda jsou sníženy na 1dmg.</b></desc>
+  </skill>
+
+  <skill>
+  <name>Těžká váha</name><attr>trvalé</attr>         
+  <desc>Najít Big Bosse zvládne i hluchoslepý sebevrah pouze po hmatu,
+  stačí mu najít na zemi kámen s otiskem Big Bossovy nohy.
+  S takovou vahou útoky mrzáčků nic nezmůžou a proto je
+    <b>Big Boss imunní na efekt Odhození</b></desc>
+    </skill>
+  
+</schopnosti>
+
+<kouzla>
+
+  <desc>Orkové kouzlí pomocí pozornosti Morka. Každé kouzlo má hodnotu WAAGH. Toto číslo udává kolik jednotek z warbandy orků musí
+  řvát při prováděná rituálu slovo Waagh.</desc> 
+  
+  
+</kouzla>
+
+<roleplay>
+Big Bosse poslouchá každý, ať chce, nebo nechce (to bolí o poznání víc). Žádnými hlubokými
+myšlenkami však nesrší, frontální útok ze dvou stran po dopití hnusného piva se zařváním
+je vrcholným dílem orkské "vypočítavosti".
+Big Boss je ukázkou své rasy, jak v tuposti, tak v síle. Žádný smrtelník se mu nemůže
+vyrovnat v zuřivosti.
+</roleplay>                 
+
+
+<obrazky>
+<img src="orks/big_boss_01.jpg"/>
+<img src="orks/big_boss_02.jpg"/>
+<img src="orks/big_boss_03.jpg"/>
+<img src="orks/big_boss_04.jpg"/>
+<img src="orks/big_boss_05.jpg"/>
+<img src="orks/big_boss_06.jpg"/>
+<img src="orks/big_boss_2.jpg"/>
+<img src="orks/big_boss_07.jpg"/>
+<img src="orks/big_boss_3.jpg"/>
+</obrazky>
+
+</jednotka>

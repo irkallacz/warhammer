@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Henchmen</jmeno>
+
+<povolani>
+  <path>
+    <name>Lovec čarodějnic</name>
+    <points>10</points>
+    <desc>Učedník samotného Lovce čarodějnic je zběhlí v mnoha kouzlech a rituálech jak odhalit zlo a následně se s ním vypořádat.</desc>
+  </path>  
+  
+  <path>
+    <name>Pistolník</name>
+    <points>20</points>
+    <desc>Mistr v používání zbraní na dálku, zejména s těmi fungující na střelný prach, což je vymoženost Říše, který má vždy po ruce.</desc>
+  </path>  
+  
+  <path>
+    <name>Ranhojič</name>
+    <points>10</points>
+    <desc>Specialista na ochranná kouzla a rituály a znalec přírodního léčitelství je nezbytnou nutností v každém císařském regimentu.
+    </desc>
+  </path>  
+</povolani>
+
+<zbroje>
+  <zbroj>
+    <name>Kyrys</name>
+    <points>30</points>
+    <desc>Henchman potřebuje být mrštný, jinak by mu všechny čarodějnice a jiní zplozenci pekel
+    utekli. Také není dobré stát proti nepříteli přímo, ale rychle se vyhnout. K těmto účelům
+    poslouží lépe jednoduchý kyrys než plná plátová zbroj. <b>+1 život</b></desc>
+    <lives>1</lives>
+  </zbroj>          
+</zbroje>            
+
+<vybaveni>
+
+  <vybava> 
+    <name>Posvátný amulet Řádu</name>
+    <points>35</points>
+    <desc>Amulet v podobě dvouocasé komety je často nošen těmi, kdo následují cestu boje proti
+      temnotě a je jim paprskem světla na jejich pouti <b>(+1 BR)</b>.</desc>
+    <bodyr>1</bodyr>
+  </vybava>
+
+  <vybava> 
+    <name>Svatá kniha</name>
+    <points>10</points><cond>Lovec čarodějnic</cond>
+    <desc>Když vymítáte zlo, musíte mít text, kterým zlo vyženete. Ale zlo má tolik podob, že i text musí být velmi variabilní
+    a kdo si to má všechno pamatovat? Žehnejme tedy tomu, kdo nese knihu! Pomocí knihy může provádět rituály.</desc>   
+  </vybava>
+
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Pochodeň</name>
+    <points>30</points><cond>Lovec čarodějnic</cond>
+    <desc>Pochodeň je nejen zbraní rozzuřeného davu, ale i každého lepšího Lovce čarodějnic. Herně se jedná o jednoruční zbraň max. délky 90 cm,
+    se stylizovaným plamenem vyrobeným z něčeho měkkého. Zbraň nedává žádné zranění, 
+    ale je možno se s ní bránit a používat její zvláštní schopnosti. Může být použita v kombinaci se šavlí.</desc>
+  </zbran>
+    
+  <zbran>
+    <name>Mušketa</name>
+    <points>0</points><cond>Pistolník</cond>
+    <desc>Střelná zbraň na měkčené projektily. Provedení je na hráčích, doporučujme tzv. <i>pottato gun</i>. <i>Poraďte s se prosím 
+      přímo s organizátory.</i></desc>
+  </zbran>  
+  
+  <zbran>
+    <name>Kombinace</name>
+    <points>70</points>
+    <desc>Druhá šavle do kombinace. Délku volte tak, aby kombinace nepřesáhla součet 140 cm.</desc>
+  </zbran>  
+  
+</zbrane>                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Střelecká formace</name><attr>trvalé</attr>
+    <points>10</points><cond>Pistolník</cond>
+    <desc>Pokud Henchmeni zaujmou dobrané postavení, jen tak něco je nerozhází. Tři Pistolníci musí stát blízko sebe a navzájem se krýt. 
+      Při této formaci nesmějí měnit svoji pozici, ale mají <b>imunitu</b> na <b>strach</b>, <b>šílenství</b> a jiná psychiscká kouzla. Aby tato schopnost fungovala, musí ji mít zakoupeni 
+      všichni Hechmeni.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Krycí palba</name><attr>1x za Souboj</attr>
+    <points>10</points><cond>Střelecká formace</cond>
+    <desc>Všichni Pistolníci ve formaci musí zakřičet <cite>"Krycí palba"</cite> označit cizí KP 
+      a naznačit výstřel do vzduchu. Označená postava musí ihned zastavit
+      svou činnost (chůzi, běh, kouzlení atd...) a musí se zachovat jako pod efektem <i>strach</i> a odběhnout alespoň 10 metrů do úkrytu.</desc>
+  </skill>
+  
+  <skill>
+    <name>Průrazná střela</name><attr>3x za Souboj</attr>
+    <points>20</points><cond>Mušketa</cond>
+    <desc>Ocelová kule má mnohem větší sílu něž střela z kuše a dokáže prorazit i ten nejsilnější štít. 
+      Takováto střela musí být oznámena dopředu slovy <cite>"Průraz"</cite> a jako zásah se počítá i přes štít.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Přesná střela</name><attr>2x za Souboj</attr>
+    <points>20</points><cond>Mušketa</cond>
+    <desc>Pokud Pistolník přesně zamíří, dokáže svojí střelbou způsobit mnohem větší zranění. Míří se tak, že vykřikne <cite>"Mířím"</cite>, zacílí
+      a poté vykřikne <cite>"A mám tě!"</cite>. Další střela má bonus <b>+1 damage</b>. Pokud je během
+    míření vyrušen, zasažen či se jen pohne, musí začít znovu mířit.</desc>
+  </skill> 
+
+  <skill>
+    <name>Dvojitá nálož</name><attr>1x za Souboj</attr>
+    <points>40</points><cond>Mušketa</cond>
+    <desc>Pokud chcete aby střela měla fakt sílu, nacpěte do hlavně dvojitou prachovou nálož. Pokud to neroztrhne hlaveň, výsledek bude stát za to.  
+      Pistolník zvolá <cite>"Nabíjím"</cite> a začne pomalu nabíjet a poté
+      zamíří a zakřičí <cite>"Tu máš!"</cite>. Zasažené KP je <i>odhozena o 2 metry</i>. Schopnost platí i přes štít. 
+      Pokud je během nabíjení vyrušen, zasažen či se jen pohne, musí začít znovu mířit.</desc>
+  </skill> 
+
+   <skill>
+    <name>Zapálení</name><attr>3x za Souboj</attr>
+    <points>0</points><cond>Pochodeň</cond>
+    <desc>Při boji s pochodní máte jedinečnou šanci zapálit svého protivníka. Stačí ho udeřit pochodní a zvolat <cite>"Shoř ty stvůro"</cite>
+      protivník obdrží efekt <i>zapálení</i>.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Odpuštění</name><attr>neomezeně</attr>
+    <points>30</points><cond>Pochodeň</cond>
+    <desc>Pokud Henchman vidí, že se konec jeho armády blíží a na zemi leží mnoho mrtvých,
+    které by nepřátelé mohli použít na své zvrácené rituály, vezme Henchman svou pochodeň,
+    dotkne se jí mrtvoly a řekne <i>"Odpočívej v pokoji..."</i>. Mrtvola se pak stává nepoužitelnou na jakékoliv kouzlení nebo schopnost 
+      a okamžitě se musí odebrat na hřbitov.</desc>
+    </skill> 
+  
+  <skill>
+    <name>Vycítění</name><attr>3x za Fázi</attr>  
+    <points>40</points><cond>Lovec čarodějnic</cond>
+    <desc>Henchman je cvičený v rozpoznávání zla, ať už viděného či neviditelného. Proto stačí, 
+      aby v blízkosti neviditelného zla zavětřil a po pronesení <cite>"Cítím zde temnotu"</cite>
+      dokáže odhalit jednu postavu pod efektem <i>základní neviditelnost</i>.</desc>
+  </skill>  
+  
+  <skill>
+    <name>Ošetření</name><attr>5x za Fázi</attr>  
+    <points>20</points><cond>Ranhojič</cond>
+    <desc>Pomocí obvazů, dlah a jiného ranhojičského náčiní a dryjáklů je možno postavit na nohy i ztracené případy. Tato schopnost vyléčí 
+      určené postavě až 3 životy.</desc>
+  </skill>  
+
+  </schopnosti>
+
+<kouzla>                                                      
+  <spell>                                                                      
+    <name>Vymítání</name><attr>4x za Fázi</attr><cost>1 BR</cost>
+    <points>12</points><cond>Svatá kniha</cond>
+    <form>Daemones Et ero absentis!</form>
+  <desc>Pokud bylo na některého ze spřátelených bojovníků použito kouzlo, které jej nějakým způsobem oslabuje,
+  použije Henchman svou knihu a odříkáním kouzelné formule sejme veškerá kouzla až z pěti členů warbandy.</desc>
+  </spell>
+  
+ <spell>
+   <name>Očištění</name><attr>1x za Fázi</attr><cost>2 BR</cost>
+   <points>20</points><cond>Svatá kniha</cond>
+   <form>Jen hlupáci postaví se síle Říše!</form>
+   <desc>Henchman má schopnost očistit vše špatné a zlé. Proto, pokud namíří svou ruku na nepřítele, 
+     dojde nestvůra očištění a získává efekt <i>šílenství</i> na 15 vteřin.
+   </desc> 
+ </spell>
+
+ <spell>
+   <name>Svatá ochrana</name><attr>3x za Fázi</attr><cost>1 BR</cost>
+   <points>20</points><cond>Ranhojič</cond>
+   <form>Tutela Ipsius sacri eloquii est optima omnium ilex</form>
+   <desc>Svatou mocí je možno zaštítit člověka, protože žádná zlá moc nemůže
+     ublížit Jeho věrným následovníkům. Cíl tohoto kouzla je chráněn proti jednomu
+     nepřátelskému kouzlu, které je na něj sesláno. Svatou ochranu je možno 
+     seslat pouze na věrné následovníky Sigmara.   
+   </desc> 
+ </spell>
+
+ <spell>
+   <name>Cesta zpět</name><attr>4x za Fázi</attr><cost>1 BR</cost>
+   <points>15</points><cond>Ranhojič</cond>
+   <form>Non eo qui sequuntur vestigia eius in tenebris</form>
+   <desc>Tímto kouzlem je možno zkrátit reinkarnaci až tří vybraných postav na polovinu. Ti ale musí zbytek strávit zbytek času v modlitbách. 
+   </desc> 
+ </spell>
+
+ <spell>
+   <name>Léčivá síla</name><attr>1x za Fázi</attr><cost>2 BR</cost>
+   <points>25</points><cond>Ranhojič</cond>
+   <form>Si verba eius intrant corda vestra erit vulnera sanat</form>
+   <desc>Vše co je třeba učinit pro vyléčení vašich ran, je nechat Jeho slova vstoupit do vašeho srdce a vaše rány se sami zavřou. Tímto kouzlem je
+     možno kompletně vyléčit celou Warbandu. Toto je kouzlo je <b>Rituál</b> a může být použito pouze ve Vesnici, Táboře nrbo na Rituálním místě.   
+   </desc> 
+ </spell>
+  
+</kouzla> 
+
+</wargear>

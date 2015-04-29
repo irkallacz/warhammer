@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Khainite</jmeno>
+
+<hiearchie>rare</hiearchie>       
+
+<legenda>Jistě, cvičili nás na to v Chrámu celé roky. Jak rozříznout tepnu a co nejméně se zamazat,
+jak probodnout oběť, aby umírala co nejdéle, nebo co nejkratší dobu. Jak si užít vypichování
+očí a trhání jazyka, jak přiškvařit kůži tak, aby její zápach u zabíjeného vyvolal ty nejhorší stavy
+mysli... Můžu ti ale říci, že realita je jiná, mnohem zábavnější. A nemusíš se bát... Na tobě si dám extra záležet...</legenda>                    
+
+
+<popis>Nemilosrdní zabijáci, toužící po pocitu rozkoše, který pro ně plyne z posledních záškubů
+umírajícího těla. Ale kdo by neměl rád dlouhou předehru? Proto smrti oběti předchází ještě
+dlouhá procedura plná mučení, tedy nevýslovné bolesti a agónie. Tím pádem se smrt oběti nedá
+pokládat za přečin. Spíše za její vysvobození.</popis>                 
+
+
+<pravidla>
+  
+   
+   
+<lives label="životů">2</lives>
+<damage label="damage">1</damage>
+<reinkarnace label="min. reinkarnace">8</reinkarnace>
+  <BD label="bodů Děsu (max)">5</BD>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Zbroj, světlá pokožka, elfí uši, kožené doplňky, suknice, barvy: černá, fialová, červená</povinne>     
+
+<extra>Černé vlasy, runy temných elfů, lebky, ostny na zbroji, kroužková košile, helma</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Plátová zbroj</name><desc>Kyrys, nárameníky, nátepníky.</desc>
+  </zbroj>    
+
+</zbroje>     
+
+<zbrane>
+  <zbran><name>Draich</name><desc>Jeden a půl ruční meč (90-110cm)</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+ <skill><name>Vrozená nenávist</name><attr>trvalé</attr>         
+  <desc>Pokud Khainité zahlédnou vysoké elfy s pokřikem <cite>"Špinaví bratranci!"</cite> se na ně musí rozeběhnout a na další zásah mají +1dmg</desc>
+  </skill>  
+  
+ <skill><name>Poprava</name><attr>Neomezeně</attr>         
+  <desc>Pokud Khainite zajme nepřátelskou postavu, může ji rituálně popravit jak byl vycvičen ve Chrámu. Tím získá jeden Bod Děsu(BD).
+Při smrti všechny body mizí. Tyto bod jsou důležité pro Kouzlení. Khainita začíná hru vždy s 0 BD</desc>
+  </skill>
+  
+</schopnosti>
+
+<roleplay>Toto rozhodně NENÍ postava pro útlocitné bytosti. Každý, komu se dělá zle ze zápachu spálené kůže,
+z krve, ze zlámaných kostí, otevřených zlomenin, či dokonce z vnitřností, které visí ještě živému člověku
+z dutiny břišní, by měl dát ruce pryč. Na druhou stranu, pokud Vaše duše touží po bolesti a utrpení druhých,
+po nekonečných zvěrstvech, pak JOIN THE DARK SIDE!(and get free cookies)</roleplay>                 
+
+
+<obrazky>
+<img src="dark_elves/khainite_1.jpg"/>
+<img src="dark_elves/khainite_3.jpg"/>
+<img src="dark_elves/khainite_4.jpg"/>
+<img src="dark_elves/khainite_5.jpg"/>
+<img src="dark_elves/khainite_8.jpg"/>
+</obrazky>
+
+</jednotka>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Vampire</jmeno>
+
+<hiearchie>hero</hiearchie>       
+
+<legenda>Vstal jsem z hrobu. Byla vlahá letní noc, měsíc mi svítil nad hlavou. Protřel jsem si
+oči a napadlo mě, že by nebylo špatné něco udělat s mojí bílou kůží. Kdysi jsem dostal od nějaké babky,
+která si myslela, že jsem tak bledý od přírody, nějakou mastičku, ať se prý jdu opálit. Její krev
+měla sice lehkou příchuť naftalenu a stáří, ale nebyla špatná... vyzrálá... Ale přeci jen, krvinky jsou
+svinstvo, kazí to špičáky... Už aby někdo vynalezl kartáček!</legenda>                    
+
+
+<popis>Bílá pleť, dlouhé špičáky, oči lačnící po násilí a jazyk lačnící po krvi. Vampire, posedlý
+svými touhami jde naprosto sebestředně za svým. Kdo by se mu také stavěl do cesty? Snad jen blázen.
+Ano, blázen by se stavěl do cesty ztělesnění zla, které svou pružností a hbitostí připomíná
+kočkovitou šelmu a svou krutostí... člověka.</popis>                 
+
+
+<pravidla>
+<lives label="životů">4</lives>
+<damage label="damage">1</damage>
+<reinkarnace label="min. reinkarnace">10</reinkarnace>
+  <kref label="Bodů Krve (maximum)">5</kref>
+  </pravidla>                  
+
+<kostym>
+
+<povinne>Upíří zuby, světlá pleť tmavé oblečení (vítané i červené nebo rudé), Zbroj,
+stojící límec. (Dámy povolené i oblečení na způsob baroka, samozřejmě v převládající černé nebo červené.)</povinne>     
+
+<extra>Plášť červený nebo černý, ostny, kosti, lebky s dlouhými špičáky, symbolika vlků a netopýrů.</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Upíří zbroj</name><desc>Kyrys, nárameníky, nátepníky. (tmavá barva, vítaná je i červená nebo krvavě rudá)</desc>
+  </zbroj>    
+
+</zbroje>   
+
+<zbrane>
+  <zbran><name>Jednoruční zbraň</name><desc>šavle / meč (60 - 90cm)</desc></zbran>       
+</zbrane>      
+
+
+<vybaveni>
+	<vybava>
+	<name>Drahokam Temnoty</name>
+        <desc>Jeden z posledních exemplářů tajemného úlomku artefaktu dovoluje upírovi 
+        chodit ve dne i za plného slunce.</desc>
+	</vybava>
+</vybaveni>                             
+
+<schopnosti>    
+   
+  <skill><name>Vysátí</name><attr>neomezeně</attr>         
+  <desc>Instinktivní přirozeností upíra je sát krev. Pokud upír Zajme nepřítele, vysaje z jakékoliv tepny krev. 
+Nepřátelská postava tím umírá a upír si přičte jeden Bod Krve(dále jen BK). Při smrti se všechny BK odečtou.</desc>
+  </skill>
+
+<skill><name>Prokletí Krve</name><attr>trvalé</attr>         
+  <desc><b>Po každém Souboji</b> se upírovy odečte jeden BK, pokud je ale hodnota BK 0 a upír se do minuty nenapije, ubere se mu za každou
+započatou minutu jeden život.</desc>
+  </skill>
+  
+</schopnosti>
+
+<kouzla>
+
+  <desc>Vampire je bytost krvelačná a stejně tak jeho magie. Neštítí se chytit nebohého člověka,
+  vysát z něj všechnu krev, nebo mu jen proděravět všechny žíly a životodárnou tekutinu
+  použít na nějaký odporný rituál. Bolest, krev a špína - Vampirova síla. Při každém kouzlu se odečte příslušný počet BK.
+Pokud  Kouzlo potřebuje BK a Vampire je vyrušen při zaříkávání, BK se odečtou stejně.</desc>
+  
+  
+ <spell>
+    <name>Povstaň</name><cost>2 BK</cost><attr>2x za Fázi</attr>
+    <form>Vetnek fel, és újra járni az én szolgám</form>
+    <desc>Upíři, kteří ovládají nekromancii, mají možnost posilovat a znovu splétat magii, která nutí nemrtvé znovu chodit. Upír musí 3x pronést 
+formuli za plného soustředění a poté může jednu postavu ze své Warbandy ihned zreinkarnovat na bitevním poli.</desc> 
+  </spell>        
+ 
+  <spell>                                                                      
+  <name>Krvavá zbroj</name><cost>1 BK, 1 mrtvola</cost><attr>1x za Fázi</attr>
+  <form>A vér hatalom</form>
+  <desc>Vezměte na bojiště jednu mrtvolu, přiveďte kruh Vašich věrných (minimálně další 3 členové Warbandy). Otevřete jí žíly
+  a třikrát za sebou odříkejte formuli tak, aby ji po Vás věrní opakovali, i když to jsou nemyslící
+  lebky. Pak krví potřete svou zbroj. Budete imunní proti prvnímu zásahu v bitvě. Přeji příjemný boj.</desc>
+  </spell>
+
+
+</kouzla>
+
+<roleplay>Jste bezohlední, lačnící po moci a temné magii? Pak je tato role právě pro Vás!
+Nečekejte že budete útlocitní upíři, kteří se nám tu rozmohli kvůli Stmívání a Upířím Deníkům.
+Máte-li schopnost velet hordám nemrtvých, chcete-li se živit krví a přitahuje Vás vše co činí
+ostatním bolest, neváhejte a přidejte se...
+</roleplay>                 
+
+
+<obrazky>
+<img src="vampire_counts/vampire_1.jpg"/>
+<img src="vampire_counts/vampire_2.jpg"/>
+<img src="vampire_counts/vampire_3.jpg"/>
+<img src="vampire_counts/vampire_4.jpg"/>
+<img src="vampire_counts/vampire_5.jpg"/>
+<img src="vampire_counts/vampire_6.jpg"/>
+<img src="vampire_counts/vampire_7.jpg"/>
+</obrazky>
+
+</jednotka>

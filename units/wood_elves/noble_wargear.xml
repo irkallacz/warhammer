@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Noble</jmeno>
+
+<povolani>
+  <path>
+    <name>Rod Selathoi</name>
+    <points>70</points>
+    <desc>Potomci takzvaných Věčných strážců jsou vynikající bojovníci a prokazují nezvyklou odolnost a bojové zkušenosti</desc>
+  </path> 
+
+  <path>
+    <name>Rod Yenayla</name>
+    <points>90</points>
+    <desc>Potomci mocných čarodějů a splétačů kouzel zasvětili svůj život magii a síle lesa.</desc>
+  </path> 
+  
+  <path>
+    <name>Rod Nymraif</name>
+    <points>80</points>
+    <desc>Potomci Rodu Nymraif jsou cvičeni společně se zvědy nebo Waywatchery a proto jsou zběhlí v ukrývání a naprosto smrtící střelbě.</desc>
+  </path> 
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Tvrzená kožená zbroj</name>
+    <points>50</points><cond>Rod Selathoi</cond> 
+    <desc>Kožená zbroj vyrobená z tlusté kůže Velkých jelenů dodává nositel lepší ochranu <b>(+1 život)</b>.
+    </desc>
+    <lives>1</lives>
+  </zbroj>
+
+<zbroj>
+    <name>Helma Velkého lovu</name>
+    <points>20</points><cond>Rod Selathoi</cond> 
+    <desc>Může být v kombinaci s jiným brněním. Helma darovaná speciálně pro tuto bitvu některým ze Starších dokáže poskytnout léčebné účinky 
+svému nositeli. Po každém Souboji si Noble může uzdravit <b>1 život.</b>.
+  </desc>
+  </zbroj> 
+
+ <zbroj>
+    <name>Železný kyrys</name>
+    <points>60</points><cond>Rod Selathoi</cond> 
+    <desc>Není to sice obvyklé ale lesní elfové nosí někdy i zbroje z oceli, poskytují jim sice větší ochranu ovšem Les je poté k takovýmto 
+jedincům odtažitý. <b>(+2 životy, +3min. reinkarnace )</b>.
+    </desc>
+    <lives>2</lives><reinkarnace>4</reinkarnace>
+  </zbroj>
+
+</zbroje>              
+
+<vybaveni>
+
+ <vybava>
+    <name>Plášť z listů</name>
+    <points>20</points><cond>Skrytí ve stínech</cond>
+<desc>Schopnost <i>Skrytí ve stínu</i> se díky tomuto artefaktu může používat až 2x za Fázi.</desc>
+  </vybava> 
+
+  <vybava>
+    <name>Brož štěstí</name>
+    <points>45</points>
+<desc>Magická brož, tvořená z okvětních lístků trvalek umožňuje jeho nositeli ignorovat
+první útok z každého Souboje ať již je jakkoliv vysoký. Pokud má útok ještě nějaký
+magický efekt (paralýza, jed, odhození, ... ), tento artefakt odstraní i ten.</desc>
+  </vybava> 
+  
+  <vybava>
+   <name>Paralyzující šípy</name>
+    <points>10</points>
+    <cond>Luk</cond>
+    <desc>Tyto šípy jsou pomazány speciálním jedem.</desc>
+  </vybava>
+  
+</vybaveni>
+
+<zbrane>
+  <zbran>
+    <name>Kopí</name>
+    <points>30</points>
+    <cond>Rod Selathoi</cond>
+    <desc>Rozměry kopí 180-210 cm</desc>
+  </zbran>      
+
+  <zbran>
+    <name>Kopí Soumraku</name>
+    <points>50</points>
+    <cond>Rod Selathoi</cond>
+    <desc>Toto kopí je podle pověstí schopno přetavit nenávist a zuřivost jeho nositele do ničivé síly jeho úderu.
+      Herní parametry jako běžné kopí. <b>Umožňuje schopnost <i>Zabiácká rána</i></b></desc>
+  </zbran>      
+
+  <zbran>
+    <name>Tesák</name>
+    <points>80</points>
+    <cond>Rod Selathoi</cond>
+    <desc>Druhá zbraň do kombinace, součet s mečem maximálně 150cm.</desc>
+  </zbran>    
+
+ <zbran>
+    <name>Meč duší</name>
+    <points>40</points>
+    <cond>Rod Selathoi</cond>
+    <desc>Prastarý jedenapůlruční meč, ve který se předává mezi členy Vysoké rady Lesních elfů.
+   <b>Umožňuje schopnost <i>Za Aathel Loren</i></b></desc>
+  </zbran>             
+  
+  <zbran>
+    <name>Luk</name>
+    <points>10</points>
+    <cond>Rod Nymraif</cond>
+    <desc>Jen ručně vyrobený nebo historický, ne sportovní. Je nutný malý nátah,
+maximálně do 15 kg a celkově musí luk vypadat stylově. Šípy musí mít střed "hrotu"
+zhotovený z víčka z PET lahve nebo něco podobného průměru (ne korkový špunt od
+vína!). Okolo středu musí být potom dostatečná vrstva karimatky nebo molitanu. bambule
+musí mít alespoň 5 cm v průměru a přední část hrotu musí být dostatečně vyměkčen (1-2
+cm). Šíp nesmí mít nikde nic ostrého nebo špičatého a celá bambule musí být patřičně
+měkká. Bambule musí na šípu držet jako přibitá a musí vydržet i drsné zacházení. Jak šípy,
+tak i samotný luk bude podroben VELMI PŘÍSNÉ kontrole a testování, nevyhovující
+budeme zabavovat a podezřelé šípy máme právo rozkuchat na pozorování. Každý lučišník
+sebou musí mít min. 10 šípů, které projdou registrací, jinak nebude vpuštěn do hry.</desc>
+</zbran>     
+  
+</zbrane>                                   
+
+<schopnosti>    
+  <skill>
+    <name>Za Athel Loren</name><attr>1x za Souboj</attr>
+    <points>0</points><cond>Meč duší</cond>
+    <desc>Pokud majitel meče <b>Meče duší</b> zvedne tuto zbraň nad hlavu a zvolá: <cite>"Za Athel Loren"</cite> poté bude jeho další 
+      zásah mít bonus <b>+1 damage</b>.</desc>
+  </skill>
+  
+  <skill>
+    <name>Zabijácká rána</name><attr>1x za Souboj</attr>
+    <points>0</points><cond>Kopí Soumraku</cond>
+    <desc>Síla <b>Kopí soumraku</b> může být usměrněna do nepřítelova štítu a i sebelepší ocel nemůže takovému úderu odolat. Pokud jeho nositel pozvedne 
+      kopí a zakřičí <cite>"Zhyň cizáku"</cite> má jeho další úder efekt <i>průraz</i>.</desc>
+  </skill>
+  
+  <skill>
+    <name>Skrytí ve stínech</name><attr>1x za Fázi</attr>
+    <points>20</points><cond>Rod Nymraif</cond>
+    <desc>Noble se dokáže schovat v lesních stínech a splynout s nimi. Stačí se chytit 
+    nejbližšího stromu a pronést nahlas se zavřenými oči: <cite>"Schovej mě, ukryj mě, ať se jim z očí 
+    ztratím"</cite>. Poté je na něj uplatněn efekt základní neviditelnost. Pokud se dostane z území lesa, 
+    efekt mizí.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Regenerace</name><attr>2x za Fázi</attr>
+    <points>30</points> 
+    <desc>Když se Noble chytí kmene stromu, zavře oči a plynule a nahlas pronese slova: <cite>"Já 
+    zranění již svá nechci a novou sílu načerpám"</cite> (musí to říct aspoň 3 krát), může si poté  
+    vyléčit až 4 životy.</desc>
+  </skill>
+  
+  <skill>
+    <name>Požehnání lesa</name><attr>2x za Fázi</attr>
+    <points>30</points><cond>Regenerace</cond>
+    <desc>Součástí učení šlechty lesních elfů je umění naslouchat a mluvit s Lesem. V případě 
+    nebezpečí může Noble vyslat jakousi modlitbu k lesu a ten pokud ho vyslyší, poskytne 
+    mu část své síly skrze duše lesa, které do něj vstoupí. Hráč musí pokleknout na zem, 
+    dotýkat se země a začít se modlit. Volba modlitby je něm. Po jejím skončení si může 
+    přidat 2 stínové životy. Může být provedeno pouze v lese.</desc>
+  </skill>  
+
+  <skill>
+    <name>Síla krve</name><attr>trvale</attr>
+    <points>30</points><cond>Rod Yenayla</cond>
+    <desc>Tato schopnost dovolí přetvářet životní sílu Nobla na magickou energii, kdy se
+při kouzlení místo dotyku stromu zraní a jeho krev tak potřísní půdu. Při kouzlení tak
+může nahradit jedno spojení s lesem za každý 1 život, o který při kouzlení přijde.
+Současně však při svém užití ruší všechny stínové životy, které měl jeho uživatel v dané
+době k dispozici, takže na tuto magickou výměnu nelze použít stínové životy. Spojení
+vytvořená touto schopností lze využít pro kouzlení i mimo les.</desc>
+  </skill>  
+  
+  <skill>
+    <name>Unik z smrti</name><attr>3x za Fázi</attr>
+    <points>35</points>
+    <desc>Díky této schopnosti se Noble dokáže vyhnout ráně která by ho jistě jinak
+zabila. Ve hře tak může ignorovat zásah, po kterém by zemřel. Ovšem pozor! V jednom
+souboji smí takto smrti uniknout pouze jednou!</desc>
+  </skill> 
+
+  <skill>
+    <name>Průstřel nohy</name><attr>3x za Fázi</attr>
+    <points>10</points><cond>Paralyzující šípy</cond>
+    <desc>Ne každé zranění šípem musí nutně znamenat smrt nepřítele, ale jsou i takové zranění, které moc neublíží, ale dokáží nepřítele 
+      potrápit. Pokud střelec ohlásí <cite>"Ani hnout!"</cite> a následně se šípem trefí do cíle, ten získává paralýzu na nohy podobu 20 vteřin.</desc>
+  </skill>
+  
+  <skill>
+    <name>Paralýza</name><attr>1x za Souboj</attr>
+    <points>10</points><cond>Paralyzující šípy</cond>
+    <desc>Dobrý střelec dokáže trefit takřka jakékoliv místo na těle a tím zneškodnit nepřítele. Před výstřelem je nutno zvolat <cite>"Paralýza"</cite>
+    a pokud střelec dalším šípem trefí nepřítelovu končetinu, je tato končetina paralyzována na 5 vteřin.</desc>
+  </skill>
+  
+  <skill>
+    <name>Nehořlavá květina</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Rod Selathoi</cond>
+    <desc>Oheň byl odvěkým nepřítelem Lesa ale někteří elfové se ho naučili potlačovat!. Jednou za Souboj může elf ignorovat efekt <i>zapálení</i>.</desc>
+  </skill>
+
+<skill>
+    <name>Stabilní mysl</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Rod Yenayla</cond>
+    <desc>Díky rokům meditace je elf schopen odrazit jakékoliv psychycké útoky. Jednou za Souboj může elf ignorovat efekt <i>šílenství</i>.</desc>
+  </skill>
+
+<skill>
+    <name>Tělo lesa</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Rod Nymraif</cond>
+    <desc>Elfové jsou natolik tělem spojení s přírodou že některé jedy naprosto ignorují. Jednou za Souboj může elf ignorovat efekt <i>paralýza</i>.</desc>
+  </skill>
+  
+</schopnosti>
+
+<kouzla>                                                      
+
+<spell>  
+<name>Magický posel</name><cost>3 Spojeni</cost><attr>1x za Fázi</attr>
+<points>40</points><cond>Rod Yenayla</cond>
+<desc>Noble může očarovat nějaké lesní zvíře, které se potom pokusí doručit zprávu, kterou mu Noble pošeptá nějakému svému spojenci. 
+Ve hře potom tuto zprávu řekne nějakému Našeptávači, který se postará, aby tato zpráva dorazila ke svému příjemci.</desc>
+</spell>
+
+<spell>  
+<name>Divoký hon</name><cost>5 Spojeni</cost><attr>1x za Fázi</attr>
+<points>70</points><cond>Rod Yenayla</cond>
+<desc>Pokud se Noble rozhodne vyvolat Rituál Divoký hon, pak on a jeho společníci musí provést rituální tanec, kdy do nich vstoupí duše lesa. 
+Po tomto Rituálu se smí pohybovat pouze během, musí se přesouvat pouze od stromu ke stromu a každého stromu se musí dotknout. 
+Zároveň musí napodobovat hlasy zvířat, případně troubit na roh. Během tohoto honu jsou však <b>nezranitelný a ignorují jakékoliv zranění</b>. 
+Jakmile se <b>zastaví nebo zaútočí kouzlo pomine</b>. Funguje pouze v lese a na elfy.</desc>
+</spell>
+
+<spell>  
+<name>Bludný kořen</name><cost>2 Spojeni</cost><attr>3x za Fázi</attr>
+<points>50</points><cond>Rod Yenayla</cond>
+<desc>Tímto kouzlem může Noble zmást nepřátelské bojovníky a zpomalit tak jejich postup lesem. Ve hře potom vytyčí v lese jistou oblast, 
+kterou nesmí nepřátelé překročit, ale musí jí obejít. Bariéra se musí dát obejít a smí být dlouhá max 15 metrů.    
+Toto kouzlo lze seslat <b>až na 10 lidí</b> a zruší se pokud nepřátelé vyjdou z lesa.</desc>
+</spell>
+
+<spell>  
+<name>Mrazivá dýka</name><cost>1 Spojení</cost><attr>2x za Souboj</attr>
+<points>12</points><cond>Rod Yenayla</cond>
+<form>Aesta alach ses!</form>
+<desc>Z ruky Nobela vytryskne nehmotný blesk, který dokáže připravit nepřátele o jejich
+  sílu. Vybraná nepřátelská postava obdrží efekt paralýza na 5 vteřin.</desc>
+</spell>
+  
+<spell>  
+<name>Otřes</name><cost>2 spojení</cost><attr>1x za Souboj</attr>
+<points>18</points><cond>Rod Yenayla</cond>
+<form>Soranden noch iliach am!</form>
+<desc>Toto kouzlo způsobí, že se kořeny stromů v lese pohnou a tak způsobí záchvěv země. Terénní vlna může 
+  odhodit až 3 nepřátele na 5 metrů daleko.</desc>
+</spell>
+  
+<spell>  
+<name>Kompost</name><cost>3 spojení</cost><attr>3x za Fázi</attr>
+<points>10</points><cond>Rod Yenayla</cond>
+<form>Avrachtel mir asteare, sev nor mich avelach</form>  
+<desc>Tímto kouzlem muže Noble požádat les o urychlení rozkladu těl nepřátel. Na tento rituál potřebuje Noble shromáždit 1-5 těl na hromadu a  
+  poté musí pronést zaklínadlo. Všechny mrtvoly mají o 1 minutu prodlouženou reinkarnaci.</desc>
+</spell> 
+  
+</kouzla> 
+
+</wargear>

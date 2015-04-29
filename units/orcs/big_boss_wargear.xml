@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Big boss</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Primitiv</name>
+    <points>80</points>
+    <desc>Největší a nejsilnější řezník od jižních zemí až po severní pláně. Neohlíží se na zrnění
+    a všechny své síly používá jen k ničení nepřátel.</desc>
+  </path>  
+
+  <path>
+    <name>Šaman</name>
+    <points>80</points>
+    <desc>Silnější než obyčejný bijec, který vydrží víc než kamenná hradba. Už pouhá přítomnost
+    tohoto nebezpečného a odolného orka podtrhává morálku nepřátel. Je navíc znalý v tajnostech rituálů a magie.</desc>
+  </path> 
+
+  <path>
+    <name>Černý Ork</name>
+    <points>80</points>
+    <desc>Tento do železa zakutý válečník se dá srovnávat jedině s říšským Parním tankem. Jeho tělesná
+    stavba a zbroj mu poskytují neuvěřitelnou výdrž v boji hraničící s nesmrtelností.
+    </desc>
+  </path> 
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Helma Černé legie</name>
+    <points>20</points> <cond>Černý Ork</cond> 
+    <desc>Helma poskytuje lepší ochranu a zároveň je znakem největšího orčího bijce.
+    Nositeli přidává <b>+1 život</b> a je <b>odolný proti Šílenství</b>.</desc>
+    <lives>1</lives> 
+</zbroj> 
+  
+  <zbroj>
+    <name>Trnitý kyrys</name>
+    <points>24</points> <cond>Primitiv</cond> 
+    <desc>Jsou dva druhy špatného nepřítele: Zbabělý a nečestný. Proti těm druhým chrání Primitiva trnitý kyrys.
+      Pokud někdo zasáhne Big Bosse do zad, je sám <b>zraněn za 1 život</b></desc>
+</zbroj> 
+  
+  <zbroj>
+    <name>Kožená zbroj</name>
+    <points>50</points><cond>Šaman</cond> 
+    <desc>Šaman je bojovník, ale také ovládá síly mimo chápání. Železné brnění jeho moc omezuje a tak může
+      obléci pouze koženou. Ztratí tím <b>1 život</b> a získá <b> 1x Zemětřesení v každém Souboji navíc</b> a <b>+1 použití u všech ostatních kouzel</b>.</desc>
+    <lives>-1</lives>
+</zbroj>
+  
+  <zbroj>
+    <name>Kompletní zbroj Temné Legie</name>
+    <points>78</points><cond>Helma Černé legie</cond> 
+    <desc>Moc z Helmy je znásobena celým brněním. Nositel získává imuntu na <b>odhození</b> a <b>celá warbanda je odolná vůči Šílenství</b></desc>
+    <lives>-1</lives>
+</zbroj>
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Krvavý kalich</name>
+    <points>37</points> <cond>Šaman</cond>
+    <desc>Od lidí ukořistěný artefakt vytvořený a poznamenaný chaosem. Mágové lidí
+    z něj vyhnali démona, ale samotná podstata kalichu je Chaos. <b>Po zabití nepřítele</b>
+    krev nabraná do Kalicha <b>přidá +1 stínový život nebo vyléčí 1 život</b>. Lze opakovat neomezeně,
+    vždy však pouze s novou mrtvolou, kterou zabil nositel Kalicha.</desc>
+  </vybava> 
+
+<vybava>
+    <name>Ornament obnovy</name>
+    <points>50</points> <cond>Černý Ork</cond>
+    <desc>Gobliní šaman v dávných dobách vytvořil tento amulet pro Velký náčelník Varg. Měl mu
+    zaručit nesmrtelnost, ale jak už to u potrhlých šamanů bývá i toto kouzlo nebylo takové,
+    jaké se zdálo být a amulet funguje pouze částečně. Nositeli přidává <b>+1 život do základního počtu</b>.
+    </desc>
+    <lives>1</lives>
+  </vybava>
+
+<vybava>
+    <name>Amulet zelené záře</name>
+    <points>45</points>
+    <desc>Temně zeleně zářící amulet, který nositeli zaručuje ochranu vůči všem magickým
+    efektům, jak přátelským tak nepřátelským. Jedná se o <b>kompletní odolnost vůči jakékoliv magii(i pomocné)</b>.
+    </desc>
+  </vybava>
+
+<vybava>
+    <name>Morkův náramek</name>
+    <points>15</points> <cond>Primitiv</cond> <attr>2x za Fázi</attr> 
+    <desc>Ocelový náramek s propůjčenou magickou silou Morka, dává bojovníkovi nevídanou rychlost a sílu.
+Díky tomuto artefaktu se může Warboss požádat o moc Morka pro jeden z těchto dvou účelů ale pouze 1x za Souboj:
+<b>První</b> – může se vyhnout jednomu útoku. Imunita na jeden zvolený úder při Souboji zařváním <b>"Mork ochránit mě!!"</b>.
+<b>Druhý</b> – může zasáhnout nepřítele schopností Průraz za 1 damage bez jakékoliv možnosti vykrytí/odražení. <b>„Mork ublížit tobě!!“</b>. 
+    </desc>
+  </vybava>
+ 
+ <vybava>
+    <name>Záštita nesmrtelného</name>
+    <points>100</points> <cond>Černý Ork</cond><attr>1x za Fázi</attr> 
+    <desc>Big Boss musí padnout v boji jako poslední. Orci to vědí, ale nepřítel ne, proto má dar od Gorka a Morka.
+      Pokud Big Boss nezemře z warbandy poslední, padne na zem, kde <b>5 sekund leží</b> a potom může vstát s polovinou životů.
+      Získá také <b>+1 na první zásah</b>.</desc>
+  </vybava> 
+
+</vybaveni>
+
+<zbrane>
+
+    <zbran>
+    <name>Štít</name>
+     <points>25</points>
+    <desc>Kulatý: Maximální průměr 60cm; Hranatý: Hrany max 60 a 50cm</desc>
+  </zbran>  
+  
+  <zbran>
+    <name>Morkova sekera Gork</name>   
+    <points>40</points> <cond>Primitiv</cond> 
+    <desc>(80-110cm) Sekera Morka nesoucí jméno svého spolubojovníka Gorka je artefaktem, o němž se myslelo, že je
+na vždy ztracen a nikdy nebude nalezen.
+Morkova Sekera je výjimečná především svou efektivitou v útoku, přidává k zranění
+způsobovanému útokem <b>+1 dmg</b>, protože byla určená pouze pro Morka, ubírá svému
+nositeli <b>-3 životy ze základního počtu</b>.</desc>
+  <lives>-3</lives>
+  <damage>1</damage>
+  </zbran>     
+  
+   <zbran>
+    <name>Proklatě těžká pavéza</name>
+    <points>80</points><cond>Černý Ork</cond>
+    <desc>Štít (90x70 cm), známý taky jako Železná vrata od stodoly, je největší a nejtěžší pavéza, která kdy byla vyrobena pro živého válečníka.
+      Její výhoda je zároveň nevýhoda. Díky její váze je <b><i>ne-prorazitelná</i></b> a ork získává imunitu na <b><i>odhození</i></b>,
+      avšak zároveň Boss <b>může pouze chodit</b>.</desc>
+  </zbran> 
+  
+  <zbran>
+    <name>Široký meč</name>
+    <points>25</points>
+    <desc>Původně lidský obouruční meč získal Big Boss za poněkud veselé situace, kdy s ním nejdříve zabil původního majitele.
+      Nyní ho Ork nosí jako symbol síly <b>v jedné ruce (100 cm)</b></desc>
+  </zbran> 
+  
+  <zbran>
+    <name>Těžká sekera</name>
+    <points>12</points><cond>Černý Ork</cond>
+    <desc>Slouží hlavně jako protiváha štítu, ale i tak dokáže nadělat slušnou paseku. Maximální naměřitelná délka 90cm.
+      Může mít vlastnost <i>Bez štítu</i>.</desc>
+  </zbran> 
+  
+  <zbran>
+    <name>Železná palice</name>
+    <points>40</points><cond>Šaman</cond>
+    <desc>Kouzelník má hůl. Šaman zelené má palici ze železa své vlastní váhy. Bojte se, slabí! Délka 130cm.</desc>
+  </zbran>
+ 
+  <zbran>
+    <name>Dvouhlavá sekera</name>
+    <points>25</points><cond>Černý Ork</cond>
+    <desc>Vcelku normální obouruční sekera, pokud je normální přeseknutí koně jednou ranou. Maximální naměřitelná délka 150cm.</desc>
+  </zbran> 
+  
+  
+  
+  <zbran>
+    <name>Krátké kladivo/palice</name>
+    <points>35</points>
+    <desc>Velice neobvyklé, aby Big Boss bojoval s hračkami, ale zkuste mu to říct, když jednu takovou má v ruce.
+    Jednoruční zbraň maximální délky 90cm.</desc>
+  </zbran> 
+  
+  
+  <zbran>
+    <name>Záštita dlaně</name>
+    <points>25</points>
+    <desc>Malý štítek (20x20) v ruce, o kterém Big Boss prohlašuje, že je to hlavně miska na vodu. I orčí ešus však může ochránit ruku.</desc>
+  </zbran> 
+  
+  
+  <zbran>
+    <name>Velká sekera</name>
+    <points>35</points><cond>Primitiv</cond>
+    <desc>Mocná jedenapůlruční sekera kdo ví odkud s maximální délkou 110cm.
+      Specialitou je <i>Obouruč</i></desc>
+  </zbran> 
+    
+    
+  <zbran>                    
+    <name>Luk</name>
+    <points>30</points>
+    <cond>Primitiv</cond>
+    <desc>Tato střelná zbran se často vyskytuje u primitivních Kmenů. Jen ručně vyrobený nebo historický, ne sportovní. Je nutný malý nátah,
+maximálně do 15 kg a celkově musí luk vypadat stylově. Šípy musí mít střed "hrotu"
+zhotovený z víčka z PET lahve nebo něco podobného průměru (ne korkový špunt od
+vína!). Okolo středu musí být potom dostatečná vrstva karimatky nebo molitanu. bambule
+musí mít alespoň 5 cm v průměru a přední část hrotu musí být dostatečně vyměkčen (1-2
+cm). Šíp nesmí mít nikde nic ostrého nebo špičatého a celá bambule musí být patřičně
+měkká. Bambule musí na šípu držet jako přibitá a musí vydržet i drsné zacházení. Jak šípy,
+tak i samotný luk bude podroben VELMI PŘÍSNÉ kontrole a testování, nevyhovující
+budeme zabavovat a podezřelé šípy máme právo rozkuchat na pozorování. Každý lučišník
+sebou musí mít min. 10 šípů, které projdou registrací, jinak nebude vpuštěn do hry.</desc>
+  </zbran>    
+  
+</zbrane>                                   
+
+<schopnosti>    
+    
+  <skill>
+    <name>Šílený náběh</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Primitiv</cond>
+    <form>Chaaaaaargee</form>
+    <desc>Vždy a všude první. První u kotle na maso, první ožralý a první i v boji. Když se jde rubat s nepřítelem, 
+      Big Boss se z dvaceti metrů rozeběhne a dalších <b>deset metrů odhazuje všechny, co mu stojí v cestě (<b>Odhození, 2m</b>)</b>
+      Při takovém náběhu nemůže zatáčet ani zastavovat a pokud naběhne na kopí, je zraněn za <b>+1 damage</b></desc>
+  </skill> 
+  
+  <skill>
+    <name>Bez štítu</name><attr>1x Fáze</attr>
+    <points>12</points><cond>Těžká sekera</cond>
+    <desc>Na začátku každé fáze se může Big Boss rozhodnout, jestli chce s sebou vláčet svoji pavézu, 
+      nebo zda-li se radši proběhne jen se svojí zbraní. Bez štítu <b>může běhat</b>, <b>nemá</b> schopnost
+      <b>Ne-prorazitelná</b> a <b>imunita na odhození</b>.
+      </desc>
+  </skill> 
+  
+  
+  <skill>
+    <name>Obouruč</name><attr>1x za Souboj</attr>
+    <points>15</points><cond>Velká sekera</cond>
+    <desc>Někdy se boj strašně vleče a je potřeba ho trochu "oživit". Big Boss chytí pořádně obouruč svoji
+      sekeru před úderem zařve buď <cite>Lámem</cite>, nebo <cite>Náááááááááá</cite>. Lámem způsobí <i>průraz</i>  a 
+      <i>Náááááá</i> přidá úderu <b>+1 damage</b>. Za souboj může použít jednu z těchto schopností.
+      </desc>
+  </skill> 
+  
+</schopnosti>
+
+<kouzla>                                                      
+
+   <spell>
+    <name>Trollí svitek hlouposti</name><cost>WAAGH 3</cost><attr>4x za Fázi</attr>
+    <points>17</points><cond>Šaman</cond>  
+    <form>Hlouuuupý Troll</form>
+    <desc>Orci mají sice chytrost menší než svůj věk, ale může být i hůř, podívejme se třeba na trolla.
+Tenhle svitek opravdu nevytvořili trollové, jen pro jeho základ posloužili.
+Big Boss zakleje postavu (spojenecká i nepřátelská) do podoby dementa.
+Přidávají se mu +3 stínové životy a nemůže používat žádnou ze svých schopností a
+kouzel potřebujících "aktivaci", trvalé vlastnosti pořád fungují.</desc> 
+  </spell>
+  
+  <spell>
+    <name>Moc hole</name>
+    <attr>2x za Souboj</attr><cost>WAAGH 0</cost>
+    <points>17</points><cond>Železná palice</cond>  
+    <form>Léčení</form>
+    <desc>Hůl byla původně čistě magická zbraň a každý její útok zároveň léčil. Po staletích deformace v pustinách Chaosu 
+      se hůl navrátila jako pouhý střípek své původní moci. Nyní trpí nedoslýchavostí a tak na ní musí Šaman pořádně zařvat
+      <i>Léčení</i> a příští úder může <b>při zásahu vyléčit Šamana za 2 životy. Takový zásah však nedává nepříteli žádné zranění</b>.</desc> 
+  </spell>
+
+   <spell>
+    <name>Pojďte blíž!</name>
+    <attr>2x za Fázi</attr><cost>WAAGH 3</cost>
+    <points>68</points><cond>Šaman</cond>
+    <form>Luky nic, kuše nic, kopí nic! Waaaaaagh!</form>
+    <desc>Tváří v tvář se nepříteli nejlépe rozráží hruď. Aby se však zelená dostala přes trnitou hradbu museli šamani 
+    udělat malý podvod v realitě. Kopí, šípy a šipky nepřátel nedosáhnou přes zmatenou trhlinu v časoprostoru, kdy dochází k zajímavému jevu...
+    To nedůležité! Kopí nic nedělat, šípy nic nedělat, šipky nic nedělat. Jeden souboj. Všichni ze zelené warbandy.</desc> 
+  </spell>
+  
+  <spell>
+  <name>Zemětřesení</name><attr>1x za Fázi</attr>
+    <points>20</points><cond>Šaman</cond><cost>WAAGH 5</cost>
+    <form>Zemětřaaaaas</form>
+    <desc>Díky svému neuvěřitelně těžkému brnění může Big Boss zařvat <i>Zemětřaaaaas</i> zadupat 
+          a vyvolat tím zemětřesení způsobující Odhození o 3 metry. Povalí 6 jednotek nejblíže k Bossovi.</desc>
+  </spell>
+  
+   <spell>                                                                      
+  <name>Zelená dobrá</name><cost>Waaaaaagh celé zelené warbandy</cost><attr>1x za Souboj</attr>
+     <form>Waaaaaaaaaaagh!</form><points>10</points><cond>Primitiv</cond>
+  <desc>Šípy a střely pro orky nic neznamenají, je to jen obtížný hmyz. Někdy si sice musejí
+  po pár kousnutích odpočinout a někteří se již nezvednou,
+  však pořád je to jen hmyz.
+  <b>Imunitu na střely všeho druhu získávají 3 postavy.</b></desc>
+  </spell>
+
+  
+  <spell>                                                                      
+  <name>Nejsilnější!</name><cost>Waaaaaagh 5</cost><attr>1x za Souboj</attr>
+  <form>Na něeeeeeeeeeeeeeee!</form><points>30</points><cond>Černý Ork</cond>
+  <desc>Big Boss musí běžet v čele zelené warbandy do boje s nepřítelem. Zelený kápo je a musí být všude první, i u nepřítele, aby ho mohl první naporcovat
+  na první malé kousíčky. Proto získává na <b>první zásah Průraz</b>.</desc>
+  </spell>
+  
+  </kouzla> 
+
+</wargear>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Ironbreaker</jmeno>
+
+<hiearchie>core</hiearchie>       
+
+<legenda>Kdybychom aspoň tušili, že ta trpasličí karavana, kterou jsem napadli je samotného
+trpasličího krále Kir Hinu. Jeho osobní stráž se na nás vrhla s mohutným řevem a obrovskými
+kladivy rozdrtila kosti nejednomu z nás. Jsem jeden z mála přeživších, kterého nechali na živu jako
+zajatce. "Proč jste nás napadli?" zeptal se ten nejmenší a nejsvalnatější z nich. "Chtěli jsme pouze
+zlato, nevěděli jsme, že je to královská výprava..." odpověděl jsem roztřeseným hlasem. "Žádný vyšší
+účel?" pokračoval ve výslechu. "Ne". Po odpovědi se otočil a odvětil "Dobrá." Ještě když zněla jeho
+slova, zasvištělo jeho kladivo v obrovském oblouku a poslední věc jakou jsem viděl ve svém
+mizerném životě, byla jeho zkrvavená hlavice.</legenda>                    
+
+<popis>Lamači železa obvykle v trpasličí společnosti stráží ty nejhlubší opuštěné tunely před nejrůznějšími 
+temnými kreaturami, které by jinak mohli proniknout až do trpasličího sídla. Jelikož strávili většinu svého 
+života hluboko pod zemí v nejméně navštěvovaných částech podzemí bojujíce o svůj holý život, jen málo bojovníků 
+se jim může postavit a zvítězit nad nimi.</popis>                 
+
+<pravidla>
+  <lives label="životů">1</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">5</reinkarnace>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Lehce oděného trpaslíka je téměř zázrak vidět, proto většina z nich nosí
+minimálně kroužkové košile nebo kazajky z tvrdé kůže. Přes brnění mají přehozené
+oblečení nenápadných barev. Povinností jsou samozřejmě pořádné fousy.</povinne>     
+
+<extra>Rohatá helmice, šupinové brnění, ozdoby, malý pivní soudek (s vodou :P). Čím více trpaslicky a vznešeněji budete vypadat
+budete lépe ohodnoceni. Kreativitě se meze nekladou, proto byste si mohli vyrobit i různé
+doplňky jako šperky, válečný roh, dýmku a jiné.</extra>               
+
+</kostym>   
+
+<zbrane>
+  <zbran>
+   <name>Kladivo</name>
+   <desc>Jednoruční kladivo na hlavy nepřátel ne dál, než 90cm.</desc>
+  </zbran>       
+</zbrane>                                   
+
+
+
+<obrazky>
+  <img src="dwarfs/ironbreaker_2.jpg"/>
+  <img src="dwarfs/ironbreaker_3.jpg"/>
+  <img src="dwarfs/ironbreaker_1.jpg"/>
+  <img src="dwarfs/dwarf_1.jpg"/>
+</obrazky>
+
+</jednotka>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Glade guard</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Výcvik Waywatchera</name>
+    <points>30</points>
+    <desc>Tito válečníci se ještě více ponořili do umění kamufláže, tichého pohybu a záškodnické války.</desc>
+  </path>  
+
+  <path>
+    <name>Výcvik Eternala</name>
+    <points>30</points>
+    <desc>Válečníci kteří si zvolili nelehkou cestu být elitní gardou strážící samotné srdce 
+    lesa Athel Loren se specializují na netradiční taktiku boje muž proti muži a především boj v pevném šiku.</desc>
+  </path>  
+
+</povolani>
+
+<zbroje>
+
+<zbroj>
+  <name>Kožená zbroj</name>
+  <points>25</points>
+  <desc>Kožená zbroj sice neposkytuje tak velkou ochranu jako železné zbroje Říše, ale i tak dokáže zabránit nejednomu zranění. 
+  <b>(+1 život)</b></desc> 
+  <lives>1</lives>
+</zbroj>    
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+   <name>Maskovací plášť</name>
+   <points>10</points>
+   <cond>Výcvik Waywatchera</cond>
+   <desc>Tento plášť zdokonaluje již tak velmi dobou schopnost Lesních elfů ukrýt se v lese.</desc>
+ </vybava>
+  
+ <vybava>
+   <name>Amulet Hvozdu</name>
+   <points>30</points>
+   <desc>Tento amulet v sobě obsahuje hojivou sílu Hvozdu a dokáže vrátit duši do těla rychleji. Pokud ho dotyčná postava vlastní, má zkrácenou 
+     reinkarnaci o 2 minuty.</desc>
+   <reinkarnace>-2</reinkarnace>
+ </vybava>
+  
+ <vybava>
+   <name>Paralyzující šípy</name>
+   <points>10</points>
+   <cond>Výcvik Waywatchera</cond>
+   <desc>Tyto šípy jsou pomazány speciálním jedem a mohou způsobit rozdílné poškození v závislosti na úmyslech střelce.</desc>
+ </vybava>
+  
+</vybaveni>
+
+<zbrane>
+  
+  <zbran>                    
+    <name>Luk</name>
+    <points>0</points>
+    <cond>Výcvik Waywatchera</cond>
+    <desc>Tato střelná zbran je hlavní zbraní Waywatchru. Jen ručně vyrobený nebo historický, ne sportovní. Je nutný malý nátah,
+maximálně do 15 kg a celkově musí luk vypadat stylově. Šípy musí mít střed "hrotu"
+zhotovený z víčka z PET lahve nebo něco podobného průměru (ne korkový špunt od
+vína!). Okolo středu musí být potom dostatečná vrstva karimatky nebo molitanu. bambule
+musí mít alespoň 5 cm v průměru a přední část hrotu musí být dostatečně vyměkčen (1-2
+cm). Šíp nesmí mít nikde nic ostrého nebo špičatého a celá bambule musí být patřičně
+měkká. Bambule musí na šípu držet jako přibitá a musí vydržet i drsné zacházení. Jak šípy,
+tak i samotný luk bude podroben VELMI PŘÍSNÉ kontrole a testování, nevyhovující
+budeme zabavovat a podezřelé šípy máme právo rozkuchat na pozorování. Každý lučišník
+sebou musí mít min. 10 šípů, které projdou registrací, jinak nebude vpuštěn do hry.</desc>
+  </zbran>    
+   
+  <zbran>
+    <name>Obouruční meč</name>
+    <points>20</points>
+    <desc>Kde nestačí krátký meč tam nastoupí Obouruční meč. Nejdelší naměřitelná délka 110 cm</desc>
+  </zbran>
+  
+  <zbran>
+    <name>Štít</name>
+    <points>15</points>
+    <desc>Co dokáže lesní lid vytvořit ze dřeva, tomu se dá leckdy těžko věřit. I jejich štíty si tvrdostí nezadají s ocelí, ale váží jen zlomek této 
+      váhy. Maximální rozměry 50 x 60 cm nebo průměr 55 cm.</desc>
+  </zbran>
+  
+  <zbran>
+    <name>Kopí</name>
+    <points>20</points>
+    <cond>Výcvik Eternala</cond>
+    <desc>Hlavní zbraní Ethernalů vždycky bylo a je kopí. Délka 190-210 cm</desc>
+  </zbran>                    
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Ukryt v lese</name><attr>trvalé</attr>
+    <points>0</points><cond>Maskovací plášť</cond>
+    <desc>Pokud elf vybavený tímto pláštěm obejme strom a objímá ho 10 vteřin tak se na něj vztahují pravidla <i>základní neviditelnosti</i> 
+      a je neviditelný dokud se aspoň jednou rukou tohoto stromu dotýká.</desc>
+  </skill> 
+    
+  <skill>
+    <name>Průstřel nohy</name><attr>3x za Fázi</attr>
+    <points>10</points><cond>Paralyzující šípy</cond>
+    <desc>Díky této schopnosti dokáže střelec prostřelit nepřítelovu nohu. Pokud se střelec trefí cíle tak cíl se parlýzu na nohy na 10 vteřin.</desc>
+  </skill>
+  
+  <skill>
+    <name>Poslední z posledních</name><attr>trvalé</attr>
+    <points>22</points><cond>Výcvik Eternala</cond>
+    <desc>Pokud všichni ethernalové zemřou v jednom SOuboji, může poslední z nich zvolat <cite>"Pomstím své bratry"</cite> a s tímto křikem 
+      se rozeběhnout k nepřátelům. 
+    Takto získá navíc 2 stínové životy, ale z tohoto souboje nesmí utéct a na konci Souboje si musí sám vzít život. </desc>
+  </skill>
+  
+  <skill>
+    <name>Za Athel Loren</name><attr>1x za souboj</attr>
+    <points>14</points>
+    <desc>V souboji muže bojovník zvolat <cite>"Za Athel Loren"</cite> a následující zásah je o 1 silnější <b>(+1 dmg na první zásah)</b> </desc>
+  </skill> 
+  
+  <skill>
+    <name>Splynutí s Přírodou</name><attr>3x za Fázi</attr>
+    <points>16</points>
+    <desc>Pokud elf obejme strom a řekne <cite>"Příroda mně ochrání před těmi co jí chtějí ublížit"</cite> má do dalšího Souboje imunitu na 
+      první zásah</desc>
+  </skill> 
+  
+  <skill>
+    <name>Pomsta elfů</name><attr>1x za Souboj</attr>
+    <points>15</points><cond>Výcvik Eternala</cond>
+    <desc>Pokud v blízkosti Ethernala zemře jeho spolubojovník z řad lesních elfů, může zvolat: <cite>"Pomsta bude má"</cite> získá na zbytek 
+      Souboje <b>+1  stínový život</b> navíc.</desc>
+  </skill>
+  
+  
+  <skill>
+    <name>Paralýza</name><attr>1x za souboj</attr>
+    <points>12</points><cond>Paralyzující šípy</cond>
+    <desc>Dobrý střelec dokáže trefit takřka jakékoliv místo na těle a tím zneškodnit nepřítele. Před výstřelem je nutno zvolat <cite>"Paralýza"</cite>
+    a pokud střelec dalším šípem trefí nepřítelovu končetinu, je tato končetina paralyzována na 5 vteřin.</desc>
+  </skill>
+  
+  <skill>
+    <name>Nehořlavá květina</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Výcvik Eternala</cond>
+    <desc>Oheň byl odvěkým nepřítelem Lesa ale někteří elfové se ho naučili potlačovat!. Jednou za Souboj může elf ignorovat efekt <i>zapálení</i>.</desc>
+  </skill>
+
+<skill>
+    <name>Stabilní mysl</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Výcvik Eternala</cond>
+    <desc>Díky rokům meditace je elf schopen odrazit jakékoliv psychycké útoky. Jednou za Souboj může elf ignorovat efekt <i>šílenství</i>.</desc>
+  </skill>
+
+<skill>
+    <name>Tělo lesa</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Výcvik Waywatchera</cond>
+    <desc>Elfové jsou natolik tělem spojení s přírodou že některé jedy naprosto ignorují. Jednou za Souboj může elf ignorovat efekt <i>paralýza</i>.</desc>
+  </skill>
+  
+</schopnosti>
+
+</wargear>

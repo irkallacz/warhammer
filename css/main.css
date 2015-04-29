@@ -1,0 +1,97 @@
+body {background-color: black; font-family: 'Times New Roman', Times, serif;}
+
+#main {margin: 0px auto; width: 1100px; background-image: url('../img/body.jpg');}    
+
+#header {height: 333px; background-image: url('../img/header.jpg'); position: relative;}
+#header #icons {float: left; width: 500px; height: 30px; margin: 0px; padding: 0px;}
+#header #icons li {display: inline; list-style-type: none;}
+#header #icons li a {height: 25px; width: 25px; float: left; margin-left: 5px;}
+#header #icons li #hofy {background-position: -25px;}
+#header #icons li #facebook {background-position: -50px;}
+#header #icons li #youtube {background-position: -75px;}
+
+#header #login {float: right; width: 180px; height: 28px; font-weight: bold; text-align: center;
+font-size: 20px; margin: 0px 10px 0px 0px; padding: 0px; z-index: 2; position: relative; overflow: hidden;}
+#header #login:hover, #header #login:active {overflow: visible;}
+#header #login:hover li, #header #login:active li {background-image: url('../img/alpha.png');}
+#header #login li {list-style-type: none; padding: 2px;}
+#header #login li a {color: rgb(145,59,26); text-transform: uppercase; text-decoration: none;}
+#header #login li a:hover, #header #login li a:active {color: rgb(249,135,34); text-decoration: underline; }
+#header #login li:last-child {border-radius: 0px 0px 20px 20px;}
+#header #login li:first-child {border-radius: 0px;}
+
+#header h1 {clear: both; position: absolute; width: 667px; height: 211px; left: 405px; top: 48px; z-index: 1;}
+#header h1 a {background-image: url('../img/logo.jpg'); display: block; height: 100%; width: 100%;}       
+
+#section {background-image: url('../img/top.jpg'); background-repeat: no-repeat;}
+
+#menu {height: 40px;}
+#menu ul {margin: 0px 0px 0px 230px; padding: 10px 0px;}
+#menu li {list-style-type: none; display: inline;}
+#menu li a {text-transform: uppercase; text-decoration: none; font-weight: bold; color: rgb(183,0,21); 
+margin-left: 20px; font-size: 20px;}
+#menu li a:active, #menu li a.current {color: rgb(150,144,146);}
+#menu li a:hover {color: rgb(255,136,146);}
+
+#aside {float: left; width: 235px; background-image: url('../img/side.png'); background-position: bottom right;
+background-repeat: no-repeat;}
+#aside ul#nav {margin: 100px 40px 0px 0px; padding: 0px;}
+#aside ul#nav li {list-style-type: none; text-align: right; margin: 3px 0px;}
+#aside ul#nav li a {font-variant: small-caps; font-weight: bold; text-transform: capitalize; font-size: 20px; 
+color: rgb(128,0,0); text-decoration: none; border-style: solid; border-width: 2px 0px; text-shadow: 2px 2px 3px black;
+filter: shadow(color=#202020, direction=145); display: inline-block; border-color: transparent;}
+
+#aside ul#nav li a:hover {color: rgb(235,12,12); border-color: rgb(235,12,12);}
+#aside ul#nav li a:active, #aside ul#nav li a.current {color: rgb(150,144,146); border-color: transparent; }
+
+
+#aside h2 {color: black; text-transform: uppercase; text-align: center; margin-top: 20px;}
+
+#footer {height: 477px; background-image: url('../img/footer.png'); clear: both; position: relative;
+color: rgb(255,32,32); text-transform: uppercase; font-size: 20px; font-weight: bold;}
+#footer #design {position: absolute; right: 0px; bottom: 0px; margin-right: 20px; width: 200px; text-align: right;}
+#footer #design .over {margin-left: 5px; float: right; width: 37px; height: 22px; background-position: -100px;}
+#footer #nette {background-position: -137px 0px; width: 80px; height: 15px; margin: 0px auto; bottom: 5px; 
+right: 510px; position: absolute;}
+#footer #master {position: absolute; left: 0px; top: 453px; width: 500px; margin-left: 20px;}
+#footer #master a {color: rgb(255,32,32); text-decoration: none; font-size: 18px; font-variant: small-caps;
+text-transform: capitalize; vertical-align: top;} 
+ 
+#text {color: rgb(141,60,0); float: left; width: 800px; font-size: 16px;}
+#text p, #text dl, #text ul, #text ol {margin-left: 3em;}
+#text h1, #text h2, #text h3 {margin-left: 32px; font-variant: small-caps; color: rgb(161,3,0);}
+#text a:hover h3, #aside ul#news li a:hover h3 {color: rgb(255,136,146);}
+
+#text b, #text strong {color: rgb(118,92,76);}
+#text a {color: rgb(235,12,12); font-weight: normal;}
+#text a:hover {text-decoration: none; color: rgb(255,136,146);}
+
+#text dl dd {margin-bottom: 1em;} 
+#text dl dt {color: rgb(161,3,0);}
+
+#text .files {padding-right: 23px; background-repeat: no-repeat; background-position: right top;}
+
+#flash_messages {padding-left: 0px; list-style-type: none;}
+#flash_messages li, .error li {list-style-type: none; border-radius: 5px; padding: 3px 7px; margin: 2px auto; overflow: hidden; line-height: 16px;}
+
+.error li, li.error {background-color: rgb(190,48,29); color: rgb(80,0,0); border: 3px rgb(153,0,0) solid;}
+.error li:before, li.error:before {content: "! "; font-family: serif; font-weight: bold; color: rgb(255,204,51); font-size: 22px;}
+
+li.info {background-color: rgb(30,90,6); color: rgb(18,45,3); border: 3px darkgreen solid;}
+li.info:before {content: "i"; font-family: serif; font-weight: bold; color: rgb(255,204,51); font-size: 20px; padding-right: 1ex;}
+
+#text .ulrik a, #text a.ulrik {background-color: rgb(177,152,132); padding: 2px 6px; text-decoration: none; border-radius: 6px; 
+font-family: Arial, sans-serif; color: rgb(80,80,80);}
+
+#text .ulrik a:hover, #text a:hover.ulrik  {background-color: rgb(80,80,80); color: gray;}
+
+#text a img {border: none;}
+.center {text-align: center;}
+.old {font-style: italic; color: rgb(177,152,132); color: rgb(118,92,76); text-align: justify;}
+.right {text-align: right;}
+.over {display: block; background-image: url('../img/icons.png'); background-repeat: no-repeat;}
+.over span {display: none;}
+.hidden, .no-css {display: none;}
+.red {color: rgb(161,3,0) !important;}
+.gold {color: rgb(141,60,0) !important;}
+.white {color: rgb(118,92,76) !important;}

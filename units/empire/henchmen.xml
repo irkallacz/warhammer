@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Henchmen</jmeno>
+
+<hiearchie>rare</hiearchie>       
+
+<legenda>Hranice vzplanula... Ta temná bestie, jakmile ucítila kouř, sebou začala na vrcholku trhat. Snažila se
+uvolnit z pout, ale naše provazy a víra ji tam svázaly tak, že by ji nepomohli ani všichni bohové Chaosu. Oheň stoupal
+a pomalu jí začal olizovat kůži. Jen shoř, shoř tak, jako hořela naše města, shoř tak, jak víra v našich srdcích! Shoř, čarodějnice!</legenda>
+
+<popis>Jedná se o učedníka různých cechů, který v případě nepřítomnosti svého mistra přebírá veškerou jeho
+práci na sebe. Pokud vidí zplozence Chaosu je jeho přirozeností bojovat proti nim jakýmkoliv způsobem. Je velmi všestranný 
+  a svůj boj může konat kouzli, zbraněmi nebo léčitelstvím. Rozhodně se jedná o bojovníka s obřím zapálením, schopného
+  vždy se postavit Zplozencův Chaosu v jakékoliv podobě.</popis>                 
+
+<pravidla>   
+  <lives label="životů">2</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">8</reinkarnace>
+  <bodyr label="bodů Rozhřešení">0</bodyr>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Zbroj, přiléhavé kalhoty, vysoké boty, kabátec nebo kožená kazajka, nebo kožený plášť,
+ dlouhé rukavice (aspoň do půlky lokte. </povinne>     
+
+<extra>Útržky modliteb na pergamenech, železná ramena, klobouk, čím víc opasků s flakóny a náboji, tím líp.</extra>               
+
+</kostym>   
+    
+<zbrane>
+  <zbran><name>Šavle</name><desc>60 - 90cm</desc></zbran>       
+</zbrane>  
+
+  <zbroje>
+
+  <zbroj>
+    <name>Lehká zbroj</name><desc>Prošívanice, kusy kožené zbroje.</desc>
+  </zbroj>    
+
+</zbroje>   
+  
+<kouzla>
+
+<desc>Jeho kouzla jsou založena na boji proti zlu. Nesmí z něj čerpat energii, ale může jeho energii zničit,
+  či očistit od zla ohněm. Každý takový vyhraný souboj s temnotou ho posiluje a umožňuje mu lépe bojovat s tím co přijde.
+  Za každou temnou duši, jejíž bídnou existenci ukončí, získá 1 Bod Rozhřešení (dále jen BR). U každého kouzla je uvedena 
+  cena počtu BK, kterou je potřeba na každé kouzlo utratit. Body Rozhřešení se dají hromadit jen do té doby, do kdy Henchmen 
+  žije. Po reinkarnaci se všechny takto získané body ztratí.     
+</desc>
+  
+
+</kouzla>
+
+<roleplay>Jsi tajemný, štítíš se všeho zla a velmi tě přitahují hořící hranice? Nebojíš se zakládat velké požáry
+a upalovat ty, kteří se staví na odpor tvé víře? Chceš chránit své spojence i po smrti, aby jejich těla nebyla použita
+ke zvráceným rituálům? Umíš zfanatizovat lid, kázat ze Svatého písma a pevně věříš, že to tak Sigmar chce? 
+Pak je toto práce přímo pro tebe!
+</roleplay>                 
+
+<obrazky>
+  <img src="empire/henchmen_1.jpg"/>
+  <img src="empire/henchmen_2.jpg"/>
+  <img src="empire/henchmen_3.jpg"/>
+  <img src="empire/henchmen_4.jpg"/>
+  <img src="empire/henchmen_5.jpg"/>
+</obrazky>
+
+</jednotka>

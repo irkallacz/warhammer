@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Zombie</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Prastará</name>
+    <points>20</points>
+    <desc>Tělo mrtvého hrdiny z dávných časů, jehož jméno bylo již dávno zapomenuto, přivedeného zpět k boji.</desc>
+  </path>  
+
+   <path>
+    <name>Nosič praporce</name>
+    <points>80</points>
+    <desc>Zombie nesoucí erb svého pána. Praporec musí být nesen v jedné ruce. V druhé je možné používat jednoruční zbraň. Toto povolání se může ve Warbandě vyskytovat jen jednou.</desc>
+  </path> 
+  
+  <path>
+    <name>Nosič Ikony</name>
+    <points>50</points>
+    <desc>Nemrtvý, který je nucen na svých bedrech nést artefakt naplněný mocnou magií. Před nebo v průběhu Soubojů může být Ikona postaveno k bojišti a tím aktivována.
+      (Zpracování artefaktu je na hráčích, doporučujeme něco tématického: náhrobní kámen, kříž, socha nemrtvého z polystyrenu,...atd). Toto povolání se může ve Warbandě vyskytovat maximálně dvakrát.</desc>
+  </path> 
+  
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Imperiální zbroj</name>
+    <points>40</points>
+    <desc>Rezavá zbroj mrtvého bojovníka Impéria chrání lépe než holá kůže. Zombie může ignorovat první zásah v Souboji</desc>
+  </zbroj> 
+  
+   <zbroj>
+    <name>Zbroj dávných časů</name>
+     <points>60</points><cond>Prastará</cond><lives>2</lives><reinkarnace>2</reinkarnace><BR>-1</BR>
+    <desc>Runová zbroj dovoluje utržit i velké rány ovšem zbroj částečně odsává magii určenou na reanimaci. Nositeli +2 životy, +2 min reinkarnace
+     a -1 BR</desc>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Praporec Strachu</name>
+   <points>30</points><cond>Nosič praporce</cond>
+   <desc>Praporec s výjevem Strašlivých smrtí nepřátel Upírských Vévodství. Jednou za Fázi muže být praporec aktivován pokřikem <cite>Děste se 
+     své smrti smrtelníci!</cite> a 2 nepřátelé musí utíkat 20 metrů pryč od praporce.</desc>
+  </vybava> 
+  
+   <vybava>
+    <name>Erb Rodu</name>
+   <points>60</points><cond>Nosič praporce</cond>
+   <desc>Praporec se znakem rodu, ze kterého Upír pochází. Jednou za Fázi může být praporec aktivován pokřikem <cite>Rod upírů bude tu navždy!
+     </cite> a 5 nemrtvým v okolí praporce se vyléčí 1 život.</desc>
+  </vybava> 
+  
+   <vybava>
+    <name>Ikona smrti</name>
+   <points>50</points><cond>Nosič Ikony</cond>
+    <desc>Tato ikona nese esenci samotné Smrti, Pokud je postavena před začátkem Souboje slouží jako reinkarnační místo pro Zombie. Ikona může 
+      být postavena jen jednou za Fázi. Pokud se tak stane stává se místem kde se může <b>instantně</b> zreinkarnovat 5 zombií. (po náležitém 
+     Roleplayingu). <i>Prosíme aby se u ikony nějakým způsobem utvořilo počítadlo  oživení. Stačí například zapíchat 5 klacíků kolem Ikony,
+      a každý kdo se zreinkarnuje jeden vytáhne, atd. Systém je zcela na hráčích</i></desc>
+  </vybava>
+  
+   <vybava>
+    <name>Ikona Života</name>
+   <points>20</points><cond>Nosič Ikony</cond>
+    <desc>Ikona, která v sobě nese esenci Života. Pokud je postavena před začátkem Souboje šíří kolem sebe pole propojené magií (poloměr 2 metry).
+     Pokud v tomto poli zemře nemrtvý a Ikona není deaktivovaná, dostává daný nemrtvý -2 minuty reinkarnaci. Toto platí na neomezený počet nemrtvých,
+     dokud Ikona stojí. Pokud jakýkoliv nepřítel zasáhne(zraní) Ikonu, ikona je deaktivovaná a Nosič si jí odnese.</desc>
+  </vybava> 
+
+  <vybava>
+    <name>Ikona Magie</name>
+   <points>20</points><cond>Nosič Ikony</cond>
+    <desc>Tato ikona nese esenci samotné mocné prastaré magie. Pokud je postavena před začátkem Souboje, slouží jako Rituální místo pro nemrtvé.
+      (Mohou se zde provádět <b>Rituály</b>) A současně jakékoliv kouzlo utvořené Upírem na tomto místě ho stojí o 1 BK méně (minimálně ovšem 1).</desc>
+  </vybava>
+
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Štít</name>
+    <points>12</points>
+    <desc>60x55 cm</desc>
+  </zbran>   
+  
+   <zbran>
+    <name>Kopí</name>
+    <points>30</points>
+    <desc>Maximální délka 180-210 cm, dobře měkčená špička</desc>
+  </zbran> 
+  
+  <zbran>
+    <name>Vidle</name>
+    <points>10</points>
+    <desc>150-180 cm</desc>
+  </zbran> 
+  
+  <zbran>
+    <name>Meč</name><cond>Prastará</cond>
+    <points>12</points>
+    <desc>60-90 cm</desc>
+  </zbran> 
+  
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+    <skill><name>Reanimace</name><attr>trvalé</attr>
+      <points>50</points>
+    <desc>Pokud se Zombie nachází ve Vesnici/táboře a je pouze zraněná. Může se léčit rychlostí 1 život za minutu.</desc>
+  </skill>
+  
+  <skill>
+    <name>Mrtvé maso</name><attr>trvalé</attr>
+    <points>60</points><cond>Prastará</cond>
+    <desc>Těla Zombií jsou již tak často oživovaná že pokud zemře a po dobu ležení na zemi ji někdo vyléčí aspoň jeden život, 
+povstane zpět k životu</desc>
+  </skill> 
+  
+   <skill>
+    <name>Magická Soudržnost</name><attr>trvalé</attr>
+     <points>30</points><reinkarnace>-1</reinkarnace>
+     <desc>Magie, která nutí mrtvé tělo chodit je tak silná že Zombie nevydrží ležet delší dobu (<b>reinkarnace -1minutu</b>)</desc>
+  </skill> 
+    
+  
+  <skill>
+    <name>Tuhé maso</name><attr>trvalé</attr>
+    <points>30</points><lives>1</lives>
+     <desc>Mrtvola patřila pořádnému válečníkovi a i po smrti je to na ní vidět (<b>+1 život</b>)</desc>
+  </skill> 
+  
+    <skill>
+    <name>Mrazivá síla</name><attr>1x za Souboj</attr>
+    <points>40</points><cond>Prastará</cond>
+      <desc>Oživení mrtví dokáží při přítomnosti Upíra vyvinout sílu, která je pro běžné smrtelníky nepředstavitelná. Po zvolání <cite>Smrt si pro vás přijde</cite> dostává zombie +1dmg na první úder</desc>
+  </skill> 
+  
+    <skill>
+    <name>Rituální vortex</name><attr>trvalé</attr>
+      <points>40</points><BR>1</BR>
+      <desc>Magie potřebná pro vrácení zombie na tento svět je mnohem jednoduší. Zombie dostává +1 BR</desc>
+  </skill> 
+  
+    
+</schopnosti>
+
+</wargear>

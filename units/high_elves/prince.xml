@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Prince</jmeno>
+
+<hiearchie>hero</hiearchie>       
+
+<legenda>"Mé děti, sedím zde a dívám se na ty, jež se zde 
+shromáždily, aby mi vyslechli má slova, a vidím ve vašich tvářích duchy 
+druhů, kteří již dávno opustili tento svět. Jak mé srdce krvácí při 
+pomyšlení na uplynulá tisíciletí, které stále planou tak divoce, jako 
+tomu bylo každou vteřinu života; smutek ze vzpomínek, které nyní 
+neexistují jako nic víc než jen slabé ozvěny hlasů a smíchu v mé ztýrané
+ mysli. A přesto pro všechnu tu bolest, kterou vzpomínky způsobují, 
+nedokážu žít a nevzpomínat. Jsou samou podstatou mého bytí, důkazem, že 
+žiji. Za každou strast, pro niž jsem truchlil, jsem nalezl novou sílu. 
+Za každé zranění, které jsem utrpěl, nesu jizvy od léčení. Za každou 
+ztrátu, kterou jsem přestál, jsem nalezl příslib naděje.",  
+Unthw Větrný jezdec, herold krále Fénixe.</legenda>                    
+
+<popis>Šlechtici Vznešených elfů jsou známý svým hlubokým citem pro čest 
+a mistrovském zvládnutí umění války a diplomacie, který jim byl vštěpován již od dětství. 
+V dobách konfliktu demonstrují své dovednosti skrz svojí obratnost, mistrovském 
+umění vládnout zbraním pro boj, na krátkou vzdálenost nebo vůdcovské schopnosti, 
+když je potřeba velet armádě zpoza bitevní linie.</popis>                 
+
+<pravidla>
+  <lives label="životů">4</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">10</reinkarnace>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Základem je bojová suknice přes ní šupinová Zbroj a plášť. Použité barvy jsou modrá, bílá, stříbrná a zlatá. 
+  Povinností jsou rovněž elfí špičaté uši. Vše by mělo být vypadat na to, že je to majetek elfího šlechtice.
+</povinne>     
+     
+<extra>Helmice nebo dlouhé plavé vlasy, ozdobné vyšívání na oblečení, elfí runy na Zbroji, drahokamy zasazené do Zbroje.</extra>               
+
+</kostym>   
+
+<zbroje>
+  <zbroj>
+    <name>Šupinová zbroj Vznešených elfů</name><desc>Zbroj skládající se z šupinové košile, nátepníků a chráničů ramen.</desc>
+  </zbroj>    
+</zbroje>   
+
+
+<zbrane>
+  <zbran><name>Jednoruční meč</name><desc>Maximální délka 90 cm</desc></zbran>       
+  <zbran><name>Obouruční meč</name><desc>Maximální délka 140 cm</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+<skill><name>Vznešenost věků</name><attr>1x za Souboj</attr>         
+  <desc>Pokud bojovník Vznešených elfů bojuje v souboji s Temnými elfy, může ignorovat jeden zásah od nich.</desc>
+</skill>  
+  
+</schopnosti>
+  
+<kouzla>
+  <desc>Vznešení elfové užívali magii již v době, kdy se lidé teprve začali budovat základy jejich společnosti. Vysoká magie Vznešených elfů 
+    je potom v porovnáním s uměním Říšských mágů jako lesní požár proti plamenu svíčky. Zatímco základem lidské magie je víra, elfové mají své 
+    odhodlání a vůli jimiž ohýbají samotné předivo reality ve svůj prospěch. Aby bylo možno kouzlo vůbec provést, musí se elfí mág odštítit od warpu 
+    a jeho zhoubné energie. Na Ulthuanu by toto nebylo potřeba neboť celý ostrov je chráněn Vortexem, avšak mimo něj hrozí mágovy, že ho zhoubná 
+    síla warpu zničí. Aby se mohl celou svou sílou vůle soustředit na kouzlo, musí odstínění provést jeho druhové ve zbrani pomocí prastaré elfí mantry, 
+    kterou zpívají a která upne jejich mysli k ochraně svého mága. <br/>
+    Ve hře potom může mág provést kouzlo a vylovit formuli jen tehdy, dokud jeho doprovod 
+    zpívá mantru. U každého kouzlo je napsáno, kolik a jakých slabik je potřeba během koulení zpívat. Jeden elf smí zpívat pouze jednu slabiku. 
+    Zpěv se opakuje stále dokola, dokud není kouzlo provedeno a pokud je zpěv přerušen, kouzlo se nepovede. Během zpěvu můžou elfové provádět libovolnou 
+    činnost, kterou zvládnou.</desc>
+
+   <spell>
+    <name>Aenarionova odvaha</name><cost>La + Mo + Nu</cost><attr>1x za Fázi</attr>
+    <form>Aenarion siv mil de sahvar in da Van!</form>
+    <desc>Díky tomuto kouzlu může mág Vznešených elfů naplnit srdce i mysl svých spolubojovníků
+mocí Asuru a odhodláním bojovat. Do jejich těl se vlije síla a jejím pažím dodá sílu
+bojovat až za hranice jejich fyzických možností. Toto kouzlo přidá každé jednotce v
+regimentu právě 2 stínové životy. Maximální počet elfů, na které je toho kouzlo možno najednou seslat je 5.</desc> 
+   </spell>
+</kouzla>
+
+<roleplay>
+Princ Vznešených elfů se chová podle svého postavení v hierarchii jeho národa, a to je poměrně vysoké. 
+Jeho původ ho určuje jako přísného velitele, který je vázán splnit své závazky, neboť jeho čest a hrdost 
+jeho rodu mu nedává moc možností selhat. Po všech svých poddaných si žádá absolutní odevzdanost a plné nasazení, a sám je ten, 
+který jde všem příkladem. 
+K lidem a lesním elfům se chová uctivě, ctí je jako své spojence, avšak cítí se nadřazen a ví, že oni jeho potřebují více než on je. 
+Trpaslíky zrovna moc nemusí, ale nejvyšší nenávist chová ke svým temným bratrancům, pro které nemá nic, než jen ty nejhorší pojmenování. 
+</roleplay>                 
+
+
+<obrazky>
+<img src="high_elves/prince_05.jpg"/>
+<img src="high_elves/prince_06.jpg"/>
+<img src="high_elves/prince_04.jpg"/>
+<img src="high_elves/prince_01.jpg"/>
+<img src="high_elves/prince_02.jpg"/>
+<img src="high_elves/elf_05.jpg"/>
+<img src="high_elves/elf_06.jpg"/>
+<img src="high_elves/elf_07.jpg"/>
+<img src="high_elves/elf_10.jpg"/>
+</obrazky>
+
+</jednotka>

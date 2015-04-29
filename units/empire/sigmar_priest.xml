@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Sigmar priest</jmeno>
+
+<hiearchie>hero</hiearchie>       
+
+<legenda>Vážně mě vyděsil. Zjevil se přede mnou, uprostřed boje, jako obří duch, od zbroje se mu odrážely rudé paprsky 
+zapadajícího slunce. Obouručním kladivem se rozháněl, jako kdyby byl pírko a v očích měl ten podivný pohled fanatika.
+Zůstal jsem nehybně stát, zíral jsem na něj, jako zhypnotizovaný králík na zmiji, čelist mi v úžasu poklesla. Zíral jsem
+na překrásné kladivo, které se nesmlouvavě blížilo k mé hlavě. Ozvalo se lupnutí, když mi rozrazilo lebku, a pak...
+pak jsem zemřel... znovu.</legenda>                            
+
+
+<popis>Nikdy a nikde byste pravděpodobně nenašli nikoho, kdo by byl více oddaný svému Bohu a své věci, než Sigmarův Priest.
+V zářivé zbroji a s kladivem v pravé ruce a Svatou knihou v levé se vrhá do boje proti všem zrůdám a bestiím,
+které se snaží ohrozit Říši. Své následovníky miluje jako pastýř stádo, jako otec své děti a neštítí se za ně položit
+i svůj život. Je neohrožený, odvážný a... epický. </popis>                 
+
+<pravidla>
+  <lives label="životů">4</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">10</reinkarnace>
+</pravidla>                  
+<kostym>
+
+<povinne>Zbroj, rukavice, kožešiny světlých odstínů, suknice, červený plášť.</povinne>     
+
+<extra>Breviář, Sigmarovy insignie, zlatý řetěz kolem krku nebo přívěsek kladiva, nátepníky, 
+zlatá čelenka, červené pruhy látky se znaky Sigmara. </extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Plátová zbroj </name><desc> Kyrys, ramena, nákrčník, nátepníky, náholenice. Lesklé! </desc>
+  </zbroj>    
+
+</zbroje>   
+
+<zbrane>
+  <zbran><name>Jednoruční zbraň</name><desc>Meč / kladivo (60 - 90 cm)</desc></zbran>       
+</zbrane>                                   
+
+
+<kouzla>
+
+<desc>Sigmarův Priest věří ve schopnosti svého Boha až za hrob. Nezabíjí, protože to je
+barbarské a hodné jen Chaosu, proti kterému přeci Říše bojuje. Proto k vykonání rituálu
+stačí modlitba, vroucná a upřímná, během které se v odříkávání k Sigmaritovi připojí jeho
+klečící a nebojující následovníci.
+</desc>
+ 
+</kouzla>
+
+<roleplay>Sigmarův kněz je sice člověk, ale jeho víra jej posunula na vyšší úroveň.
+Není fanatický, přes to jen málokdy uteče z boje a radši obětuje sebe a své jméno ve jménu svého Boha,
+kterého miluje a spoléhá na něj při všech rozhodnutích. Přesto je to rozumný a rozvážný muž, rodilý vůdce
+a geniální stratég, prověřený mnoha bitvami, který své vojáky nežene jen tak do záhuby 
+a když už nezbývá nic jiného, dodá jim modlitbou odvahu a takové odhodlání, že zapomenou na strach
+ze smrti a s nadšením se vrhnou pro Sigmara i do nejhlubšího Pekla.
+</roleplay>                 
+
+
+<obrazky>
+<img src="empire/Sigmar_Priest.jpg"/>
+<img src="empire/Sigmar_Priest (1).jpg"/>
+<img src="empire/Sigmar_Priest (2).jpg"/>
+<img src="empire/Sigmar_Priest_01.jpg"/>
+<img src="empire/Sigmar_Priest_04.jpg"/>
+<img src="empire/Sigmar_Priest (8).jpg"/>
+<img src="empire/Sigmar_Priest (9).jpg"/>
+<img src="empire/Sigmar_Priest_02.jpg"/>
+<img src="empire/Sigmar_Priest_03.jpg"/>
+
+
+</obrazky>
+
+</jednotka>

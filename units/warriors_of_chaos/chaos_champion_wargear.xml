@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wargear>
+
+<jmeno>Chaos champion</jmeno>
+
+<povolani>
+  <path>
+    <name>Stoupence Khorne</name>
+    <points>80</points>
+    <desc>Champion, který nosí symbol Khorne ve zlaté a rudé barvě je odměněn dary kruté síly, bojových
+schopností a kouzel plných krve a trofejí.</desc>
+<img src="warriors_of_chaos/champion_of_chaos_7.jpg" />
+<img src="warriors_of_chaos/champion_of_chaos_8.jpg" />
+  </path> 
+
+  <path>
+    <name>Stoupence Slaanesh</name>
+    <points>80</points>
+    <desc>Stoupenci honosící se znakem Slaaneshe si libují v bolesti, mučení a pomalém utrpení.
+Vyvolené barvy jsou černá, fialová a růžová. Jejich hlavní silou jsou rychlost, zákeřnost a 
+nekonečná zásoba způsobu trýznění duší.</desc>
+
+<img src="warriors_of_chaos/champion_of_chaos_9.jpg" />
+<img src="warriors_of_chaos/champion_of_chaos_10.jpg" />
+  </path> 
+  
+  <path>
+    <name>Stoupence Nurgle</name>
+    <points>80</points>
+    <desc>Bojovníci, kteří si za svého Boha zvolili Nurgleho jsou odměněni nezvyklou odolností těl,
+regenerací a Magií spřaženou s nemocemi, nákazou, rzí a hnilobou.</desc>
+<img src="warriors_of_chaos/champion_of_chaos_5.jpg" />
+<img src="warriors_of_chaos/champion_of_chaos_6.jpg" />
+  </path> 
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Helma</name>
+    <points>12</points>
+    <desc>Helma dobře chrání před smrtícími útoky na hlavu Vyvoleného (<b>+1 život</b>).</desc>
+    <lives>1</lives>  
+  </zbroj> 
+  
+  <zbroj>
+    <name>Runová zbroj</name>
+    <points>20</points>
+    <desc>Starověká zbroj s množstvím znaků a run, které propůjčují Championovi moc. Díky ní ignoruje
+první zásah v Souboji.</desc>
+  </zbroj> 
+
+<zbroj>
+    <name>Kožená zbroj</name>
+    <points>20</points><cond>Stoupence Slaanesh</cond>
+<desc>Kyrys, nátepníky, stehenní chrániče. Zbroj z černé kůže sice poskytuje menší ochranu, zato dovoluje majiteli lepší pohyblivost. 
+Champion dostane <b>-2 životy</b>, ale nemusí mít plátovou zbroj.</desc>
+<lives>-2</lives>  </zbroj>
+
+  <zbroj>
+    <name>Zbroj D´thaka</name>
+    <points>28</points><cond>Stoupence Khorne</cond>
+    <desc>Kyrys, nátepníky, stehenní chrániče. Zbroj pokrytá sérií run dovoluje jednou probudit démona v ní.</desc>
+  </zbroj>
+       
+</zbroje>            
+
+
+<vybaveni>
+
+ <vybava>
+    <name>Tlející břicho</name>
+    <points>32</points><cond>Nekontrolované bujení</cond>
+    <desc>Břicho Vyvoleného je již tak nafouklé, že se nevejde do pozměněné zbroje. V celém těle navíc
+    začínají bujet tekutiny a tkáně o kterých běžný smrtelník nemá ani zdání. Chosen získává <b>+ 2 
+životy</b></desc><lives>2</lives>
+  </vybava> 
+
+<vybava>
+    <name>Magický svitek</name>
+    <points>20</points>
+    <desc>Svitek, který má v sobě uzavřenou sílu démonů. Počet <b>klečících</b> u všech Kouzel je <b>snížen o 1.</b></desc>
+  </vybava> 
+
+<vybava>
+    <name>Náhrdelník z lebek</name>
+    <points>40</points><cond>Stoupence Khorne</cond>     
+<desc>Magický artefakt, který propůjčí majiteli <b><i>imunitu na magii</i></b>.</desc>
+  </vybava> 
+
+<vybava>
+    <name>Plášť krvavé pomsty</name>
+    <points>24</points><cond>Stoupence Khorne</cond>    
+<desc>Plášť prosáklý krví mnoha nepřátel. Pokud Champion běží do boje, je nezranitelný do zad. Počítá se například pokud protrhne řadu
+a bojuje skrz ní. Neplatí pokud Champion prchá z boje.</desc>
+  </vybava> 
+
+<vybava>
+    <name>Runa Krvežíznivce</name>
+    <points>8</points><cond>Runová sekera</cond>    
+<desc>Runa, který po aktivaci dokáže 2x za Souboj po úspěšném zranění potrhat šlachy v těle nepřítele (efekt <b><i>paralýza</i></b>
+na zasaženou končetinu) s pokřikem <cite>"Třes se před Hněvem Khorna"</cite>. Ovšem žádá si svoji odměnu v podobě aspoň 5 mrtvých v souboji.
+Pokud tento hlad nebude ukojen musí si Champion <b>ubrat 1 život</b>.</desc>
+  </vybava> 
+
+<vybava>
+    <name>Runa Ohně</name>
+    <points>8</points><cond>Runová sekera</cond>    
+<desc>Runa, která nese spoutaný samotný oheň démonů. Jendou za Souboj může Champion aktivovat s pokřikem <cite>"Plamenem tě ztrestám"!</cite> a
+další zásah bude mít efekt <b><i>zapálení</i></b>.</desc>
+  </vybava> 
+
+
+<vybava>
+    <name>Runa zkázy</name>
+    <points>8</points><cond>Runová sekera</cond>    
+<desc>Sekera s runou zkázy dokáže prorazit i ten nejpevnější štít. Champion musí zvolat <cite>"Tvůj štít tě neochrání!"</cite> a na další úder
+má efekt <b><i>průraz</i></b>. Tato runa může být aktivována 2x za souboj.</desc>
+  </vybava> 
+
+</vybaveni>
+
+<zbrane>
+ <zbran>
+    <name>Obouruční meč</name>
+    <points>20</points>
+    <desc>110-140 cm</desc>
+  </zbran>                  
+ 
+ <zbran>
+    <name>Obouruční sekera</name>
+    <points>20</points>
+<cond>Stoupence Khorne</cond>    
+<desc>Nejdelší naměřitelná délka 110-150 cm</desc>
+  </zbran>                  
+ 
+ <zbran>
+    <name>Kombinace mečů/seker</name>
+    <points>80</points>
+    <desc>Součet délek do 150 cm</desc>
+  </zbran>                  
+ 
+  <zbran>
+    <name>Štít</name>
+    <points>20</points>
+    <desc>Průměr max 60cm</desc>
+  </zbran>                  
+ 
+  <zbran>
+    <name>Pavéza Hniloby</name>
+    <points>40</points><cond>Stoupence Nurgle</cond>
+    <desc>Štít (80x60 cm), potažený kůží nepřátel žijící vlastním životem.nelze jí prorazit efektem Průraz.</desc>
+  </zbran>  
+
+  <zbran>
+    <name>Požírač duší</name><Soul>4</Soul>
+    <points>0</points><cond>Stoupence Slaanesh</cond>
+    <desc>Prastarý artefakt jehož zrod je opředen množstvím záhad. 90-100 cm dlouhá "jedenapůlruční" šavle. Stoupenec začíná hru s počtem 
+      <b>Duší</b> rovný nule.</desc>
+  </zbran> 
+
+
+  <zbran>
+    <name>Runová sekera</name>
+    <points>28</points><cond>Stoupence Khorne</cond>
+    <desc>Artefakt, který má speciální symbol pro vytepání <b>pouze jedné magické runy</b>. Maximální naměřitelná délka 60-100 cm.</desc>
+  </zbran>  
+  
+</zbrane>                                   
+
+<schopnosti>    
+  <skill>
+    <name>Hnilobná Magie</name><attr>4x za Fázi</attr>
+    <points>0</points><cond>Stoupence Nurgle</cond><TH>5</TH>
+    <desc>Champion klanící se Nurge může být odměněn nahlédnutím do tajů magie hniloby a rozkladu.
+    Champion, který tak učiní si může po každém Souboji zanořit ruku do vnitřností čerstvé mrtvoly, 
+vyrvat jí žaludek a přidá si tím jeden Token Hniloby, což je síla potřebná pro Hnilobnou magii. 
+Na začátku hry je vždy bez Tokenů.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Nekontrolované bujení</name><attr>trvalé</attr>
+    <points>20</points><cond>Stoupence Nurgle</cond>
+    <desc>Pochody v těle Vyvoleného se staly naprosto nekontrolovatelné a nákaza mu prolezla již celé 
+tělo. Z celého těla je cítit strašlivý zápach, ale odolnost a regenerace organismu je neuvěřitelná. 
+<b>Champion získává +1 život</b></desc>
+<lives>1</lives>  </skill> 
+  
+  <skill>
+    <name>Regenerace</name><attr>3x za Fázi</attr>
+    <points>20</points><cond>Stoupence Nurgle</cond>
+    <desc>Tkáň Championova těla má neuvěřitelné možnosti obnovy svalů a kostí. Kdykoliv mimo Souboj může
+Champion provést sérii úderů do hrudního plátu za doprovodu mocného dávivého kašle, zimničného třesu a 
+následného odplivnutí a <b>vyléčí si tím 2 životy.</b></desc>
+  </skill> 
+
+<skill>
+    <name>Pohlcení duše</name><attr>3x za Fázi</attr>
+  <points>0</points><cond>Požírač duší</cond>
+    <desc>Champion může pomocí Požírače duší vysát nepřátelskou duši a nakrmit tak démona sídlícího v
+meči. Champion musí zasadit smrtelnou ránu nepříteli a poté musí zabodnout meč do mrtvoly a vytrhnout
+z ní duši. Pokud bude úspěšný, přičte se jedna <b>Duše</b>.</desc>
+  </skill> 
+
+<skill>
+    <name>Bojové drogy</name><attr>1x za Souboj</attr>
+    <points>40</points><cond>Stoupence Slaanesh</cond>
+    <desc>Champion může využít tajů bojových drog kultu Slaaneshe, která mu propůjčí necitlivost vůči zranění. Na začátku Soubojů si musí
+dát <b>"dávku"</b>. Dávka může mít sílu 1 až 3. Za každou postavu síly dávky si přičte 2 stínové životy a odebere 1 život normální. Zranění drogou
+<b>nelze</b> léčit během Souboje.</desc>
+  </skill>
+
+<skill>
+    <name>Řev warpu</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Stoupence Slaanesh</cond>
+    <desc>Během souboje může Champion zařvat na nejbližšího nepřítele, protrhne tím úzkou hranici mezi reálným světem a warpem.
+Tři nejbližší nepřátelé zasaženi tímto řevem jsou <b><i>odhozeni</i></b>.</desc>
+  </skill>
+
+<skill>
+    <name>Pán lebek</name><attr>trvalé</attr>
+    <points>16</points><cond>Stoupence Khorne</cond>
+    <desc>Po zavraždění nepřátelského Hrdiny mu Champion uřízne hlavu a nabídne ji Khornovi s pokřikem <cite>"Pro pána lebek!"</cite> a vyléčí
+si všechny životy.</desc>
+  </skill>
+  
+  <skill>
+    <name>Sběratel</name><attr>4x za Fázi</attr>
+    <points>16</points><cond>Pán lebek</cond>
+    <desc>Schopnost <i>Pán lebek</i> dovoluje uřezávat hlavy i Rare jednotkám. Za takovou trofej si ovšem může vyléčit jen 1 život. Toto může provést jen 4x za Fázi.</desc>
+  </skill>
+</schopnosti>
+
+<kouzla>                                                      
+  <spell>
+    <name>Oltář Hnisu</name><cost>3 klečící</cost><attr>1x za Fázi</attr>
+    <points>12</points><cond>Hnilobná Magie</cond>
+    <form>Aowefold uuiruiff fferirchdeyy bhuthlub hulfff!</form>
+    <desc>Champion zanoří ruku do čerstvé mrtvoly nepřátelské postavy, pronese slova moci a síla moru 
+rozloží tělo během několika okamžiků. Chosen si přičte 3 Tokeny Hniloby</desc> 
+  </spell>
+  
+  <spell>
+    <name>Shnilé maso</name><cost>3 klečící, 2 Tokeny Hniloby</cost><attr>1x za Fázi</attr>
+    <points>28</points><cond>Hnilobná Magie</cond>
+    <form>Bhuthlub hulfff ladecogc cchowoe kwill!</form>
+    <desc>Jedná se o Rituál. Vyvolený potřísní své bojovníky, klečící kolem něj, tělní tekutinou, která je popálí jako 
+tekutý oheň a ubere jim 1 život. Poté jsou klečící označeni a pokud přežijí následný Souboj, jejich 
+těla se po potřísnění cizí krví obnoví a životy stoupnout na plný počet.</desc> 
+  </spell>
+  
+   <spell>
+    <name>Hnisavá čest</name><cost>3 klečící, 3 Tokeny Hniloby</cost><attr>1x za Fázi</attr>
+    <points>28</points><cond>Hnilobná Magie</cond>
+    <form>Filrdy ez kyhepsyk oz o dolry widnefr berily!</form>
+    <desc>Jedná se o Rituál. Chosen pronese formuli a zelený dým tryskající z jeho rukou vstoupí do klečících, kteří pocítí
+sílu samotného Nurgleho, získají 1 stínový život a imunitu na první ránu do hrudníku nebo zad na 
+následující Souboj.</desc> 
+  </spell>
+  
+  <spell>
+    <name>Obnova tkání</name><cost>1 Token Hniloby</cost><attr>1x za Souboj</attr>
+    <points>40</points><cond>Regenerace</cond>
+    <form>Zsudezyk kyhepseaf ab o bdu!</form>
+    <desc>Champion může provést sérii úderů do hrudního plátu za doprovodu mocného dávivého kašle, 
+zimničného třesu a následného odplivnutí si vyléčí 4 životy přímo v Souboji.</desc> 
+  </spell>
+  
+<spell>
+    <name>Překonání mezí</name><cost>2 klečící, 1 Duše</cost><attr>2x za Fázi</attr>
+    <points>40</points><cond>Stoupence Slaanesh</cond>
+    <form>Agzaeee eoeue ksdhn'n iaei !</form>
+    <desc>Jedná se o Rituál. Champion pronese formuli, zdvihne Požírač Duší nad hlavu a poté se stává požehnaným. Pokud mu v následujícím
+ Souboji klesnou životy šampiona na 2 a méně dostává bonus +1 dmg, ale nesmí používat schopnosti ani kouzla. Efekt se ruší
+pokud se Champion uzdraví nebo zemře.</desc> 
+  </spell>
+
+<spell>
+    <name>Bojové šílenství</name><cost>4 klečící, 3 Duše</cost><attr>1x za Fázi</attr>
+    <points>40</points><cond>Stoupence Slaanesh</cond>
+    <form>Oosha g'gcc Arfloq'e!</form>
+    <desc>Jedná se o Rituál. Champion pronese formuli, zdvihne Požírače Duší nad hlavu a poté se klečící stávají bojechtiví. Do následujícího Souboje
+vběhnou s pokřikem <cite>"Slaanesh je náš pán!"</cite> ignorují první 2 udržené zásahy a sami provedou první úder +1 dmg. Nemůže se kombinovat s jinou
+Schopností ani Kouzlem.</desc> 
+  </spell>
+
+<spell>
+    <name>Oběť bohům</name><cost>4 klečící, 1 oběť</cost><attr>1x za Fázi</attr>
+    <points>20</points><cond>Stoupence Khorne</cond>
+    <form>A kdehhyye osh osha g'gcc Ar!</form>
+    <desc>Jedná se o Rituál. Champion pronese zaklínadlo a poté tři válečníky zraní za 1dmg, tito válečníci dostávají +1 dmg na příští
+Souboj, ale nemohou používat žádné Schopnosti. Bonus nelze kumulovat ani kombinovat s jiným bonusem.</desc> 
+  </spell>
+
+<spell>
+    <name>Démon zbroje</name><cost>2 klečící, 1 oběť</cost><attr>1x za Fázi</attr>
+    <points>0</points><cond>Zbroj D´thaka</cond>
+    <form>F swy wyolsz ab swazy qesw swy zslafryzs!</form>
+    <desc>Jedná se o Rituál. Champion pronese zaklínadlo, zavraždí oběť a během příštího Souboj může zařvat <cite>"Ve jménu D´thaka"</cite>
+a totéž 30 vteřin ignoruje všechny rány do zbroje.</desc> 
+  </spell>
+
+</kouzla> 
+
+</wargear>

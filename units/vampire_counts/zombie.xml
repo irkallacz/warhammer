@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Zombie</jmeno>
+
+<hiearchie>core</hiearchie>       
+
+<legenda>Je tomu dávno, co jsem umřela... a je tomu nedávno, co jsem opět ožila. Jen ne jako vznešená upírka,
+ale jako hromada hnijícího masa, kostí a šlach. Červíci, brouci, jak já je nesnáším! Pořád ve mně hlodají
+a nedají mi pokoj... A k tomu ten nekonečný hlad a chuť na... na...na...!!!</legenda>                    
+
+
+<popis>Mrtvé tělo navrácené zpět k životu pomocí nekromancie se nejčastěji označuje jako Zombie. Pochodující těla bez vlastní myslí tupě poslouchající příkazy svého pána.
+  Často se vyskytují ve velkém množství vysíláni ve vlnách v touze vysílit protivníka. Jakmile byla těla jednou oživena, není těžké tento proces jednoduše opakovat. 
+  Proto se často stává že Zombie sou oživovány opakovaně a to často i v průběhu jedné bitvy.</popis>                 
+
+
+<pravidla>
+  <lives label="životů">1</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">10</reinkarnace>
+  <BR label="oživení mimo vesnici za Fázi (BR)">2</BR>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Roztrhané historické oblečení, make-up na viditelných částí pleti.</povinne>     
+
+<extra>Zbroj, kostým imperiálních vojáků, namaskovaný způsob smrti (prostřelen šípem, atd)</extra>               
+
+</kostym>   
+
+ 
+<zbrane>
+  <zbran><name>Jednoruční zbraň</name><desc>Tupá, drtivá zbraň délky 60-90cm (sekáček, kladivo, palcát,...)</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>  
+  
+  <skill><name>Zmrtvýchvstání</name><attr>trvalé</attr>         
+    <desc>Zombie se velmi často oživuje, ovšem její magie je pouze dočasná a proto jí to nedovolí tak často. Herně je to reprezentováno <b>body reanimace</b>(dále jen BR), kterým má každá zombie 
+      v základu 2. každý BR jí dovoluje se jednou oživit mimo Tábor/Vesnici.</desc>
+  </skill>
+  
+   <skill><name>Smrti nikdo neuteče</name><attr>trvalé</attr>         
+  <desc>Zombie se může pohybovat pouze chůzí pokud v její přítomnosti není Vampire. To neplatí v Souboji, kde se vždy musí pohybovat pouze chůzí.</desc>
+  </skill>
+    
+</schopnosti>
+
+<roleplay> Oživlé bytosti si zachovávají jen málo z vědomostí z dřívějšího života. Bez přítomnosti Upíra jsou pomalé a hloupé ovšem v jeho okolí se z nich stávají nemilosrdní zabijáci 
+  bez sebemenší představy o pudu sebezáchovy často vyrážejí do útoku bez krytí a umírají po první ráně aby se v další minutě vrátili znovu do útoku.
+</roleplay>                 
+
+<obrazky>
+  <img src="vampire_counts/zombie_1.jpg"/>
+  <img src="vampire_counts/zombie_2.jpg"/>
+  <img src="vampire_counts/zombie_3.jpg"/>
+  <img src="vampire_counts/zombie_4.jpg"/>
+  <img src="vampire_counts/zombie_5.jpg"/>
+  <img src="vampire_counts/zombie_6.jpg"/>
+  <img src="vampire_counts/zombie_7.jpg"/>
+</obrazky>
+
+</jednotka>

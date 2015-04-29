@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="Warhammer,LARP,bitva,The Other Sides"> 
+  <link rel="alternate" title="Warhammer - TOS IV - Novinky" href="http://www.warhammer-tos.cz/uvod/rss/" type="application/rss+xml">
+  <link rel="shortcut icon" href="{$baseUri}/favicon.ico" type="image/x-icon">
+	<title>Beta | Warhammer - The Other Sides IV</title>
+	<link rel="stylesheet" media="screen,projection,tv" href="{$baseUri}/css/main.css" type="text/css">
+	{block #head}{/block}
+  </head>
+  <body>
+  <div id="main">
+    <div id="header">
+      {* <ul id="icons">
+        <li><a href="http://www.warhammer-tos.cz/uvod/rss/" class="over" title="Rss" id="rss"><span>Rss</span></a></li>
+        <li><a href="http://www.hofyland.cz/?public&amp;id=29134" class="over" title="Hofyland" id="hofy"><span>Hofyland</span></a></li>
+        <li><a href="http://www.facebook.com/pages/Warhammer-The-Other-Sides/188264854555252" class="over" title="Facebook" id="facebook"><span>Facebook</span></a></li>
+        <li><a href="http://www.youtube.com/user/warhammerTOS" class="over" title="YouTube" id="youtube"><span>YouTube</span></a></li>
+      </ul> *}
+      <ul id="login">        
+        {if $user->isLoggedIn()}
+        <li><a n:href="Sign:out">Odhlásit</a></li>
+        {else}
+        <li><a n:href="Sign:in">Login</a></li>
+        {/if}
+      </ul>
+      <h1><a href="{$baseUri}" title="Warhammer - The Other Sides IV" class="over">
+      <span>Warhammer - The Other Sides IV</span></a></h1>
+    </div>
+    <div id="section">                  
+      <div id="menu">
+        <ul>  
+       
+       </ul>
+      </div>
+
+      <div id="aside">
+        <ul id="nav">
+        <li><a {ifCurrent Wargear:*}class="current"{/ifCurrent} n:href="Wargear:">Wargear</a></li> 
+        <li><a {ifCurrent Pravidla:*}class="current"{/ifCurrent} n:href="Pravidla:">Pravidla</a></li>     
+        </ul>
+      </div>
+      
+      <div id="text">
+      <!--Začátek stánky-->
+    	<ul n:inner-foreach="$flashes as $flash" id="flash_messages">
+        <li class="flash {$flash->type}">{$flash->message}</li>
+      </ul>
+      {include #content}
+      <!--Konec stánky--> 
+     </div>
+     
+     <div id="footer">
+       <div id="master">Webmaster <a href="mailto&#58;faila&#64;atlas.cz" title="Richard Faila"><span>faila&#64;atlas.cz</span></a></div>
+       <a class="over" id="nette" href="http://www.nette.org" title="Nette Framework"><span>Nette Powered</span></a>
+       <div id="design">design by <a href="http://biggart.eu/" title="BiggArt" class="over"><span>BiggArt</span></a></div>       
+     </div>
+           
+    </div>
+  </div>
+  </body>
+</html>

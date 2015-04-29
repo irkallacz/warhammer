@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Stormvermin</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Klan Skryre</name>
+    <points>50</points>
+    <desc>Mistři technologie a techno-magie jsou proslulí pro svoje vynálezy a inovátorství. Nikdy si nemůžete být jistí co proti vám vyšlou když s nimi bojujete.</desc>
+  </path>  
+  
+  <path>
+    <name>Klan Pestilens</name>
+    <points>50</points>
+    <desc>Klan morových kněží tvořící všemožné nákazy a nemoci jimiž zaplavuje celý svět ve jménu Rohaté krysy.</desc>
+  </path>  
+
+  
+  <path>
+    <name>Klan Eshin</name>
+    <points>50</points>
+    <desc>Klan známý pro své špehy a vrahy. Nejeden strašidelný příběh se vypráví dětem o stvořeních z tohoto klanu.</desc>
+  </path>  
+
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Zesílená zbroj</name>
+    <points>30</points><lives>1</lives>
+    <desc>Kombinace kroužků, tvrzené kůže a železných plátů dodává skavenovi +1 život</desc>
+  </zbroj> 
+         
+</zbroje>            
+
+
+<zbrane>
+
+  <zbran>
+    <name>Kadidelnice</name>
+    <points>40</points><cond>Klan Pestilens</cond>
+    <desc>Obouruční řemdih (60 toporo+ 30řetěz + 20 koule), propojený magií hniloby ze samotného oltáře klanu v Undercity dovoluje
+    seslat strašlivé nemoci na nepřátelé Rohaté krysy. Každý 3 platný zásah je paralyzující. Přitom paralyzuje zasaženou končetinu na 5 vteřin
+    a jednoho nepřítele nelze paralyzovat je jednu za souboj.</desc>
+  </zbran>    
+  
+  <zbran>
+    <name>Morový meč</name>
+    <points>80</points><cond>Klan Pestilens</cond>
+    <desc>90 cm dlouhý jednoruční meč posetý sadou run. Mocný předmět, který může být během bitvy pozvednut na hlavu a po zvolání 
+      <cite>Krysa je mocná</cite> ukáže na jednoho nepřítele a sebere mu všechny stínové životy. Tento akt stojí 1AKCH a může být použit je
+    jednou za Souboj.</desc>
+  </zbran>                    
+  
+  
+  <zbran>
+    <name>Štít</name>
+    <points>15</points>
+    <desc>50x60 cm</desc>
+  </zbran>    
+  
+  <zbran>
+    <name>Kopí</name>
+    <points>40</points>
+    <desc>180-220cm</desc>
+  </zbran>                    
+  
+  
+   <zbran>
+    <name>Prak</name>
+     <points>30</points><cond>Klan Eshin</cond>
+<desc>Jednoduchý prak z kusu látky nebo provázku s miskou vrhající molitanové, nebo jinak měkčené koule.</desc>
+<img src="skaven/clanrat_sling.gif" />
+  </zbran>  
+  
+  
+    <zbran>
+    <name>Dráp</name>
+    <points>40</points><cond>Klan Eshin</cond>
+<desc>max 60 cm přes zaťatou pěst, Skaven dostává imunitu na celé předloktí ve kterém dráp má.</desc>
+  </zbran>  
+  
+   <zbran>
+    <name>Energo dráp</name>
+    <points>50</points><cond>Klan Skryre</cond>
+<desc>Max 60 cm přes zaťatou pěst. Každý třetí zásah s tímto drápem dá energo-šok nepříteli a ten poté nemůže zbytek souboje používat Schopnosti.</desc>
+  </zbran>  
+  
+  
+   <zbran>
+    <name>Těžká zbraň</name>
+     <points>100</points><cond>Klan Skryre</cond>
+    <desc>Těžká zbraň, která vnáší do řad nepřátel neskutečnou zkázu. Tuto zbraň musí používat 2 skaveni najednou. <i>Při zakoupení této možnosti
+      kontaktujte Organizátory o provedení</i>.</desc>
+  </zbran>  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Předání kamenů</name><attr>4x za Fázi</attr>
+    <points>20</points><cond>Klan Pestilens</cond>
+    <desc>Stormvermin může předat libovolný počet vlastních AKCH dalšímu stormverinovi.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Skrytí ve stínu</name><attr>a</attr>
+    <points>30</points><cond>Klan Eshin</cond>
+    <desc>Skaveni klanu Eshin jsou skvělí jako špioni nebo assasini, nic z toho by ovšem nezvládli bez skvělého skrytí ve stínu.
+      Skaven si může dřepnout na místě, kde je <b>z dohledu nepřátel</b> pronese <cite>stíny ukryjte mě</cite> a potom na něj platí
+      <i>základní neviditelnost</i>, nesmí se ovšem hýbat ani jiné interakce popsané u základní neviditelnosti. Pokud chce svoje pozorovací stanoviště opustit
+      nebo jakkoliv jinak zrušit neviditelnost, musí se 3x otočit dokola za zvolání <cite>písk, písk, písk</cite></desc>
+  </skill> 
+    
+  <skill>
+    <name>Noční běžec</name><attr>1x za Fázi</attr>
+    <points>20</points><cond>Klan Eshin</cond>
+    <desc>Tato schopnost může být použita jen ve Válečném Táboře, pokud nepřítel není blíž než 10 metrů od zdí. Noční běžci jsou známí mezi
+    skaveny po velmi dlouhou dobu. Běžec je vyslán Hrdinou za jasným cílem (předání předmětu, informace,...) z Tábora a dostává +2 stínové životy.
+      Běžec se musí vydat co nejkratší cestou na místo určení a nezastavit se po celou dobu. Zranění do zad ignoruje s pokřikem<cite>Noční běžec</cite>
+     Pokud se zastaví nebo je zastaven (paralýza,...), stínové životy mizí. Po ukončení běhu se navíc musí 20 vteřin pohybovat pouze chůzí.</desc>
+  </skill> 
+  
+  
+<skill>
+    <name>Jed</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Dráp</cond>    
+<desc>I obyčejní Skaveni u sebou čas od času nosí flakónek jedu. Pokud se Skaven otře Drápem(10 sekund) o svůj kožich, příští zásah bude
+způsobovat paralýzu na zasaženou končetinu nepřítele na 10 sekund.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Přetížení</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Energo dráp</cond>    
+    <desc>Skaven se chytí druhou prackou za dráp a za pokřiku <cite>nabijím</cite> pracku nabije, na další zásah má pak dráp efekt <i>průrazu</i></desc>
+  </skill> 
+  
+  
+    
+</schopnosti>
+
+<kouzla>                                                      
+
+   <spell>
+    <name>Sněť</name><cost>2 AKCH</cost><attr>2x za Fázi</attr>
+     <points>30</points><cond>Klan Pestilens</cond>
+    <form>Membiarkan bug makan Anda</form>
+    <desc>Stormvermin vyřkne formuli a 3 očarovaní nepřátelé nejsou schopni se léčit po dobu půl hodiny.</desc> 
+  </spell>
+
+  <spell>
+    <name>Dar rohaté krysy</name><cost>2 AKCH</cost><attr>1x za Fázi</attr>
+     <points>50</points><cond>Klan Pestilens</cond>
+    <form>Mari saya merasa kekuatan Anda</form>
+    <desc>Stormvermin vyřkne formuli 3x se zatočí dokola přidá si jeden stínový život.</desc> 
+  </spell>
+
+</kouzla> 
+
+</wargear>

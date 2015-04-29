@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wargear>
+
+<jmeno>Marauder</jmeno>
+
+<povolani>
+  <path>
+    <name>Nájezdník</name>
+    <points>16</points>
+    <desc>Marauder je zkušený bojovník, který prošel mnoha bitvami</desc>
+  </path> 
+
+  <path>
+    <name>Nositel praporce</name>
+    <points>8</points>
+    <desc>Marauder je pověřen nesením praporce. Praporec musí nést v jedné ruce, v druhé může mít jednoruční zbraň. Nositel praporce může 
+být jen jeden ve Warbandě. Může si vybrat jeden praporec z níže uvedených. Toto povolání se může ve warbandě vyskytnout jen jednou.</desc>
+  </path> 
+
+<path>
+    <name>Poznamenaný</name>
+    <points>24</points>
+    <desc>Marauder je poctěn dotykem Bohů a to se projevuje jak na jeho síle tak hlavně na vzhledu.</desc>
+  </path> 
+  
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Tvrzená zbroj</name>
+    <points>48</points><cond>Nájezdník</cond>
+<desc>Kroužková zbroj s částmi plátů. Kyrys, nárameníky. Marauder dostává +1 život.</desc>
+<lives>1</lives>
+  </zbroj> 
+
+  <zbroj>
+    <name>Helma</name>
+    <points>32</points>
+<desc>Helma chrání proti útokům na halvu. Marauder dostává +1 život.</desc>
+<lives>1</lives>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Praporec odvahy</name>
+    <points>200</points><cond>Nositel praporce</cond>
+<desc>Praporec, který je umístěn na tyči v ruce dodává celé Warbandě chuť do boje a každý v ní
+dostává +1 život.</desc>
+  </vybava> 
+
+<vybava>
+    <name>Praporec rituálu</name>
+    <points>200</points><cond>Nositel praporce</cond>
+<desc>Praporec, může být jednou za Fázi držen na jednom místě a za pokřiku <cite>"Zde bohové Chaosu jsme, hleďte!"</cite>
+proměněn na <b>Rituální místo</b></desc>
+  </vybava> 
+  
+  <vybava>
+    <name>Vrhací sekera</name>
+    <points>30</points>
+<desc>Kompletně molitanová(nebo jinak měkká) vrhací zbraň ve tvaru sekery. Minimálně 40cm veliká. Maximální počet na jednoho Maraudera je 3. Pravidlově podléhají kouzlů a efektům šípů (ignorace)</desc>
+  </vybava> 
+
+
+
+</vybaveni>
+
+<zbrane>
+
+
+<zbran>
+    <name>Kombinace dvou zbraní</name>
+    <points>64</points>
+    <desc>Kombinace jednoručních zbraní do maximálního součtu 150 cm. Žádná nesmí přesáhnout 110 cm.</desc>
+  </zbran>  
+
+<zbran>
+    <name>Meč</name>
+    <points>14</points>
+<cond>Nájezdník</cond>    
+<desc>60-90 cm</desc>
+  </zbran>  
+
+<zbran>
+    <name>Štít</name>
+    <points>12</points>
+    <desc>Maximálně 55x60cm</desc>
+  </zbran>  
+
+<zbran>
+    <name>Kladivo</name>
+    <points>12</points>
+    <desc>60-90 cm</desc>
+  </zbran>  
+
+<zbran>
+    <name>Obouruční zbraň</name>
+    <points>64</points>
+    <desc>Meč/sekera/kladivo. Nejdelší naměřitelná délka 140cm</desc>
+  </zbran>  
+
+<zbran>
+<name>Mutace</name>
+<points>40</points><cond>Poznamenaný</cond>
+<desc>Zmutovaná ruka zakončená čepelí, palicí nebo sekáčkem. Mutace může překračovat maximálně 60cm za zaťatou pěst. Celá
+ ruka se pomocí proměny stává imunní na zranění. Počítá se jako použitá ruka. ve druhé ruce může být další zbraň nebo štít.</desc>
+<img src="warriors_of_chaos/marauder_5.jpg" />
+</zbran>  
+
+
+
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Řev</name><attr>1x za Souboj</attr>
+    <points>48</points><cond>Nájezdník</cond>
+    <desc>Před soubojem musí Marauder ZAŘVAT <cite>CHAOOOOOS</cite> a rozběhnout se(min 
+10 metrů). Poté má +1dmg na první zásah. Nelze kombinovat s jinou Schopností ani 
+Předmětem, kromě pasivních.</desc>
+  </skill> 
+  
+    <skill>
+    <name>Schopný vrhač</name><attr>trvalé</attr>
+      <points>40</points><cond>Vrhací sekera</cond>
+    <desc>Marauder je zkušený v práci s vrhacími zbraněmi, proto u sebe dokáže nosit až 5 vrhacích seker.</desc>
+  </skill> 
+
+ <skill>
+    <name>Dotyk</name><attr>1x za Souboj</attr>
+    <points>48</points><cond>Poznamenaný</cond>
+    <desc>Do Maraudera vstoupí síla Bohů. Před soubojem marauder zvolá <cite>Bohové dejte mi sílu!</cite> a poté má na celý Souboj
+ +1 dmg. Nemůže používat jiné Schopnosti ani bonusy. Na konci Souboje ovšem nezvládne svou sílu a na 10 vteřin je pod efektem <i>šílenství</i>.
+</desc>  </skill>
+    
+<skill>
+<name>Severská chtivost</name><attr>trvalé</attr>
+<points>60</points><reinkarnace>-2</reinkarnace>
+<desc>Marauder je chtivý do bitvy již od raného věku, nikdy se nemůže dočkat dalšího střetu. Marauderova reinkarnace se zkracuje o 2 minuty.</desc>
+  </skill> 
+    
+</schopnosti>
+
+</wargear>

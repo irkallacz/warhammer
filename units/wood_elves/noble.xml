@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+
+<jmeno>Noble</jmeno>
+
+<hiearchie>hero</hiearchie> 
+
+<legenda>Na zbrojích postav jsou jasně vidět odporné znaky Chaosu. Skrz listí a větve prastarých 
+stromů prosvítají rohaté helmy, zrůdné obličeje a znetvořené těla stoupenců jednoto ze zvrácených 
+bohů Chaosu. Co však vidět není, je hrdá postava, oblečená do barev lesa a maskovacího pláště, 
+schovaná ve stínech velikánů. Upřeně pozoruje postavy kráčející lesní pěšinou směrem k němu. 
+Náhle postava sotva nezřetelně kývne hlavou ... a v tom se strhne peklo. Neznámo odkud se z 
+výšky snese obrovská kláda na provazech a z lesní pěšiny smete poloviny znetvořených postav. 
+Další padají k zemi po zásahu šípy, které začnou vylétat z okolních křovin a stínů. Do všeho toho 
+zmatku a umírání vtrhnou polonahé postavy elfích tanečníků a s každou otočkou, s každým 
+výskokem se jejich meče noří do těl bojovníků Chaosu. A za nedalekým polomem se velitel elfů 
+ponuře usměje. Zase další opovážlivci co se snažili narušit posvátnou půdu lesů Athel Loren ...
+Hlupáci... To nikdy nenastane.  Ne dokud on je na stráži ...</legenda>                    
+
+
+<popis>Vznešení jsou šlechtou mezi lesními elfy. Od narození jsou školeni v boji, strategii, taktice a vůdcovství. 
+Avšak jen ti co vykonají rituál Velkého lovu se v případě války stanou vůdci armád a velitelé  malých 
+jednotek. Skvěle znají les ale i boj s obouručním mečem a lukem, jakožto i umění skrytí v lese a 
+taktiku udeř a uteč. Jsou také vyškolen v některých kouzlech a v nepřítomnosti elfích spřadačů kouzel.</popis>                 
+
+
+<pravidla>
+  
+  
+  
+<lives label="životů">3</lives><damage label="damage">1</damage><reinkarnace label="min. reinkarnace">10</reinkarnace></pravidla>                  
+
+<kostym>
+
+<povinne>Elfí uši, Zbroj, kostým a plášť v barvách zelené, hnědé atd. (barvy lesa, přírodní 
+vzory) .</povinne>
+
+<extra>Tetování, doplňky z kůže, kožešiny, runové znaky, kožená helma</extra>               
+
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Kožená zbroj</name><desc>kyrys, nátepníky, ramena</desc>
+  </zbroj>    
+
+</zbroje>            
+
+
+<zbrane>
+  
+  <zbran><name>Jednoruční meč</name><desc>60-100cm</desc></zbran>                  
+        
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill><name>Pouto lesa</name><attr>trvalé</attr>         
+  <desc>Pokud není řečeno jinak nesmí Noble sesílá své kouzla mimo les. Stromy tvořící vesnici se nepočítají jako stromy.</desc>
+  </skill>
+  
+</schopnosti>
+
+<kouzla>
+
+  <desc>Zatímco kouzla lidí a Chaosu jsou spojena s vírou, lesní elfové čerpají svoji moc z 
+  lesa, země a života. Pro některá jednoduchá kouzla jim stačí jejich vlastní životní síla, ale 
+  většina kouzel vyžaduje mnohem silnější spojení s lesem. Ve hře to je reprezentováno 
+  dotykem stromu. Hráč se musí rukou dotknout stromu a v této pozici pronášet magickou 
+  formuli. Pokud toho je fyzicky schopen, může v ruce, kterou se dotýká stromu, svírat ještě 
+  jiný předmět, ale jednou rukou se může držet jen jednoho stromu, i kdyby bylo fyzicky 
+  možné dotýkat se více stromů. Pokud při pronášení formule dojde k přerušení spojení, 
+  kouzlo se nepovedlo. Pozor! Stromy tvořící hradby vesnice se nepočítají za herní stromy!</desc>
+  
+  <spell>                                                                      
+  <name>Kořeny</name><cost>2 spojeni</cost><attr>1x za Souboj</attr>
+  <form>Iestode vaelach tydar an!</form>
+  <desc>Nohy nepřátelských jednotek se omotají kořeny stromů. Tři postavy obdrží efekt 
+<i>paralýza na nohy na 20 vteřin</i>.</desc>
+  </spell>
+
+</kouzla>
+
+<roleplay>Vůdcem šeptajícího kruhu je  bojového ražení a často bývá viděn v první řadě jak spolu 
+se svými bratry bojuje za les. Na Noblovy je 
+starat se o vedení lesních elfů a starat se o to, aby rozkazy, které jeho vůdcové v Lese dali, byly 
+splněny. Za les položí život a když to bude nutné neváhá obětovat i životy jiných. Dříve 
+to býval typický lesní elf: pokud možno neutrální a do boje se nezapojuje. Ale to bylo v 
+době míru. Nyní jsou elfové lační po krvi svých nepřítel a do každého boje ve vrhají 
+neuvěřitelně tvrdě a neznají slitování. Je systematický, důsledný a za každou cenu 
+odhodlaný splnit své poslání a rozkazy které obdrží.</roleplay>                 
+
+<obrazky>
+<img src="wood_elves/noble_5.jpg"/>
+<img src="wood_elves/noble_4.jpg"/>
+<img src="wood_elves/noble_3.jpg"/>
+<img src="wood_elves/noble_1.jpg"/>
+<img src="wood_elves/noble_2.jpg"/>
+</obrazky>
+
+</jednotka>

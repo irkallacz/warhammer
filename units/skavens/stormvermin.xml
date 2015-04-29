@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Stormvermin</jmeno>
+
+<hiearchie>rare</hiearchie>       
+
+<legenda>Hloupí lidé. Stáli tam a čekali na nás. Když jsem se plížil kanalizací, slyšel jsem, jak se nám smějí, že jsme jen
+přerostlé krysy... Myslím, že ve chvíli, kdy vylezly ven naše první postavy, hořce zalitovali, že nás tak podcenili.
+Nepočítám-li početní převahu, byli jsme daleko rychlejší a mrštnější. Skákali jsme, kličkovali a kousali,
+oháněli se zbraněmi a přikrývali naše nepřátele jako černý kožešinový plášť... Tak bojujeme my, elita Rohaté Krysy!
+Věčnou slávu naší Rohaté Kryse! Skvííík! Skvííík! Skvííík!</legenda>                    
+
+
+<popis>Myslete si o nich co chcete, klidně se štiťte jejich dlouhých holých ocásků, jejich čumáků a vousků,
+ale nikdy je nepodceňujte! Tohle je elita veškerého skavenstva, které svou mrštností překoná nejednoho lidského
+bojovníka. Mějte je stále na očích a nikdy se k nim neotáčejte zády, protože oni toho využijí!</popis>                 
+
+
+<pravidla>
+  <lives label="životů">2</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">8</reinkarnace>
+</pravidla>                  
+
+<kostym>
+
+<povinne>Zbroj, fousky, čenich (nejlépe vyrobený ze psího obojku), ocas (min 0,5 m dlouhý a 2-3cm tlustý), pokud bude nějaká část 
+pokožky viditelná, tak ji natřít hnědou barvou.</povinne>     
+
+<extra>Kožešiny, znaky rohaté krysy, doplňky podle klanu.</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Kožená</name><desc>Jednoduchá zbroj, může být i sešitá z mnoha dílů.</desc>
+  </zbroj>    
+
+</zbroje>   
+
+
+<zbrane>
+  <zbran><name>Meč</name><desc>60-90 cm</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill><name>Ochrana</name><attr>1x za Souboj</attr>         
+  <desc>Jako elita armády může Stormvermin ochraňovat ostatní skaveny. Po zvolání <cite>Písk</cite> může
+skavena vzdáleného nejdále 1 metr ochránit před schopností nebo kouzlem které na něj bylo sesláno.</desc>
+  </skill>
+  
+</schopnosti>
+
+  <kouzla>
+
+  <desc>Elitní skaveni klanu Pestilens jsou znalý v kouzlech a při vzývání Rohaté Krysy jsou schopni seslat i zaklínadla decimující nejednu armádu.
+    Při provádění <b>Zamoření</b> spolu s Chieftantem získá 1 Aktivní Kus Chaotitu(AKCH) za každé 2 Stromverminy, kteří provádějí <b>Zamoření</b>.
+    Při kouzlu se spotřebuje počet kamenů napsaných u kouzla.</desc>
+  
+
+
+
+</kouzla>
+  
+  
+<roleplay>Stormvermini jsou elitou armády a také se tak k menším skavenům chovají. Celkově se ale chovají velice plaše a 
+s ostatními rasami příliš nekomunikují spíše se snaží 
+dostat do většího hejna a v tomto útvaru se pohybují dokud nenarazí na boj. Jejich útoky jsou mrštné a přesné. Bez dozoru hrdiny se do
+boje moc nepouštějí. </roleplay>                 
+
+
+<obrazky>
+  <img src="skaven/stormwermin_01.jpg"/>
+   <img src="skaven/stormwermin_04.jpg"/>
+   <img src="skaven/stormwermin_03.jpg"/>
+</obrazky>
+
+</jednotka>

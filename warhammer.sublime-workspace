@@ -1,0 +1,1207 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"da",
+				"database"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"con",
+				"condition"
+			],
+			[
+				"co",
+				"condition"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"delete",
+				"deleteWargearFromUser"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"ba",
+				"barDump"
+			],
+			[
+				"ank",
+				"anketa"
+			],
+			[
+				"id",
+				"identity"
+			],
+			[
+				"se",
+				"secure_token"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"item",
+				"items"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"but",
+				"buttonMenu"
+			],
+			[
+				"lock",
+				"locked"
+			],
+			[
+				"Hlaso",
+				"Hlasování"
+			],
+			[
+				"mem",
+				"member"
+			],
+			[
+				"hlas",
+				"hlasovani_odpoved_id"
+			],
+			[
+				"Hl",
+				"hlasovani"
+			],
+			[
+				"w",
+				"where"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"od",
+				"odpovedi"
+			],
+			[
+				"hlaso",
+				"hlasovani"
+			],
+			[
+				"Hla",
+				"Hlasovani"
+			],
+			[
+				"Hlas",
+				"hlasování"
+			],
+			[
+				"pro",
+				"protected"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"date_",
+				"date_create"
+			],
+			[
+				"date",
+				"date_deatline"
+			],
+			[
+				"me",
+				"memberList"
+			],
+			[
+				"member",
+				"memberList"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"hla",
+				"hlasovani"
+			],
+			[
+				"hl",
+				"hlasování"
+			],
+			[
+				"temp",
+				"template"
+			],
+			[
+				"no",
+				"no-wrap"
+			],
+			[
+				"post",
+				"postPerPage"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"foru",
+				"forum"
+			],
+			[
+				"for",
+				"forward_static_call_array"
+			],
+			[
+				"shu",
+				"shutdown"
+			],
+			[
+				"la",
+				"last"
+			],
+			[
+				"search",
+				"search_in"
+			],
+			[
+				"forum_",
+				"forum_id"
+			],
+			[
+				"forum",
+				"forum_post"
+			],
+			[
+				"top",
+				"topic_id"
+			],
+			[
+				"sea",
+				"search_in"
+			],
+			[
+				"getTopi",
+				"getTopicsByForumId"
+			],
+			[
+				"fetch",
+				"fetchPairs"
+			],
+			[
+				"akce_",
+				"akce_member"
+			],
+			[
+				"hov",
+				"hoverLike"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"hea",
+				"headerLike"
+			],
+			[
+				"ho",
+				"hoverLike"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fou",
+				"forum_topic"
+			],
+			[
+				"las",
+				"lastTime"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"acti",
+				"activeOnly"
+			],
+			[
+				"fu",
+				"fun	function …"
+			],
+			[
+				"first",
+				"firstColum"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"n",
+				"nw-resize"
+			],
+			[
+				"set",
+				"setOrder"
+			],
+			[
+				"colum",
+				"columLabes"
+			],
+			[
+				"or",
+				"orderBy"
+			],
+			[
+				"new",
+				"newDate"
+			],
+			[
+				"a",
+				"ankety"
+			],
+			[
+				"getPost",
+				"getPostById"
+			],
+			[
+				"getAn",
+				"getAnkety"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-collapse"
+			],
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"odpo",
+				"Odpověď"
+			],
+			[
+				"odp",
+				"odpoved"
+			],
+			[
+				"an",
+				"anketa"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"Odpo",
+				"odpovedi"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"end",
+				"endCondition"
+			],
+			[
+				"addCon",
+				"addConditionOn"
+			],
+			[
+				"flo",
+				"float_right"
+			],
+			[
+				"setDe",
+				"setDefaultValue"
+			],
+			[
+				"getmem",
+				"getMembers"
+			],
+			[
+				"akce",
+				"akceService"
+			],
+			[
+				"org",
+				"orgList"
+			],
+			[
+				"getMemb",
+				"getMembersByAkceId"
+			],
+			[
+				"we",
+				"webalize"
+			],
+			[
+				"ak",
+				"akceService"
+			],
+			[
+				"send",
+				"sendConfirmMail"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"u",
+				"users"
+			],
+			[
+				"form",
+				"format"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"users",
+				"users"
+			],
+			[
+				"remo",
+				"remove"
+			],
+			[
+				"remove",
+				"removeRow"
+			],
+			[
+				"tab",
+				"tabulka"
+			],
+			[
+				"capt",
+				"caption"
+			],
+			[
+				"cap",
+				"caption"
+			],
+			[
+				"cle",
+				"cleat"
+			],
+			[
+				"mate",
+				"material_ms"
+			],
+			[
+				"place",
+				"placeno"
+			],
+			[
+				"repo",
+				"report_type_id"
+			],
+			[
+				"Akce",
+				"akceService"
+			],
+			[
+				"sr",
+				"surname"
+			],
+			[
+				"ar",
+				"array_keys"
+			],
+			[
+				"o",
+				"osetreni_drobne"
+			],
+			[
+				"ose",
+				"osetreni_odvoz"
+			],
+			[
+				"isIn",
+				"isInArray"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"array_ke",
+				"array_keys"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"m",
+				"member"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/presenters/WargearPresenter.php",
+			"settings":
+			{
+				"buffer_size": 5720,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/models/RulesModel.php",
+			"settings":
+			{
+				"buffer_size": 3230,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/Wargear.default.latte",
+			"settings":
+			{
+				"buffer_size": 867,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/presenters/PravidlaPresenter.php",
+			"settings":
+			{
+				"buffer_size": 2510,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/Pravidla.default.latte",
+			"settings":
+			{
+				"buffer_size": 702,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/Wargear.view.latte",
+			"settings":
+			{
+				"buffer_size": 2119,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"s",
+				"SVN: Checkout…"
+			],
+			[
+				"sv",
+				"SVN: Checkout…"
+			],
+			[
+				"svn",
+				"SVN: Checkout…"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Web/www/warhammer/app/templates/Pravidla.user.latte",
+		"/D/Web/www/warhammer/css/main.css",
+		"/D/Web/www/warhammer/app/templates/@layout.latte",
+		"/D/Web/www/warhammer/app/bootstrap.php",
+		"/D/Web/www/warhammer/app/models/Model.php",
+		"/D/Web/www/warhammer/app/presenters/SignPresenter.php",
+		"/D/Web/www/warhammer/app/templates/Wargear.view.latte",
+		"/D/Web/www/warhammer/app/templates/Extra.glejdy.latte",
+		"/D/Web/www/warhammer/app/templates/Extra.suma.latte",
+		"/D/Web/www/warhammer/app/templates/Sign.in.latte",
+		"/D/Web/www/warhammer/app/presenters/ExtraPresenter.php",
+		"/D/Web/www/warhammer/js/wargear.js",
+		"/D/Web/www/warhammer/extra/glejdy.php",
+		"/D/Web/www/warhammer/app/config.neon",
+		"/D/Web/www/warhammer/app/models/Authenticator.php",
+		"/D/Web/www/warhammer/app/presenters/UlrikPresenter.php",
+		"/D/Web/www/warhammer/units/unit_pdf.xsl",
+		"/D/Web/www/warhammer/app/templates/Ulrik.deny.latte",
+		"/D/Web/www/warhammer/app/templates/Ulrik.warband.latte",
+		"/D/Web/www/warhammer/units/unit_html.xsl",
+		"/D/Web/www/warhammer/units/wargear_prehled.xsl",
+		"/D/Web/www/warhammer/app/models/RulesModel.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/Akce.edit.latte",
+		"/D/Web/www/vzsjablonec/member/js/akce.js",
+		"/D/Web/www/vzsjablonec/member/app/presenters/AkcePresenter.php",
+		"/D/Web/www/vzsjablonec/member/js/texyla_public.js",
+		"/D/Web/www/vzsjablonec/member/js/texyla_akce.js",
+		"/D/Web/www/vzsjablonec/member/app/presenters/ForumPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/presenters/BasePresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/Mail.default.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/@layout.latte",
+		"/D/Web/www/vzsjablonec/member/app/presenters/MailPresenter.php",
+		"/D/Web/www/vzsjablonec/member/css/main.css",
+		"/D/Web/www/vzsjablonec/member/app/models/Authenticator.php",
+		"/D/Web/www/vzsjablonec/member/app/presenters/NewsPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/presenters/MemberPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/News.default.latte",
+		"/D/Web/www/vzsjablonec/member/app/config.neon",
+		"/D/Web/www/vzsjablonec/member/app/templates/Forum.topic.latte",
+		"/D/Web/www/vzsjablonec/member/app/presenters/HlasovaniPresenter.php",
+		"/D/Web/www/deploy/bootstrap/index.html",
+		"/D/Web/www/vzsjablonec/member/app/presenters/SignPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/presenters/LoginPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/Akce.view.latte",
+		"/D/Web/www/vzsjablonec/member/app/presenters/AnketyPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/Ankety.edit.latte",
+		"/D/Web/www/vzsjablonec/member/app/presenters/FeedPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/Feed.albums.latte",
+		"/D/Web/www/vzsjablonec/member/app/models/GalleryService.php",
+		"/D/Web/www/vzsjablonec/member/app/presenters/DokumentyPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/presenters/CalendarPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/Dokumenty.default.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Akce.vcal.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Ankety.default.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Ankety.view.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Member.view.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Times.default.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Akce.default.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Member.default.latte",
+		"/D/Web/www/vzsjablonec/member/app/presenters/TimesPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/models/ForumService.php",
+		"/D/Web/www/vzsjablonec/member/app/components/MembersListControl.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/Feed.hlasovani.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Feed.ankety.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Hlasovani.view.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Hlasovani.edit.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Hlasovani.default.latte",
+		"/D/Web/www/vzsjablonec/member/app/models/HlasovaniService.php",
+		"/D/Web/www/vzsjablonec/member/app/components/MembersListControl.latte",
+		"/C/Users/Jakub/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Web/www/vzsjablonec/member/app/templates/Mail/newWebHlasovani.latte",
+		"/D/Web/www/vzsjablonec/member/app/presenters/SecurePresenter.php",
+		"/C/Users/Jakub/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Web/www/vzsjablonec/member/app/templates/Mail/newHlasovani.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Forum.view.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Feed.akce.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Mail/newZapis.latte",
+		"/D/Web/www/vzsjablonec/member/app/models/MemberService.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/Forum.default.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Forum.search.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Sign.in.latte",
+		"/C/Users/Jakub/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/D/Web/www/vzsjablonec/member/app/bootstrap.php",
+		"/D/Web/www/vzsjablonec/member/app/models/AkceService.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/Akce.sendAkceMail.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/Akce.SendAkceMail.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/SendAkceMail.latte",
+		"/D/Web/www/vzsjablonec/member/app/templates/sendAkceMail.latte",
+		"/D/Web/www/vzsjablonec/member/libs/DumpMail/DumpMail.php",
+		"/D/Web/www/vzsjablonec/member/libs/DumpMail/DumpMailPanel.php",
+		"/D/Web/www/vzsjablonec/member/libs/DumpMail/bar.dumpmail.panel.latte",
+		"/D/Web/www/vzsjablonec/member/js/texyla_forum.js",
+		"/D/Web/www/vzsjablonec/member/app/presenters/ReportPresenter.php",
+		"/C/Users/Jakub/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/Web/www/vzsjablonec/member/app/templates/Mail/akceConfirm.latte",
+		"/C/Users/Jakub/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/Web/www/vzsjablonec/member/app/templates/Report.view.latte",
+		"/D/Web/www/nette/app/presenters/DokumentyPresenter.php",
+		"/D/Web/www/nette/app/presenters/FeedPresenter.php",
+		"/D/Web/www/nette/app/presenters/MailPresenter.php",
+		"/D/Web/www/nette/app/presenters/MemberPresenter.php",
+		"/D/Web/www/nette/app/presenters/ReportPresenter.php",
+		"/D/Web/www/nette/app/presenters/TimesPresenter.php",
+		"/C/Users/Jakub/AppData/Roaming/Sublime Text 2/Packages/SVN/SVN.sublime-settings",
+		"/C/Users/Jakub/AppData/Roaming/Sublime Text 2/Packages/User/SVN.sublime-settings",
+		"/D/Web/www/vzsjablonec/member/js/confirm.js",
+		"/D/Web/www/vzsjablonec/member/js/akce.jj",
+		"/D/Web/www/vzsjablonec/member/app/templates/Times.edit.latte",
+		"/D/Web/www/vzsjablonec/member/app/models/TimesService.php",
+		"/D/Web/www/vzsjablonec/member/app/templates/Times.csv.latte",
+		"/D/Web/www/nette/app/presenters/AkcePresenter.php",
+		"/D/Web/www/nette/app/presenters/AnketyPresenter.php",
+		"/D/Web/www/nette/app/presenters/ForumPresenter.php",
+		"/D/Web/www/nette/app/presenters/NewsPresenter.php",
+		"/D/Web/www/nette/app/presenters/SignPresenter.php",
+		"/D/Web/www/vzsjablonec/member/app/models/AnktetyService.php",
+		"/D/Web/www/vzsjablonec/member/app/models/DokumentyService.php",
+		"/D/Web/www/vzsjablonec/member/app/models/DatabaseService.php",
+		"/D/Web/www/vzsjablonec/member/app/presenters/TimesPresenter",
+		"/C/Users/Jakub/member.sublime-project",
+		"/D/Web/www/nette/css/main.css",
+		"/D/Web/www/nette/app/templates/Forum.view.latte",
+		"/D/Web/www/nette/app/templates/Ankety.view.latte",
+		"/D/Web/www/nette/app/presenters/BasePresenter.php",
+		"/D/Web/www/nette/app/templates/Sign.in.latte",
+		"/D/Web/www/nette/app/templates/@layout.latte",
+		"/D/Web/www/nette/app/templates/Akce.default.latte",
+		"/D/Web/www/nette/app/templates/News.default.latte"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\Web\\www\\warhammer\\app",
+			"D:\\Web\\www\\vzsjablonec\\member\\app",
+			"D:\\Web\\www\\nette\\app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Ulrik:deny",
+			"deny",
+			"checkUser",
+			"$this->getService('database')",
+			"naj",
+			"basePath",
+			"www",
+			"forum",
+			"renderDefault",
+			"$title",
+			"view",
+			"$head",
+			"head",
+			"name",
+			"database",
+			"photo",
+			"addText",
+			"a",
+			"form",
+			"\n		",
+			"getService",
+			"#text",
+			"text",
+			"create",
+			"$this->akce",
+			"<ul n:foreach=\"$item->related('hlasovani_odpoved') as $odpoved\">\n		<li>{$odpoved->text}</li>\n	</ul>\n	",
+			"wrap",
+			"sendConfirmMail",
+			"getService('hlasovani')",
+			"getService('ankety')",
+			"postCount",
+			"    \n",
+			"type",
+			"protected function action",
+			"viewPo",
+			"viewpo",
+			"protected function process",
+			"protected function render",
+			"public",
+			"%H:%I",
+			"getMembersByAkceId",
+			"createComponentTexylaJs",
+			"send",
+			"Service')",
+			"send",
+			"MembersListControl",
+			"();\n",
+			"Service')",
+			"práv",
+			"class=\"update\"",
+			"update",
+			"terminate",
+			"class=\"error\"",
+			"class=\"errors\"",
+			"'}\">",
+			"getPostsByTopicId",
+			"viewL",
+			"ref",
+			"getAllAkce",
+			"getAkce",
+			"right",
+			";}",
+			"rgb",
+			"presenter->name",
+			"texylajs",
+			"getPostsByTopicId",
+			"nl2br",
+			"nl2ber",
+			"login_org",
+			"createComponent",
+			"display",
+			"$data",
+			"hover",
+			"$user",
+			"$users",
+			"top",
+			"start",
+			"$form",
+			"true",
+			"getAkceByMemberId",
+			"getMembers",
+			"{$akce->akce_id}",
+			"{$akce->id}",
+			"{$id}",
+			"['druh']",
+			"echo ",
+			"?>",
+			"<?php ",
+			"$data",
+			"sendHlasovaniMail",
+			"getUser-",
+			"in_array",
+			"getMembersByAkceId",
+			"getMembersByAkceId()",
+			"input.buttonLike",
+			"input.buttonLike ",
+			"control",
+			"getService('mailService')->getNewMail()",
+			"$akce->name",
+			"#text",
+			"$topic",
+			"default",
+			"1ex",
+			"Mail",
+			"Nette\\Application\\UI,",
+			"UI\\Form",
+			"edit",
+			"number",
+			"')",
+			"getTe",
+			"getTexy",
+			"new UI\\Form",
+			"form",
+			"new UI\\Form",
+			"new Form",
+			"$data",
+			"head",
+			"']",
+			"$data['",
+			" $",
+			"getTex",
+			"dump",
+			"addmem",
+			"$values",
+			"']",
+			"['",
+			"th>",
+			"<p>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$this->database",
+			"dir",
+			"photo",
+			"$akce",
+			"hlasovani",
+			"getService('hlasovani')",
+			"public function action",
+			"public function process",
+			"public function render",
+			"protected",
+			"%H:%M",
+			"')",
+			"$values",
+			"focus",
+			"user",
+			"users",
+			"high",
+			"end",
+			"$user",
+			"TRUE",
+			"{$akce->akce_id}",
+			"{$akce->id}",
+			"['type']",
+			"",
+			"}",
+			"{",
+			"$akce",
+			"button.buttonLike",
+			"button.buttonLike ",
+			"input",
+			"getNewMail()",
+			"$item",
+			"Nette\\Application\\UI\\Form",
+			"Form",
+			"new Form",
+			"new UI\\Form",
+			"$member",
+			"",
+			"$member->",
+			"$data",
+			"",
+			"->",
+			"td>",
+			"<tr><th>",
+			"</td></tr>",
+			"../img/jquery/",
+			"$this->akce->id",
+			"$this->akce->d",
+			"akce_member",
+			"",
+			"getService('akceService')",
+			"getService('forumService')"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/presenters/WargearPresenter.php",
+					"settings":
+					{
+						"buffer_size": 5720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1821,
+								1821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1571.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/RulesModel.php",
+					"settings":
+					{
+						"buffer_size": 3230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/templates/Wargear.default.latte",
+					"settings":
+					{
+						"buffer_size": 867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Nette/Latte.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/presenters/PravidlaPresenter.php",
+					"settings":
+					{
+						"buffer_size": 2510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2491,
+								2491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 574.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/templates/Pravidla.default.latte",
+					"settings":
+					{
+						"buffer_size": 702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								693,
+								693
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Nette/Latte.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/templates/Wargear.view.latte",
+					"settings":
+					{
+						"buffer_size": 2119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1851,
+								1851
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Nette/Latte.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 200.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"app/templates/Akce.edit.latte"
+			],
+			[
+				"akce",
+				"app/templates/Akce.edit.latte"
+			],
+			[
+				"ak",
+				"app/presenters/AkcePresenter.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Jakub/member.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true
+}

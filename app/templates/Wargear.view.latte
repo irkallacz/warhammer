@@ -1,0 +1,55 @@
+{block head}
+<link rel="stylesheet" href="{$basePath}/css/wargear.css" type="text/css">
+<script src="{$baseUri}/js/jquery.js" type="text/javascript"></script>
+<script src="{$baseUri}/js/wargear.js" type="text/javascript"></script>
+{/block}
+
+{block content}
+<h1>Wargear hráče {$nick}</h1>
+                     
+<div id="up">
+<a class="ulrik" n:href="Pravidla:view, $uid" target="_blank" title="Zobrazit pravidla">Pravidla</a>
+<a id="ajax" n:href="prehled!, $postava->id, $postava->warband_id" title="Zobrazit Přehled">{$postava->id}</a> Body: <b>{$body}</b>
+<a class="ulrik" n:href="Wargear:erase,$uid" title="Vymaže wargear této postavy">Vymazat</a>
+</div>
+
+<div id="vizual" style="display:none"></div>
+
+<div id="wargear">
+{foreach $xml->children() as $group}
+  {if $group->getName() != 'jmeno'}
+  
+  <h2>{$group->getName()|capitalize}
+    <span title="{$group->getName()|capitalize}" class="{$childs[$group->getName()]}"></span>
+  </h2>
+
+  <ul>
+    <li n:foreach="$group->children() as $node" id="{$node->name}" n:class="in_array($node->name,$sets) ? buy : not">
+      <h3>{$node->name}</h3>
+  
+      <div class="control">
+        <span n:if="isset($node->cond)">Podmínka: <a href="#{$node->cond}" n:class="in_array($node->cond,$sets) ? ano : ne">{$node->cond}</a></span>
+        <span>Body: <strong n:class="(($body-$node->points)>=0) ? ano : ne">{$node->points}</strong></span>
+  
+      {if (!$user->isInRole('user'))and(!in_array($node->name,$sets))and((in_array($node->cond,$sets))or(!isset($node->cond)))and($node->points<=$body)}
+        <a class="ulrik" n:href="Wargear:buy $uid,$node->name" title="Koupit">+</a>
+      {/if}
+  
+      {if (!$user->isInRole('user'))and(in_array($node->name,$sets))}
+        <a class="ulrik" n:href="Wargear:sell $uid,$node->name" title="Odebrat">&ndash;</a>
+      {/if}
+      </div>
+  
+      <div class="desc">
+        {!$node->desc->asXML()|replace:'desc>','span>'}
+      </div>
+
+      <div n:if="$node->getName()=='skill'">({$node->attr})</div>
+      <div n:if="$node->getName()=='spell'">({$node->attr}, {$node->cost})</div>
+  </li>
+  </ul>
+  {/if}
+{/foreach}
+
+</div>
+{/block}

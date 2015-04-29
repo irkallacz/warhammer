@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Swordmaster</jmeno>
+
+<zbroje>
+
+  <zbroj>
+    <name>Zesílená zbroj</name><desc>Elfové jsou jedni z nejlepších zbrojířů světa a tak není problém najít mnoho zbrojířů jenž jsou schopni vylepšit 
+    klasickou ocel o trochu té magie, která dodá zbroji vyšší odolnost.
+    <b>(+1 život)</b>.</desc>
+    <points>40</points>
+    <lives>1</lives>
+  </zbroj>    
+
+</zbroje>
+    
+<vybaveni>
+
+  <vybava>
+    <name>Amulet s krystalem</name>
+    <points>25</points>
+    <desc>Krystal v tomto amuletu byl získán hluboko pod Annulijskými horami a vybroušen v magickém poli Vortexu. Díky tomu k sobě přitahuje 
+      magické proudy. V chámu Swordmasterů bývá zvykem, že tímto amuletem bývají obdarování skutečně nadaní jedinci, kterým usnadňuje 
+      sesílání kouzel. Ve hře potom každý Amulet, který vlastní některý z kouzlících Swordmastrů zkracuje počet Opakování modlitby o 1.</desc>    
+  </vybava> 
+
+  <vybava>
+    <name>Pečeť cti</name>
+    <points>30</points><cond>Hrdost elity</cond>
+    <desc>Toto pečetí bývají vyznamenáni jen ti nejlepší válečníci, kteří prokázali svoji dovednost v boji a čest v tváří v tvář nepříteli.
+    Takovýto válečník je sice odolnější a lepší v boji, ale svazuje ho ještě přísnější kodex cti než jeho druhy. Ve hře postava s Pečetí 
+      nesmí zaútočit na nepřítele jinak, než tváří v tvář, tj. jeho protivník musí vždy o útoku vědět, jakékoliv útoky do zad, či náhlá přepadení 
+      jsou zakázány a souboj s nepřítelem musí být čestný i kdyby druhá strana nebojovala fér.(<b>+2 životy</b>, <b>-3 min. reinkarnace</b>).</desc>
+    <lives>2</lives>
+    <reinkarnace>-3</reinkarnace>
+  </vybava> 
+
+  <vybava>
+    <name>Runové zakletí</name>
+    <points>35</points><cond>Zesílená zbroj</cond>
+    <desc>Tato zbroj nebyla vykována jen u nějakého elfího kováře ale u mistra, který byl zároveň zasvěcen do tajů elfí runové magie. 
+      Runy na této zbroji dokážou ještě zesílit ochranu, kterou toto zbroj poskytuje svému nositeli.(<b>+1 život</b>).</desc>
+    <lives>1</lives>
+  </vybava> 
+
+  </vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Dědičný obouruční meč</name>
+    <points>100</points>
+    <desc>V rodinách vznešených elfů se zbraně často předávají z pokolení na pokolení a tato zbraně jsou více magickými artefakty 
+      než obyčejnými zbraněmi. Maximální délka zbraně 140 cm. Umožňuje používat schopnost <i>Bojová zuřivost</i>.</desc>
+  </zbran>                    
+  
+</zbrane>
+
+<schopnosti>    
+  
+  <skill><name>Útok z otočky</name><attr>3x za Souboj</attr><points>20</points>         
+    <desc>Pokud se Swordmaster před útokem otočí o 360° okolo své osy, má na další úder <b>+1 damage</b>. 
+Promáchnutí nebo vyblokovaný útok se počítá jako promarněný pokus. Musí být použito až v Souboji.</desc>
+  </skill>
+    
+  <skill><name>Hrdost elity</name><attr>trvalé</attr><points>15</points>         
+  <desc>Elita Swordmasterů jsou hrdými oddíly Vznešených elfů a vždy bojují až do
+posledního muže dechu, do posledního muže, nikdy neutíkají z boje. Ve hře tedy tudíž nemůžou opustit Souboj, 
+    pouze pokud jej vyhrají nebo zemřou (<b>+1 život</b>).</desc>
+  <lives>1</lives>
+  </skill>
+  
+  <skill><name>Úder cti</name><attr>3x za Souboj</attr><points>20</points>         
+    <desc>Pokud Swordmaster zvedne meč do výše a zvolá <cite>Za naši čest</cite> má jeho další úder efekt <b>průraz</b>. 
+Promáchnutí nebo vyblokovaný útok se počítá jako promarněný pokus. Musí být použito až v Souboji.</desc>
+  </skill>
+
+  <skill><name>Šermířská finta</name><attr>1x za Souboj</attr><points>10</points>         
+    <desc>Díky drsnému výcviku jsou Swordmasteři jedni z nejlepších šermířů Starého světa. Díky této schopnosti mohou <b>ignorovat</b> jeden vybraný 
+      zásah od nepřítele. Takto ignorovat lze pouze v jednom Souboji od jednoho nepřítele pouze jeden zásah.</desc>
+  </skill>
+  
+  <skill><name>Hbitost Asuryana</name><attr>1x za Souboj</attr><points>20</points>         
+  <desc>Swordmasteři se díky svému výcviku a vrozeným vlohám pohybují někdy tak rychle, že nejsou skoro vidět. V Souboji si potom mohou 
+    položit ruku na hlavu a oběhnout nepřátelskou řadu nebo projít hradbou štítů. V tento momentě nesmí útočit, ale jsou <b>neviditelní</b>. 
+    Platí maximálně 10 sekund.</desc>
+  </skill>
+    
+  <skill><name>Zruš kouzlo</name><attr>2x za Souboj</attr><points>20</points>         
+  <desc>Rituální meč a zvláštní výcvik dávají Swordmasterům také jistou ochranu před magií. Je-li cílem nějakého kouzla nebo
+schopnosti, může ho zrušit tím, že svůj meč postaví na špičku a 3x se okolo něj otočí.</desc>
+  </skill>
+  
+  <skill>
+    <name>Žár bitvy</name><attr>trvalé</attr>
+    <points>15</points>
+    <desc>Vznešení elfové mají boj hluboko v jejich rodové paměti a čím déle bojují, tím více se na boj soustředí a upnou na něj všechny své síly. 
+      Tam kde jiné národy jsou již unaveni, oni se teprve rozehřívají. S touto schopností se <b>reinkarnace</b> dané postavy posouvá o 1 minut za 
+      každých započatých 20 minut Fáze. Takže ve čtvrt má reinkarnaci zkrácenou o 1 minutu, ve tři čtvrtě o 3 atd...</desc>
+  </skill> 
+  
+  <skill>
+    <name>Síla domova</name><attr>trvalé</attr>
+    <points>20</points>
+    <desc>Pokud se tato postava reinkarnuje v základním táboře, má <b>reinkarnaci</b> zkrácenou o <b>5 minut</b>.</desc>
+  </skill>
+  
+  <skill>
+    <name>Bojová zuřivost</name><attr>1x za Souboj</attr>
+    <points>0</points><cond>Dědičný obouruční meč</cond>
+    <desc>Tato schopnosti musí být aktivována již před Soubojem a to nějakým rituálem. Poté je damage této postavy v tomto Souboji snížena na 1, 
+    ale po každém úspěšném zásahu v sérii se zvýší o 1. 
+    Pokud tedy bojuje stále se stejným nepřítelem, jeho první zásah je za 1, druhý za 2 atd...</desc>
+  </skill> 
+
+  </schopnosti>
+
+  <kouzla>
+  <spell>
+    <name>Chorál krvavé bitvy</name><attr>1x za Fázi</attr><cost>10 opakování, 3 Swordmasteři</cost>
+    <points>15</points>
+    <form>Men cenuva fánë cirya métima hrestallo círa i fairi</form>
+    <desc>Tuto modlitbu používali válečníci, když šli do těžké bitvy, kterou je třeba vyhrát. Sice válečníky na čas oslabí ale dodá jim mnoho nové  
+      síly, avšak jen na další bitvu. Při zpěvu tohoto chorálu se Swordmasteři musí rituálně pořezat a každý z nich si musí odečíst X životů. 
+      Po skončení rituálu potom každý dostane <b>3 krát X stínových životů</b>. Takto obětovány nesmí být stínové životy a žádný z kouzlících 
+      nesmí vyplýtvat všechny své reálné životy.</desc>
+  </spell>
+
+  <spell>
+    <name>Chorál návratu</name><attr>2x za Fázi</attr><cost>5 opakování, 1 Swordmaster</cost>
+    <points>10</points>
+    <form>Wilwarin wilwa ëar-celumessen rámainen elvië ëar falastala</form>
+    <desc>Pomocí této modlitby mohou válečníci načerpat hojivou sílu a připravit svoje těla na zranění, takže hojení potom probíhá o mnoho rychleji. 
+      Pokud toto kouzlo použijí, mají Swormasteři, kteří byly v následujícím Souboji zabiti, <b>zkrácenou reinkarnaci na polovinu</b> a ti co byli 
+      zranění se léčí dvojnásobnou rychlostí.</desc>
+  </spell>
+  
+  <spell>
+    <name>Chorál víry</name><attr>2x za Fázi</attr><cost>8 opakování, 2 Swordmaster</cost>
+    <points>20</points>
+    <form>Ve tauri lillassië ninqui carcar yarra isilmë ilcalassë isilmë</form>
+    <desc>Tato modlitba zahalí všechny válečníky, kteří se podíleli na vigilii do hávu magie, kterou nepronikne ani sebelepší ocel. V následujícím 
+      Souboji mohou <b>ignorovat</b> všechny zásahy, ale pouze do té doby, dokud nepřestanou sledovat nepřátele a dokud samy nezačnou útočit. Tato 
+      ochrana ale neplatí pro jiné magické efekty jako je <i>zapálení</i> nebo <i>odhození</i>.</desc>
+  </spell>
+
+  </kouzla>
+</wargear>

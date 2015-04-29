@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Marauder</jmeno>
+
+<hiearchie>core</hiearchie>       
+
+<legenda>… Kruci kde se zas ten Hanz fláká? Už by tu měl být. Doufám jen, že se neztratil. Ale ne,  
+to by musel bejt mamlas. Řekli jsme si sraz v poledne a slunce už se schyluje k západu. Doufám jen, 
+že se mu nic nestalo. A jak by mohlo, je to odsud do Schönestandtu jen tři nebo čtyři míle. Má 
+dobrého koně. Ale je pravda, že přes Les nemůže jen tryskem. … Co to bylo? Šramot ve křoví.  
+Otočím se. Nikde nic. Asi se mi něco zdálo. Sednu si tady pod strom a na chvíli si odpočinu … Jak 
+jsem mohl usnout? Ze slunce je už poloviční kotouč rudého oka  ... kroky … blízko, skupina lidí, tak 
+sedm nebo osm. Vstávám abych se podíval jestli to není Kubín. Vidím postavu. Velkou postavu. Je  
+to muž, asi dva sáhy vysoký, oblečený do kožešin a částí zvláštní zbroje. Obličej má pomalován 
+zvláštními symboly. Když mě spatřil objevil se v jeho obličeji výraz překvapení. Náhle  
+začal něco nesrozumitelně řvát a rozběhl se ke mně. Z různých stran se k němu přidali jemu 
+podobní. Začali napřahovat  zbraně.  Dřímali v rukou velké meče, sekery nebo kladiva s mnoha  
+ostny. Chtěl sem utíkat, ale nemohl jsem. Stál sem jako přikován . Blížili se a stále řvali. Od huby  
+jim odletovaly sliny. Už jsou skoro u mě. Už vím proč Hanz nedorazil... </legenda>                    
+
+
+<popis>Strašliví divoši z Norsky. Vedení Vyvoleným Chaosu a s neutuchajícím hladem po 
+kořisti. Války mezi kmeny na Severních pláních z nich vytvořily smrtící stroje na zabíjení. 
+Odění pouze do kožešin a používajíc primitivně vyrobené zbraně jsou v boji tváří v tvář 
+smrtícími nepřáteli.</popis>                 
+
+
+<pravidla>
+  
+   
+   
+<lives label="životů">1</lives><damage label="damage">1</damage><reinkarnace label="min. reinkarnace">5</reinkarnace></pravidla>                  
+
+<kostym>
+
+<povinne>Kožešiny, válečné malování (Znaky Chaosu, runy), tmavé barvy (černá, hnědá, 
+červená, fialová)</povinne>     
+
+<extra>Kožené doplňky, zbroj</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Kožená</name><desc>kožená zbroj sešitá z kůží, různých zvířat nastavená kroužky nebo kousky plátů</desc>
+  </zbroj>    
+
+</zbroje>   
+
+    
+
+<zbrane>  
+ <zbran><name>Sekera</name><desc>Maximální naměřitelná délka 100 cm</desc></zbran>   
+
+ 
+</zbrane>                                   
+
+
+
+<roleplay>Maraudeři jsou divocí lidé ze Severu, kteří jsou díky mnohaletým válkám v Norsce 
+natolik zkušení v boji, že jen málokterý člověk se jim dokáže postavit. Jsou dobří a vědí to 
+o sobě. Nenajde se chvíle, kdy by nebyli ochotni ukázat svoji divokost a krvežíznivost. 
+Jsou naprosto oddáni Championovi a poslechnou jeho příkaz ať je jakkoliv sebevražedný. 
+Snaží se držet v jeho blízkosti, aby slyšeli jaký úkol pro ně mají Bohové Chaosu dnes. 
+</roleplay>                 
+
+
+<obrazky>
+<img src="warriors_of_chaos/marauder_1.jpg"/>
+<img src="warriors_of_chaos/marauder_2.jpg"/>
+<img src="warriors_of_chaos/marauder_3.jpg"/>
+<img src="warriors_of_chaos/marauder_4.jpg"/>
+<img src="warriors_of_chaos/marauder_5.jpg"/>
+  <img src="warriors_of_chaos/marauder_7.jpg"/>
+  <img src="warriors_of_chaos/marauder_08.png"/>
+</obrazky>
+
+</jednotka>

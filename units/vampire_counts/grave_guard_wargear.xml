@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Grave guard</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Oltář smrti</name>
+    <points>80</points>
+    <desc>Strážci jsou natolik prosyceni magií, že z vlastních těl mohou tvořit studny magické síly nemrtvých. Jsou známy i případy, kdy 
+tito strážci dovedou ovlivňovat magií ostatní nemrtvé v blízkosti. Takovým se říká Oltáře smrti.</desc>
+  </path>  
+
+  <path>
+    <name>Strážce mauzolea</name>
+    <points>30</points>
+    <desc>Vybraní Strážci z dávných věků, kteří střeží největší tajemství kobek se často vyskytují v blízkosti upíra jako jeho osobní garda</desc>
+  </path>  
+
+  
+</povolani>
+
+
+  <zbroje>
+<zbroj>
+    <name>Zbroj dávných časů</name>
+     <points>40</points><cond>Strážce mauzolea</cond><lives>2</lives><reinkarnace>2</reinkarnace>
+    <desc>Runová zbroj dovoluje utržit i velké rány ovšem zbroj částečně odsává magii určenou na reanimaci. Nositel  získává +2 životy a  +2 min reinkarnace</desc>
+  </zbroj> 
+    
+    <zbroj>
+    <name>Těžká zbroj</name>
+      <points>34</points><lives>1</lives>
+    <desc>Lépe vybavený nemrtvý, toho vydrží více. Ke své zbroji si Strážce přidá nátepníky, chrániče stehen a helmu. Strážce dostává +1 stínový život v Souboji pokud  je v blízkosti 10m aspoň
+      jedna Ikona(viz Zombie).</desc>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Odznak ochránce</name>
+   <points>40</points><cond>Aura děsu</cond>
+   <desc>Runy vytepány do kostí nemrtvého, dovolují při provádění <i>Aury děsu</i> přenést 1 stínový život na jakéhokoliv nemrtvého, který klečí vedle Strážce.</desc>
+  </vybava> 
+
+  
+ <vybava>
+    <name>Náhrdelník moci</name>
+   <points>50</points><cond>Strážce mauzolea</cond>
+   <desc>Talisman, který byl věnován strážci od nekromanta dovoluje během provádění <i>Aury děsu</i> přidat 2 stínové životy místo jednoho.</desc>
+  </vybava> 
+
+  
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Štít</name>
+    <points>15</points>
+    <desc>Jednoduchý štít 60x55cm </desc>
+  </zbran>      
+  
+    <zbran>
+    <name>Pavéza</name>
+    <points>40</points>
+    <desc>Mocný štít 60 x 100cm </desc>
+  </zbran>  
+  
+  <zbran>
+    <name>Čepel přízraků</name>
+    <points>20</points><cond>Strážce mauzolea</cond>
+    <desc>Čepel prokletá Pánem přízraků, jejíž zranění se nikdy nehojí, dokáže prorážet nepřátelské štíty a vnášet strach do očí nepřátel. 60-90 cm.</desc>
+  </zbran>                    
+  
+  
+  <zbran>
+    <name>Jedenapůlruční meč</name>
+    <points>25</points>
+    <desc>90 -110 cm</desc>
+  </zbran>     
+
+  <zbran>
+    <name>Obouruční meč</name>
+    <points>25</points>
+    <desc>110 -140 cm</desc>
+  </zbran>  
+</zbrane>                                   
+
+ 
+
+<schopnosti>    
+  
+  <skill>
+    <name>Aktivace</name><attr>1x za Fáze</attr>
+    <points>0</points><cond>Oltář smrti</cond>
+    <desc>Pokud v jednom Souboji zemře aspoň 5 nemrtvých může Strážce povstat jako nebojový nemrtvý který se nehýbe, jen stojí a nesrozumitelně 
+mumlá. Stává se z něj aktivovaný oltář smrti. Takový oltář má po aktivaci 2 životy, může odejít na reinkarnaci buď dobrovolně, pokud mu jsou 2 životy ubrány nebo je 
+      nějakou schopností/kouzlem posunut.</desc>
+  </skill> 
+  
+   <skill>
+    <name>Energie nehmotného</name><attr>1x za Souboj</attr>
+    <points>10</points><cond>Čepel přízraků</cond>
+     <desc>Kdykoliv během jednoho Souboje může Strážce zvolat <cite>Smrt se blíží!</cite> a poté je jeho čepel očarována. Pokud s ní poté udělí zranění (dá
+     min 1dmg) může energii, kterou meč pozřel propustit s formulí <cite>Zde je můj dar!</cite> a vyléčit jednomu nemrtvému jeden život. Tuto absorpci může provést za Souboj jen jednou.</desc>
+     </skill> 
+  
+   <skill>
+    <name>Strach v Očích</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Čepel přízraků</cond>
+     <desc>Některé čepele jsou tak mocné, že jejich přítomnost dokáže vnutit strach do srdcí i nejodvážnějších bojovníků. Pokud před úderem Strážce
+       zvolá <cite>Boj se smrtí, jde si pro tebe</cite>. dostává na příští <b>úder</b> schopnost, která když Strážce zasáhne, zruší nepříteli všechny 
+     stínové životy.</desc>
+     </skill> 
+    
+  <skill>
+    <name>Stínový útěk</name><attr>1x za Souboj</attr>
+    <points>30</points>
+    <desc>Strážce,se ve výjimečných případech dokáže proměnit na nehmotnou formu nemrtvého, která se podobá přízrakům. Pokud ho nepřítel zasáhne a Strážce
+      má poslední život, může zvolat <cite>Život je pomíjivý</cite>, ignorovat zranění, zneviditelní se <i>základní neviditelností</i> na 10 vteřin
+      a v tuto dobu může odejít na jiné místo, kde se znovu zhmotní. V této formě ovšem nemůže procházet hmotou a jakkoliv komunikovat s okolím.</desc>
+  </skill>
+    
+  
+    <skill>
+    <name>Aura děsu</name><attr>1x za Souboj</attr>
+    <points>20</points>
+    <desc>Strážce dokáže kolem sebe generovat téměř hmatatelnou auru děsu, která ho činí mocnějším. Před Soubojem může pokleknout na koleno a po pronesení zaklínadla <cite> Smrt tu byla je i bude!
+      </cite> dostává na příští Souboj +1 stínový život.</desc>
+  </skill>
+  
+    <skill>
+    <name>Posmrtná síla</name><attr>trvalé</attr>
+      <points>28</points><cond>Oltář smrti</cond>
+      <desc>Oltář je na tomto světě držen mnohem pevněji a proto je pod trvalým efektem <i>těžká váha</i></desc>
+  </skill>
+  
+</schopnosti>
+
+<kouzla>                                                      
+
+   <spell>
+    <name>Pocta Nehekovi</name><attr>1x za Souboj</attr>
+    <points>80</points><cond>Oltář smrti</cond>
+    <form></form>
+    <desc>Aktivovaný Oltář smrti může pozvednout svoji zbraň nad hlavu a tím pádem se z něj stává místo kde se mohou nemrtví reinkarnovat.
+(poloměr 2 metry) Každý nemrtvý se může u oltáře reinkarnovat jen jednou za Fázi. Toto Kouzlo nemůže být použito 10 metrů od 
+Vesnice nebo blíže.</desc> 
+  </spell>
+
+<spell>
+    <name>Síla Nagahse</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Oltář smrti</cond>
+    <form></form>
+    <desc>Aktivovaný Oltář smrti může zabodnout svoji zbraň do země a tím pádem se z něj stává místo kde se mohou nemrtví léčit. Léčení probíhá
+až za 1 minutu. Oltář může vyléčit maximálně 5 životů celkem Toto Kouzlo nemůže být použito 10 metrů od Vesnice nebo blíže.</desc> 
+  </spell>
+
+<spell>
+    <name>Nářek černého chladu</name><attr>1x za Souboj</attr>
+    <points>50</points><cond>Oltář smrti</cond>
+    <form></form>
+    <desc>Aktivovaný Oltář smrti může rozpažit široce svoje ruce a každý kdo před ním poklekne dostává jeden stínový život. Oltář může 
+přidat maximálně 8 životů. Celkem toto Kouzlo nemůže být použito 10 metrů od Vesnice nebo blíže.</desc> 
+  </spell>
+
+</kouzla> 
+
+</wargear>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Peasant</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Lovec</name>
+    <points>20</points>
+    <desc>Někteří sedláci dokáží ovládat střelné zbraně.</desc>
+  </path> 
+  
+<path>
+    <name>Vidlák</name>
+    <points>10</points>
+    <desc>Klasický Vidlák. V ruce kopí či vidle a do boje!</desc>
+  </path>  
+  
+  <path>
+    <name>Panoš</name>
+    <points>22</points>
+    <desc>Každý rytíř potřebuje někoho kdo mu bude nosit zbroj a zbraně a bojovat po jeho boku.</desc>
+  </path>
+  
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Prošívaná zbroj</name>
+    <points>30</points>
+    <desc>Jednoduchá zbroj dobrá pro sedláka. Díky této zbroji má její nositel o <b>1 život</b> navíc.</desc>
+    <lives>1</lives>
+  </zbroj> 
+  
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Vyznamenání cti</name>
+    <points>10</points>
+   <desc>Díky tomuto ocenění se Peasant dokáže rychle vrátit do boje. Nositel tohoto vyznamenání má zkrácenou reinkarnaci o <b>1 minutu</b>.</desc>
+  </vybava> 
+
+   <vybava>
+    <name>Zápalné šípy</name>
+    <points>20</points>
+     <cond>Lovec</cond>
+    <desc>Tyto šípy jsou namočené v oleji a díky tomu se dají zapálit.</desc>
+  </vybava> 
+
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Kopí</name>
+    <points>30</points>
+    <cond>Vidlák</cond>
+    <desc>Pokud vidlák nemá své vidle tak postačí kopí. Délka 190-210 cm</desc>
+  </zbran>                    
+  
+  <zbran>
+    <name>Vidle</name>
+    <points>20</points>
+    <cond>Vidlák</cond>
+    <desc>Klasická zbran vidláka se kterou dokáže probodnout mnoho nepřátel. Zbraň nesmí být nebezpečná
+      při schvalování budeme přísní na nebezpečnost. Délka 190-210 cm</desc>
+  </zbran>                    
+  
+  <zbran>
+    <name>Luk</name>
+    <points>30</points>
+    <cond>Lovec</cond>
+    <desc>Zbraň vhodná pro každého lovce. Jen ručně vyrobený nebo historický, ne sportovní. Je nutný malý nátah,
+maximálně do 15 kg a celkově musí luk vypadat stylově. Šípy musí mít střed "hrotu"
+zhotovený z víčka z PET lahve nebo něco podobného průměru (ne korkový špunt od
+vína!). Okolo středu musí být potom dostatečná vrstva karimatky nebo molitanu. bambule
+musí mít alespoň 5 cm v průměru a přední část hrotu musí být dostatečně vyměkčen (1-2
+cm). Šíp nesmí mít nikde nic ostrého nebo špičatého a celá bambule musí být patřičně
+měkká. Bambule musí na šípu držet jako přibitá a musí vydržet i drsné zacházení. Jak šípy,
+tak i samotný luk bude podroben VELMI PŘÍSNÉ kontrole a testování, nevyhovující
+budeme zabavovat a podezřelé šípy máme právo rozkuchat na pozorování. Každý lučišník
+sebou musí mít min. 10 šípů, které projdou registrací, jinak nebude vpuštěn do hry.</desc>
+  </zbran>                    
+  
+  <zbran>
+    <name>Kuše</name>
+    <points>50</points>
+    <cond>Lovec</cond>
+    <desc>Někteří Lovci dokáží spíše ovládat kuše než luky. Maximální nátah 30 liber - 15 kg.</desc>
+  </zbran> 
+  
+  <zbran>
+    <name>Štít</name>
+    <points>10</points>
+    <cond>Panoš</cond>
+    <desc>Panoši umí používat meč a štít který jim dokonale pomáhá v boji. 55 - 60 cm průměr</desc>
+  </zbran>                    
+  
+  <zbran>
+    <name>Obouruční meč</name>
+    <points>25</points>
+    <desc> Když jednoruční meč nestačí a nepřátel je mnoho, nepomůže nic lépe, než pořádně
+    dlouhý a ostrý meč. Délka 110 - 150 cm.</desc>
+  </zbran>  
+  
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Vaše jasnosti</name><attr>trvalé</attr>
+    <points>10</points><cond>Panoš</cond>
+    <desc>Panoš je vždy poblíž Rytíře a pomáhá mu a naslouchá jeho prosbám.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Baráž!!!</name><attr>1 za souboj</attr>
+    <points>12</points><cond>Lovec</cond>
+    <desc>Jednou za souboj se můžou lovci postavit do řady. Jeden z Lovců zařve <cite>Baráž!!</cite> a Lovci najednou vystřelí dávají
+    tímto šípem o 1 větší zranění. Lovci co se tohoto zúčastní musí mít schopnost Baráž a tím že se zúčastní baráže je jejich schopnost na tento 
+      Souboj vyčerpána.</desc>
+  </skill> 
+    
+  <skill>
+    <name>Zase práce?</name><attr>trvalé</attr>
+    <points>8</points><cond>Vidlák</cond>
+    <desc>Pokud živý vidlák bude 1 minutu pracovat ve vesnici, zkrátí Rytíři, který se zde oživuje, reinkarnaci o 1 minutu.</desc>
+  </skill> 
+  
+
+  <skill>
+    <name>Zápalná salva</name><attr>3x za Fázi</attr>
+    <points>0</points><cond>Zápalné šípy</cond>
+    <desc>Díky této schopnosti má jeden vystřelený šíp bonusový efekt <i>Zapálení</i>. Lovec tuto schopnost muže použít 
+      jen jednou v jednom Souboji.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Tak já teda jdu...</name><attr>3x za Fázi</attr>
+    <points>20</points><cond>Vaše jasnosti</cond>
+    <desc>Pokud panoš nese z Vesnice do Souboje jednu zbran či jednu část zbroje náležící Rytíři a před soubojem mu jí předá,
+      se slovy <cite>Zde je Váše zbraň</cite>, dostane do Rytíř do nejbližšího souboje <b>+1 stínoví život</b>.</desc>
+  </skill> 
+  
+   <skill>
+    <name>Vesnický poleno</name><attr>3x za Fázi</attr>
+    <points>20</points><cond>Vidlák</cond>
+     <desc>Pokud si Vidlák prodlouží svou reinkarnaci o 1 minutu, má v nejbližším souboji <b>imunitu na první zásah</b>.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Za mého Krále</name><attr>3x za Fázi</attr>
+    <points>22</points><cond>Vaše jasnosti</cond>
+    <desc>Pokud se Panoš před soubojem min 10 vteřin modlí má v nejbližším souboji na první úder efekt <i>průraz</i>.</desc>
+  </skill> 
+  
+</schopnosti>
+
+
+</wargear>

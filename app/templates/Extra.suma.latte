@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Suma sumárum</title>
+  <style type="text/css" media="screen,print" n:syntax="off">
+    body {font-size: 14px;}
+    h1 {page-break-before: always; font-size: 18px; margin: 1ex 0px;}
+    h1:nth-child(1) {page-break-before: auto;}
+    .formule {font-style: italic; font-weight: bold;}
+    #zbrane {list-style-type: none; padding: 0px;}
+    #zbrane li:before {content: '⚔'; margin-right: 5px; margin-left: 5px;}
+    #zbroje {list-style-type: none; padding: 0px;}
+    #zbroje li:before {content: '◍'; margin-right: 5px; margin-left: 5px;}
+    
+    #vybaveni {list-style-type: none; padding: 0px;}
+    #vybaveni li:before {content: '☘'; margin-right: 5px; margin-left: 5px;}
+    
+    #pravidla {list-style-type: none; font-weight: bold; padding: 0px; margin: 1ex 0px;}
+    
+    #povolani {list-style-type: none; padding: 0px;}
+    #povolani li:before {content: '⍉'; margin-right: 5px; margin-left: 5px;}
+    
+    .kouzla h3:before {content: '☀'; margin-right: 5px;}
+    .schopnosti h3:before {content: '☆'; margin-right: 5px;}
+    
+    h3, h2 {margin: 0px; margin-top: 1ex;}
+    h3 {font-size: 14px;}
+    h2 {font-size: 16px; margin: 1ex 0px;}
+    .out p {margin: 0px;}
+    .seznam p {margin: 0px;}
+    .seznam {margin: 0px;}
+    
+    .desc {margin: 5px 0px;} 
+  </style>
+  </head>
+  <body>
+  {var $wb = null}
+  {foreach $presenter->getService('model')->getUnits()->order('number') as $postava}
+    {foreach $postava->related('users')->where('users_role_id > ?',0) as $u}   
+	    {if $wb != $postava->warband_id} {var $wb = $postava->warband_id} <h1>{$wb}</h1>{/if}
+	    
+	    {var $sets = array_values($u->related('wargear')->fetchPairs('name','name'))}
+	    {var $unit = $presenter->getService('rulesModel')->getXMLRules($postava->id,$postava->warband_id,$sets)}
+
+	    {var $xsl = new DOMDocument}
+	    {? $xsl->load(WWW_DIR.'/units/sum_print.xsl')}
+	    {var $proc = new XSLTProcessor}
+	    {? $proc->importStyleSheet($xsl)}
+
+	    {? $proc->setParameter('', 'nick', $u->nick)} 
+	    {!$proc->transformToXML($unit)}
+    {/foreach}
+  {/foreach}
+</body>
+</html>

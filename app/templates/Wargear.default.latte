@@ -1,0 +1,31 @@
+{block head}
+<style type="text/css" n:syntax="off">
+<!--
+  h2 {margin-bottom: 0px;}
+  #text a:hover h2 { color: rgb(255,136,146); }
+  #up {float: right; }
+  #up span {font-size: 21px; font-family: sans-serif; font-weight: bold; margin-right: 5px;}
+  ul.users {margin-top: 0px;} 
+//-->
+</style>
+{/block}
+{block content}
+<h1>Hráči ve warbandě {$warband}</h1>
+
+<div id="up">
+<span>Volné body: <b>{$body}</b> / <b>{$max}</b></span>
+<a class="ulrik" title="Vymaže wargear celé vaší warbandě" n:href="Wargear:warbandErase,$warband"> Vymazat wargear</a>
+
+</div>
+
+{foreach $units as $unit}
+  <h2>{$unit->id}</h2>
+  <ul class="users">
+  {foreach $unit->related('users')->select('id, nick')->where('users_role_id > ?', 0) as $u}
+    <li><a class="user" n:href="Wargear:view $u->id" title="{$u->nick}"><span>{$u->nick}</span></a></li>
+  {/foreach}
+  </ul>
+{/foreach}
+
+
+{/block}

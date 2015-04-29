@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Master</jmeno>
+
+<hiearchie>hero</hiearchie>       
+
+<legenda>Vlnolam v Karond Karu postavený z kamene, vytesaného do podoby otroků ve strašlivé agonii, kteří jakoby vystupovali z ledových vln
+podepírající kamenné bloky, držící Moře chladu na uzdě, má téměř 3 míle. Když lodě druchijských korzárů dorazí s nákladem k věži, otroci
+začnou strašlivě kvílet, protože uvěří, že sochy v životní velikosti jsou také jejich osudem. Pány Věže tento vtípek nikdy neomrzí.</legenda>                    
+
+
+<popis>Velitel nájezdní skupiny temných elfů je ztělesnění temnoty. V pronásledování svých bratranců, vysokých elfů, je naprosto neúhonný
+a rozhodl se vydat pro pomstu až do vnitrozemí. Krutost pána utrpení je pro obyvatele Starého kontinentu naprosto neuvěřitelná ovšem pro druchii
+je to denní chléb. Do vnitrozemí se vydávají jen zřídka pokud se jedná o důležitý úkol vydaný Drachau města, nebo šílený nápad urozeného.</popis>
+<pravidla>
+  
+   
+   
+<lives label="životů">4</lives><damage label="damage">1</damage><reinkarnace label="min. reinkarnace">10</reinkarnace></pravidla>                  
+
+<kostym>
+
+<povinne>Zbroj, plášť, helma, barvy : černá, fialová, červená.</povinne>     
+
+<extra>Runy, bílí make-up, černé vlasy, bodce na zbroji</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Plátová zbroj</name><desc>kyrys, nárameníky, stehenní chrániče. Nejlépe skládané plechy</desc>
+  </zbroj>    
+
+</zbroje>   
+
+<vybaveni>
+	<vybava>
+	<name>Rituální dýka</name><desc>Zdobená nebojová dýka určená pro krvavé rituály.</desc>
+	</vybava>
+
+        <vybava>
+	<name>Důtky</name><desc>Nástroj určený pro rituály i osobní pobavení Pána.</desc>
+	</vybava>
+</vybaveni>      
+
+<zbrane>
+  <zbran><name>Jednoruční šavle</name><desc>90-100 cm dlouhá mírně zahnutá šavle</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill><name>Vrozená nenávist</name><attr>trvalé</attr>         
+  <desc>Pokud Master bojuje proti hrdinovi vysokých elfů dostává bonus +1 dmg na jakékoliv zranění co mu uštědří.</desc>
+  </skill>
+  
+</schopnosti>
+
+<kouzla>
+
+  <desc>Temní elfové mají zakázáno provozovat vyšší magii s jedinou výjimkou. A tou jsou rituály určené Khainovi, bohovy s krvavýma rukama.
+Master provozuje magii přímo v boji a to tím že <b>zajme</b> nepřátelskou postavu a rovnou na bojišti (<b>v Souboji</b>) ji podřízne hrdlo
+a tím získá energii pro tvůj rituál. V popisu je vždy uvedeno kolik obětí je potřeba dopřát pánovi vražd darovat a v závorce jsou uvedené
+i orgány které je nutné z obětí vyjmout (ne reálně!)
+<br/>
+Druhá možnost projevu magie je skrze utrpení svých poddaných. U kouzla může být udán počet <b>"bičování"</b>. To udává počet úderů důtkami 
+přes hřbet poskoků při pronášení formule. Při každém úderu musí být formule pronesena znovu</desc>
+  
+  
+  <spell>                                                                      
+  <name>Krev je síla!</name><cost>1 oběť (srdce)</cost><attr>3x za Souboj</attr>
+  <form>Satiir l'vlos d'doss togglin</form>
+  <desc>Master vyjme srdce nepřítelem pronese formuli a dá napít krve ze srdce jednomu členovi Warbandy. Ten má vyléčen 1 život.</desc>
+  </spell>
+
+</kouzla>
+
+<roleplay>
+Je vždy temnější než všichni okolo za jakékoliv situace. Je namyšlený a opovrhuje všemi ostatními. Život všech ostatních je pro něj
+jen drobnost, která se může kdykoliv změnit. Je ovšem i velmi teatrální. Nestačí nepřátele jen zabíjet, musí stále vymýšlet nové ještě
+temnější způsoby, které nepřátele šokují. Master je také mistrný intrikář a zrada je pro něj samozřejmost, vždy ovšem myslí na zadní vrátka
+jak ze sporu vyjít jako vítěz. 
+</roleplay>                 
+
+
+<obrazky>
+<img src="dark_elves/master_1.jpg"/>
+<img src="dark_elves/master_2.jpg"/>
+<img src="dark_elves/master_3.jpg"/>
+<img src="dark_elves/master_4.jpg"/>
+<img src="dark_elves/master_5.jpg"/>
+<img src="dark_elves/master_6.jpg"/>
+<img src="dark_elves/master_7.jpg"/>
+<img src="dark_elves/master_8.jpg"/>
+</obrazky>
+
+</jednotka>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wargear>
+
+<jmeno>Khainite</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Khainova Dcera</name>
+    <points>0</points>
+    <desc>Nevěsta Khainova, žena zasvěcená jen boji již od útlého věku. Mistryně v boji v tváří tvář. <i>Toto povolání je dovoleno jen hráčovi
+s ženským pohlavím.</i></desc>
+<img src="dark_elves/khainite_2.jpg"/>
+<img src="dark_elves/khainite_6.jpg"/>
+<img src="dark_elves/khainite_7.jpg"/>
+
+  </path>  
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Těžká zbroj</name>
+    <points>28</points>
+    <desc>Těžká zbroj, díky které jsou Temní elfové téměř zakuti do oceli. <b>+2 životy</b></desc>
+    <lives>2</lives>
+  </zbroj>
+
+  <zbroj>
+    <name>Odlehčená zbroj</name><cond>Khainova Dcera</cond>
+<points>8</points>
+    <desc>Bojovnice Khaina nepotřebují nosit těžké zbroje díky jejich obratnosti a smrtícím pohybům. Proto nemusejí nosit Zbroj.</desc>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Mrazivé runy</name>
+    <points>16</points>
+    <desc>Runy díky kterým se Khainite stává trvale imunní na <i>zapálení</i></desc>
+  </vybava> 
+
+</vybaveni>
+
+<zbrane>
+
+<zbran>
+    <name>Kopí</name>
+    <points>80</points>    
+<desc>190-210 cm</desc>
+  </zbran>  
+
+ <zbran>
+    <name>Jednoruční meč</name>
+    <points>12</points>
+    <desc>60-80 cm</desc>
+  </zbran>   
+
+ <zbran>
+    <name>Štít</name>
+    <points>25</points>
+    <desc>55 x 60 cm</desc>
+  </zbran>      
+
+<zbran>
+    <name>Pavéza Temné gardy</name>
+    <points>60</points>
+    <desc>60 x 80 cm</desc>
+  </zbran>       
+
+<zbran>
+    <name>Chladná čepel</name>
+    <points>30</points>   
+<desc>100 cm dlouhý jednoruční meč, vytvořený Mistry mečů dodává majiteli imunitu na předloktí ruky v které čepel drží.</desc>
+  </zbran>  
+
+<zbran>
+    <name>Kombinace Chladných čepelí</name>
+    <points>70</points>   <cond>Khainova Dcera</cond>
+<desc>Některé dcery Pána Vražd jsou vycvičeny v boji se dvěma meči. Tato schopnost dovoluje Khainově dceři používat Chladné čepele dvě,
+jednu v každé ruce. Obě čepele mají stejné vlastnosti : 100 cm dlouhý jednoruční meč, vytvořený Mistry mečů dodává majiteli imunitu na
+předloktí ruky v které čepel drží.</desc>
+  </zbran> 
+
+</zbrane>                                   
+
+<schopnosti>    
+ 
+<skill><name>Krvavá zuřivost</name><attr>1x za Souboj</attr>   
+<points>16</points>     
+  <desc>Pokud v Souboji Khainite zabije nepřátelskou postavu(dá poslední ránu) na další úder má +1dmg.</desc>
+  </skill>
+
+<skill>
+    <name>Zhyň!</name><attr>1x za Souboj</attr>
+    <points>25</points>
+    <desc>Khainita pozvedne zbraň nad hlavu a s pokřikem <cite>"El wael"</cite> zraní jeho další zásah za +1dmg.</desc>
+  </skill> 
+   
+  
+  <skill>
+    <name>Dcera smrti!</name><attr>1x za Fázi</attr>
+    <points>10</points><cond>Khainova Dcera</cond>
+    <desc>Před soubojem Dcera poklekne a pronese šeptem modlitbu k Pánu Vražd. V následujícím souboji potom bude žít ještě 10 vteřin po vlastní smrti, nebo maximálně 2 zásahy.</desc>
+  </skill> 
+</schopnosti>
+
+
+<kouzla>                                                      
+
+   <spell>
+    <name>Zastrašení</name><cost>1 BD</cost><attr>1x za souboj</attr>
+    <points>8</points>
+    <form>Elghinyrr</form>
+    <desc>Člen Chrámu může během souboje pronést formuli, zasáhnout nepřítele a ten je potom <i>odhozen o 3 metry</i>. Platí i pokud je úder vykryt. </desc> 
+  </spell>
+
+  <spell>
+    <name>Necitlivost</name><cost>2 BD</cost><attr>1x za fázi</attr>
+    <points>16</points>
+    <form>Usstan ssinssrin ulu dro</form>
+    <desc>Khainit může kdykoliv pronést formuli, přiložit si přitom ruku na zranění a vyléčí si tím až 3 životy.</desc> 
+  </spell>
+
+ <spell>
+    <name>Plamen v očích</name><cost>1 BD</cost><attr>1x za fázi</attr>
+    <points>16</points>
+    <form>Usstan orn elgg dos</form>
+    <desc>Ti kdož prošli výcvik ve Chrámu jsou známí svou děsivou touhou po boji. Pokud Khainite pronese formuli nahlas před bojem bude mít
+v následujícím Souboji + 2 stínové životy <b>ALE</b> až poté co nějaké zranění utrží.</desc>
+</spell>
+ 
+
+
+</kouzla> 
+
+
+</wargear>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Boyzz</jmeno>
+
+<hiearchie>core</hiearchie>   
+
+<legenda>"...no...ehm...hmmm.....uh...eh.......nooooo.......WAAAAAAAAAAAAAAAAAAAGH"</legenda>
+
+<popis>Orkové jsou velké hory svalů s malými mozky. V boji spoléhají hlavně na svoji sílu a
+počet. Do boje se vrhají s takovým zapálením že často necítí ani zranění. Bojovou taktiku
+znají jen jednu: na nepřátele se vrhnou se sekyrami v ruce a nepřestanou bojovat pokud je
+ještě s kým.</popis>
+    
+<pravidla>
+  
+   
+   
+<lives label="životů">2</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">5</reinkarnace>
+  </pravidla>                  
+
+<kostym>
+
+<povinne>Zelená kůže (obličej), kly, zuby a uši, primitivní kostým (např. jednoduše sešité kusy kůží,
+kožešin, kusy kroužků, železné pláty). Vše velmi hrubého a neupraveného vzhledu.</povinne>     
+
+<extra>Zbroj (možné i dobře udělané jekorové) nesmí být černé!, rohatá helma, obarvená každá viditelná část těla.</extra>               
+
+</kostym>     
+
+<zbrane>
+  <zbran><name>Sekera/meč/sekáček</name><desc>Maximální naměřitelná délka 90cm</desc></zbran>           
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill><name>Waaaaaagh!</name><attr>1x za Souboj</attr>
+
+  <desc>Orci se musí rozeběhnout (min 10 m) a musí ŘVÁT
+    <cite>WAAAAAAAAAAAAAGH</cite>. Potom mohou <b>ignorovat první zásah</b>.</desc>
+  </skill>
+  
+</schopnosti>
+
+<roleplay>Nic jiného než boj neznají a když nemají žádné silné vedení, rvou se třeba mezi sebou. Jejich inteligence se silně 
+blíží naprostému minimu, jejich bojové schopnosti přesně opačně. Orci jsou v boji velmi vytrvalí, silní a téměř nepřemožitelní 
+pro svoji sílu.</roleplay>                 
+
+<obrazky>
+<img src="orks/boyz_01.jpg"/>
+<img src="orks/boyz_02.jpg"/>
+<img src="orks/boyzz_1.jpg"/>
+<img src="orks/boyzz_2.jpg"/>
+<img src="orks/boyz_05.jpg"/>
+<img src="orks/boyz_03.jpg"/>
+<img src="orks/boyz_04.jpg"/>
+
+</obrazky>
+
+</jednotka>

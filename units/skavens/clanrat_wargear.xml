@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Clanrat</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Velitel spáru</name>
+    <points>20</points>
+    <desc>Vzrostlá krysa velící smečce nebo jak to chcete nazývat. Díky jejímu postavení má možnost uloupit si lepší vybavení.</desc>
+<img src="skaven/clanrat_05.jpg" />
+  </path>  
+
+<path>
+    <name>Standartonosič</name>
+    <points>20</points>
+    <desc>Skaven nosící praporec klanu. Může být jen jeden ve warbandě.</desc>
+  </path>  
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Kožená zbroj</name>
+    <points>20</points><cond>Velitel spáru</cond>    
+<desc>Clanrat pomocí zbroje ignoruje první zásah v Souboji</desc>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Praporec úniku</name>
+    <points>50</points><cond>Standartonosič</cond>
+<desc>Jendou za Fázi může praporčík zvolat <cite>ústup</cite> a poté se dá na úprk, celá Warbanda se stane imuní na všechny zásahy na 10 vteřin.</desc>
+  </vybava> 
+
+ <vybava>
+    <name>Praporec rozkladu</name>
+    <points>50</points><cond>Standartonosič</cond>
+<desc>Jendou za Fázi může praporčík zvolat <cite>Hnijte mrtvoly</cite>, zabodne standartu do země, min 5 skavenů kolem něj utvoří kruh 
+a oběhnou praporec dokola. Poté mají mrtvoly v poloměru 3 metry od praporce +1 minutu k reinkarnaci.</desc>
+  </vybava> 
+
+ <vybava>
+    <name>Svitek Ochrany</name>
+    <points>50</points><cond>Velitel spáru</cond>
+<desc>Svitek věnovaný Šedým věštcem, který může být jednou za fázi otevřen a na budoucí Souboj dodá všem Clanrat imunitu na paralýzu.</desc>
+  </vybava> 
+
+
+
+</vybaveni>
+
+<zbrane>
+
+<zbran>
+    <name>Meč</name>
+    <points>10</points>
+    <desc>60-90 cm</desc>
+  </zbran>    
+
+  <zbran>
+    <name>Kopí</name>
+    <points>30</points>
+    <desc>190-210 cm</desc>
+  </zbran>    
+
+    <zbran>
+    <name>Štít</name>
+    <points>12</points>
+    <desc>55x60 cm</desc>
+  </zbran>               
+  
+
+    <zbran>
+    <name>Dráp</name>
+    <points>40</points><cond>Velitel spáru</cond>
+<desc>max 60 cm přes zaťatou pěst, Skaven dostává imunitu na celé předloktí ve kterém dráp má.</desc>
+  </zbran>  
+
+  <zbran>
+    <name>Prak</name>
+    <points>30</points>
+<desc>Jednoduchý prak z kusu látky nebo provázku s miskou vrhající molitanové, nebo jinak měkčené koule.</desc>
+<img src="skaven/clanrat_sling.gif" />
+  </zbran>   
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Ohlodání mrtvol</name><attr>1x po každém Souboji</attr>
+    <points>10</points>
+    <desc>Skaven může po Souboji ohlodávat mrtvolu (jeden Skaven na jednu mrtvolu) a tím si vyléčí 1 
+život. Každá mrtvola může být ohlodaná pouze jednou jedním Skavenem.</desc>
+  </skill> 
+
+  <skill>
+    <name>Dobrá výživa</name><attr>trvalé</attr>
+    <points>60</points><lives>1</lives>
+    <desc>Skaven je dobře vzrostlý a silnější, jsou vidět svaly rýsující se pod kožešinou. (+1život)</desc>
+  </skill> 
+
+<skill>
+    <name>Hnízdo</name><attr>1x za Fázi</attr>
+    <points>20</points>
+    <desc>Jednou za Fázi se Skaven může množit o něco rychleji. Jednou za Fázi může vylepšit schopnost Množení, jeho reinkarnace je pak
+mínus minuta za každé 2 skaveny ve Vesnici/Táboře</desc>
+  </skill> 
+
+<skill>
+    <name>Jed</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Dráp</cond>    
+<desc>I obyčejní Skaveni u sebou čas od času nosí flakónek jedu. Pokud se Skaven otře Drápem(10 sekund) o svůj kožich, příští zásah bude
+způsobovat paralýzu na zasaženou končetinu nepřítele na 10 sekund.</desc>
+  </skill> 
+    
+</schopnosti>
+
+
+
+</wargear>

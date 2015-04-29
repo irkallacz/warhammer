@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Clanrat</jmeno>
+
+<hiearchie>core</hiearchie>       
+
+<legenda>Ale maličký, neboj se, tady žádné strašidlo není... Ne, dívala jsem se pod postel a skutečně tam nic nebylo.
+Vím, že máš okna na ulici, ale jak jsem říkala, nemusíš se ničeho bát, tak zalez pod peřinku a spi... Co to bouchlo
+do okna? A znova... Hm... To asi ti malí raubíři od sousedů zase mučí nějakou krysu... Oh, můj Bože! To je sousedovic Petřík!
+A za ním do okna letí i Maruška! Co se to děje? Krysy! Jsou jich venku tisíce, mají zbroje a meče! Zlatíčko utíkej! Schovej se!
+Utíkej, než tě......</legenda>                    
+
+
+<popis>Dalo by se říci, že jde o nejpodřadnější, ale zároveň nejpočetnější svobodnou postavu celé skavení armády.
+Nejsou nijak špičkově vycvičeni, vybavení také nic moc, ale když přijde na téměř šílený útok v početní
+převaze, neváhají a vrhají se vpřed, pokud je vysoká šance že vyhrají. Pokud ne, úprk je na prvním místě...</popis>                 
+
+
+<pravidla>
+  
+   
+   
+<lives label="životů">1</lives><damage label="damage">1</damage><reinkarnace label="min. reinkarnace">5</reinkarnace></pravidla>                  
+
+<kostym>
+
+<povinne>Fousky, čenich (nejlépe vyrobený ze psího obojku), ocas (min 0,5 m dlouhý a 2-3cm tlustý), pokud bude nějaká část 
+pokožky viditelná, tak ji natřít hnědou barvou.</povinne>     
+
+<extra>Kožešiny, Zbroj</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Potrhaná</name><desc>Kusy kožené nebo jiné zbroje.</desc>
+  </zbroj>    
+
+</zbroje>   
+      
+
+<zbrane>
+  <zbran><name>Tesák</name><desc>40-60cm dlouhý meč</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill><name>Množení</name><attr>trvalé</attr>         
+  <desc>Skaveni se množí v závislosti na velikosti klanu. Za každé 3 (živé, nebo mrtvé) postavy warbandy 
+Skavenů ve Vesnici/táboře se zkrátí reinkarnace Clanrats o 1 minutu. Minimální doba reinkarnace je ale vždy 
+1 minuta.</desc>
+  </skill>
+  
+</schopnosti>
+
+
+
+<roleplay>Skaveni jsou národ dravý s touhou nejen po boji ale také po ovládání. Skaveni se 
+vždy snaží být v co největším počtu a ovládat co nejvíce Vesnic. Clanrats tupě poslouchají 
+Chieftaina ale bez jeho dozoru se stávají zbabělými. 
+</roleplay>                 
+
+
+<obrazky>
+<img src="skaven/clanrat_01.jpg"/>
+<img src="skaven/clanrat_02.jpg"/>
+<img src="skaven/clanrat_03.jpg"/>
+<img src="skaven/clanrat_04.jpg"/>
+
+</obrazky>
+
+</jednotka>

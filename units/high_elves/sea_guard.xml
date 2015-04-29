@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Sea guard</jmeno>
+
+<hiearchie>core</hiearchie>       
+
+<legenda>"Přestože je naše krásná domovina obklíčena ze všech stran, my odoláme, jako to dělali naši 
+předci před námi. V těchto temných časech, kdy naši poskvrnění bratři pustoší naše pobřeží, 
+budeme stále vzdorovat a musíme i nadále vítězit. Protože jsme Asur, praví potomci Aenariona a 
+Ulthuan nesmí nikdy padnout.", Princ Tyrion, Obránce Ulthuanu</legenda>                    
+
+<popis>Strážci severního moře umí výborně bojovat jak na souši, tak na moři a je jim jedno zda bojují na hradbách své domoviny, 
+nebo daleko za mořem na jedné ze svých cest. Ovládají většinu zbraní od dlouhého luku, přes meč až po kopí a jsou tou nejlepší jednotkou, 
+kterou mohou Vznešení elfové nasadit na libovolný náročný úkol.</popis>                 
+
+<pravidla>
+  <lives label="životů">1</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">5</reinkarnace>
+</pravidla>                  
+
+<kostym>
+<povinne>Naprostým základem je košile a suknice v bílé a modré barvě, může se také vyskytnout zlatá a stříbrná. 
+  Dobrá je alespoň nějaký kus zbroje, třeba kyrys nebo šupinová košile. Může to být klidně i jekorová náhražka, 
+  ale musí mít stříbrnou barvu. Povinností jsou také elfí špičaté uši
+</povinne>     
+
+<extra>Vysoká elfí přilbice nebo dlouhé plavé vlasy, Zbroj, šerpa atd...</extra>               
+
+</kostym>   
+
+<zbrane>
+  <zbran><name>Kopí</name><desc>Maximální délka 180-210 cm, dobře měkčená špička</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+<skill><name>Vznešenost věků</name><attr>1x za Souboj</attr>         
+  <desc>Pokud bojovník Vznešených elfů bojuje v souboji s Temnými elfy, může ignorovat jeden zásah od nich.</desc>
+</skill>  
+  
+</schopnosti>
+
+<roleplay> 
+Ač tráví většinu svého času mimo pevninu, sužováni steskem po domově, jsou Strážci severního moře dokonale disciplinovanou jednotkou, 
+která se nezalekne žádného nebezpečí a vždy bude následovat svého velitele. K lidem a lesním elfům se chovají s povýšenou uctivostí, 
+ctí je jako své spojence, avšak cítí se nadřazeni a ví, že jejich spojenci je potřebují více než oni je. 
+Trpaslíky zrovna moc nemusí, ale nejvyšší nenávist chovají ke svým temným bratrancům, pro které nemají nic, než jen ty nejhorší pojmenování.  
+</roleplay>                 
+
+
+<obrazky>
+<img src="high_elves/sea_guard_02.jpg"/>
+<img src="high_elves/sea_guard_01.jpg"/>
+<img src="high_elves/elf_01.jpg"/>
+<img src="high_elves/elf_02.jpg"/>
+<img src="high_elves/elf_09.jpg"/>
+<img src="high_elves/elf_08.jpg"/>
+<img src="high_elves/elf_11.jpg"/>
+</obrazky>
+
+</jednotka>

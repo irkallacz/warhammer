@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Chosen</jmeno>
+
+<hiearchie>rare</hiearchie>       
+
+<legenda>… Karavana zastavila. Co se děje???. Jdu se podívat dopředu. Ale ne, spadlý kmen přes  
+cestu. Neměli bychom se zde zdržovat, zdejší obyvatelé mluví o tom, že se zde v poslední době  
+objevili....Najednou se ozval strašlivý řev, který nemohl pocházet z lidských úst. Rána! ... A já  
+upadl do bezvědomí … Vzbudil sem se svázaný mezi ostatními obchodníky vedle převráceného  
+hořícího vozu. Kolem nás byli Válečníci Chaosu. Nic odpornějšího sem v životě neviděl. Mohutné zbroje s desítkami run v temném jazyce
+zářící vlastním světlem a zbraně, kolem kterých se tetelil vzduch přítomnosti magické síly. 
+Najednou všechno ztichlo. Před nás se postavil Chosen, největší ze všech, nejmohutnější, nejděsivější.... jejich  
+vůdce. Mocně zařval a rozpřáhl se sekerou...jedinou ranou zabil polovinu bezmocných obchodníků 
+a už se rozpřahoval k druhé. Aspoň to bude rychlá smrt ... </legenda>                    
+
+
+<popis>Když se schyluje k bitvě tak se z Válečníků Chaosu stává nezastavitelná síla. Šípy a
+kulky se od jejich zbrojí odrážejí bez větších škod. A jediné co zbude po jejich šíleném a 
+zběsilém útoku je hromada nepřátel a kaluže krve, které se budou vpíjet ještě dlouho 
+potom, co budou darovány na oltáře Bohů Chaosu.</popis>                 
+
+
+<pravidla>
+  
+   
+   
+<lives label="životů">2</lives><damage label="damage">1</damage><reinkarnace label="min. reinkarnace">8</reinkarnace></pravidla>                  
+
+<kostym>
+
+<povinne>Zbroj, tmavé barvy(černá, rudá, fialová, zelená, hnědá)</povinne>     
+
+<extra>Kožešiny, válečné malování (Znaky Chaosu, runy)</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Plátová runová zbroj</name><desc>Kyrys, nákrčník, nárameníky, chrániče stehen</desc>
+  </zbroj>    
+
+</zbroje>   
+   
+
+<zbrane>
+  <zbran><name>Sekera/kladivo</name><desc>Nejdelší naměřitelná délka 100cm</desc></zbran>          
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill><name>Zbroj</name><attr>1x za Souboj</attr>         
+  <desc>Chosen ignoruje první ránu do zbroje během Souboje</desc>
+  </skill>
+  
+</schopnosti>
+
+
+
+<roleplay>Zakuti do pancířů, se  válečníci Chaosu cítí jako neporazitelní. Skoro také jsou. 
+Nejsou sice tak rychlí jako Marouders, ale jako mohutný klín rozdělí nepřátelské řady a 
+způsobí ničivé ztráty. Jsou naprosto oddáni Championovi a poslechnou jeho příkaz ať je 
+jakkoliv sebevražedný. Snaží se držet v jeho blízkosti, aby slyšeli jaký úkol pro ně mají 
+Bohové Chaosu dnes.  
+</roleplay>                 
+
+
+<obrazky>
+<img src="warriors_of_chaos/chosen_1.jpg"/>
+<img src="warriors_of_chaos/chosen_2.jpg"/>
+<img src="warriors_of_chaos/chosen_3.jpg"/>
+<img src="warriors_of_chaos/chosen_4.jpg"/>
+<img src="warriors_of_chaos/chosen_5.jpg"/>
+</obrazky>
+
+</jednotka>

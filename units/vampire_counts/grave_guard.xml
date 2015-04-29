@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Grave guard</jmeno>
+
+<hiearchie>Rare</hiearchie>       
+
+<legenda>Kdo mě to budí ze spánku? Vetřelec? Ale tady strážím já! Již tisíce let tady strážím. Pocítí sílu a lehkost Smrti.</legenda>                    
+
+
+<popis>Strážci hrobů jsou děsivé bytosti z minulosti probuzeny k životu aby sloužily svým nemrtvým pánům. Oděni do zbroje z bronzu a 
+  černé oceli stojí s hrozivým klidem před bránou citadel pánů a jsou to právě Strážci hrobů, kdo osobně chrání Pána při výpravě za kořistí.</popis>                 
+
+
+<pravidla>
+  
+   
+   
+<lives label="životů">2</lives>
+<damage label="damage">1</damage>
+<reinkarnace label="min. reinkarnace">8</reinkarnace></pravidla>                  
+
+<kostym>
+
+<povinne>Zbroj, bílá barva obličeje a všech viditelných částí pokožky(simulace kostry), ozdobné ornamenty, tmavé barvy, </povinne>     
+
+<extra>Helma s křídly, kroužková zbroj pod pláty.</extra>               
+
+</kostym>   
+
+<zbroje>
+
+  <zbroj>
+    <name>Plátová</name><desc>Kyrys, ramena,</desc>
+  </zbroj>    
+
+</zbroje>   
+
+<zbrane>
+  <zbran><name>Meč</name><desc>60-90 cm</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+ <skill><name>Smrti nikdo neuteče</name><attr>trvalé</attr>         
+  <desc>Strážce se může pohybovat pouze chůzí pokud v jeho přítomnosti není upír. To neplatí v Souboji, kde se vždy musí pohybovat pouze chůzí.</desc>
+  </skill>
+  
+  
+</schopnosti>
+
+<kouzla>
+
+  <desc>Strážci nikdy nebyly kouzelníky v pravém slova smyslu, ovšem po staletí existují jen díky velmi mocné magii a za tu dobu se jí částečně
+  naučili ohýbat a měnit.</desc>
+  
+</kouzla>
+
+<roleplay> 
+</roleplay>                 
+
+
+<obrazky>
+  <img src="vampire_counts/grave_guard_01.jpg"/>
+  <img src="vampire_counts/grave_guard_02.jpg"/>
+  <img src="vampire_counts/grave_guard_03.jpg"/>
+</obrazky>
+
+</jednotka>

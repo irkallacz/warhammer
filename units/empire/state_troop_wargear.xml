@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>State troop</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Seržant</name>
+    <points>20</points>
+    <desc>Důstojník postavy zodpovědný za morálku a disciplínu.</desc>
+  </path>  
+
+  <path>
+    <name>Praporečník</name>
+    <points>10</points>
+    <desc>Jednotka zodpovědná za nesení praporce zobrazující znak Impéria, Karla France ale také znak regimentu.</desc>
+  </path>   
+   
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Kyrys</name>
+    <points>15</points>
+    <lives>1</lives>
+    <desc>Železný kyrys sloužící k obraně hrudi je je k viděn jen velmi vzácně pro jeho cenu a váhu. Přesto je používán pro lepší obranu 
+      <b>(+1 život)</b>.</desc>
+    <lives>1</lives>
+  </zbroj> 
+  
+   <zbroj>
+    <name>Kapitánská zbroj</name>
+     <points>50</points><cond>Seržant</cond>
+    <lives>2</lives>
+     <desc>Kapitánská zbroj je velmi ceněná a i přes svoje zdobení dodává skvělou ochranu před útoky <b>(+2 životy)</b></desc>
+     <lives>2</lives>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Praporec imunity</name>
+    <points>50</points>
+    <cond>Praporečník</cond>  
+    <desc><b>Prapory se mezi sebou nedají kombinovat. Efekt lze použít jednou za Fázi</b>   
+      Jen tak na zemi je to kus hadru, ale když se připevní na dlouhou tyč, pozvedne se
+    do výšky, do slunečních paprsků, mírného vánku... a nebo ji jen držíte vztyčenou, když se
+    s vojskem za zády ženete k nepříteli... je to něco nadpozemsky krásného. Kdo by si tedy
+    všímal nějaké magie, která mu srší nad hlavou? Pokud skupina State troopů napochoduje do Souboje s tímto praporcem mají 
+      <b>imunitu na první magický útok</b>, jako je zapálení, odhození, šílenství atd...</desc>
+  </vybava> 
+
+<vybava>
+    <name>Praporec Sigmarovy záře</name>
+    <points>80</points>
+    <cond>Praporečník</cond>       
+    <desc><b>Prapory se mezi sebou nedají kombinovat. Efekt lze použít jednou za Fázi.</b> Bílý praporec, zlatě vyšívaný, od kterého se odráží 
+      sluneční světlo. Co by mohlo povzbudit vojáky více? Pokud vojáci napochodují do Souboje s tímto praporcem, mají bonus <b>+1 damage</b> na první úder.
+  </desc>
+  </vybava> 
+
+<vybava>
+    <name>Praporec Čistého srdce</name>
+    <points>200</points>
+    <cond>Praporečník</cond>    
+    <desc><b>Prapory se mezi sebou nedají kombinovat. Efekt lze použít jednou za Fázi.</b>  Jen ten, kdo má čisté srdce, může prapor nést, z jeho moci čerpat
+      a chvalozpěvy pro Sigmara pět. Pokud se vojíci pohybují pod tímto praporem mají bonus <b>+1 život</b>.</desc>
+  </vybava> 
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Kopí</name>
+    <points>30</points>
+    <desc>Délka 80-220cm.</desc>
+  </zbran>                    
+
+  <zbran>
+    <name>Štít</name>
+    <points>12</points>
+    <desc>Maximální rozměry 50x60 cm.</desc>
+  </zbran>                    
+  
+  <zbran>
+    <name>Obouruční meč</name>
+    <points>20</points>
+    <desc>Dělka mezi 90-110 cm.</desc>
+  </zbran>                    
+
+   <zbran>
+    <name>Meč Kapitána</name>
+    <points>8</points><cond>Seržant</cond>
+    <desc>Zbraň dávaná jako odměna za účast v důležité bitvě. Maximální délka 100 cm.</desc>
+  </zbran>                    
+  
+</zbrane>                                   
+
+  <schopnosti>    
+  
+   <skill>
+    <name>Znalost ranhojičství</name><attr>1x za Fázi</attr>
+    <points>12</points>
+    <desc>Vojenský výcvik Císařství často zahrnuje i základy ranhojičství. Voják, který je zraňen si může jednou za Fázi ošetřit zranění a vrátit se tak 
+      na svůj plný počet. Tato akce musí být patřičně zahrána, musí trvat jistou dobu a nesmí být použota v Souboji.</desc>
+  </skill> 
+    
+    
+  <skill>
+    <name>Čistota duše</name><attr>1x za Souboj</attr>
+    <points>15</points>
+    <desc>Není hrozby vojákovi jež věří. Proto po zvolání <cite>Sigmar!</cite> dostává +1 stínový život.</desc>
+  </skill> 
+    
+  <skill>
+    <name>Dobrovolník</name><attr>trvalé</attr>
+    <points>18</points><reinkarnace>-2</reinkarnace>
+    <desc>Voják jde k odvolání dobrovolně. O takové blázny je vždy na frontě velký zájem. <b>-2 minuty reinkarnace</b></desc>
+  </skill> 
+    
+  <skill>
+    <name>Ve jménu Sigmara</name><attr>1x za Souboj</attr>
+    <points>12</points>
+    <desc>Po zvolání <cite>Ve jménu Sigmara!</cite>má voják na další úder +1 dmg</desc>
+  </skill> 
+    
+  <skill>
+    <name>Sigmarova víra</name><attr>trvalé</attr> 
+    <points>20</points><cond>Seržant</cond>
+    <desc>Víra v Sigmara je nekonečná a Sigmar za ní odmění. Pokud se životy postavy dostanou na nulu, může ještě
+ chvíli bojovat, dokud nezraní ještě jednoho nepřítele nebo do konce Souboje, pak ale umírá. Ve stavu dočasného života musí ale za každou cenu bojovat.</desc>
+  </skill>  
+    
+    
+</schopnosti>
+
+
+<kouzla>      
+
+  <spell>                                                                      
+    <name>Hradba víry</name><attr>1x za Souboj</attr><cost>minimálně 3 vojáci</cost>
+    <points>5</points>
+    <form>Fiat iustitia ruat caelum.</form>
+    <desc>Vojáci s tímto Kouzlem (minimálně 3) se postaví do jedné řady  a zakřičí formuli,
+    která upozorní Sigmara na jejich oddanost. Jakmile se vrhnou do boje, budou imunní proti prvnímu průrazu.</desc>
+  </spell>      
+  
+    <spell>                                                                      
+    <name>Zbroj víry</name><attr>2x za Fázi</attr><cost>minimálně 3 vojáci</cost>
+    <points>5</points>
+    <form>Sigmar proteget nos</form>
+    <desc>Vojáci s tímto Kouzlem (minimálně 3) se postaví do jedné řady  a zakřičí formuli,
+      která upozorní Sigmara na jejich pravou Víru, poté mají na další Souboj <b>+1 stínový život</b>.</desc>
+  </spell>                                                
+
+</kouzla> 
+  
+</wargear>

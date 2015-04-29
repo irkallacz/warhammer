@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wargear>
+
+<jmeno>Corsair</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Plenitel</name>
+    <points>16</points>
+    <desc>Veterán korzárů má více zkušeností v boji i větší privilegia</desc>
+  </path>  
+
+<path>
+    <name>Střelec</name>
+    <points>24</points>
+    <desc>Korzár je znalý střeleckých zbraní, které mají v bojích na moři dobré využití.</desc>
+  </path> 
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Kyrys</name>
+    <points>34</points><cond>Plenitel</cond><lives>1</lives>   
+<desc>Hrudní plát v tmavé barvě dodává lepší ochranu před útoky. (<b>+1život</b>) </desc>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Síť</name>
+    <points>80</points><cond>Plenitel</cond>
+<desc>Síť o minimální velikosti 2x2 metry, kterou nosí vždy 2 korzáři jednou rukou, v druhé mohou držet zbraň. Jednou za Souboj může být síť 
+použita při rozeběhu a zabalení nepřátelské postavy. Zabalená postava se automaticky stává <b>Zajatcem</b> i když nemá poslední život. 
+Nelze použít na Hrdinu.</desc>
+  </vybava> 
+
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Druhý meč</name>
+    <points>50</points>
+    <desc>Druhý meč do kombinace o součtu zbraní 150 cm</desc>
+  </zbran>    
+
+<zbran>
+    <name>Kuše</name>
+    <points>40</points><cond>Střelec</cond>
+<desc>Jednoruční kuše, pro kterou platí stejná pravidla jako pro střelbu lukem.</desc>
+  </zbran>       
+
+
+<zbran>
+    <name>Štít</name>
+    <points>15</points>
+<desc>60x55cm</desc>
+  </zbran>            
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Tvrdý výcvik</name><attr>trvalé</attr>
+    <points>50</points><lives>1</lives>
+    <desc>Korzáři jsou skvěle vycvičeni v boji a to jim zaručuje větší "trvanlivost"  v soubojích. (<b>+1život</b>)</desc>
+  </skill> 
+
+ 
+  <skill>
+    <name>Mobilita</name><attr>trvalé</attr>
+    <points>24</points><reinkarnace>-1</reinkarnace>
+    <desc>Korzáři jsou zvyklí na časté střídání nocoviště proto jsou schopni vyrazit z Vesnice dříve (<b>-2 minuty reinkarnace</b>)</desc>
+  </skill> 
+
+<skill><name>Krvavá zuřivost</name><attr>1x za Souboj</attr>   
+<points>12</points>     
+  <desc>Pokud v Souboji Corsair zabije nepřátelskou postavu(dá poslední ránu) na další zásah má +1dmg.</desc>
+  </skill>
+
+<skill>
+   <name>Zhyň!</name><attr>1x za Fázi</attr>
+   <points>25</points><cond>Plenitel</cond>
+  <desc>Korzár pozvedne zbraň nad hlavu a s pokřikem <cite>"El wael"</cite> zraní jeho další zásah za <b>+1dmg</b>.</desc>
+  </skill> 
+    
+</schopnosti>
+
+
+</wargear>

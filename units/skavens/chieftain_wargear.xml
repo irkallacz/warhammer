@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Chieftain</jmeno>
+
+<povolani>
+ <path>
+    <name>Klan Eshin</name>
+    <points>100</points>
+    <desc>Klan známí pro své špehy a vrahy. Nejeden strašidelný příběh se vypráví dětem o stvořeních z tohoto klanu.</desc>
+    <img src="skaven/klan_eshin_1.jpg" />
+    <img src="skaven/klan_eshin_2.jpg" />
+  </path>  
+
+  
+  
+  <path>
+    <name>Klan Skryre</name>
+    <points>80</points>
+    <desc>Mistři technologie a technomagie jsou proslulí pro svoje vynálezy a inovátorství. Nikdy si nemůžete být jistí co proti vám vyšlou když s nimi bojujete.</desc>
+    <img src="skaven/klan_skryre_1.jpg" />
+    <img src="skaven/klan_skryre_2.jpg" />
+  </path>  
+  
+  <path>
+    <name>Klan Pestilens</name>
+    <points>60</points>
+    <desc>Klan morových kněží tvořící všemožné nákazy a nemocen jimiž zaplavuje celý svět ve jménu Rohaté krysy.</desc>
+    <img src="skaven/klan_pestilens_1.jpg" />
+    <img src="skaven/klan_pestilens_2.jpg" />
+  </path>  
+
+  
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Energo zbroj</name>
+    <points>10</points><cond>Generátor</cond>
+    <desc>Jedná se o zbroj se složitým systémem rozvodu energie. Dovolující pracovat s ní. </desc>
+ <img src="skaven/energo_zbroj.jpg" />
+  </zbroj> 
+  
+  
+  
+  <zbroj>
+    <name>Těžká zbroj</name><cond>Klan Skryre</cond>
+    <points>30</points><lives>2</lives>
+    <desc>Není tak časté aby skaveni nosili těžké plátové zbroje ovšem ve výjimečných případech je to známo a Chieftain zbroj nosící je nositelem
+      zkázy v řadách nepřátel. Chieftain dostane <b>+2 životy</b>.</desc>
+  <img src="skaven/tezka_zbroj_1.jpg" />
+    <img src="skaven/tezka_zbroj_2.jpg" />
+  </zbroj> 
+  
+  
+  <zbroj>
+    <name>Noktovizor</name>
+    <points>10</points><cond>Generátor</cond>
+    <desc>Helmice se složitým a komplikovaným strojkem plným zrcátek atd, dovoluje jednou za lépe zacílit energii. V praxi to funguje tak že
+      jednou za Fázi může Chieftain použít o 1BE méně než je vyžadováno. </desc>
+    <img src="skaven/noktovizor.jpg" />
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+  <vybava>
+    <name>Generátor</name>
+    <points>20</points><cond>Klan Skryre</cond><BE>3</BE>
+    <desc>Stroj, který Chieftain nese na zádech obsahuje složitý systém krystalů, který dovoluje udržovat energii. Tento stroj dovoluje uschovat <b>3Body Energie</b>.</desc>
+  </vybava> 
+  
+   <vybava>
+    <name>Kondenzátor</name>
+     <points>8</points><cond>Generátor</cond><BE>1</BE>
+    <desc>Modifikace Generátoru díky které dokáže uschovat o <b>1Bod Energie</b> více.</desc>
+  </vybava> 
+  
+  
+  
+ <vybava>
+    <name>Radiokomunikátor</name>
+   <points>22</points><cond>Klan Skryre</cond>
+    <desc>Složitý přístroj, který vznikl kdesi v podzemí. Jednou za Fázi může být zapnut v přítomnosti Našeptávače a Chieftain může říct zprávu, kterou si 
+   přeje předat konkrétní osobě. Tato zpráva bude v okamžiku předána, toto Spojení se ovšem nemusí povést.</desc>
+  </vybava> 
+  
+   <vybava>
+    <name>Časobomba</name>
+   <points>26</points><cond>Klan Skryre</cond>
+    <desc>Pekelný stroj, plný koleček a šroubků, spojený divokou magií. Tato bomba může být použita jednou za Fázi. Pokud jej Chieftain chce použít
+      musí zvolat <cite>Časová bomba</cite>a poté se v okruhu 2m kolem něj otevře časová díra a všichni zasažení se musí pohybovat po dobu 30sekund jen chůzí.</desc>
+  </vybava> 
+
+    <vybava>
+    <name>Raketa</name>
+   <points>35</points><cond>Klan Skryre</cond>
+    <desc>Vynález klanu, který sestrojili za pomoci trpasličích otroků, dovede v bojové řadě udělat pěknou paseku. Jedná se o maketu rakety (aspoň metr dlouhou), kterou může Chieftain jednou 
+      za Fázi hodit s pokřikem<cite>RAKETAAAAA</cite> mezi nepřátele. Po dopadu odhodí <b>všechny</b> v okruhu 2 metrů od rakety o 3 metry.</desc>
+  </vybava> 
+  
+     <vybava>
+    <name>Náhrdelník z kusů Chaotitu</name>
+       <points>12</points><cond>Klan Pestilens</cond><AKCH>1</AKCH>
+       <desc>Vytěžené kusy chaotitu nošené jako ozdoba dovolují Chieftainovi uchovat více magické síly. Chieftain může mít o 1 AKCH více</desc>
+  </vybava> 
+  
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Energo dráp</name>
+    <points>12</points><cond>Generátor</cond>
+<desc>Max 60 cm přes zaťatou pěst. Každý třetí zásah s tímto drápem dá energo-šok nepříteli a ten poté nemůže zbytek Souboje používat Schopnosti.</desc>
+  </zbran>  
+  
+   <zbran>
+    <name>Kadidelnice</name>
+    <points>20</points><cond>Klan Pestilens</cond>
+    <desc>Obouruční řemdih (60 toporo+ 30řetěz + 20 koule), propojený magií hniloby ze samotného oltáře klanu v Undercity dovoluje
+    seslat strašlivé nemoci na nepřátele Rohaté krysy. Každý 3 platný zásah je paralyzující. Přitom paralyzuje zasaženou končetinu na 5 vteřin
+    a jednoho nepřítele lze paralyzovat jen jednou za souboj.</desc>
+     <img src="skaven/kadelnice_1.jpg" />
+  </zbran>    
+  
+  <zbran>
+    <name>Morový meč</name>
+    <points>40</points><cond>Klan Pestilens</cond>
+    <desc>90 cm dlouhý jednoruční meč posetý sadou run. Mocný předmět, který může být během bitvy pozvednut nad hlavu a po zvolání 
+      <cite>Krysa je mocná</cite> ukáže na jednoho nepřítele a sebere mu všechny stínové životy. Tento akt stojí 1AKCH a může být použit je
+    jednou za Souboj.</desc>
+  </zbran>    
+  
+   <zbran>
+    <name>Těžká zbraň</name>
+     <points>50</points><cond>Klan Skryre</cond>
+    <desc>Těžká zbraň, která vnáší do řad nepřátel neskutečnou zkázu. <i>Při zakoupení této možnosti
+      kontaktujte Organizátory o provedení</i>.</desc>
+  </zbran>  
+  
+  <zbran>
+    <name>Hůl hnisu</name>
+    <points>20</points><cond>Klan Pestilens</cond><AKCH>3</AKCH>
+    <desc>Někteří skavení vůdci nevyhledávají souboje ale raději si vybrali cestu magie. Hůl hnisu je až 2m dlouhá obranná hůl, která má neuvěřitelné
+      magické schopnosti. Dovoluje lépe koncentrovat magii (<b>+ 3 max AKCH</b>) a každé kouzlo může použít o 1 vícekrát než má dovoleno.</desc>
+  </zbran>
+  
+      <zbran>
+    <name>Dráp</name>
+    <points>40</points><cond>Klan Eshin</cond>
+<desc>max 60 cm přes zaťatou pěst, Skaven dostává imunitu na celé předloktí ve kterém dráp má.</desc>
+  </zbran>  
+                
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  
+<skill>
+    <name>Jed</name><attr>1x za Souboj</attr>
+    <points>30</points><cond>Dráp</cond>    
+<desc>I obyčejní Skaveni u sebou čas od času nosí flakónek jedu. Pokud se Skaven otře Drápem(10 sekund) o svůj kožich, příští zásah bude
+způsobovat paralýzu na zasaženou končetinu nepřítele na 10 sekund.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Skrytí ve stínu</name><attr>a</attr>
+    <points>30</points><cond>Klan Eshin</cond>
+    <desc>Skaveni klanu Eshin jsou skvělí jako špioni nebo assasini, nic z toho by ovšem nezvládli bez skvělého skrytí ve stínu.
+      Skaven si může dřepnout na místě, kde je <b>z dohledu nepřátel</b> pronese <cite>stíny ukryjte mě</cite> a potom na něj platí
+      <i>základní neviditelnost</i>, nesmí se ovšem hýbat ani jiné interakce popsané u základní neviditelnosti. Pokud chce svoje pozorovací stanoviště opustit
+      nebo jakkoliv jinak zrušit neviditelnost, musí se 3x otočit dokola za zvolání <cite>Útok!</cite> v případě že chce útočit.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Mrštnost</name><attr>trvalé</attr><cond>Klan Eshin</cond>
+    <points>10</points><lives>-1</lives><reinkarnace>-2</reinkarnace>
+    <desc>Vůdce skavenů není tak vzrostlé postavy, zato je tak rychlý, že se zdá jakoby se pohyboval na více místech zároveň. <b>(-1 život, 
+      -2minuty reinkarnace)</b></desc>
+  </skill> 
+  
+  <skill>
+    <name>Přetížení</name><attr>1x za Souboj</attr>
+    <points>15</points><cond>Energo dráp</cond>    
+    <desc>Skaven se chytí druhou prackou za dráp a za pokřiku <cite>přetížení</cite> pracku nabije,odečte jeden Bod Energie a na další zásah má pak dráp efekt <i>průrazu</i></desc>
+  </skill> 
+  
+   <skill>
+    <name>Nabití</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Energo zbroj</cond>
+     <desc>Zbroj je extrémně složitý přístroj, který může při správné konfiguraci absorbovat energii. Při zásahu do Zbroje Chieftain zvolá <cite>Nabití</cite>, ignoruje zranění, která utržil a přičte si jeden Bod Energie</desc>
+  </skill> 
+  
+  <skill>
+    <name>Výboj</name><attr>1x za Souboj</attr>
+    <points>15</points><cond>Energo zbroj</cond>    
+    <desc>Při zásahu do Zbroje může Chieftain zvolat<cite>Výboj</cite> spotřebovat 1Bod Energie a nepřítel, který ho zasáhl dostane 1dmg.</desc>
+  </skill> 
+  
+    <skill>
+    <name>Záblesk</name><attr>1x za Souboj</attr>
+    <points>8</points><cond>Energo zbroj</cond>    
+    <desc>Zbroj dovoluje tvořit na povrchu malé plošky energie, které pohlcují zranění. Při zásahu do Zbroje může Chieftain zvolat<cite>Záblesk </cite> spotřebovat 1Bod Energie a 
+      zranění ignorovat</desc>
+  </skill> 
+  
+  <skill>
+    <name>Transfer</name><attr>2x za Fázi</attr>
+    <points>10</points><cond>Generátor</cond>    
+    <desc>Generátor je schopen akumulovat energii při Rituálech. Při provádění <i>Zamoření</i> je možné jeden AKCH převést na 1BE.</desc>
+  </skill> 
+  
+  <skill><name>Ústup</name><attr>1x za Fázi</attr><points>18</points><cond>Klan Eshin</cond>       
+  <desc>Někdy je nejlepší obranou útok. Někdy naopak ústup, proto, kdo chce přežít, ať vezme nohy na ramena a uteče!
+Pokud Chieftain pronese:<i>Kvík! Kvík! Kvík!</i>, celé jeho postava se otočí a začne utíkat.
+ <b>Skavení postava má pět vteřin na útěk, kdy ignorují všechny zranění.</b></desc>
+  </skill>
+
+    
+</schopnosti>
+
+<kouzla>                                                      
+
+   <spell>
+    <name>Energo štít</name><cost>2BE</cost><attr>1x za Fázi</attr>
+    <points>40</points><cond>Generátor</cond>
+    <form>Aku akan selalu melindungi Anda</form>
+    <desc>Kolem Chieftaina se vytvoří energetický štít tvaru kopule o poloměru 1 metr od Chieftaina, který nedovoluje 20vteřin přenosu jakékoliv energii mezi prostory. Skaven musí pronést formuli
+      a poté stále dokola pronášet slova <cite>Energo štít</cite>. Kdokoliv uvnitř štítu se musí dotýkat Chieftaina aby nedošlo ke zkratu a také opakovat <cite>Energo štít</cite>. Po celou dobu jsou všichni
+     uvnitř kopule imunní na zranění ale také nesmí útočit. Pokud se jakkoliv naruší spojení mezi Skaveny uvnitř je kopule zničena a všichni uvnitř dostávají 1dmg.</desc> 
+  </spell>
+
+  <spell>
+    <name>Zvěd</name><cost>2 AKCH</cost><attr>1x za Fázi</attr>
+    <points>20</points><cond>Klan Eshin</cond>
+    <form>Saya perlu untuk menyampaikan pesan</form>
+    <desc>Skavení impérium zvědů je nekonečné, svoje informátory mají všude. Jedná se o Rituál. Skaven vyšle zvěda, který zjistí jakýkoliv úkol má jiná Warbanda.
+    V praxi to funguje tak, že řekne organizátorovi, že používá toto kouzlo a ten mu do chvilky jeho informaci zjistí. Toto kouzlo se nemusí povést a jeho účinky jsou různé.</desc> 
+  </spell>
+  
+   <spell>
+    <name>Pole neviditelnosti</name><cost>2BE</cost><attr>1x za Fázi</attr>
+    <points>30</points><cond>Generátor</cond>
+    <form>Tak seorang pun akan melihat Aku</form>
+     <desc>Generátor je schopen vyprodukovat takové množství energie že zakřiví samotný prostor. Skaven pronese zaklínadlo a na 10 vteřin podléhá efektu <i>Základní neviditelnost</i>.
+     Skaveni toto využívají hlavně pro rychlí únik z boje.</desc> 
+  </spell>
+  
+   <spell>
+    <name>Vstřebání</name><cost>1BE</cost><attr>2x za Fázi</attr>
+    <points>12</points><cond>Generátor</cond>
+    <form>Tidak ada yang me</form>
+     <desc>Pokud je nějaké kouzlo cíleno na Cheiftaina, může zvolat formuli a kouzlo je ignorováno.</desc> 
+  </spell>
+  
+  <spell>
+    <name>Sněť</name><cost>2 AKCH</cost><attr>2x za Fázi</attr>
+     <points>15</points><cond>Klan Pestilens</cond>
+    <form>Membiarkan bug makan Anda</form>
+    <desc>Chieftain vyřkne formuli a 3 očarovaní nepřátelé nejsou schopni se léčit po dobu půl hodiny.</desc> 
+  </spell>
+
+  <spell>
+    <name>Dar rohaté krysy</name><cost>2 AKCH</cost><attr>1x za Fázi</attr>
+     <points>20</points><cond>Klan Pestilens</cond>
+    <form>Mari saya merasa kekuatan Anda</form>
+    <desc>Chieftain vyřkne formuli 3x se zatočí dokola přidá si jeden stínový život.</desc> 
+  </spell>
+  
+   <spell>
+    <name>Plivanec Chaotitu</name><cost>2 AKCH</cost><attr>1x za Fázi</attr>
+     <points>22</points><cond>Klan Pestilens</cond>
+    <form>Air liur saya merasa jelek</form>
+     <desc>Chieftain vyřkne formuli a zvolí 3 nepřátele na které plivne Choatit, jeho účinky nepřítele naprosto ochromí a způsobí 
+       <i>paralýzu nohy</i> na 20 vteřin.</desc> 
+  </spell>
+  
+  <spell>
+    <name>Zrůdný pohled</name><cost>3 AKCH</cost><attr>1x za Fázi</attr>
+     <points>30</points><cond>Klan Pestilens</cond>
+    <form>Saya seorang pria benar-benar jelek</form>
+     <desc>Chieftain vyřkne formuli a zvolí 2 nepřátele na kteří budou tak zaskočeni Skavení podobou že umí v panice utéct 10 metrů směrem od Chieftaina.
+    Toto kouzlo neplatí na Hrdiny.</desc> 
+  </spell>
+  
+   <spell>
+    <name>Jedovatý oblak</name><cost>1 AKCH</cost><attr>1x za Fázi</attr>
+     <points>18</points><cond>Klan Pestilens</cond>
+    <form>Satu tangan pria</form>
+     <desc>Skavení jsou specialisty na jedy obecně a proto by se jich nepřítel měl opravdu bát. Po pronesení formule ukáže Chieftain an 2 nepřátele
+     a ti musí po dobu 20 vteřin používat jen jednu ruku k boji. Pokud používají obouruční, mohou se stále bránit ale nesmí útočit.</desc> 
+  </spell>
+  
+  
+   <spell>
+    <name>Kolaps</name><cost>1 AKCH</cost><attr>1x za Souboj</attr>
+     <points>12</points><cond>Klan Pestilens</cond>
+    <form>Tidak ada lagi kekuatan</form>
+     <desc>Skavení čarodějové a věštci nesnášejí ostatní magicky nadané jedince, proto vynalezli kouzlo které jednoduše všechny zvláštnosti organismů utlumí.
+     Po odříkání formule ukáže Chieftain na jednu postava a ta do konce souboje nemůže používat schopnosti.</desc> 
+  </spell>
+  
+     <spell>
+    <name>Odštípnutí</name><cost>3 AKCH</cost><attr>1x za Souboj</attr>
+     <points>23</points><cond>Klan Pestilens</cond>
+    <form>Tidak ada yang akan membaca mantra</form>
+     <desc>Skavení věštci nadopovaní Chaotitem se dokáží napojit na jiného čaroděje a odpojit ho od magického zdroje. Při tomto procesu musí Skaven
+       držet ruce nad hlavou zvolat<cite>Držím tě</cite> na nepřátelského kouzelníka a poté stále dokola opakovat formuli. Dokud není skaven vyrušen a má 
+       vidí nepřátelského kouzelníka (ne dále než 20m), nemůže <i>označený</i> kouzelník provozovat žádnou magii.</desc> 
+  </spell>
+</kouzla> 
+
+</wargear>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wargear>
+
+<jmeno>Master</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Korzárský lord</name>
+    <points>80</points>
+    <desc>Master strávil většinu života na lodích drancující starý kontinent při nekonečném lovu na otroky.</desc>
+  </path>
+
+<path>
+    <name>Učenec Khaine</name>
+    <points>80</points>
+    <desc>Master je zasvěcený do chrámu Boha vražd Khaine a je mu dovoleno provozovat a řídit rituály.</desc>
+  </path>
+
+<path>
+    <name>Rytíř chladnokrevných</name>
+    <points>80</points>
+    <desc>Urození temní elfové, kteří se věnují chovu a jízdě na chladnokrevných jsou mistři v boji na blízko a bojové taktice.</desc>
+  </path> 
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Zbroj živoucí smrti</name>
+    <points>20</points>
+<cond>Rytíř chladnokrevných</cond>
+<desc>Těžká plná plátová zbroj dodává svému nositeli nezvyklou odolnost <b>(+1život)</b></desc>
+<lives>1</lives>
+</zbroj> 
+
+
+  <zbroj>
+    <name>Zesílení zbroje</name>
+    <points>28</points>
+<cond>Zbroj živoucí smrti</cond>
+<desc>Zesílení zbroje další vrstvou železných plátků.<b>(+1život)</b></desc>
+<lives>1</lives>
+</zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Plášť z Hag Graefu</name>
+    <points>16</points>
+<cond>Korzárský lord</cond>
+<desc>Plášť z kůže Nauglina je nezbytnou součástí při plavbě po mořích severu. Nositeli dovoluje ignorovat první zásah do zad v každém
+Souboji</desc>
+  </vybava> 
+
+
+ <vybava>
+    <name>Šupina z hydry</name>
+    <points>8</points>
+<desc>Kouzlo <b>Krev je síla!</b> uzdraví 2 životy místo jednoho.</desc>
+  </vybava> 
+
+ <vybava>
+    <name>Vyschlé srdce Naurglina</name>
+    <points>16</points>
+<cond>Učenec Khaine</cond> 
+<desc>Kouzlo <b>Krev je síla!</b> uzdraví 3 životy místo jednoho, ale pouze postavě Khainity.</desc>
+  </vybava> 
+
+ <vybava>
+    <name>Talisman Krve</name>
+    <points>28</points>
+<cond>Učenec Khaine</cond> 
+<desc>Kouzlo <b>Krev je síla!</b> dovoluje životy dodávat i nezraněnému druhovy stínové životy. Příklad pokud Master může vyléčit jednotce
+3 životy a postava má jen jedno zranění stane se vyléčenou a bude mít 2 stínové životy navíc.</desc>
+  </vybava> 
+
+<vybava>
+    <name>Pohár krve</name>
+    <points>28</points>
+<cond>Učenec Khaine</cond> 
+<desc>Jedná se o magický předmět darovaný knězem chrámu v Hag Griefu.</desc>
+  </vybava> 
+
+</vybaveni>
+
+<zbrane>
+
+  <zbran>
+    <name>Jednoruční meč do kombinace</name>
+    <points>70</points>
+    <desc>Druhý meč do kombinace. Součet délek 150 cm.</desc>
+  </zbran>                    
+  
+ <zbran>
+    <name>Štít</name>
+    <points>35</points>
+    <desc>55x 60 cm</desc>
+  </zbran>  
+
+<zbran>
+    <name>Štít Temné gardy</name>
+    <points>80</points><cond>Rytíř chladnokrevných</cond>    
+<desc>60 x 80 cm</desc>
+  </zbran>  
+
+
+<zbran>
+    <name>Obouruční meč</name>
+    <points>35</points><cond>Rytíř chladnokrevných</cond>    
+<desc>100-140 cm</desc>
+  </zbran>  
+
+
+<zbran>
+    <name>Chladná čepel</name>
+    <points>30</points><cond>Rytíř chladnokrevných</cond>    
+<desc>100 cm dlouhý jednoruční meč, vytvořený Mistry mečů dodává majiteli imunitu na předloktí ruky v které čepel drží.</desc>
+  </zbran>  
+
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Spoutání</name><attr>1x za Souboj</attr>
+    <points>20</points><cond>Korzárský lord</cond>
+    <desc>Korzárové jsou zkušení v zajímání otroků a svůj um dokáží kdykoliv předvést. Master může se zvoláním <cite>"Spoutám tě!"</cite> 
+seslat na postavu <i>paralízu</i> na nohy na 15 vteřin.</desc>
+  </skill> 
+    
+<skill>
+    <name>Na zdraví!</name><attr>4x za Fázi</attr>
+    <points>0</points><cond>Pohár krve</cond>
+    <desc>Master může zabít zajatce mimo Souboj a jeho krev a jeden orgán uschovat do Poháru na neomezeně dlouho. Tuto krev a orgán poté
+může použít v Souboji místo jedné oběti.</desc>
+  </skill> 
+
+<skill>
+    <name>Zhyň!</name><attr>1x za Souboj</attr>
+    <points>24</points><cond>Rytíř chladnokrevných</cond>
+    <desc>Master pozvedne zbraň nad hlavu a s pokřikem <cite>"El wael"</cite> zraní jeho další zásah za <b>+1dmg</b>.</desc>
+  </skill> 
+
+
+</schopnosti>
+
+<kouzla>                                                      
+
+   <spell>
+    <name>Bojová agonie</name><cost>4 bičování</cost><attr>1x za Fázi</attr>
+    <points>20</points><cond>Učenec Khaine</cond>
+    <form>Xun naut eszak ogglin</form>
+    <desc>Zbičovaná postava dostává <b>imunitu na <i>paralýzu</i></b> na příští Souboj</desc> 
+  </spell>
+
+ <spell>
+    <name>Zřím tě!</name><cost>2 oběti (oči, játra)</cost><attr>2x za Fázi</attr>
+    <points>16</points><cond>Učenec Khaine</cond>
+    <form>Usstan shlu'ta kyorl dos</form>
+    <desc>Po pronesení formule si Master nalije krev do očí a následujících 10 minut může vidět postavy s <i>základní neviditelností</i>.</desc> 
+  </spell>
+
+<spell>
+    <name>Odpověď zní ne!</name><cost>3 bičování</cost><attr>3x za Fázi</attr>
+    <points>24</points><cond>Učenec Khaine</cond>
+    <form>L'an'yui zhah naut</form>
+    <desc>Jedná se o Rituál. Po zbičování má Master moc vyrušit efekt jednoho Kouzla v příštím souboji působící na postavu stojící nejdále
+3 metry od Mastera.</desc>
+</spell>
+
+<spell>
+    <name>Držte se!</name><cost>2 bičování</cost><attr>1x za Fázi</attr>
+    <points>20</points><cond>Korzárský lord</cond>
+    <form>Zexen'uma k'jakr</form>
+    <desc>Jedná se o Rituál. Korzáři mají jsou skvělí námořníci a proto se dokáží připravit na vlnu ať je jakkoliv velká. 
+Po zbičování může warbanda druchii ignorovat jedno <b>odhození</b> v příštím Souboji.</desc>
+</spell>
+
+<spell>
+    <name>Vylodit se!</name><cost>1 bičování</cost><attr>1x za Fázi</attr>
+    <points>20</points><cond>Korzárský lord</cond>
+    <form>Elendar l'jiv'undus</form>
+    <desc>Master může připravit svoji warbandu na střet. V příštím Souboji celá warbanda může ignorovat <b>druhý</b> platný zásah
+který udrží, protože první zranění při přeskočení na sousední loď se vykrýt nedá.</desc>
+</spell>
+
+<spell>
+    <name>Bojová modlitba</name><cost>3 bičování</cost><attr>1x za Fázi</attr>
+    <points>32</points><cond>Rytíř chladnokrevných</cond>
+    <form>Dos orn elrie l'ogglin!</form>
+    <desc>Jedná se o Rituál. Master propůjčí 3 vybraným bojovníkům jeho Warbandy +1dmg na první úder do dalšího Souboje.</desc>
+</spell>
+
+<spell>
+    <name>Zteč!</name><cost>3 bičování</cost><attr>1x za Fázi</attr>
+    <points>20</points><cond>Korzárský lord</cond>
+    <form>Elgg jal ogglinnar oolos</form>
+    <desc>Master potřebuje připravit své druchii na bitvu skrz jejich vlastní bolest. Master může přenést část svého hněvu na ostatní
+      spolubojovníky ve Warbandě. Po pronesení formule získává Warbanda <b>+1 dmg</b> na příští <b>úder</b></desc>
+</spell>
+
+<spell>
+    <name>Hostina</name><cost>1 oběť (svalstvo)</cost><attr>1x za Fázi</attr>
+    <points>24</points><cond>Korzárský lord</cond>
+    <form>Cal jal tonaik siltrin</form>
+    <desc>Druchii se málokdy sníží k pojídání masa humanoidů jako jejich příbuzní autarii, ovšem roky na moři naučí korzáry mnohé.
+Master zavraždí zajatce a dá najíst ostatním. Ti si vyléčí všechny životy. Master se nikdy k jídlu nesníží.</desc>
+</spell>
+
+
+</kouzla>
+
+</wargear>

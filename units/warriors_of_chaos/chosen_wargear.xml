@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wargear>
+
+<jmeno>Chosen</jmeno>
+
+
+<zbroje>
+
+  <zbroj>
+    <name>Zbroj Chaosu</name>
+    <points>16</points>
+    <desc>Kompletní plátová zbroj včetně helmy. Chosen dostává +1 život a trvale nelze aby byl odhozen.</desc>
+<lives>1</lives>
+  </zbroj> 
+  
+    <zbroj>
+    <name>Rohatá helmice</name>
+    <points>16</points><cond>Zbroj Chaosu</cond>
+      <desc>Helmice dodávající děsivý vzhled pokrývá celou zbroj neviditelnou vrstvou magické ochrany. Díky ní získává Chosen<b>+1život</b> </desc>
+<lives>1</lives>
+  </zbroj> 
+
+
+</zbroje>            
+
+
+<zbrane>
+
+  <zbran>
+    <name>Štít</name>
+    <points>8</points>
+    <desc>55 x 60cm</desc>
+  </zbran>    
+
+  <zbran>
+    <name>Pavéza</name>
+    <points>40</points>
+    <desc>60 x 100cm</desc>
+  </zbran>   
+
+<zbran>
+    <name>Obouruční meč/sekera/kladivo</name>
+    <points>40</points>
+    <desc>Nejdelší naměřitelná délka 140 cm</desc>
+  </zbran>    
+
+<zbran>
+    <name>Kopí</name>
+    <points>40</points>
+    <desc>190-210 cm, obouruční.</desc>
+  </zbran>        
+
+<zbran>
+    <name>Meč</name>
+    <points>12</points>
+    <desc>60-100cm</desc>
+  </zbran>      
+  
+</zbrane>                                   
+
+  <vybaveni>
+
+ <vybava>
+    <name>Talisman chaosu</name>
+    <points>15</points>
+   <desc>Pokud je během Souboje nějaký spojenec, vzdálený nejdále 3m od Vyvoleného, cílem schopnosti nebo kouzla. může jednou za Souboj Chosen zvolat <cite>Jsi pod mou Ochranou</cite>
+   a daný efekt přejde na Chosena.(bez dmg)</desc>
+  </vybava> 
+    
+    <vybava>
+    <name>Runa hněvu</name>
+    <points>15</points>
+      <desc>Schopnost <i>Zbroj</i> ignoruje první zásah v Souboji včetně efektů, které zásah nese.</desc>
+  </vybava> 
+    
+    <vybava>
+    <name>Odolnost Oceli</name>
+      <points>20</points><cond>Odolnost železa</cond>
+      <desc>Schopnost <i>Odolnost železa</i> přidává +2 stínové životy místo +1.</desc>
+  </vybava> 
+    
+      <vybava>
+    <name>Okovy obrany</name>
+      <points>30</points><cond>Pavéza</cond>
+      <desc>Schopnost <i>Nezničitelní!</i> ignoruje 5 zásahů místo 3.</desc>
+  </vybava> 
+
+</vybaveni>
+  
+  
+<schopnosti>    
+  
+   <skill>
+    <name>Předání!</name><attr>1x za Souboj</attr>
+    <points>24</points><cond>Odolnost železa</cond>
+    <desc>Chosen může během souboje použít schopnost <i>Odolnost železa</i> ale pokud při tom bude držet rameno spolubojovníka, může stínové životy předat jemu.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Nezničitelní!</name><attr>1x za Souboj</attr>
+    <points>24</points><cond>Pavéza</cond>
+    <desc>Chosen musí před Soubojem mocně zařvat <cite>CHAOOOS</cite> a poté má jeho štít efekt <b><i>neprorazitelnost</i></b> na 3 zásahy..</desc>
+  </skill> 
+
+<skill>
+    <name>Klín!</name><attr>1x za Souboj</attr>
+    <points>24</points>
+    <desc>Skupinka nejméně 3 Chosenů (všichni s touto schopností) se rozeběhne na nepřítele vzdáleného aspoň 10m. Když se k němu přiblíží tak se zastaví ale 3-5 nepřátel je 
+odhozeno tlakovou vlnou o 3 kroky.
+</desc>
+  </skill> 
+    
+<skill>
+    <name>Vnitřní síla</name><attr>3x za Fázi</attr>
+    <points>32</points>
+    <desc>Chosen může využít svoji vnitřní sílu násobenou silou Bohů. Pokud je pod vlivem nějakého kouzla nebo negativního efektu může za pokřiku
+<cite>styrke inne, styrke utenfor!</cite> ignorovat toto kouzlo nebo efekt.
+</desc>
+  </skill> 
+
+<skill>
+    <name>Odraz šípu</name><attr>trvalé</attr>
+    <points>60</points>
+    <desc>Chosen je natolik splynut se svojí zbrojí že jakékoliv zranění od šípu ignoruje.
+</desc>
+</skill>
+
+<skill>
+    <name>Plamenná zbraň</name><attr>1x za Souboj</attr>
+    <points>25</points>
+    <desc>Chosen pozvedne svoji zbraň zvolá <cite>Bohové ničte a pleňte</cite> a další rána má efekt <i>Zapálení</i>
+</desc>
+</skill>
+
+<skill>
+<name>Odolnost železa</name><attr>1x za Souboj</attr>
+<points>40</points>
+<desc>Chosen se uhodí do zbroje a zvolá zvolá <cite>jern hud ferdighet!</cite> a dostává na příští souboj +1 stínový život.
+</desc>
+</skill>
+  
+    <skill>
+    <name>Řev</name><attr>1x za Souboj</attr>
+    <points>48</points>
+    <desc>Před soubojem musí Chosen ZAŘVAT <cite>CHAOOOOOS</cite> a rozběhnout se(min 
+10 metrů). Poté má +1dmg na první zásah. Nelze kombinovat s jinou Schopností ani 
+Předmětem, kromě pasivních.</desc>
+  </skill> 
+  
+  <skill>
+<name>Severská chtivost</name><attr>trvalé</attr>
+<points>60</points><reinkarnace>-2</reinkarnace>
+<desc>Chosen je chtivý do bitvy již od raného věku, nikdy se nemůže dočkat dalšího střetu. Chosenova reinkarnace se zkracuje o 2minuty.</desc>
+  </skill> 
+
+
+</schopnosti>
+
+
+
+</wargear>

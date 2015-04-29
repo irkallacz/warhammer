@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Peasant</jmeno>
+
+<hiearchie>core</hiearchie>       
+
+<legenda>"S dřevcem a čepelí zaútočíme na hanebné nepřátele. My, hrdí rytíři Bretonie, je dorazíme. 
+S vírou v Paní budeme odolní ke zlu. Budeme navždy vzpomínáni, naše hrdinství bude vyprávěno dlouho 
+po naší smrti. Za Bretonii a za Paní, útok!", Vévoda Bohemond Zabíječ bestií v Bitvě o Grismarskou křižovatku
+</legenda>                    
+
+<popis>Nejlepší bojovníci, které dokázali rytíři rekrutovat ze svých poddaných nejsou zrovna moc dobře vyzbrojeni, 
+neboť jejich lenní pán jim poskytne jen část výzbroje a zbytek si musí sami zaplatit. Ale i tak je pro prostého sedláka velká pocta, 
+pokud jednoho z jejich synů si jeho lord vybere jako jednoho ze svých zbojných. Jejich výcvik sice není zrovna dokonalý, ale každý, 
+kdo prožije pár let ve vojsku si osvojí pár špinavých triků. Většinou umí zacházet jak s kopím, a mečem tak i s lukem.</popis>                 
+
+<pravidla>
+  <lives label="životů">1</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">5</reinkarnace>
+</pravidla>                  
+
+<kostym>
+<povinne>Suknice, kutna, tabard, kápě, vše spíše gotického střihu a v nevýrazných barvách.</povinne>     
+<extra>Přilbice, kožená zbroj, prošívanice, špinavé nebo zabahněné oblečení.</extra>               
+</kostym>   
+
+<zbrane>
+  <zbran><name>Jednoruční meč</name><desc>Nejdelší neměřitelný rozměr 90 cm</desc></zbran>       
+</zbrane>                                   
+
+<schopnosti>    
+   
+  <skill><name>Hurá do práce!</name><attr>trvalé</attr>         
+  <desc>Vesničanů se ve vesnici najde vždy hodně a výcvik netrvá moc dlouho. 
+Proto ve se hře zkracuje doba reinkarnace Peasanta zkracuje o 1 minutu za každé 2 Peasanty na Hřbitově.</desc>
+  </skill>
+  
+</schopnosti>
+
+
+<roleplay> 
+Peasanti se sice v armádě nemají zrovna nejlépe, ale pořád to je lepší než se celý život rýpat v hlíně. 
+Na druhou stranu to nejsou žádní elitní válečníci a pokud si mohou zachránit krk, tak to udělají. Život v armádě z nich udělal 
+poměrně odporné týpky, kteří se jen tak něčeho neleknou a morální zábrany nechali někde daleko za sebou.
+Ze svého lorda rytíře mají především strach a pokud si budou myslet, že jim rebelie vyjde, tak se o ní pokusí, ale jinak budou poslouchat rozkazy.   
+</roleplay>                 
+
+
+<obrazky>
+<img src="bretonnia/peasant_1.jpg"/>
+<img src="bretonnia/peasant_2.jpg"/>
+<img src="bretonnia/peasant_3.jpg"/>
+<img src="bretonnia/peasant_4.jpg"/>
+<img src="bretonnia/peasant_5.jpg"/>
+<img src="bretonnia/peasant_6.jpg"/>
+</obrazky>
+
+</jednotka>

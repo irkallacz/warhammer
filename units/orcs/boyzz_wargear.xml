@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+<jmeno>Boyzz</jmeno>
+  
+<povolani>
+
+  <path>
+    <name>Kápo</name>
+    <points>20</points>
+    <desc>Nejdrsnější z Boyzz. Mezi svými je znám jako první po Velkým kápovi Big Bossovi a nepřátelé si je lehce mohou splést.
+Toto povolání může být jen jednou ve Warbandě.</desc>
+  </path>  
+
+<path>
+    <name>Primitiv</name>
+    <points>20</points>
+    <desc>Někteří orci vyznávají ještě staré zvyky a jsou sice primitivní o to více zuřivý a nelítostní.</desc>
+  </path>  
+
+</povolani>
+
+<zbroje>
+
+  <zbroj>
+    <name>Plechovka</name>
+    <points>10</points>
+<cond>Kápo</cond> 
+    <desc>Kápa si s Big Bossem pletou nejen kvůli zuřivosti a vzhledu, ale také kvůli zbroji. Ta sice <b>není černá</b>, ale 
+Kápo je díky ní odolnější.<b>+1 život</b>(započteno)</desc>
+<lives>1</lives>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+   <vybava>
+    <name>Válečné tetování</name>
+    <points>12</points> <cond>Primitiv</cond>
+     <desc>Válečné tetování kmene je důležité, proto pokud je ork řádně nabarven a je na něj sesláno kouzlo může zvolat <cite>Kmen, kmen, kmen</cite>
+     a kouzlo ignoruje. Toto lze použít jen jednou na Fázi.</desc>
+  </vybava> 
+  
+ 
+
+</vybaveni>
+
+
+<zbrane>
+<zbran>
+  <name>Obouruční sekera</name>
+    <points>15</points>
+    <desc>Jaképak krytí, sekeru do obou tlap a jde se řezat! (nejdelší naměřitelná délka 130 cm)</desc>
+  </zbran>  
+  
+  <zbran>
+    <name>Obouruční meč</name>
+    <points>20</points>
+    <desc>Nepřítel se dá zmlátit s každou zbraní. (nejdelší naměřitelná délka 110 cm)</desc>
+  </zbran>  
+
+    <zbran>
+    <name>Kopí</name>
+    <points>30</points><cond>Primitiv</cond>
+    <desc>Klasická zbraň primitivů (Délka 190-210 cm)</desc>
+  </zbran>  
+  
+  <zbran>
+    <name>Štít</name>
+     <points>12</points>
+    <desc>Kulatý: Maximální průměr 60cm; Hranatý: Hrany max 60 a 50cm</desc>
+  </zbran>  
+  
+   <zbran>
+    <name>Sekera do kombinace</name>
+     <points>12</points>
+    <desc>Druhá sekera do kombinace. Maximální součet délek 150cm a žádná nesmí přesáhnout 110.</desc>
+  </zbran>  
+
+  
+<zbran>
+  <name>Střelná zbraň</name>
+    <points>40</points>
+    <desc>I když na střelné zbrani není nic čestného a nemůžete se dívat nepříteli v jeho posledních vteřinách z tlamy do očí, 
+i orkům se tato věcička mnohokrát vyplatila. Orci mohou používat luk nebo kuši.</desc>
+  LUK:Jen ručně vyrobený nebo historický, ne sportovní. Je nutný malý nátah,
+maximálně do 15 kg a celkově musí luk vypadat stylově. Šípy musí mít střed "hrotu"
+zhotovený z víčka z PET lahve nebo něco podobného průměru (ne korkový špunt od
+vína!). Okolo středu musí být potom dostatečná vrstva karimatky nebo molitanu. bambule
+musí mít alespoň 5 cm v průměru a přední část hrotu musí být dostatečně vyměkčen (1-2
+cm). Šíp nesmí mít nikde nic ostrého nebo špičatého a celá bambule musí být patřičně
+měkká. Bambule musí na šípu držet jako přibitá a musí vydržet i drsné zacházení. Jak šípy,
+tak i samotný luk bude podroben VELMI PŘÍSNÉ kontrole a testování, nevyhovující
+budeme zabavovat a podezřelé šípy máme právo rozkuchat na pozorování. Každý lučišník
+sebou musí mít min. 10 šípů, které projdou registrací, jinak nebude vpuštěn do hry.
+  KU3E: maximální nátah 15kg.
+  </zbran>          
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+   <skill>
+    <name>Kmen</name><attr>trvalé</attr>
+    <points>10</points>
+     <cond>Primitiv</cond><lives>-1</lives><reinkarnace>-2</reinkarnace>
+     <desc>Ork sice není tak ozbrojen o to více se ovšem znovu vrhá do boje. <b>-1 život, -2min reinkarnace</b></desc>
+  </skill> 
+  
+   <skill>
+    <name>Kmenová rada</name><attr>trvalé</attr>
+    <points>20</points>
+     <cond>Kmen</cond>
+     <desc>Orkové jsou jako kmen velmi soudržní a proto se velmi povzbuzují. Za každé 3 orky ve na místě reinkarnace se čas reinkarnace zkrátí o 1 minutu</desc>
+  </skill> 
+  
+  <skill>
+    <name>Zuřivý náběh</name><attr>trvalé</attr>
+    <points>18</points>
+     <cond>Primitiv</cond>
+    <desc>Orkové jsou během útoku tak mimo že necítí naprosto nic. Proto klidně v době <i>WAAAAAAGHu</i> ukazují své hrudě protože ignorují všechny zranění šípem.</desc>
+  </skill> 
+  
+  <skill>
+    <name>Rozený vůdce</name><attr>1x za Souboj</attr>
+    <points>27</points>
+<cond>Kápo</cond>
+    <desc>Jakmile padne Big Boss, Kápo zvolá <cite>Warboss padl</cite> a nastupuje na jeho místo, který po dobu nepřítomnosti Big Bosse 
+získá navíc <b>2 stínové životy</b>. Musí ovšem vidět smrt Warbosse. Jakmile se Warboss přidá k Warbandě životy mizí, pokud mu ještě nebyli ubrány.</desc>
+  </skill> 
+
+ <skill>
+    <name>Zapálené šipky</name><attr>5x za Fázi</attr>
+    <points>10</points>
+    <cond>Střelná zbraň</cond>
+    <desc>Oheň nadělá krásnou paseku, zvlášť na budovách a dřevě. Zásah zapálenou šipkou způsobí <b>Zapálení</b>. Před výstřelem je ovšem nutno 
+zvolat <cite>Zápalná</cite>.</desc>
+  </skill> 
+
+ <skill>
+    <name>Tuhost</name><attr>trvalé</attr>
+    <points>30</points>
+    <desc>Orky všeobecně je těžké zabít ovšem někteří jsou tužší než ostatní <b>(+1 život)</b>.</desc>
+    <lives>1</lives>
+  </skill> 
+    
+</schopnosti>
+
+
+</wargear>

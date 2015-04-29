@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jednotka>
+
+<jmeno>Battle pilgrim</jmeno>
+
+<hiearchie>rare</hiearchie>       
+
+<legenda>Hm... Z tohohle kopce je dobrý výhled na ty Chaosáky, co se šikují pod námi. 
+Náš Knight se na svém koni promenáduje před námi a žvaní něco o povinnosti a slávě a Bůh ví o čem ještě...
+Ať už zmlkne, zbraň mě v ruce svrbí, svaly se napínají a ve chvíli, kdy zavelí k útoku se nohy dají do pohybu,
+ruka začne samovolně máchat zbraní a z hrdla se dere výkřik: Na ně!!!!!</legenda>                    
+
+
+<popis>Obyčejný, nebo spíš lepší bojovník, věřící ve svou věc. Ale jak pevně věřící? Tak pevně,
+že je šílenost, postavit se mu do cesty. Jeho zbraně jsou během boje rychlé jako blesk a není
+možné před ním uniknout. Bojový poutníci jsou fanaticky oddáni rytířům Grálu a budou bojovat 
+proti komukoliv, kdo se pokouší rouhat proti jejich přesvědčení. V bitvě je jejich oddanost tak velká, 
+že se nebojí bojovat do posledního muže.</popis>                 
+
+<pravidla>
+  <lives label="životů">2</lives>
+  <damage label="damage">1</damage>
+  <reinkarnace label="min. reinkarnace">10</reinkarnace>
+</pravidla>                  
+
+<kostym>
+<povinne>Kutna a kápě, kousky kožené zbroje nebo kroužkového pletiva, různé kusy oblečné by měli mít různou barvu a gotický střih</povinne>     
+<extra>Amulety, relikvie,rozervané a zalátované oblečení, vyholené kolečko ve vlasech</extra>               
+
+</kostym>   
+
+<vybaveni>
+        <vybava>
+        <name>Poutnický štít</name><desc>Štít o maximálních rozměrech 60x50 cm nošený špičkou vzhůru (viz obrázky).</desc>
+        </vybava>
+</vybaveni>         
+
+<zbrane>
+   <zbran>
+    <name>Palcát</name>
+    <desc>Drtivá zbraň je velice dobrý na rozbíjeni nepřátelských hlav a pro chudého poutníka je to ideální zbraň. Rozměry 60-90 cm.</desc>
+  </zbran>  
+       
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Pochod s relikvií</name><attr>trvalé</attr>
+    <desc>Pro bojové poutníky je jejich Rytíř středem jejich víry a nic nepozvedne jejich morálku tak, jako relikvie jeho mrtvého těla. 
+      Proto, pokud se jim povede najít na bojišti jeho mrtvolu, tak jej za zpěvu náboženských hymnů odnesou do nejbližší Vesnice
+      a ti kteří se tohoto pochodu zúčastnili na celý příští Souboj získají <b>+1 damage</b> a <b>+1 život</b>.</desc>
+  </skill> 
+    
+</schopnosti>
+
+<roleplay>Bojový poutníci následují rytíře na jeho cestě ať již se mu to líbí nebo ne. 
+Rytíř je pro ně idolem a každá věc, kterou odhodí nebo někde zapomene je pro ně posvátná relikvie, 
+ať již to je kus obleční, poničené zbroje nebo jen zkažené jídlo. Jejich jediným cílem je vyhřívat 
+se v záři slávy a cti rytíře a budou následovat do každé země, v každém počasí a i do nejhustší bitevní řady. 
+Ač sami složili přísahu Paní Jezera, nejsou to žádní svědci a často v poutnickém údělu hledají odčinění za své zločiny. 
+</roleplay>                 
+
+
+<obrazky>
+<img src="bretonnia/battle_pilgrim_1.jpg"/>
+<img src="bretonnia/battle_pilgrim_2.jpg"/>
+<img src="bretonnia/battle_pilgrim_3.jpg"/>
+<img src="bretonnia/battle_pilgrim_5.jpg"/>
+<img src="bretonnia/battle_pilgrim_4.jpg"/>
+</obrazky>
+
+</jednotka>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Ironbreaker</jmeno>
+
+<povolani>
+
+  <path>
+    <name>Velitel</name>
+    <points>32</points>
+    <desc>Ironbreakers mezi sebou vyberou nejlepšího stratéga a bojovníka, aby jim jako nejlepší tlumočil rozkazy Runového Lorda.
+    Toto povolání může být jen jednou ve Warbandě.</desc>
+  </path>  
+  
+  <path>
+    <name>Střelec</name>
+    <points>40</points>
+    <desc>Mechanizace je mocnou silou a střelci mají v trpasličí armádě hlubokou historii a těší se velké vážnosti.</desc>
+  </path> 
+
+</povolani>
+
+
+<zbroje>
+
+  <zbroj>
+    <name>Kroužková zbroj</name>
+    <points>30</points>
+    <desc>Dobrá z kroužků udělaná zbroj každému trpaslíkovi se hodí (<b>+1 život</b>).
+    </desc>
+    <lives>1</lives>
+  </zbroj> 
+         
+</zbroje>            
+
+<vybaveni>
+
+ <vybava>
+    <name>Helmice Odvahy</name>
+    <points>15</points>
+    <desc>Tato helma dává nositeli sílu do dalšího boje. Zkrácení reinkarnace o 1 minuty.</desc>
+  </vybava> 
+
+  <vybava>
+    <name>Roh Zášti</name>
+    <points>35</points><cond>Velitel</cond>
+    <desc>Velitel nosí u sebe vždy svůj roh na který je možno zatroubit (i reálně). Tento roh dává taky Veliteli imunitu na první ránu v souboji.</desc>
+  </vybava> 
+  
+   <vybava>
+    <name>Runa</name>
+    <points>12</points>
+    <desc>Trpaslík má buď na zbroji nebo na zbrani vytesanou runu od Runového lorda a díky ní dostává imunitu na první kouzlo v souboji.</desc>
+  </vybava> 
+  
+</vybaveni>
+
+
+  <zbrane>
+    
+    <zbran>
+    <name>Meč</name>
+    <points>25</points>
+   <desc>Trpaslíkům dobře poslouží i meč. Maximálně 90cm.</desc>
+  </zbran> 
+
+  <zbran>
+    <name>Sekera</name>
+    <points>3</points>
+   <desc>Maximálně do 90cm.</desc>
+  </zbran> 
+  
+  <zbran>
+    <name>Štít</name>
+    <points>12</points>
+    <desc>Kulatý: Maximální průměr 60cm; Hranatý: Hrany max 60 a 50cm</desc>
+  </zbran> 
+  
+  <zbran>
+    <name>Do páru</name>
+    <points>60</points>
+    <desc>Druhá kámoška do dvojice, to je potom mazec! Maxilámlní součet délek 150cm. Jedna nesmí přesáhnout 90cm.</desc>
+  </zbran>
+  
+      
+<zbran>
+    <name>Kuše</name>
+    <points>0</points>
+    <cond>Střelec</cond>
+    <desc>Střelci jsou obvykle vybaveni svojí kuší. Maximální nátah 30 liber - 15 kg.</desc>
+  </zbran> 
+  
+    <zbran>
+    <name>Mušketa</name>
+    <points>0</points><cond>Střelec</cond>
+    <desc>Střelná zbraň na měkčené projektily. Provedení je na hráčích, doporučujme tzv. <i>pottato gun</i>. <i>Poraďte s se prosím 
+      přímo s organizátory.</i> Střelec vybavený muštetou má na každý Souboj tři průrazné střely.</desc>
+  </zbran>  
+    
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill>
+    <name>Výsměch</name><attr>1x za souboj</attr>
+    <points>25</points>
+    <desc>Trpaslíci se postaví komukoliv a dokáží se mu taky pořádně vysmát. Trpaslík si vymyslí hlášku kterou 
+           zesměšní nepřítele díky tomu dostává +1 stínový život do tohoto souboje.</desc>
+  </skill> 
+  
+    <skill>
+    <name>Signál Výhry</name><attr>trvalé</attr>
+    <points>18</points><cond>Roh Zášti</cond>
+    <desc>Vždy po souboji muže Velitel zatroubit na svůj roh a oznámit tak signál vítěství. Všichni živý Ironbreakři si vyléčí 1 život.</desc>
+  </skill>
+  
+  
+   <skill>
+    <name>Signál Útoku</name><attr>3x za Fázi</attr>
+    <points>20</points><cond>Roh Zášti</cond>
+    <desc>Pokud jdou ironbreakři do boje Velitel na svůj roh zatroubí a všichni živý ironbreakři mají na první zásah v tomto souboji +1 dmg.</desc>
+  </skill> 
+  
+    <skill>
+  <name>Těžká váha</name><attr>trvalé</attr>
+      <points>27</points>
+  <desc>Jejich těžké kosti a tvrdá kůže jsou vynikající výhodou v boji. Díky tomu má trpaslík imunitu na první zásah v souboji a jsou imunní na 
+    efekt Odhození. </desc>
+  </skill>
+  
+   <skill>
+     <name>Mířená střela</name><attr>1x za Souboj</attr>
+      <points>35</points><cond>Střelec</cond>
+     <desc>Když je dost času na míření, je tu i vyšší šance, že střelec trefí slabinu ve zbraji nebo zasáhne citlivé místo. Pokud střelec zvolá před 
+       výstřelem <cite>Mířím!</cite> má na další výstřel bonus <b>+1 damage</b>.</desc>
+  </skill>
+    
+  
+  <skill>
+  <name>Pořádná rána</name><attr>1x za Souboj</attr>
+      <points>18</points>
+  <desc>Trpaslík da pořádnou sílu do rány a díky tomu tímto úderem udělí efekt průraz.</desc>
+  </skill>
+  
+  
+</schopnosti>
+
+</wargear>

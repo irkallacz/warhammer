@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wargear>
+
+<jmeno>Troll</jmeno>
+
+<povolani>
+
+  
+   <path>
+    <name>Kamenný troll</name>
+    <points>80</points>
+    <desc>Troll pocházející z jeskyní pod horskými hřebeny je často obrněn skoro kamennou kůží a často se připojuje k Nočním goblinům, kteří
+     v těchto regionech často žijí</desc>
+  </path>  
+
+  <path>
+    <name>Říční troll</name>
+    <points>80</points>
+    <desc>Trollové žijící v bažinách a řekách mají tělo často pokryto šupinami a jejich organismus bývá často silně pozměněn.</desc>
+  </path>  
+
+</povolani>
+         
+
+<zbrane>
+
+  <zbran>
+<name>Kámen</name>
+    <points>20</points> <cond>Kamenný troll</cond>   
+<desc>Pořádný kus žuly a pro ty méně svalnaté molitanová koule vypadající jako šutr. Vše kolem <b>40cm průměr</b>.
+  Troll jej hází obouruč autovým hodem za pokřiku <cite>Kámen!</cite> a zraní zásahem do zásahové plochy za 1 dmg.</desc>
+</zbran>    
+  
+    <zbran>
+<name>Velká kost</name>
+    <points>20</points> <cond>Říční troll</cond>   
+<desc>obouruční zbraň. Nejdelší naměřitelná délka 140cm.</desc>
+</zbran> 
+  
+</zbrane>                                   
+
+<schopnosti>    
+  
+  <skill><name>Drtivost</name><attr>trvalé</attr> <points>20</points>   
+    <cond>Kámen</cond>
+    <desc>Troll je velmi zkušený v hodu kamenem. Kámen způsobuje automaticky efekt <i>průraz</i></desc>
+  </skill>
+  
+   <skill><name>Masivita</name><attr>trvalé</attr> <points>15</points>   
+    <cond>Kámen</cond>
+    <desc>Vrhací kámen není jen tak ledajaký. Jedná se o zvláštní typ černo-žuly, která je proslulá tvrdostí. Kámen zraňuje za 2dmg.</desc>
+  </skill>
+  
+  <skill><name>Atrilérie</name><attr>trvalé</attr> <points>50</points>   
+    <cond>Kámen</cond>
+    <desc>Troll si sebou nosí často kameny 2 na odstřelování nepřátel než se vrhne do boje tváří v tvář.</desc>
+  </skill>
+  
+  <skill><name>Množení</name><attr>trvalé</attr> <points>20</points>     
+  <desc>Za každého dalšího trolla, který se regeneruje na stejném místě se zkracuje reinkarnace 1 minutu.</desc>
+  </skill>
+  
+  <skill><name>Zvracení</name><attr>1x za Souboj</attr> <points>10</points>  
+    <cond>Říční troll</cond>
+  <desc>Žalude říčních trollů je naplněn nejhnusnější ohavností jakou bažiny mohou poskytnout. Během Souboje může troll zařvat 
+    <cite>Trollí žaludek</cite>, předvést zvracení (5vteřin) a jedna postava na kterou tak učinil se je poleptána do konce Souboje. Všechny
+    útoky, které budou na tuto postavu vedeny budou mít efekt průrazu.</desc>
+  </skill>
+ 
+    
+    <skill><name>Smečka</name><attr>1x za Souboj</attr> <points>13</points>     
+  <desc>Trollové jsou sice často samotářští tvorové ovšem pokud se pohybují ve smečce jsou často mnohem smrtelnější. Troll může 
+    během Souboje zařvat <cite>trooooooooolls</cite> a za každou odpověď od trolla(zařvání trooolls, pokud má tuto schopnost) dostane
+      +1stínový život.</desc>
+  </skill>
+    
+    <skill><name>Kamennost</name><attr>Trvale</attr> <points>23</points>     
+      <cond>Kamenný troll</cond><lives>1</lives>
+  <desc>Téměř kamenná kůže dodává trollům neuvěřitelnou odolnost. proto dostává +1 život. Kamení se ale v dolech se odjakživa těží 
+    i za pomoci ohně. Na kameni se založí požár a kámen tak snadněji pukne. Stone Trollům je při útokem <b>ohněm</b> způsobeno zranění 
+    za <b>+1</b>
+(tzn. zapálení je zraní v případě nehašení za 2 životy, při hašení je zraněn za <b>1dmg</b>).</desc>
+  </skill>
+    
+    <skill>
+    <name>Běh</name><attr>3x za Fázi, 1x za Souboj)</attr>
+    <points>23</points>
+<desc>I když se to z zdá nemožné, goblinům se podařilo vycvičit trolla tak, aby dokázal kousek běžet (<b>max 30 metrů</b>). 
+Avšak tento krátký běh ho natolik vyčerpá, že pak musí <b>15 vteřin</b> stát na místě a oddechovat.(může dál bojovat, ovšem ne chodit nebo se jinak pohybovat)</desc>
+  </skill> 
+
+<skill>
+    <name>Velká rána</name><attr>3x za Souboj</attr>
+    <points>45</points>
+<cond>Kamenný troll</cond>
+<desc>Troll zařve a zadupe , poté následující zásah způsobuje <b>odhození</b> na 3 metry.</desc>
+  </skill> 
+
+<skill>
+    <name>Kyselina</name><attr>1x za Souboj</attr>
+  <points>30</points><cond>Říční troll</cond>
+<desc>Metabolismus trollů je takový, že jejich žaludek obsahuje nejsilnější známou kyselinu
+ve Starém světě. Po zabití Trolla obdrží 5 nejbližších hráčů (nepřátelé i spojenci) 1 metr od
+právě zemřelého trolla 1 damage.</desc>
+  </skill> 
+
+<skill>
+    <name>Posílená regenerace</name><attr>3x za Fázi</attr>
+    <points>10</points><cond>Říční troll</cond>
+<desc>Trollova regenerace je ještě lepší než byla, proto po každém Souboji se vyléčí 2 životy místo jednoho. POZOR jen 3x za Fázi. </desc>
+  </skill> 
+  
+  <skill>
+    <name>Supra-regenerace</name><attr>1x za Fázi</attr>
+    <points>20</points><cond>Posílená regenerace</cond>
+<desc>Zabít Trolla je opravdu výkon, protože jeho rány se rychle hojí. Po souboji si
+může obnovit svůj počet životů na stav, jaký byl před Soubojem. POZOR jen 1x za Fázi</desc>
+  </skill> 
+    
+</schopnosti>
+
+</wargear>
