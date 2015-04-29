@@ -51,15 +51,5 @@ common:
 
 
 production < common:
-    nette:
-        debugger:
-            email: faila@atlas.cz
-
-    parameters:
-        database:
-            host: mysql5
-            dbname: warhammer
-            user: warhammer
-            password: Cidaris
 
 development < common:
