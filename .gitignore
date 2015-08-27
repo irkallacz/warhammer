@@ -41,3 +41,10 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Nette files
+temp/
+log/
+config.local.neon
+.sublime-project
+.sublime-workspace
